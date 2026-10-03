@@ -32,12 +32,38 @@ function parseVega(html:string):Concert[]{
  return out;
 }
 
+
+const monthMap:Record<string,string>={januar:'01',februar:'02',marts:'03',april:'04',maj:'05',juni:'06',juli:'07',august:'08',september:'09',oktober:'10',november:'11',december:'12'};
+
+function parseRoyalArena(html:string):Concert[]{
+ const text=decode(html);
+ const out:Concert[]=[];
+ const re=/(januar|februar|marts|april|maj|juni|juli|august|september|oktober|november|december)\s+(\d{4})([\s\S]*?)(?=(?:januar|februar|marts|april|maj|juni|juli|august|september|oktober|november|december)\s+\d{4}|Få koncertnyheder|$)/gi;
+ for(const m of text.matchAll(re)){
+  const month=monthMap[m[1].toLowerCase()],year=m[2],section=m[3];
+  const eventRe=/(?:man|tir|ons|tor|fre|lør|søn)\s+(\d{1,2})\s+\w+\s+(\d{1,2}\.\d{2})\s+(.+?)(?=(?:man|tir|ons|tor|fre|lør|søn)\s+\d{1,2}\s+\w+\s+\d{1,2}\.\d{2}|$)/gi;
+  for(const e of section.matchAll(eventRe)){
+   const day=e[1].padStart(2,'0'),body=e[3].trim();
+   const title=body.split(/Køb billetter|Mere Info|Billetterne er udsolgt/i)[0].trim();
+   if(!title||/harlem globetrotters/i.test(title)) continue;
+   const date=`${year}-${month}-${day}`;
+   if(date<new Date().toISOString().slice(0,10)) continue;
+   out.push({id:'royal-'+date+'-'+title.toLowerCase().replace(/[^a-z0-9]+/g,'-'),artist:title,date,venue:'Royal Arena',room:'Royal Arena',genre:'Musik',status:/udsolgt/i.test(body)?'Udsolgt':'Billetter',url:'https://www.royalarena.dk/shows',image:'',source:'Royal Arena'});
+  }
+ }
+ return out;
+}
+async function getRoyalArena(){
+ const r=await fetch('https://www.royalarena.dk/shows',{headers:{'User-Agent':'Mozilla/5.0'},next:{revalidate:1800}});
+ if(!r.ok)return[]; return parseRoyalArena(await r.text());
+}
+
 async function getVega(){
  const r=await fetch('https://vega.dk/',{headers:{'User-Agent':'Mozilla/5.0'},next:{revalidate:1800}});
  if(!r.ok)return[]; return parseVega(await r.text());
 }
 export async function GET(){
- const vega=await getVega();
- const concerts=[...vega].sort((a,b)=>a.date.localeCompare(b.date));
- return NextResponse.json({concerts,counts:{vega:vega.length,total:concerts.length},diagnostics:{vegaWorking:vega.length>0},updatedAt:new Date().toISOString()});
+ const [vega,royal]=await Promise.all([getVega(),getRoyalArena()]);
+ const concerts=[...vega,...royal].sort((a,b)=>a.date.localeCompare(b.date));
+ return NextResponse.json({concerts,counts:{vega:vega.length,royalArena:royal.length,total:concerts.length},diagnostics:{vegaWorking:vega.length>0,royalArenaWorking:royal.length>0},updatedAt:new Date().toISOString()});
 }
