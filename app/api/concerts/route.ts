@@ -12,9 +12,13 @@ function parseVega(html:string):Concert[]{
   const start=(headings[i].index||0)+headings[i][0].length;
   const end=i+1<headings.length?(headings[i+1].index||html.length):html.length;
   const block=html.slice(start,end);
-  const dm=decode(block).match(/(\d{2}\.\d{2}\.\d{4})\s+([^<]{2,40}?)\s+(Store VEGA|Lille VEGA|Ideal Bar|Loppen)(?:\s|$)/i);
+  const text=decode(block);
+  const dm=text.match(/(\d{2}\.\d{2}\.\d{4})\s+(.+?)\s+(Store VEGA|Lille VEGA|Ideal Bar|Loppen)(?:\s|$)/i);
   if(!dm) continue;
-  const date=iso(dm[1]),genre=dm[2].trim(),room=dm[3];
+  const date=iso(dm[1]);
+  const room=dm[3];
+  const beforeVenue=dm[2].trim();
+  const genre=beforeVenue.split(/Køb billet|Udsolgt|Venteliste|Læs mere/i).pop()?.trim()||'Musik';
   if(!date||date<new Date().toISOString().slice(0,10)||/andre arrangementer/i.test(genre)) continue;
   const links=[...block.matchAll(/<a[^>]+href=["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>/gi)];
   const ticket=links.find(x=>/køb billet|udsolgt|venteliste/i.test(decode(x[2])));
@@ -43,5 +47,5 @@ export async function GET(){
  const[vega,tm]=await Promise.all([getVega(),getTicketmaster()]);
  const keys=new Set(vega.map(c=>(c.artist+'|'+c.date).toLowerCase()));
  const merged=[...vega,...tm.filter((c:Concert)=>!/vega|ideal bar/i.test(c.venue)||!keys.has((c.artist+'|'+c.date).toLowerCase()))].filter((c:Concert)=>c.date).sort((a:Concert,b:Concert)=>a.date.localeCompare(b.date));
- return NextResponse.json({concerts:merged,counts:{vega:vega.length,ticketmaster:tm.length},updatedAt:new Date().toISOString()});
+ return NextResponse.json({concerts:merged,counts:{vega:vega.length,ticketmaster:tm.length,total:merged.length},diagnostics:{vegaWorking:vega.length>0},updatedAt:new Date().toISOString()});
 }
