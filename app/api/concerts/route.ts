@@ -39,9 +39,14 @@ async function getVega(){
 async function getTicketmaster(){
  const key=process.env.TICKETMASTER_API_KEY;if(!key)return[];
  const p=new URLSearchParams({apikey:key,city:'Copenhagen',countryCode:'DK',classificationName:'music',startDateTime:new Date().toISOString().replace(/\.\d{3}Z$/,'Z'),size:'200',sort:'date,asc'});
- const r=await fetch('https://app.ticketmaster.com/discovery/v2/events.json?'+p,{next:{revalidate:1800}});if(!r.ok)return[];
- const d=await r.json();
- return(d?._embedded?.events||[]).map((e:any)=>({id:'tm-'+e.id,artist:e._embedded?.attractions?.[0]?.name||e.name,date:e.dates?.start?.localDate||'',venue:e._embedded?.venues?.[0]?.name||'',room:e._embedded?.venues?.[0]?.name||'',genre:e.classifications?.[0]?.genre?.name||'Musik',status:e.dates?.status?.code==='offsale'?'Udsolgt':'Billetter',url:e.url||'',image:[...(e.images||[])].sort((a:any,b:any)=>(b.width||0)-(a.width||0))[0]?.url||'',source:'Ticketmaster'}));
+ const all:any[]=[];
+ for(let page=0;page<10;page++){
+  p.set('page',String(page));
+  const r=await fetch('https://app.ticketmaster.com/discovery/v2/events.json?'+p,{next:{revalidate:1800}});if(!r.ok)break;
+  const d=await r.json(); const events=d?._embedded?.events||[]; all.push(...events);
+  if(page>=((d?.page?.totalPages||1)-1)) break;
+ }
+ return all.map((e:any)=>({id:'tm-'+e.id,artist:e._embedded?.attractions?.[0]?.name||e.name,date:e.dates?.start?.localDate||'',venue:e._embedded?.venues?.[0]?.name||'',room:e._embedded?.venues?.[0]?.name||'',genre:e.classifications?.[0]?.genre?.name||'Musik',status:e.dates?.status?.code==='offsale'?'Udsolgt':'Billetter',url:e.url||'',image:[...(e.images||[])].sort((a:any,b:any)=>(b.width||0)-(a.width||0))[0]?.url||'',source:'Ticketmaster'}));
 }
 export async function GET(){
  const[vega,tm]=await Promise.all([getVega(),getTicketmaster()]);
