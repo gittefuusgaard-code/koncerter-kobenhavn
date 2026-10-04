@@ -69,16 +69,22 @@ async function fetchLoppen():Promise<Concert[]>{
  const response=await fetch('https://loppen.dk/kalender',{headers:{'User-Agent':'Koncerter-Kobenhavn/1.0'},next:{revalidate:21600}});
  if(!response.ok) return [];
  const html=await response.text();
- const text=html.replace(/<script[\\s\\S]*?<\\/script>/gi,' ').replace(/<style[\\s\\S]*?<\\/style>/gi,' ').replace(/<[^>]+>/g,' ').replace(/&nbsp;/g,' ').replace(/&amp;/g,'&').replace(/\\s+/g,' ').trim();
- const re=/(MANDAG|TIRSDAG|ONSDAG|TORSDAG|FREDAG|LØRDAG|SØNDAG)\\s+(\\d{1,2})\\.\\s+(JAN|FEB|MAR|APR|MAJ|JUN|JUL|AUG|SEP|OKT|NOV|DEC)\\s+(20\\d{2})\\s+-\\s+KL\\s+(\\d{1,2})[.:](\\d{2})\\s+(.*?)(?=(?:MANDAG|TIRSDAG|ONSDAG|TORSDAG|FREDAG|LØRDAG|SØNDAG)\\s+\\d{1,2}\\.|$)/gi;
+ const text=html
+  .replace(new RegExp('<script[\\\\s\\\\S]*?</script>','gi'),' ')
+  .replace(new RegExp('<style[\\\\s\\\\S]*?</style>','gi'),' ')
+  .replace(new RegExp('<[^>]+>','g'),' ')
+  .replace(/&nbsp;/g,' ')
+  .replace(/&amp;/g,'&')
+  .replace(/\\s+/g,' ')
+  .trim();
+ const re=new RegExp('(MANDAG|TIRSDAG|ONSDAG|TORSDAG|FREDAG|LØRDAG|SØNDAG)\\\\s+(\\\\d{1,2})\\\\.\\\\s+(JAN|FEB|MAR|APR|MAJ|JUN|JUL|AUG|SEP|OKT|NOV|DEC)\\\\s+(20\\\\d{2})\\\\s+-\\\\s+KL\\\\s+(\\\\d{1,2})[.:](\\\\d{2})\\\\s+(.*?)(?=(?:MANDAG|TIRSDAG|ONSDAG|TORSDAG|FREDAG|LØRDAG|SØNDAG)\\\\s+\\\\d{1,2}\\\\.|$)','gi');
  const out:Concert[]=[]; let m:RegExpExecArray|null;
  while((m=re.exec(text))){
   const [, ,day,mon,year,hour,min,chunk]=m;
   const date=year+'-'+MONTHS[mon.toUpperCase()]+'-'+day.padStart(2,'0');
   if(date<new Date().toISOString().slice(0,10)) continue;
   const sold=/UDSOLGT/i.test(chunk);
-  let artist=chunk.replace(/^(?:KØB FORSALG:.*?KR|ENTRÉ:.*?KR|GRATIS|UDSOLGT|VENTELISTE)\\s*/i,'').trim();
-  artist=artist.replace(/^(?:KØB FORSALG:.*?KR|ENTRÉ:.*?KR|GRATIS|UDSOLGT|VENTELISTE)\\s*/i,'').trim();
+  const artist=chunk.replace(/^(?:KØB FORSALG:.*?KR|ENTRÉ:.*?KR|GRATIS|UDSOLGT|VENTELISTE)\\s*/i,'').trim();
   if(!artist) continue;
   out.push({id:'loppen-'+date+'-'+artist.toLowerCase().replace(/[^a-z0-9]+/g,'-'),artist,date,time:hour.padStart(2,'0')+':'+min,venue:'Loppen',room:'Loppen',genre:'Andet',status:sold?'Udsolgt':'Billetter',url:'https://loppen.dk/kalender',image:'',source:'Loppen'});
  }
