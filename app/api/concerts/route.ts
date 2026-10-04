@@ -79,25 +79,42 @@ export async function GET(){
  const key=process.env.JAMBASE_API_KEY;
  if(!key) return NextResponse.json({concerts:[],error:'JAMBASE_API_KEY mangler',updatedAt:new Date().toISOString()},{status:500});
 
- const params=new URLSearchParams({
-  venueName:JAMBASE_VENUES.join('|'),
-  eventDateFrom:new Date().toISOString().slice(0,10),
-  perPage:'100',
-  page:'1'
- });
-
  try{
-  const response=await fetch('https://api.data.jambase.com/v3/events?'+params.toString(),{
-   headers:{Authorization:'Bearer '+key,Accept:'application/json','User-Agent':'Koncerter-Kobenhavn/1.0'},
-   next:{revalidate:21600}
-  });
-  const data=await response.json();
-  if(!response.ok) return NextResponse.json({concerts:[],error:'JamBase request fejlede',details:data,updatedAt:new Date().toISOString()},{status:response.status});
+  const allEvents:any[]=[];
+  const perPage=100;
+  const maxPages=6;
 
-  const concerts=(data.events||[]).map(toConcert).filter(Boolean).sort((a:Concert,b:Concert)=>a.date.localeCompare(b.date));
+  for(let page=1;page<=maxPages;page++){
+   const params=new URLSearchParams({
+    venueName:JAMBASE_VENUES.join('|'),
+    eventDateFrom:new Date().toISOString().slice(0,10),
+    perPage:String(perPage),
+    page:String(page)
+   });
+
+   const response=await fetch('https://api.data.jambase.com/v3/events?'+params.toString(),{
+    headers:{Authorization:'Bearer '+key,Accept:'application/json','User-Agent':'Koncerter-Kobenhavn/1.0'},
+    next:{revalidate:21600}
+   });
+   const data=await response.json();
+   if(!response.ok) return NextResponse.json({concerts:[],error:'JamBase request fejlede',details:data,updatedAt:new Date().toISOString()},{status:response.status});
+
+   const events=Array.isArray(data.events)?data.events:[];
+   allEvents.push(...events);
+   if(events.length<perPage) break;
+  }
+
+  const mapped=allEvents.map(toConcert).filter(Boolean) as Concert[];
+  const unique=new Map<string,Concert>();
+  for(const concert of mapped){
+   const key=[concert.venue,concert.date,concert.time||'',concert.artist.toLowerCase()].join('|');
+   if(!unique.has(key)) unique.set(key,concert);
+  }
+  const concerts=[...unique.values()].sort((a,b)=>a.date.localeCompare(b.date)||(a.time||'').localeCompare(b.time||''));
+
   return NextResponse.json({
    concerts,
-   counts:{total:concerts.length,received:data.events?.length||0},
+   counts:{total:concerts.length,received:allEvents.length},
    source:'JamBase',
    attribution:'Powered by JamBase',
    updatedAt:new Date().toISOString()
