@@ -68,7 +68,7 @@ const decodeHtml=(s:string)=>s.replace(/&amp;/g,'&').replace(/&quot;/g,'"').repl
 async function fetchDR():Promise<{concerts:Concert[];diagnostics:any}>{
  const diagnostics={calendarStatus:0,calendarBytes:0,dateMatches:0,concerts:0,error:''};
  try{
-  const response=await fetch('https://billet.drkoncerthuset.dk/kalender/',{headers:{'User-Agent':'Mozilla/5.0','Accept':'text/html'},cache:'no-store'});
+  const response=await fetch('https://www.drkoncerthuset.dk/kalender/',{headers:{'User-Agent':'Mozilla/5.0','Accept':'text/html'},cache:'no-store'});
   diagnostics.calendarStatus=response.status;
   if(!response.ok) return {concerts:[],diagnostics};
   const html=await response.text();
@@ -77,7 +77,7 @@ async function fetchDR():Promise<{concerts:Concert[];diagnostics:any}>{
   const stylePattern=new RegExp("<style[^>]*>[\\\\s\\\\S]*?</style>","gi");
   const text=decodeHtml(html.replace(scriptPattern,' ').replace(stylePattern,' ').replace(/<[^>]+>/g,' ').replace(/\\s+/g,' ').trim());
   const months:Record<string,string>={januar:'01',februar:'02',marts:'03',april:'04',maj:'05',juni:'06',juli:'07',august:'08',september:'09',oktober:'10',november:'11',december:'12'};
-  const datePattern=/(\\d{1,2})[.]\\s+(januar|februar|marts|april|maj|juni|juli|august|september|oktober|november|december)\\s+(20\\d{2})\\s+KL[.]\\s*(\\d{1,2})[.:](\\d{2})/gi;
+  const datePattern=/(\\d{1,2})[.]\\s+(januar|februar|marts|april|maj|juni|juli|august|september|oktober|november|december)\\s+(20\\d{2})\\s+KL[.]?\\s*(\\d{1,2})[.:](\\d{2})/gi;
   const matches=[...text.matchAll(datePattern)];
   diagnostics.dateMatches=matches.length;
   const out:Concert[]=[];
