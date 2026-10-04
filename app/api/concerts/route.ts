@@ -43,6 +43,26 @@ const artistName=(event:any)=>{
  return title.replace(/\s+at\s+.+$/i,'').trim()||title;
 };
 
+const concertGenre=(event:any)=>{
+ const performers=Array.isArray(event.performer)?event.performer:Array.isArray(event.performers)?event.performers:[];
+ const values=[
+  event.genre,
+  event.genres,
+  ...performers.flatMap((p:any)=>[p?.genre,p?.genres])
+ ].flat(Infinity).filter(Boolean).map(String);
+ const raw=values.join(' ').toLowerCase();
+ if(/metal|hardcore/.test(raw)) return 'Metal';
+ if(/hip.?hop|rap/.test(raw)) return 'Hip-hop/Rap';
+ if(/r&b|rhythm|soul|funk/.test(raw)) return 'R&B/Soul';
+ if(/electro|edm|house|techno|dance|dj/.test(raw)) return 'Electronic';
+ if(/jazz|blues/.test(raw)) return 'Jazz/Blues';
+ if(/country|folk|americana|singer.?songwriter/.test(raw)) return 'Folk/Country';
+ if(/classical|klassisk|orchestra|symph|opera/.test(raw)) return 'Classical';
+ if(/rock|punk|alternative|indie/.test(raw)) return 'Rock/Indie';
+ if(/pop/.test(raw)) return 'Pop';
+ return values[0]||'Andet';
+};
+
 const ticketUrl=(event:any)=>{
  const links=event.ticketLinks||event.offers||[];
  if(Array.isArray(links)){
@@ -67,7 +87,7 @@ function toConcert(event:any):Concert|null{
   artist:artistName(event),
   date,time,
   venue,room:venue,
-  genre:'Musik',
+  genre:concertGenre(event),
   status:status.includes('postpon')?'Udskudt':status.includes('resched')?'Flyttet':'Billetter',
   url:ticketUrl(event),
   image:typeof event.image==='string'?event.image:Array.isArray(event.image)?event.image[0]||'':'',
