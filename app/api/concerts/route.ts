@@ -74,9 +74,9 @@ async function fetchDR():Promise<{concerts:Concert[];diagnostics:any}>{
   const html=await response.text();
   diagnostics.calendarBytes=html.length;
   const clean=(v:string)=>decodeHtml(v.replace(/<[^>]+>/g,' ').replace(/\\s+/g,' ').trim());
-  const eventLinkPattern=new RegExp("href=[\\\"']([^\\\"']*/kalender/20\\d{2}/[^\\\"'#?]+)[\\\"']","gi");
-  const links=[...html.matchAll(eventLinkPattern)];
-  const urls=[...new Set(links.map(m=>new URL(m[1],response.url).toString()))].slice(0,250);
+  const hrefPattern=new RegExp("href=[\\\"']([^\\\"']+)[\\\"']","gi");
+  const links=[...html.matchAll(hrefPattern)];
+  const urls=[...new Set(links.map(m=>m[1]).filter(href=>/kalender|event|arrangement|forestilling|koncert/i.test(href)).map(href=>new URL(href,response.url).toString()).filter(url=>url!==response.url))].slice(0,250);
   diagnostics.eventLinks=urls.length;
   diagnostics.sampleLinks=urls.slice(0,3);
   const out:Concert[]=[];
