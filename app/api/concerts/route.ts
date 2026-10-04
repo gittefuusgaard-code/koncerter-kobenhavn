@@ -66,16 +66,26 @@ const DR_MUSIC=['elektronisk','filmmusik','folk/country','hip hop/rap','indie','
 const decodeHtml=(s:string)=>s.replace(/&amp;/g,'&').replace(/&quot;/g,'"').replace(/&#39;/g,"'").replace(/&nbsp;/g,' ').replace(/&aelig;/g,'æ').replace(/&oslash;/g,'ø').replace(/&aring;/g,'å');
 
 async function fetchDR():Promise<{concerts:Concert[];diagnostics:any}>{
- const diagnostics={calendarStatus:0,calendarBytes:0,eventLinks:0,eventPagesFetched:0,dateMatches:0,concerts:0,sampleLinks:[] as string[],error:''};
+ const diagnostics={calendarStatus:0,calendarBytes:0,eventLinks:0,eventPagesFetched:0,dateMatches:0,concerts:0,sampleLinks:[] as string[],iframeLinks:[] as string[],iframeStatus:0,iframeBytes:0,error:''};
  try{
   const response=await fetch('https://billet.drkoncerthuset.dk/kalender/',{headers:{'User-Agent':'Koncerter-Kobenhavn/1.0'},next:{revalidate:21600}});
   diagnostics.calendarStatus=response.status;
   if(!response.ok) return {concerts:[],diagnostics};
   const html=await response.text();
   diagnostics.calendarBytes=html.length;
+  const iframePattern=new RegExp("<iframe[^>]+src=[\\\"']([^\\\"']+)[\\\"']","gi");
+  const iframeLinks=[...html.matchAll(iframePattern)].map(m=>new URL(m[1],response.url).toString());
+  diagnostics.iframeLinks=iframeLinks;
+  let calendarHtml=html;
+  const ticketFrame=iframeLinks.find(url=>url.includes('billetter.drkoncerthuset.dk'));
+  if(ticketFrame){
+   const frameResponse=await fetch(ticketFrame,{headers:{'User-Agent':'Mozilla/5.0','Accept':'text/html,application/xhtml+xml'},cache:'no-store'});
+   diagnostics.iframeStatus=frameResponse.status;
+   if(frameResponse.ok){calendarHtml=await frameResponse.text();diagnostics.iframeBytes=calendarHtml.length;}
+  }
   const clean=(v:string)=>decodeHtml(v.replace(/<[^>]+>/g,' ').replace(/\\s+/g,' ').trim());
   const hrefPattern=new RegExp("href=[\\\"']([^\\\"']+)[\\\"']","gi");
-  const links=[...html.matchAll(hrefPattern)];
+  const links=[...calendarHtml.matchAll(hrefPattern)];
   const urls=[...new Set(links.map(m=>m[1]).filter(href=>/kalender|event|arrangement|forestilling|koncert/i.test(href)).map(href=>new URL(href,response.url).toString()).filter(url=>url!==response.url))].slice(0,250);
   diagnostics.eventLinks=urls.length;
   diagnostics.sampleLinks=urls.slice(0,3);
