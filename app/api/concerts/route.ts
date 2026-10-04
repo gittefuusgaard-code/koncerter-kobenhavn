@@ -71,7 +71,7 @@ async function fetchDR():Promise<Concert[]>{
   if(!response.ok) return [];
   const html=await response.text();
   const clean=(v:string)=>decodeHtml(v.replace(/<[^>]+>/g,' ').replace(/\\s+/g,' ').trim());
-  const eventLinkPattern=new RegExp("href=[\\\"']([^\\\"']*/kalender/20\\\\d{2}/[^\\\"'#?]+)[\\\"']","gi");
+  const eventLinkPattern=new RegExp("href=[\\\"']([^\\\"']*/kalender/20\\d{2}/[^\\\"'#?]+)[\\\"']","gi");
   const links=[...html.matchAll(eventLinkPattern)];
   const urls=[...new Set(links.map(m=>new URL(m[1],response.url).toString()))].slice(0,250);
   const out:Concert[]=[];
@@ -86,7 +86,7 @@ async function fetchDR():Promise<Concert[]>{
     const months:Record<string,string>={januar:'01',februar:'02',marts:'03',april:'04',maj:'05',juni:'06',juli:'07',august:'08',september:'09',oktober:'10',november:'11',december:'12'};
     const date=dateMatch[3]+'-'+months[dateMatch[2].toLowerCase()]+'-'+dateMatch[1].padStart(2,'0');
     if(date<new Date().toISOString().slice(0,10)) continue;
-    const h1Pattern=new RegExp("<h1[^>]*>([\\\\s\\\\S]*?)</h1>","i");
+    const h1Pattern=new RegExp("<h1[^>]*>([\\s\\S]*?)</h1>","i");
     const titlePattern=new RegExp("<title[^>]*>([\\\\s\\\\S]*?)</title>","i");
     const titleMatch=page.html.match(h1Pattern)||page.html.match(titlePattern);
     let artist=titleMatch?clean(titleMatch[1]).replace(/\\s*\\|.*$/,'').trim():'';
