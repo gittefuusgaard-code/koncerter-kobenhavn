@@ -70,7 +70,7 @@ async function fetchDR():Promise<Concert[]>{
   const response=await fetch('https://billet.drkoncerthuset.dk/kalender/',{headers:{'User-Agent':'Koncerter-Kobenhavn/1.0'},next:{revalidate:21600}});
   if(!response.ok) return [];
   const html=await response.text();
-  const ldJsonPattern=new RegExp('<script[^>]*type=["\\\']application/ld\\\\+json["\\\'][^>]*>([\\\\s\\\\S]*?)</script>','gi');
+  const ldJsonPattern=new RegExp("<script[^>]*type=[\\\"']application/ld\\\\+json[\\\"'][^>]*>([\\\\s\\\\S]*?)</script>","gi");
   const scripts=[...html.matchAll(ldJsonPattern)];
   const out:Concert[]=[];
   for(const match of scripts){
