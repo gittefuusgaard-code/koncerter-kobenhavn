@@ -8,12 +8,18 @@ const VENUES=[
  'Pumpehuset','Poolen','Loppen'
 ];
 
+const JAMBASE_VENUES=[
+ 'Royal Arena','KB Hallen','Store VEGA','Lille VEGA','Scandic Falkoner',
+ 'Forum Copenhagen','DR Koncerthuset','Koncerthuset','Amager Bio',
+ 'Pumpehuset','Poolen','Loppen'
+];
+
 const venueAliases:Record<string,string[]>={
  'Royal Arena':['royal arena'],
  'K.B. Hallen':['k.b. hallen','kb hallen','k.b hallen'],
  'Store VEGA':['store vega'],
  'Lille VEGA':['lille vega'],
- 'Falkonersalen':['falkonersalen','falkoner salen'],
+ 'Falkonersalen':['falkonersalen','falkoner salen','scandic falkoner'],
  'Forum Copenhagen':['forum copenhagen','forum københavn'],
  'DR Koncerthuset':['dr koncerthuset','koncerthuset'],
  'Amager Bio':['amager bio'],
@@ -74,7 +80,7 @@ export async function GET(){
  if(!key) return NextResponse.json({concerts:[],error:'JAMBASE_API_KEY mangler',updatedAt:new Date().toISOString()},{status:500});
 
  const params=new URLSearchParams({
-  venueName:VENUES.join('|'),
+  venueName:JAMBASE_VENUES.join('|'),
   eventDateFrom:new Date().toISOString().slice(0,10),
   perPage:'100',
   page:'1'
