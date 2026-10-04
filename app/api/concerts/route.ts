@@ -73,7 +73,9 @@ async function fetchDR():Promise<{concerts:Concert[];diagnostics:any}>{
   if(!response.ok) return {concerts:[],diagnostics};
   const html=await response.text();
   diagnostics.calendarBytes=html.length;
-  const text=decodeHtml(html.replace(/<script[^>]*>[\\s\\S]*?<\\/script>/gi,' ').replace(/<style[^>]*>[\\s\\S]*?<\\/style>/gi,' ').replace(/<[^>]+>/g,' ').replace(/\\s+/g,' ').trim());
+  const scriptPattern=new RegExp("<script[^>]*>[\\\\s\\\\S]*?</script>","gi");
+  const stylePattern=new RegExp("<style[^>]*>[\\\\s\\\\S]*?</style>","gi");
+  const text=decodeHtml(html.replace(scriptPattern,' ').replace(stylePattern,' ').replace(/<[^>]+>/g,' ').replace(/\\s+/g,' ').trim());
   const months:Record<string,string>={januar:'01',februar:'02',marts:'03',april:'04',maj:'05',juni:'06',juli:'07',august:'08',september:'09',oktober:'10',november:'11',december:'12'};
   const datePattern=/(\\d{1,2})[.]\\s+(januar|februar|marts|april|maj|juni|juli|august|september|oktober|november|december)\\s+(20\\d{2})\\s+KL[.]\\s*(\\d{1,2})[.:](\\d{2})/gi;
   const matches=[...text.matchAll(datePattern)];
