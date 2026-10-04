@@ -59,8 +59,7 @@ export async function GET(){
  if(!key) return NextResponse.json({concerts:[],error:'JAMBASE_API_KEY mangler',updatedAt:new Date().toISOString()},{status:500});
 
  const params=new URLSearchParams({
-  geoCityName:'Copenhagen',
-  geoCountryIso2:'DK',
+  venueName:VENUES.join('|'),
   eventDateFrom:new Date().toISOString().slice(0,10),
   perPage:'100',
   page:'1'
