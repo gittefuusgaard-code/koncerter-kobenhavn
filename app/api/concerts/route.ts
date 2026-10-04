@@ -86,14 +86,18 @@ async function fetchDR():Promise<Concert[]>{
     const months:Record<string,string>={januar:'01',februar:'02',marts:'03',april:'04',maj:'05',juni:'06',juli:'07',august:'08',september:'09',oktober:'10',november:'11',december:'12'};
     const date=dateMatch[3]+'-'+months[dateMatch[2].toLowerCase()]+'-'+dateMatch[1].padStart(2,'0');
     if(date<new Date().toISOString().slice(0,10)) continue;
-    const titleMatch=page.html.match(/<h1[^>]*>([\\s\\S]*?)<\\/h1>/i)||page.html.match(/<title[^>]*>([\\s\\S]*?)<\\/title>/i);
+    const h1Pattern=new RegExp("<h1[^>]*>([\\\\s\\\\S]*?)</h1>","i");
+    const titlePattern=new RegExp("<title[^>]*>([\\\\s\\\\S]*?)</title>","i");
+    const titleMatch=page.html.match(h1Pattern)||page.html.match(titlePattern);
     let artist=titleMatch?clean(titleMatch[1]).replace(/\\s*\\|.*$/,'').trim():'';
     if(!artist) continue;
     const room=(text.match(/(Koncertsalen|Studie\\s*[1-4])/i)||[])[1]||'DR Koncerthuset';
     const lower=text.toLowerCase();
     if(/standup|stand-up|talkshow|rundvisning/.test(lower)&&!DR_MUSIC.some(g=>lower.includes(g))) continue;
     const status=/udsolgt/.test(lower)?'Udsolgt':/venteliste/.test(lower)?'Venteliste':'Billetter';
-    const imageMatch=page.html.match(/<meta[^>]+property=["']og:image["'][^>]+content=["']([^"']+)/i)||page.html.match(/<meta[^>]+content=["']([^"']+)["'][^>]+property=["']og:image["']/i);
+    const imagePattern1=new RegExp("<meta[^>]+property=[\\\"']og:image[\\\"'][^>]+content=[\\\"']([^\\\"']+)","i");
+    const imagePattern2=new RegExp("<meta[^>]+content=[\\\"']([^\\\"']+)[\\\"'][^>]+property=[\\\"']og:image[\\\"']","i");
+    const imageMatch=page.html.match(imagePattern1)||page.html.match(imagePattern2);
     out.push({id:'dr-'+date+'-'+artist.toLowerCase().replace(/[^a-z0-9]+/g,'-'),artist,date,time:dateMatch[4].padStart(2,'0')+':'+dateMatch[5],venue:'DR Koncerthuset',room,genre:concertGenre({name:artist,description:text}),status,url:page.url,image:imageMatch?decodeHtml(imageMatch[1]):'',source:'DR Koncerthuset'});
    }
   }
