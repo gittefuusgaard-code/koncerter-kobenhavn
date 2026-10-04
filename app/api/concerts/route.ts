@@ -11,7 +11,7 @@ const VENUES=[
 const JAMBASE_VENUES=[
  'Royal Arena','KB Hallen','Store VEGA','Lille VEGA','Scandic Falkoner',
  'Forum Copenhagen','DR Koncerthuset','Koncerthuset','Amager Bio',
- 'Pumpehuset','Poolen','Loppen'
+ 'Pumpehuset','Poolen'
 ];
 
 const venueAliases:Record<string,string[]>={
