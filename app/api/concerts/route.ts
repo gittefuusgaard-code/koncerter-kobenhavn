@@ -24,8 +24,7 @@ const venueAliases:Record<string,string[]>={
  'DR Koncerthuset':['dr koncerthuset','koncerthuset'],
  'Amager Bio':['amager bio'],
  'Pumpehuset':['pumpehuset'],
- 'Poolen':['poolen'],
- 'Loppen':['loppen']
+ 'Poolen':['poolen']
 };
 
 const canonicalVenue=(name:string)=>{
@@ -62,34 +61,6 @@ const concertGenre=(event:any)=>{
  if(/pop/.test(raw)) return 'Pop';
  return values[0]||'Andet';
 };
-
-const MONTHS:Record<string,string>={JAN:'01',FEB:'02',MAR:'03',APR:'04',MAJ:'05',JUN:'06',JUL:'07',AUG:'08',SEP:'09',OKT:'10',NOV:'11',DEC:'12'};
-
-async function fetchLoppen():Promise<Concert[]>{
- const response=await fetch('https://loppen.dk/kalender',{headers:{'User-Agent':'Koncerter-Kobenhavn/1.0'},next:{revalidate:21600}});
- if(!response.ok) return [];
- const html=await response.text();
- const text=html
-  .replace(new RegExp('<script[\\\\s\\\\S]*?</script>','gi'),' ')
-  .replace(new RegExp('<style[\\\\s\\\\S]*?</style>','gi'),' ')
-  .replace(new RegExp('<[^>]+>','g'),' ')
-  .replace(/&nbsp;/g,' ')
-  .replace(/&amp;/g,'&')
-  .replace(/\\s+/g,' ')
-  .trim();
- const re=new RegExp('(MANDAG|TIRSDAG|ONSDAG|TORSDAG|FREDAG|LØRDAG|SØNDAG)\\\\s+(\\\\d{1,2})\\\\.\\\\s+(JAN|FEB|MAR|APR|MAJ|JUN|JUL|AUG|SEP|OKT|NOV|DEC)\\\\s+(20\\\\d{2})\\\\s+-\\\\s+KL\\\\s+(\\\\d{1,2})[.:](\\\\d{2})\\\\s+(.*?)(?=(?:MANDAG|TIRSDAG|ONSDAG|TORSDAG|FREDAG|LØRDAG|SØNDAG)\\\\s+\\\\d{1,2}\\\\.|$)','gi');
- const out:Concert[]=[]; let m:RegExpExecArray|null;
- while((m=re.exec(text))){
-  const [, ,day,mon,year,hour,min,chunk]=m;
-  const date=year+'-'+MONTHS[mon.toUpperCase()]+'-'+day.padStart(2,'0');
-  if(date<new Date().toISOString().slice(0,10)) continue;
-  const sold=/UDSOLGT/i.test(chunk);
-  const artist=chunk.replace(/^(?:KØB FORSALG:.*?KR|ENTRÉ:.*?KR|GRATIS|UDSOLGT|VENTELISTE)\\s*/i,'').trim();
-  if(!artist) continue;
-  out.push({id:'loppen-'+date+'-'+artist.toLowerCase().replace(/[^a-z0-9]+/g,'-'),artist,date,time:hour.padStart(2,'0')+':'+min,venue:'Loppen',room:'Loppen',genre:'Andet',status:sold?'Udsolgt':'Billetter',url:'https://loppen.dk/kalender',image:'',source:'Loppen'});
- }
- return out;
-}
 
 const ticketUrl=(event:any)=>{
  const links=event.ticketLinks||event.offers||[];
@@ -153,8 +124,6 @@ export async function GET(){
   }
 
   const mapped=allEvents.map(toConcert).filter(Boolean) as Concert[];
-  const loppen=await fetchLoppen();
-  mapped.push(...loppen);
   const unique=new Map<string,Concert>();
   for(const concert of mapped){
    const key=[concert.venue,concert.date,concert.time||'',concert.artist.toLowerCase()].join('|');
@@ -164,7 +133,7 @@ export async function GET(){
 
   return NextResponse.json({
    concerts,
-   counts:{total:concerts.length,received:allEvents.length,loppen:loppen.length},
+   counts:{total:concerts.length,received:allEvents.length},
    source:'JamBase',
    attribution:'Powered by JamBase',
    updatedAt:new Date().toISOString()
