@@ -67,7 +67,7 @@ const decodeHtml=(s:string)=>s.replace(/&amp;/g,'&').replace(/&quot;/g,'"').repl
 
 async function fetchDR():Promise<Concert[]>{
  try{
-  const response=await fetch('https://billet.drkoncerthuset.dk/kalender/',{headers:{'User-Agent':'Koncerter-Kobenhavn/1.0'},next:{revalidate:21600}});
+  const response=await fetch('https://www.drkoncerthuset.dk/kalender/',{headers:{'User-Agent':'Koncerter-Kobenhavn/1.0'},next:{revalidate:21600}});
   if(!response.ok) return [];
   const html=await response.text();
   const ldJsonPattern=new RegExp("<script[^>]*type=[\\\"']application/ld\\\\+json[\\\"'][^>]*>([\\\\s\\\\S]*?)</script>","gi");
