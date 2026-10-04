@@ -8,12 +8,27 @@ const VENUES=[
  'Pumpehuset','Poolen','Loppen'
 ];
 
-const normaliseVenue=(name:string)=>{
- if(/^koncerthuset$/i.test(name)) return 'DR Koncerthuset';
- return name;
+const venueAliases:Record<string,string[]>={
+ 'Royal Arena':['royal arena'],
+ 'K.B. Hallen':['k.b. hallen','kb hallen','k.b hallen'],
+ 'Store VEGA':['store vega'],
+ 'Lille VEGA':['lille vega'],
+ 'Falkonersalen':['falkonersalen','falkoner salen'],
+ 'Forum Copenhagen':['forum copenhagen','forum københavn'],
+ 'DR Koncerthuset':['dr koncerthuset','koncerthuset'],
+ 'Amager Bio':['amager bio'],
+ 'Pumpehuset':['pumpehuset'],
+ 'Poolen':['poolen'],
+ 'Loppen':['loppen']
 };
 
-const allowedVenue=(name:string)=>VENUES.some(v=>name.toLowerCase().includes(v.toLowerCase()));
+const canonicalVenue=(name:string)=>{
+ const n=name.toLowerCase().trim();
+ for(const [venue,aliases] of Object.entries(venueAliases)){
+  if(aliases.some(alias=>n===alias||n.includes(alias))) return venue;
+ }
+ return '';
+};
 
 const artistName=(event:any)=>{
  const performers=event.performer||event.performers||[];
@@ -33,8 +48,8 @@ const ticketUrl=(event:any)=>{
 
 function toConcert(event:any):Concert|null{
  const venueRaw=event.location?.name||event.venue?.name||'';
- if(!venueRaw||!allowedVenue(venueRaw)) return null;
- const venue=normaliseVenue(venueRaw);
+ const venue=canonicalVenue(venueRaw);
+ if(!venue) return null;
  const start=String(event.startDate||'');
  if(!start) return null;
  const date=start.slice(0,10);
