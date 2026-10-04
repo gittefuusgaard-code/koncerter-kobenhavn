@@ -9,15 +9,16 @@ const genreClass=(g:string)=>'g-'+g.toLowerCase().replace(/[^a-z]+/g,'-').replac
 const formatDate=(d:string)=>new Intl.DateTimeFormat('da-DK',{weekday:'short',day:'numeric',month:'short'}).format(new Date(d+'T12:00:00'));
 
 export default function Home(){
- const [concerts,setConcerts]=useState<Concert[]>([]),[q,setQ]=useState(''),[venue,setVenue]=useState('Alle steder'),[genre,setGenre]=useState('Alle'),[view,setView]=useState<ViewMode>('grid'),[loading,setLoading]=useState(true);
+ const [concerts,setConcerts]=useState<Concert[]>([]),[q,setQ]=useState(''),[venue,setVenue]=useState('Alle steder'),[genre,setGenre]=useState('Alle'),[view,setView]=useState<ViewMode>('grid'),[showSoldOut,setShowSoldOut]=useState(true),[loading,setLoading]=useState(true);
  useEffect(()=>{fetch('/api/concerts').then(r=>r.json()).then(d=>setConcerts(d.concerts||[])).finally(()=>setLoading(false))},[]);
- const shown=useMemo(()=>concerts.filter(c=>(venue==='Alle steder'||c.venue===venue)&&(genre==='Alle'||c.genre===genre)&&(!q||c.artist.toLowerCase().includes(q.toLowerCase())||c.venue.toLowerCase().includes(q.toLowerCase()))),[concerts,q,venue,genre]);
+ const shown=useMemo(()=>concerts.filter(c=>(venue==='Alle steder'||c.venue===venue)&&(genre==='Alle'||c.genre===genre)&&(showSoldOut||c.status!=='Udsolgt')&&(!q||c.artist.toLowerCase().includes(q.toLowerCase())||c.venue.toLowerCase().includes(q.toLowerCase()))),[concerts,q,venue,genre,showSoldOut]);
  return <div className="site">
   <header className="topbar"><div className="identity"><b>KBH<span>LIVE</span></b><em>Koncerter i København</em></div><div className="count">{loading?'Henter…':shown.length+' koncerter'}</div></header>
   <main className="main">
    <div className="controls">
     <input value={q} onChange={e=>setQ(e.target.value)} placeholder="Søg artist eller venue…"/>
     <select value={venue} onChange={e=>setVenue(e.target.value)}>{venues.map(v=><option key={v}>{v}</option>)}</select>
+    <button className="soldToggle" onClick={()=>setShowSoldOut(v=>!v)}>{showSoldOut?'Skjul udsolgte':'Vis udsolgte'}</button>
     <div className="views">{([['grid','⊞'],['list','≡'],['calendar','▦']] as [ViewMode,string][]).map(([v,i])=><button key={v} className={view===v?'active':''} onClick={()=>setView(v)} title={v}>{i}</button>)}</div>
    </div>
    <div className="genreFilters">{genres.map(g=><button key={g} className={genre===g?'active':''} onClick={()=>setGenre(g)}>{g}</button>)}</div>
