@@ -67,30 +67,34 @@ const decodeHtml=(s:string)=>s.replace(/&amp;/g,'&').replace(/&quot;/g,'"').repl
 
 async function fetchDR():Promise<Concert[]>{
  try{
-  const response=await fetch('https://www.drkoncerthuset.dk/kalender/',{headers:{'User-Agent':'Koncerter-Kobenhavn/1.0'},next:{revalidate:21600}});
+  const response=await fetch('https://billet.drkoncerthuset.dk/kalender/',{headers:{'User-Agent':'Koncerter-Kobenhavn/1.0'},next:{revalidate:21600}});
   if(!response.ok) return [];
   const html=await response.text();
-  const ldJsonPattern=new RegExp("<script[^>]*type=[\\\"']application/ld\\\\+json[\\\"'][^>]*>([\\\\s\\\\S]*?)</script>","gi");
-  const scripts=[...html.matchAll(ldJsonPattern)];
+  const clean=(v:string)=>decodeHtml(v.replace(/<[^>]+>/g,' ').replace(/\\s+/g,' ').trim());
+  const links=[...html.matchAll(/href=["']([^"']*\\/kalender\\/20\\d{2}\\/[^"'#?]+)["']/gi)];
+  const urls=[...new Set(links.map(m=>new URL(m[1],response.url).toString()))].slice(0,250);
   const out:Concert[]=[];
-  for(const match of scripts){
-   try{
-    const json=JSON.parse(match[1]);
-    const items=Array.isArray(json)?json:[json];
-    const walk=(x:any):any[]=>!x?[]:Array.isArray(x)?x.flatMap(walk):[x,...walk(x['@graph'])];
-    for(const e of items.flatMap(walk)){
-     if(!String(e?.['@type']||'').toLowerCase().includes('event')) continue;
-     const loc=String(e?.location?.name||'');
-     const address=String(e?.location?.address?.streetAddress||'');
-     if(!/(koncertsalen|studie [1-4]|dr koncerthuset)/i.test(loc+' '+address)) continue;
-     const blob=decodeHtml([e.name,e.description,e.keywords,e.category].flat().filter(Boolean).join(' ')).toLowerCase();
-     if(/standup|stand-up|talkshow|tv-show|rundvisning/.test(blob)&&!DR_MUSIC.some(g=>blob.includes(g))) continue;
-     const start=String(e.startDate||''); if(!start) continue;
-     const artist=decodeHtml(String(e.name||'')).trim(); if(!artist) continue;
-     const status=String(e.eventStatus||'').toLowerCase(); if(status.includes('cancel')) continue;
-     out.push({id:'dr-'+String(e.identifier||e.url||start+'-'+artist),artist,date:start.slice(0,10),time:start.includes('T')?start.slice(11,16):undefined,venue:'DR Koncerthuset',room:loc||'DR Koncerthuset',genre:concertGenre(e),status:/soldout|udsolgt/.test(blob)?'Udsolgt':'Billetter',url:String(e.url||'https://billet.drkoncerthuset.dk/kalender/'),image:typeof e.image==='string'?e.image:Array.isArray(e.image)?String(e.image[0]||''):'',source:'DR Koncerthuset'});
-    }
-   }catch{}
+  for(let i=0;i<urls.length;i+=12){
+   const batch=urls.slice(i,i+12);
+   const pages=await Promise.all(batch.map(async url=>{try{const r=await fetch(url,{headers:{'User-Agent':'Koncerter-Kobenhavn/1.0'},next:{revalidate:21600}});return r.ok?{url,html:await r.text()}:null}catch{return null}}));
+   for(const page of pages){
+    if(!page) continue;
+    const text=clean(page.html);
+    const dateMatch=text.match(/(\\d{1,2})\\.\\s+(januar|februar|marts|april|maj|juni|juli|august|september|oktober|november|december)\\s+(20\\d{2})\\s+KL\\.\\s*(\\d{1,2})[.:](\\d{2})/i);
+    if(!dateMatch) continue;
+    const months:Record<string,string>={januar:'01',februar:'02',marts:'03',april:'04',maj:'05',juni:'06',juli:'07',august:'08',september:'09',oktober:'10',november:'11',december:'12'};
+    const date=dateMatch[3]+'-'+months[dateMatch[2].toLowerCase()]+'-'+dateMatch[1].padStart(2,'0');
+    if(date<new Date().toISOString().slice(0,10)) continue;
+    const titleMatch=page.html.match(/<h1[^>]*>([\\s\\S]*?)<\\/h1>/i)||page.html.match(/<title[^>]*>([\\s\\S]*?)<\\/title>/i);
+    let artist=titleMatch?clean(titleMatch[1]).replace(/\\s*\\|.*$/,'').trim():'';
+    if(!artist) continue;
+    const room=(text.match(/(Koncertsalen|Studie\\s*[1-4])/i)||[])[1]||'DR Koncerthuset';
+    const lower=text.toLowerCase();
+    if(/standup|stand-up|talkshow|rundvisning/.test(lower)&&!DR_MUSIC.some(g=>lower.includes(g))) continue;
+    const status=/udsolgt/.test(lower)?'Udsolgt':/venteliste/.test(lower)?'Venteliste':'Billetter';
+    const imageMatch=page.html.match(/<meta[^>]+property=["']og:image["'][^>]+content=["']([^"']+)/i)||page.html.match(/<meta[^>]+content=["']([^"']+)["'][^>]+property=["']og:image["']/i);
+    out.push({id:'dr-'+date+'-'+artist.toLowerCase().replace(/[^a-z0-9]+/g,'-'),artist,date,time:dateMatch[4].padStart(2,'0')+':'+dateMatch[5],venue:'DR Koncerthuset',room,genre:concertGenre({name:artist,description:text}),status,url:page.url,image:imageMatch?decodeHtml(imageMatch[1]):'',source:'DR Koncerthuset'});
+   }
   }
   return out;
  }catch{return []}
