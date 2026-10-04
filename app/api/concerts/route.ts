@@ -4,7 +4,7 @@ type Concert={id:string;artist:string;date:string;time?:string;venue:string;room
 
 const VENUES=[
  'Royal Arena','K.B. Hallen','Store VEGA','Lille VEGA','Falkonersalen',
- 'Forum Copenhagen','DR Koncerthuset','Koncerthuset','Amager Bio',
+ 'Forum Copenhagen','Amager Bio',
  'Pumpehuset','Poolen'
 ];
 
@@ -21,7 +21,6 @@ const venueAliases:Record<string,string[]>={
  'Lille VEGA':['lille vega'],
  'Falkonersalen':['falkonersalen','falkoner salen','scandic falkoner'],
  'Forum Copenhagen':['forum copenhagen','forum københavn'],
- 'DR Koncerthuset':['dr koncerthuset','koncerthuset'],
  'Amager Bio':['amager bio'],
  'Pumpehuset':['pumpehuset'],
  'Poolen':['poolen']
@@ -61,6 +60,40 @@ const concertGenre=(event:any)=>{
  if(/pop/.test(raw)) return 'Pop';
  return values[0]||'Andet';
 };
+
+const DR_MUSIC=['elektronisk','filmmusik','folk/country','hip hop/rap','indie','jazz','klassisk','kor','pop','rock','soul/r&b','verdensmusik','dr symfoniorkestret','dr big band','dr pigekoret','dr vokalensemblet','dr koncertkoret'];
+
+const decodeHtml=(s:string)=>s.replace(/&amp;/g,'&').replace(/&quot;/g,'"').replace(/&#39;/g,"'").replace(/&nbsp;/g,' ').replace(/&aelig;/g,'æ').replace(/&oslash;/g,'ø').replace(/&aring;/g,'å');
+
+async function fetchDR():Promise<Concert[]>{
+ try{
+  const response=await fetch('https://billet.drkoncerthuset.dk/kalender/',{headers:{'User-Agent':'Koncerter-Kobenhavn/1.0'},next:{revalidate:21600}});
+  if(!response.ok) return [];
+  const html=await response.text();
+  const scripts=[...html.matchAll(/<script[^>]*type=["']application\\/ld\\+json["'][^>]*>([\\s\\S]*?)<\\/script>/gi)];
+  const out:Concert[]=[];
+  for(const match of scripts){
+   try{
+    const json=JSON.parse(match[1]);
+    const items=Array.isArray(json)?json:[json];
+    const walk=(x:any):any[]=>!x?[]:Array.isArray(x)?x.flatMap(walk):[x,...walk(x['@graph'])];
+    for(const e of items.flatMap(walk)){
+     if(!String(e?.['@type']||'').toLowerCase().includes('event')) continue;
+     const loc=String(e?.location?.name||'');
+     const address=String(e?.location?.address?.streetAddress||'');
+     if(!/(koncertsalen|studie [1-4]|dr koncerthuset)/i.test(loc+' '+address)) continue;
+     const blob=decodeHtml([e.name,e.description,e.keywords,e.category].flat().filter(Boolean).join(' ')).toLowerCase();
+     if(/standup|stand-up|talkshow|tv-show|rundvisning/.test(blob)&&!DR_MUSIC.some(g=>blob.includes(g))) continue;
+     const start=String(e.startDate||''); if(!start) continue;
+     const artist=decodeHtml(String(e.name||'')).trim(); if(!artist) continue;
+     const status=String(e.eventStatus||'').toLowerCase(); if(status.includes('cancel')) continue;
+     out.push({id:'dr-'+String(e.identifier||e.url||start+'-'+artist),artist,date:start.slice(0,10),time:start.includes('T')?start.slice(11,16):undefined,venue:'DR Koncerthuset',room:loc||'DR Koncerthuset',genre:concertGenre(e),status:/soldout|udsolgt/.test(blob)?'Udsolgt':'Billetter',url:String(e.url||'https://billet.drkoncerthuset.dk/kalender/'),image:typeof e.image==='string'?e.image:Array.isArray(e.image)?String(e.image[0]||''):'',source:'DR Koncerthuset'});
+    }
+   }catch{}
+  }
+  return out;
+ }catch{return []}
+}
 
 const ticketUrl=(event:any)=>{
  const links=event.ticketLinks||event.offers||[];
@@ -124,6 +157,8 @@ export async function GET(){
   }
 
   const mapped=allEvents.map(toConcert).filter(Boolean) as Concert[];
+  const dr=await fetchDR();
+  mapped.push(...dr);
   const unique=new Map<string,Concert>();
   for(const concert of mapped){
    const key=[concert.venue,concert.date,concert.time||'',concert.artist.toLowerCase()].join('|');
@@ -133,7 +168,7 @@ export async function GET(){
 
   return NextResponse.json({
    concerts,
-   counts:{total:concerts.length,received:allEvents.length},
+   counts:{total:concerts.length,received:allEvents.length,dr:dr.length},
    source:'JamBase',
    attribution:'Powered by JamBase',
    updatedAt:new Date().toISOString()
