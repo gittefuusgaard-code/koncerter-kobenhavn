@@ -65,24 +65,31 @@ const DR_MUSIC=['elektronisk','filmmusik','folk/country','hip hop/rap','indie','
 
 const decodeHtml=(s:string)=>s.replace(/&amp;/g,'&').replace(/&quot;/g,'"').replace(/&#39;/g,"'").replace(/&nbsp;/g,' ').replace(/&aelig;/g,'æ').replace(/&oslash;/g,'ø').replace(/&aring;/g,'å');
 
-async function fetchDR():Promise<Concert[]>{
+async function fetchDR():Promise<{concerts:Concert[];diagnostics:any}>{
+ const diagnostics={calendarStatus:0,calendarBytes:0,eventLinks:0,eventPagesFetched:0,dateMatches:0,concerts:0,sampleLinks:[] as string[],error:''};
  try{
   const response=await fetch('https://billet.drkoncerthuset.dk/kalender/',{headers:{'User-Agent':'Koncerter-Kobenhavn/1.0'},next:{revalidate:21600}});
-  if(!response.ok) return [];
+  diagnostics.calendarStatus=response.status;
+  if(!response.ok) return {concerts:[],diagnostics};
   const html=await response.text();
+  diagnostics.calendarBytes=html.length;
   const clean=(v:string)=>decodeHtml(v.replace(/<[^>]+>/g,' ').replace(/\\s+/g,' ').trim());
   const eventLinkPattern=new RegExp("href=[\\\"']([^\\\"']*/kalender/20\\d{2}/[^\\\"'#?]+)[\\\"']","gi");
   const links=[...html.matchAll(eventLinkPattern)];
   const urls=[...new Set(links.map(m=>new URL(m[1],response.url).toString()))].slice(0,250);
+  diagnostics.eventLinks=urls.length;
+  diagnostics.sampleLinks=urls.slice(0,3);
   const out:Concert[]=[];
   for(let i=0;i<urls.length;i+=12){
    const batch=urls.slice(i,i+12);
    const pages=await Promise.all(batch.map(async url=>{try{const r=await fetch(url,{headers:{'User-Agent':'Koncerter-Kobenhavn/1.0'},next:{revalidate:21600}});return r.ok?{url,html:await r.text()}:null}catch{return null}}));
    for(const page of pages){
     if(!page) continue;
+    diagnostics.eventPagesFetched++;
     const text=clean(page.html);
     const dateMatch=text.match(/(\\d{1,2})\\.\\s+(januar|februar|marts|april|maj|juni|juli|august|september|oktober|november|december)\\s+(20\\d{2})\\s+KL\\.\\s*(\\d{1,2})[.:](\\d{2})/i);
     if(!dateMatch) continue;
+    diagnostics.dateMatches++;
     const months:Record<string,string>={januar:'01',februar:'02',marts:'03',april:'04',maj:'05',juni:'06',juli:'07',august:'08',september:'09',oktober:'10',november:'11',december:'12'};
     const date=dateMatch[3]+'-'+months[dateMatch[2].toLowerCase()]+'-'+dateMatch[1].padStart(2,'0');
     if(date<new Date().toISOString().slice(0,10)) continue;
@@ -101,8 +108,9 @@ async function fetchDR():Promise<Concert[]>{
     out.push({id:'dr-'+date+'-'+artist.toLowerCase().replace(/[^a-z0-9]+/g,'-'),artist,date,time:dateMatch[4].padStart(2,'0')+':'+dateMatch[5],venue:'DR Koncerthuset',room,genre:concertGenre({name:artist,description:text}),status,url:page.url,image:imageMatch?decodeHtml(imageMatch[1]):'',source:'DR Koncerthuset'});
    }
   }
-  return out;
- }catch{return []}
+  diagnostics.concerts=out.length;
+  return {concerts:out,diagnostics};
+ }catch(error){diagnostics.error=error instanceof Error?error.message:String(error);return {concerts:[],diagnostics}}
 }
 
 const ticketUrl=(event:any)=>{
@@ -167,7 +175,8 @@ export async function GET(){
   }
 
   const mapped=allEvents.map(toConcert).filter(Boolean) as Concert[];
-  const dr=await fetchDR();
+  const drResult=await fetchDR();
+  const dr=drResult.concerts;
   mapped.push(...dr);
   const unique=new Map<string,Concert>();
   for(const concert of mapped){
@@ -179,6 +188,7 @@ export async function GET(){
   return NextResponse.json({
    concerts,
    counts:{total:concerts.length,received:allEvents.length,dr:dr.length},
+   drDiagnostics:drResult.diagnostics,
    source:'JamBase',
    attribution:'Powered by JamBase',
    updatedAt:new Date().toISOString()
