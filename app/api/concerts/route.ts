@@ -71,7 +71,8 @@ async function fetchDR():Promise<Concert[]>{
   if(!response.ok) return [];
   const html=await response.text();
   const clean=(v:string)=>decodeHtml(v.replace(/<[^>]+>/g,' ').replace(/\\s+/g,' ').trim());
-  const links=[...html.matchAll(/href=["']([^"']*\\/kalender\\/20\\d{2}\\/[^"'#?]+)["']/gi)];
+  const eventLinkPattern=new RegExp("href=[\\\"']([^\\\"']*/kalender/20\\\\d{2}/[^\\\"'#?]+)[\\\"']","gi");
+  const links=[...html.matchAll(eventLinkPattern)];
   const urls=[...new Set(links.map(m=>new URL(m[1],response.url).toString()))].slice(0,250);
   const out:Concert[]=[];
   for(let i=0;i<urls.length;i+=12){
