@@ -43,6 +43,42 @@ try {
       await page.waitForTimeout(5000);
       const links = await page.locator('a[href]').evaluateAll(nodes =>
         [...new Set(nodes.map(n => n.href).filter(u => /drkoncerthuset\.dk/.test(u) && /koncert|event|arrangement|kalender/i.test(u)))].slice(0,250));
+      // DR's calendar contains rendered event cards even when JSON-LD is absent.
+      const cards = await page.evaluate(() => {
+        const dateRe = /(?:0?[1-9]|[12][0-9]|3[01])\\.\\s*(?:januar|februar|marts|april|maj|juni|juli|august|september|oktober|november|december)\\s+20\\d{2}\\s+KL\\.?\\s*\\d{1,2}[.:]\\d{2}/i;
+        const out = [];
+        for (const el of document.querySelectorAll('a[href]')) {
+          const href = el.href;
+          if (!/drkoncerthuset\\.dk\\/kalender\\/20\\d{2}\\//.test(href)) continue;
+          let node = el;
+          for (let i=0;i<5 && node;i++,node=node.parentElement) {
+            const t = (node.innerText||'').trim();
+            if (t.length>25 && t.length<1300 && dateRe.test(t)) {
+              out.push({url:href,text:t,heading:node.querySelector('h2,h3,h4')?.innerText||'',image:node.querySelector('img')?.src||''});
+              break;
+            }
+          }
+        }
+        return out;
+      });
+      const months={januar:'01',februar:'02',marts:'03',april:'04',maj:'05',juni:'06',juli:'07',august:'08',september:'09',oktober:'10',november:'11',december:'12'};
+      for (const card of cards) {
+        const m=card.text.match(/(\\d{1,2})\\.\\s*(januar|februar|marts|april|maj|juni|juli|august|september|oktober|november|december)\\s+(20\\d{2})\\s+KL\\.?\\s*(\\d{1,2})[.:](\\d{2})/i);
+        if(!m) continue;
+        const date=m[3]+'-'+months[m[2].toLowerCase()]+'-'+m[1].padStart(2,'0');
+        if(date<new Date().toISOString().slice(0,10)) continue;
+        const room=(card.text.match(/Koncertsalen|Studie\\s*[1-4]/i)||[])[0]||'';
+        if(!room) continue;
+        let name=card.heading.trim();
+        if(!name) {
+          const lines=card.text.split('\\n').map(x=>x.trim()).filter(Boolean);
+          name=lines.find(x=>x.length>3&&!/^(Koncertsalen|Studie|Læs mere|Køb|Venteliste|Udsolgt|Få billetter|\\d)/i.test(x)&&!x.includes('KL.'))||'';
+        }
+        if(!name||/stand.?up|comedy|dylan moran|gianmarco soresi|talkshow|roadshow/i.test(name))continue;
+        const time=m[4].padStart(2,'0')+':'+m[5];
+        found.set([name,date,time].join('|'),{id:'dr-'+[name,date,time].join('-').toLowerCase().replace(/[^a-z0-9-]/g,'-'),artist:name,date,time,venue:'DR Koncerthuset',room,genre:'Andet',status:/udsolgt/i.test(card.text)?'Udsolgt':/venteliste/i.test(card.text)?'Venteliste':'Billetter',url:card.url,image:card.image,source:'DR Koncerthuset'});
+      }
+      console.log('DR rendered cards:',cards.length,'matched:',found.size);
       const pages = [origin, ...links.filter(u => u !== origin).slice(0,100)];
       diagnostics.push({origin,status:response?.status(),title:await page.title(),links:links.length,sampleLinks:links.slice(0,15),text:(await page.locator('body').innerText().catch(()=>'' )).slice(0,5000),responses:capturedResponses.slice(-60)});
       for (const url of pages) {
