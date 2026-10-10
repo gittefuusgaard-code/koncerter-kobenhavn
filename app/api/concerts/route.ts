@@ -1,6 +1,7 @@
 import concertHistory from '../../../data/concert-history.json';
 import drStored from '../../../data/dr-concerts.json';
 import vegaStored from '../../../data/vega-concerts.json';
+import directStored from '../../../data/direct-venues.json';
 import {NextResponse} from 'next/server';
 
 type Concert={id:string;artist:string;date:string;time?:string;venue:string;room:string;genre:string;status:string;url:string;image:string;source:string};
@@ -178,8 +179,10 @@ export async function GET(){
   mapped.push(...dr);
   const vega=(vegaStored as Concert[]).filter(c=>c.date>=new Date().toISOString().slice(0,10));
   mapped.push(...vega);
+  const direct=(directStored as Concert[]).filter(c=>c.date>=new Date().toISOString().slice(0,10));
+  mapped.push(...direct);
   const unique=new Map<string,Concert>();
-  for(const concert of [...vega,...mapped.filter(c=>c.source!=='VEGA')]){
+  for(const concert of [...vega,...direct,...mapped.filter(c=>c.source!=='VEGA'&&!['Royal Arena','K.B. Hallen','Amager Bio','Pumpehuset'].includes(c.source))]){
    const key=[concert.venue,concert.date,concert.time||'',concert.artist.toLowerCase()].join('|');
    if(!unique.has(key)) unique.set(key,concert);
   }
@@ -188,7 +191,7 @@ export async function GET(){
 
   return NextResponse.json({
    concerts,
-   counts:{total:concerts.length,received:allEvents.length,dr:dr.length,vega:vega.length},
+   counts:{total:concerts.length,received:allEvents.length,dr:dr.length,vega:vega.length,direct:direct.length},
    drDiagnostics:drResult.diagnostics,
    source:'JamBase',
    attribution:'Powered by JamBase',
