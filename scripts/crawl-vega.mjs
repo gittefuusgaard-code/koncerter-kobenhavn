@@ -27,7 +27,7 @@ try{
  const links=await page.locator('a[href*="/event/"]').evaluateAll(nodes=>nodes.map(n=>n.href));
  for(const link of links)if(/vega\.dk\/event\//.test(link))discovered.set(link,'9999-12-30');
 }catch(e){console.log('VEGA calendar unavailable:',String(e).slice(0,100))}
-const urls=[...discovered].sort((a,b)=>b[1].localeCompare(a[1])).map(([url])=>url).slice(0,220);
+const urls=[...discovered].filter(([url])=>!/vega\.dk\/en\//.test(url)).sort((a,b)=>b[1].localeCompare(a[1])).map(([url])=>url).slice(0,400);
 console.log('VEGA sitemap pages:',visited.size,'event links:',discovered.size,'checking:',urls.length);
 for(const url of urls){
  try{
@@ -51,7 +51,12 @@ for(const url of urls){
   if(!item.h||!item.venue||item.date.length!==3){console.log('VEGA unmatched event',url,JSON.stringify(item).slice(0,320));continue;}
   const date=item.date[2]+'-'+item.date[1].padStart(2,'0')+'-'+item.date[0].padStart(2,'0');
   if(date<today)continue;
-  const artist=(item.ogTitle||item.title||item.h).replace(/\s*[|–-]\s*(?:VEGA|Store VEGA|Lille VEGA).*$/i,'').replace(/\s*[-–]\s*Ekstrakoncert$/i,'').trim();
+  const heading=item.ogTitle||item.title||'';
+  const extracted=heading.match(/^(?:Oplev|Experience)\s+(.+?)\s+(?:i|in)\s+(?:(?:Lille|Store)\s+)?VEGA\b/i)?.[1];
+  const slug=new URL(url).pathname.split('/').filter(Boolean).pop()||'';
+  const fallback=slug.replace(/-20\d{2}-\d{2}-\d{2}.*$/,'').replace(/-ekstrakoncert$/,'').replace(/-/g,' ').replace(/\b\w/g,x=>x.toUpperCase());
+  const artist=(extracted||fallback).trim();
+  if(!artist||artist.toLowerCase()==='vega')continue;
   const key=[item.venue,date,artist.toLowerCase()].join('|');
   entries.set(key,{id:'vega-'+key.toLowerCase().replace(/[^a-z0-9-]/g,'-'),artist,date,time:item.time,venue:item.venue,room:item.venue,genre:item.genre||'Andet',status:item.status,url,image:item.image,source:'VEGA'});
  }catch(e){console.log('VEGA skip:',url,String(e).slice(0,75))}
