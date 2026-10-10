@@ -36,9 +36,11 @@ for(const url of urls){
   const item=await page.evaluate(()=>{
    const h=document.querySelector('h1')?.textContent?.trim()||'';
    const text=document.body.innerText;
-   const date=text.match(/(?:mandag|tirsdag|onsdag|torsdag|fredag|lørdag|søndag)?\s*(\d{1,2})\.(\d{1,2})\.(20\d{2})/i);
-   const venue=/\bS\s+Store VEGA\b|\bStore VEGA\b/.test(text.slice(0,1500))?'Store VEGA':/\bL\s+Lille VEGA\b|\bLille VEGA\b/.test(text.slice(0,1500))?'Lille VEGA':'';
-   const time=text.match(/Koncertstart:\s*(\d{1,2})[.:](\d{2})/i);
+   const pos=text.indexOf(h);const eventText=pos>=0?text.slice(pos):text;
+   const before=pos>=0?text.slice(Math.max(0,pos-120),pos):'';
+   const date=eventText.match(/(?:mandag|tirsdag|onsdag|torsdag|fredag|lørdag|søndag)?\s*(\d{1,2})\.(\d{1,2})\.(20\d{2})/i);
+   const venue=/Store VEGA/i.test(before)?'Store VEGA':/Lille VEGA/i.test(before)?'Lille VEGA':'';
+   const time=eventText.match(/Koncertstart:\s*(\d{1,2})[.:](\d{2})/i);
    const image=document.querySelector('meta[property="og:image"]')?.getAttribute('content')||'';
    const genre=document.querySelector('meta[property="article:tag"]')?.getAttribute('content')||'';
    return {h,date:date?.slice(1)||[],venue,time:time?time[1].padStart(2,'0')+':'+time[2]:'',image,genre,status:/Udsolgt/.test(text.slice(0,1100))?'Udsolgt':'Billetter'};
