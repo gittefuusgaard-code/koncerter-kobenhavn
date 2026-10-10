@@ -79,6 +79,46 @@ try {
         found.set([name,date,time].join('|'),{id:'dr-'+[name,date,time].join('-').toLowerCase().replace(/[^a-z0-9-]/g,'-'),artist:name,date,time,venue:'DR Koncerthuset',room,genre:'Andet',status:/udsolgt/i.test(card.text)?'Udsolgt':/venteliste/i.test(card.text)?'Venteliste':'Billetter',url:card.url,image:card.image,source:'DR Koncerthuset'});
       }
       console.log('DR rendered cards:',cards.length,'matched:',found.size);
+      // Collect image URLs from the actual concert pages. Calendar images are often lazy-loaded.
+      const byUrl=new Map();
+      for(const concert of found.values()){
+        if(concert.url && !concert.image){
+          const group=byUrl.get(concert.url)||[];
+          group.push(concert);
+          byUrl.set(concert.url,group);
+        }
+      }
+      console.log('DR concert pages requiring images:',byUrl.size);
+      let imageUpdates=0;
+      for(const [url,events] of byUrl){
+        try{
+          await page.goto(url,{waitUntil:'domcontentloaded',timeout:18000});
+          const image=await page.evaluate(()=>{
+            const candidates=[];
+            const add=(value,score)=>{
+              if(!value||typeof value!=='string')return;
+              try{
+                const absolute=new URL(value,location.href).href;
+                if(!/^https?:/.test(absolute)||/\\.svg(?:[?#]|$)/i.test(absolute))return;
+                candidates.push({url:absolute,score});
+              }catch{}
+            };
+            for(const meta of document.querySelectorAll('meta[property="og:image"],meta[name="twitter:image"],meta[property="twitter:image"]'))add(meta.getAttribute('content'),100);
+            for(const el of document.querySelectorAll('main img,article img,.hero img,img')){
+              const src=el.currentSrc||el.getAttribute('data-src')||el.getAttribute('src')||'';
+              const alt=(el.getAttribute('alt')||'').toLowerCase();
+              add(src,alt.includes('logo')?0:30);
+              const srcset=el.getAttribute('data-srcset')||el.getAttribute('srcset')||'';
+              if(srcset)add(srcset.split(',').at(-1)?.trim().split(/\\s+/)[0],35);
+            }
+            candidates.sort((a,b)=>b.score-a.score);
+            return candidates[0]?.url||'';
+          });
+          if(image){for(const event of events)event.image=image;imageUpdates+=events.length;}
+        }catch(error){console.log('Image lookup skipped:',url,String(error).slice(0,90));}
+      }
+      console.log('DR images enriched:',imageUpdates,'of',byUrl.size);
+
       const pages = [origin, ...links.filter(u => u !== origin).slice(0,100)];
       diagnostics.push({origin,status:response?.status(),title:await page.title(),links:links.length,sampleLinks:links.slice(0,15),text:(await page.locator('body').innerText().catch(()=>'' )).slice(0,5000),responses:capturedResponses.slice(-60)});
       for (const url of pages) {
