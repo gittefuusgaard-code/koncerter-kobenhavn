@@ -17,9 +17,16 @@ jobs:
       - run: npm install --no-save playwright
       - run: npx playwright install --with-deps chromium
       - run: node scripts/crawl-dr.mjs
+      - name: Upload DR diagnostics
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: dr-crawler-diagnostics
+          path: artifacts/dr-diagnostics.json
+          if-no-files-found: ignore
       - name: Commit updated events
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/dr-concerts.json
-          git diff --cached --quiet || (git commit -m "Update DR Koncerthuset concert data" && git push)
+          git diff --cached --quiet || (git commit -m "Update DR Koncerthuset concert data" && git pull --rebase && git push)
