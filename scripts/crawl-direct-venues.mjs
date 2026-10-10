@@ -66,12 +66,13 @@ for(const config of configs){
     datetime:document.querySelector('time[datetime]')?.getAttribute('datetime')||'',
     text:document.body.innerText.slice(0,6000)
    }));
-   const events=structured.length?structured:[{name:meta.title,startDate:meta.datetime}];
+   const events=structured.filter(e=>/MusicEvent/i.test([].concat(e['@type']||[]).join(' ')) || (config.venue==='K.B. Hallen' && !/sports?|mma|boxing|wrestling|comedy|stand.?up|foredrag|show|galla/i.test(String(e.name||''))));
+   if(!events.length && config.venue==='K.B. Hallen' && /\/event\//i.test(new URL(url).pathname))events.push({name:meta.title,startDate:meta.datetime});
    for(const e of events){
     const rawDate=e.startDate||meta.datetime||meta.text.slice(0,1000);
     const date=toISO(rawDate);if(!date||date<today)continue;
     const name=normalize(e.name||meta.title).replace(/\s*[|–]\s*(?:Royal Arena|K\.B\. Hallen|Amager Bio|Pumpehuset).*$/i,'');
-    if(!name||name.length>130||/^(?:program|kalender|koncerter|shows|events)$/i.test(name))continue;
+    if(!name||name.length>130||/^(?:program|kalender|koncerter|shows|events)$/i.test(name)||/\b(?:MMA|wrestling|boxing|stand.?up|foredrag)\b/i.test(name))continue;
     const location=normalize(e.location?.name||e.location?.[0]?.name||'');
     const venue=config.venue==='Amager Bio'&&/\bbeta\b/i.test(location)?'':config.venue;
     if(!venue)continue;
@@ -93,7 +94,7 @@ else{
  const file='data/direct-venues.json';
  let old=[];try{old=JSON.parse(await readFile(file,'utf8'))}catch{}
  const updatedVenues=new Set([...unique.values()].map(c=>c.venue));
- const retained=old.filter(c=>!updatedVenues.has(c.venue)&&c.date>=today);
+ const retained=old.filter(c=>!updatedVenues.has(c.venue)&&c.date>=today&&c.url!==new URL('/',configs.find(x=>x.venue===c.venue)?.base||'https://pumpehuset.dk').href);
  const result=[...unique.values(),...retained].sort((a,b)=>a.date.localeCompare(b.date));
  await writeFile(file,JSON.stringify(result,null,2)+'\n');
  console.log('Saved:',result.length,'previous venues retained:',retained.length);
