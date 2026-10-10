@@ -97,3 +97,25 @@ html,body,button,input,select{font-family:var(--font-inter),Inter,Arial,sans-ser
 .cardBody h2{font-weight:800;letter-spacing:-.048em}
 .newHeading h2{font-weight:800;letter-spacing:-.045em}
 .controls input,.controls select{font-family:inherit}
+
+
+/* Unified blue discovery hero: introduction and new concerts in one section */
+.discoveryCombined{display:block;background:#356df3;color:#fff;padding:34px 38px 28px}
+.discoveryCombined .discoveryIntro{max-width:none}
+.discoveryCombined .discoveryIntro h2{max-width:none}
+.discoveryCombined .discoveryFeed{margin-top:28px;padding-top:24px;border-top:1px solid rgba(255,255,255,.3)}
+.discoveryCombined .newHeading{margin-bottom:16px}
+.discoveryCombined .newEyebrow,.discoveryCombined .newHeading h2,.discoveryCombined .newHeading p{color:#fff}
+.discoveryCombined .newHeading h2{font-size:clamp(21px,2vw,28px);line-height:1.12}
+.discoveryCombined .newHeading p{color:#dce6ff}
+.discoveryCombined .newTabs{border-color:rgba(255,255,255,.55)}
+.discoveryCombined .newTabs button{background:transparent;color:white}
+.discoveryCombined .newTabs button+button{border-color:rgba(255,255,255,.55)}
+.discoveryCombined .newTabs button.active{background:#141414;color:white}
+.discoveryCombined .newItems,.discoveryCombined .newEmpty{border-color:rgba(255,255,255,.28)}
+.discoveryCombined .newItem{color:white;border-color:rgba(255,255,255,.22)}
+.discoveryCombined .newItem:hover{color:#dce6ff}
+.discoveryCombined .newBadge{background:#141414;color:white}
+.discoveryCombined .newVenue,.discoveryCombined .newDate,.discoveryCombined .newEmpty{color:#e0e8ff}
+.discoveryCombined .newMore{background:#141414;color:#fff;border:0;border-radius:8px}
+@media(max-width:700px){.discoveryCombined{padding:24px 20px}.discoveryCombined .discoveryFeed{margin-top:22px;padding-top:20px}.discoveryCombined .newHeading{display:block}}
