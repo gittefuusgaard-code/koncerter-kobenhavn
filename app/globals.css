@@ -19,3 +19,71 @@
 .newEmpty{padding:24px 0 10px;font-size:13px;color:#777;border-top:1px solid #d6d3ca;margin:0}
 .newMore{margin-top:16px;border:1px solid #d6d3ca;background:#fff;padding:10px 14px;cursor:pointer;font-size:12px;font-weight:700}
 @media(max-width:700px){.newConcerts{padding:16px}.newHeading{display:block}.newHeading h2{font-size:21px}.newTabs{display:inline-flex;margin-top:16px}.newItem{grid-template-columns:38px minmax(0,1fr) auto;gap:9px}.newArtist{font-size:13px}.newVenue{grid-column:2;grid-row:2}.newDate{grid-column:3;grid-row:1}.newArrow{display:none}}
+
+
+/* Figma Make-inspired visual refresh */
+html,body{background:#f1f1f2;color:#1e1e20;font-family:Arial,Helvetica,sans-serif}
+.topbar{height:68px;background:#202022;border:0;color:#fff;padding:0 clamp(20px,3vw,48px)}
+.identity b{font-size:18px;color:#fff;letter-spacing:-.06em}
+.identity b span{color:#3869f5}
+.identity em{color:#8f8f94;border-left:1px solid #45454a;font-size:10px;font-weight:700;letter-spacing:.12em}
+.count{color:#aaaab1;font-size:11px}
+.liveDot{color:#356bf8;font-size:14px}
+.countDivider{margin-left:18px}
+.main{padding:32px clamp(20px,3vw,48px) 80px;max-width:1680px;margin:auto}
+.discoveryBanner{display:flex;align-items:center;justify-content:space-between;gap:32px;background:#3468f5;border-radius:20px;padding:28px 32px;color:white;margin-bottom:42px;box-shadow:0 14px 28px rgba(42,88,219,.09)}
+.discoveryBanner>div{max-width:620px}
+.bannerKicker{font-size:11px;font-weight:800;letter-spacing:.14em}
+.discoveryBanner h2{font-size:clamp(23px,2.5vw,36px);line-height:1.08;letter-spacing:-.055em;margin:12px 0 8px;max-width:530px}
+.discoveryBanner p{font-size:14px;line-height:1.55;color:#dce6ff;margin:0}
+.discoveryBanner button{background:#202022;color:white;border:0;border-radius:9px;padding:16px 19px;min-width:215px;display:flex;align-items:center;justify-content:space-between;font-size:11px;font-weight:800;letter-spacing:.03em;cursor:pointer}
+.discoveryBanner button:hover{background:#101014}
+.newConcerts{border:1px solid #e4e4e8;border-radius:17px;background:#fff;margin-bottom:46px;padding:20px 24px}
+.newEyebrow{color:#356bf8}
+.newTabs{border:1px solid #e0e0e3;border-radius:9px;overflow:hidden}
+.newTabs button.active{background:#202022}
+.newBadge{background:#356bf8}
+.newItem:hover{color:#356bf8}
+.listingHeading{display:flex;align-items:flex-end;justify-content:space-between;gap:12px;margin-bottom:20px}
+.sectionKicker{font-size:10px;font-weight:800;letter-spacing:.18em;color:#8d8d93}
+.listingHeading h1{font-size:clamp(34px,4vw,54px);letter-spacing:-.065em;line-height:1.05;margin:8px 0 0;font-weight:900}
+.listingHeading>span{font-size:12px;color:#929299;margin-bottom:5px}
+.controls{background:#fff;border:1px solid #e2e2e5;border-radius:17px;padding:12px;gap:8px;margin-bottom:16px;box-shadow:0 4px 12px rgba(0,0,0,.025)}
+.controls input:not([type=checkbox]),.controls select{height:46px;background:#f1f1f2;border:1px solid #e1e1e4;border-radius:10px;font-size:13px}
+.controls input:not([type=checkbox]){width:min(360px,35vw)}
+.controls input:focus,.controls select:focus{border-color:#3468f5}
+.soldToggle{display:flex;align-items:center;gap:8px;border:0;height:auto;color:#76767c;font-size:10px;font-weight:800;white-space:nowrap;cursor:pointer;padding:0 12px}
+.soldToggle input{accent-color:#3468f5}
+.views{border:0;border-radius:10px;background:#f1f1f2;padding:4px;gap:2px}
+.views button{border:0!important;border-radius:7px;background:transparent;color:#777;font-size:18px}
+.views button.active{background:white;color:#1f1f22;box-shadow:0 2px 6px rgba(0,0,0,.08)}
+.genreFilters{margin-bottom:26px;gap:7px}
+.genreFilters button{background:transparent;border:1px solid #d9d9dd;border-radius:30px;padding:10px 16px;font-size:11px;letter-spacing:0;text-transform:none;color:#777;font-weight:700}
+.genreFilters button.active{background:#202022;color:#fff;border-color:#202022}
+.concertGrid{grid-template-columns:repeat(4,minmax(0,1fr));gap:18px;background:transparent;border:0}
+.concertCard{border:1px solid #e2e2e5;border-radius:18px;overflow:hidden;background:white}
+.concertCard:hover{background:white;box-shadow:0 10px 28px rgba(0,0,0,.09);transform:translateY(-2px)}
+.image{height:clamp(170px,18vw,270px);background:#e6e6e7}
+.fallback{background:linear-gradient(180deg,#e7e7e8 55%,#bcbcbc)}
+.image>.genre{top:14px;left:14px;border-radius:30px;padding:7px 11px;background:white;font-size:10px;letter-spacing:.08em;color:#e99a34}
+.g-electronic,.g-jazz-blues,.g-rock-indie,.g-metal,.g-hip-hop-rap,.g-classical{color:#1fbba9!important}
+.g-rock-indie{color:#e84e5a!important}.g-jazz-blues{color:#8b6ef5!important}.g-hip-hop-rap{color:#3d9ce3!important}.g-metal{color:#555!important}
+.soldBadge{position:absolute;right:12px;bottom:50%;background:#fff;border-radius:20px;padding:9px 12px;font-size:10px;font-weight:800;letter-spacing:.07em}
+.cardBody{padding:22px 20px 18px;border:0;min-height:180px;display:flex;flex-direction:column}
+.cardBody h2{font-size:21px;letter-spacing:-.045em;line-height:1.15;margin-bottom:14px}
+.cardBody p{margin-bottom:20px}
+.venueHighlight{color:#777!important;font-size:10px!important;letter-spacing:.08em}
+.venueHighlight span{color:#356bf8;font-size:11px}
+.meta{border-top:1px solid #e2e2e5;padding-top:16px;margin-top:auto}
+.meta strong{font-size:12px}
+.meta span{font-size:11px}
+.meta>b{font-size:10px;color:#356bf8;background:#dbe5ff;border-radius:20px;padding:9px 10px;white-space:nowrap}
+.meta>b.soldStatus{background:transparent;color:#444}
+.listHead{background:#e9e9ed}
+.listRow{border-color:#e6e6e8}
+.listRow:hover{background:#f7f8ff}
+.calendar .day a{color:#3468f5;border-color:#3468f5;background:#eef2ff}
+footer{border-top:1px solid #ddd;color:#8c8c91}
+@media(max-width:1150px){.concertGrid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:800px){.concertGrid{grid-template-columns:repeat(2,minmax(0,1fr))}.discoveryBanner{padding:24px;flex-direction:column;align-items:flex-start}.controls{flex-wrap:wrap}.controls input:not([type=checkbox]){width:100%;flex:1 1 100%}}
+@media(max-width:520px){.topbar{padding:0 16px}.countDivider{display:none}.main{padding:20px 16px 50px}.discoveryBanner{border-radius:14px;margin-bottom:24px}.discoveryBanner button{width:100%}.newConcerts{margin-bottom:30px}.listingHeading h1{font-size:34px}.listingHeading>span{white-space:nowrap}.concertGrid{grid-template-columns:1fr;gap:14px}.image{height:220px}.cardBody{min-height:160px}.controls select{flex:1}.views{margin-left:auto}.genreFilters button{padding:9px 13px}}
