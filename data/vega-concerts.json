@@ -1,20 +1,20 @@
 [
   {
-    "id": "vega-store-vega-2026-10-10-vega",
-    "artist": "VEGA",
+    "id": "vega-store-vega-2026-10-10-oplev-yard-act-i-vega--k-b-billetter-her",
+    "artist": "Oplev Yard Act i VEGA. Køb billetter her",
     "date": "2026-10-10",
-    "time": "",
+    "time": "20:00",
     "venue": "Store VEGA",
     "room": "Store VEGA",
     "genre": "Andet",
     "status": "Billetter",
-    "url": "https://vega.dk/en/event/yard-act-2026-10-10",
+    "url": "https://vega.dk/event/yard-act-2026-10-10",
     "image": "https://payload.vega.dk/media/2026_Kalender_YardAct-1200x630.jpg",
     "source": "VEGA"
   },
   {
-    "id": "vega-lille-vega-2026-10-10-vega",
-    "artist": "VEGA",
+    "id": "vega-lille-vega-2026-10-10-oplev-farveblind-i-lille-vega-den-10--oktober--k-b-billetter-her-",
+    "artist": "Oplev Farveblind i Lille VEGA den 10. oktober. Køb billetter her.",
     "date": "2026-10-10",
     "time": "20:00",
     "venue": "Lille VEGA",
@@ -26,8 +26,34 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-store-vega-2026-10-11-vega",
-    "artist": "VEGA",
+    "id": "vega-store-vega-2026-10-10-experience-yard-act-in-vega--buy-tickets-here",
+    "artist": "Experience Yard Act in VEGA. Buy tickets here",
+    "date": "2026-10-10",
+    "time": "",
+    "venue": "Store VEGA",
+    "room": "Store VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/en/event/yard-act-2026-10-10",
+    "image": "https://payload.vega.dk/media/2026_Kalender_YardAct-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-store-vega-2026-10-11-oplev-cat-power-i-vega--k-b-billetter-her",
+    "artist": "Oplev Cat Power i VEGA. Køb billetter her",
+    "date": "2026-10-11",
+    "time": "20:00",
+    "venue": "Store VEGA",
+    "room": "Store VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/cat-power-2026-10-11",
+    "image": "https://payload.vega.dk/media/VEGA-2026-Kalender-CatPower-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-store-vega-2026-10-11-experience-cat-power-in-vega--buy-tickets-here",
+    "artist": "Experience Cat Power in VEGA. Buy tickets here",
     "date": "2026-10-11",
     "time": "",
     "venue": "Store VEGA",
@@ -39,8 +65,8 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-store-vega-2026-10-12-vega",
-    "artist": "VEGA",
+    "id": "vega-store-vega-2026-10-12-oplev-vega-backstage-i-vega--k-b-billetter-her",
+    "artist": "Oplev VEGA Backstage i VEGA. Køb billetter her",
     "date": "2026-10-12",
     "time": "",
     "venue": "Store VEGA",
@@ -52,21 +78,21 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-store-vega-2026-10-13-vega",
-    "artist": "VEGA",
+    "id": "vega-store-vega-2026-10-13-oplev-eve-i-vega--k-b-billetter-her",
+    "artist": "Oplev Eve i VEGA. Køb billetter her",
     "date": "2026-10-13",
-    "time": "",
+    "time": "20:00",
     "venue": "Store VEGA",
     "room": "Store VEGA",
     "genre": "Andet",
     "status": "Billetter",
-    "url": "https://vega.dk/en/event/eve-2026-10-13",
+    "url": "https://vega.dk/event/eve-2026-10-13",
     "image": "https://payload.vega.dk/media/VEGA_Kalender_Eve_2026-1200x630.jpg",
     "source": "VEGA"
   },
   {
-    "id": "vega-lille-vega-2026-10-13-vega",
-    "artist": "VEGA",
+    "id": "vega-lille-vega-2026-10-13-oplev-matt-maeson-i-vega--k-b-biletter-her-",
+    "artist": "Oplev Matt Maeson i VEGA. Køb biletter her.",
     "date": "2026-10-13",
     "time": "20:00",
     "venue": "Lille VEGA",
@@ -78,21 +104,34 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-lille-vega-2026-10-14-vega",
-    "artist": "VEGA",
-    "date": "2026-10-14",
+    "id": "vega-store-vega-2026-10-13-experience-eve-in-vega--buy-tickets-here",
+    "artist": "Experience Eve in VEGA. Buy tickets here",
+    "date": "2026-10-13",
     "time": "",
+    "venue": "Store VEGA",
+    "room": "Store VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/en/event/eve-2026-10-13",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_Eve_2026-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-lille-vega-2026-10-14-oplev-fed---phil-i-vega--k-b-billetter-her-",
+    "artist": "Oplev FED & Phil i VEGA. Køb billetter her.",
+    "date": "2026-10-14",
+    "time": "20:00",
     "venue": "Lille VEGA",
     "room": "Lille VEGA",
     "genre": "Andet",
     "status": "Billetter",
-    "url": "https://vega.dk/en/event/fed-and-phil-2026-10-14",
+    "url": "https://vega.dk/event/fed-and-phil-2026-10-14",
     "image": "https://payload.vega.dk/media/VEGA_Kalender_FED&Phil_2026-1200x630.jpg",
     "source": "VEGA"
   },
   {
-    "id": "vega-store-vega-2026-10-14-vega",
-    "artist": "VEGA",
+    "id": "vega-store-vega-2026-10-14-oplev-vega-backstage-i-vega--k-b-billetter-her",
+    "artist": "Oplev VEGA Backstage i VEGA. Køb billetter her",
     "date": "2026-10-14",
     "time": "",
     "venue": "Store VEGA",
@@ -104,8 +143,34 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-store-vega-2026-10-15-vega",
-    "artist": "VEGA",
+    "id": "vega-lille-vega-2026-10-14-experience-fed---phil-in-vega--buy-tickets-here-",
+    "artist": "Experience FED & Phil in VEGA. Buy tickets here.",
+    "date": "2026-10-14",
+    "time": "",
+    "venue": "Lille VEGA",
+    "room": "Lille VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/en/event/fed-and-phil-2026-10-14",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_FED&Phil_2026-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-store-vega-2026-10-15-oplev-haken-i-vega--k-b-billetter-her",
+    "artist": "Oplev Haken i VEGA. Køb billetter her",
+    "date": "2026-10-15",
+    "time": "19:30",
+    "venue": "Store VEGA",
+    "room": "Store VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/haken-2026-10-15",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_Haken_2026-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-store-vega-2026-10-15-experience-haken-in-vega--buy-tickets-here",
+    "artist": "Experience Haken in VEGA. Buy tickets here",
     "date": "2026-10-15",
     "time": "",
     "venue": "Store VEGA",
@@ -117,8 +182,8 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-lille-vega-2026-10-16-vega",
-    "artist": "VEGA",
+    "id": "vega-lille-vega-2026-10-16-oplev-m-l-i-vega--k-b-billetter-her",
+    "artist": "Oplev MØL i VEGA. Køb billetter her",
     "date": "2026-10-16",
     "time": "21:00",
     "venue": "Lille VEGA",
@@ -130,8 +195,21 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-store-vega-2026-10-16-vega",
-    "artist": "VEGA",
+    "id": "vega-store-vega-2026-10-16-oplev-dj-aligator-i-vega--k-b-billetter-her-",
+    "artist": "Oplev DJ Aligator i VEGA. Køb Billetter her.",
+    "date": "2026-10-16",
+    "time": "21:00",
+    "venue": "Store VEGA",
+    "room": "Store VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/dj-aligator-2026-10-16",
+    "image": "https://payload.vega.dk/media/Vega-Kalender-DjAligator-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-store-vega-2026-10-16-experience-dj-aligator-in-vega--buy-tickets-here-",
+    "artist": "Experience DJ Aligator in VEGA. Buy tickets here.",
     "date": "2026-10-16",
     "time": "",
     "venue": "Store VEGA",
@@ -143,8 +221,8 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-store-vega-2026-10-17-vega",
-    "artist": "VEGA",
+    "id": "vega-store-vega-2026-10-17-oplev-dj-aligator-i-vega--k-b-billetter-her-",
+    "artist": "Oplev DJ Aligator i VEGA. Køb Billetter her.",
     "date": "2026-10-17",
     "time": "21:00",
     "venue": "Store VEGA",
@@ -156,8 +234,8 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-store-vega-2026-10-18-vega",
-    "artist": "VEGA",
+    "id": "vega-store-vega-2026-10-18-oplev-kaizers-orchestra---ekstrakoncert-den-18--oktober-i-vega--k-b-billetter-her",
+    "artist": "Oplev Kaizers Orchestra - Ekstrakoncert den 18. oktober i VEGA. Køb billetter her",
     "date": "2026-10-18",
     "time": "20:00",
     "venue": "Store VEGA",
@@ -169,8 +247,21 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-store-vega-2026-10-19-vega",
-    "artist": "VEGA",
+    "id": "vega-store-vega-2026-10-19-oplev-kaizers-orchestra-den-19--oktober-i-vega--k-b-billetter-her",
+    "artist": "Oplev Kaizers Orchestra den 19. oktober i VEGA. Køb billetter her",
+    "date": "2026-10-19",
+    "time": "20:00",
+    "venue": "Store VEGA",
+    "room": "Store VEGA",
+    "genre": "Andet",
+    "status": "Udsolgt",
+    "url": "https://vega.dk/event/kaizers-orchestra-2026-10-19",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_KaizersOrchestra_2026-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-store-vega-2026-10-19-experience-kaizers-orchestra-on-october-19th-at-vega--buy-tickets-here",
+    "artist": "Experience Kaizers Orchestra on October 19th at VEGA. Buy tickets here",
     "date": "2026-10-19",
     "time": "",
     "venue": "Store VEGA",
@@ -182,8 +273,8 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-store-vega-2026-10-20-vega",
-    "artist": "VEGA",
+    "id": "vega-store-vega-2026-10-20-oplev-fkj-i-vega--k-b-billetter-her",
+    "artist": "Oplev FKJ i VEGA. Køb billetter her",
     "date": "2026-10-20",
     "time": "20:00",
     "venue": "Store VEGA",
@@ -195,8 +286,8 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-store-vega-2026-10-21-vega",
-    "artist": "VEGA",
+    "id": "vega-store-vega-2026-10-21-oplev-ella-augusta-i-store-vega-den-21--oktober--k-b-billetter-her-",
+    "artist": "Oplev Ella Augusta i Store VEGA den 21. oktober. Køb billetter her.",
     "date": "2026-10-21",
     "time": "20:00",
     "venue": "Store VEGA",
@@ -208,8 +299,21 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-lille-vega-2026-10-21-vega",
-    "artist": "VEGA",
+    "id": "vega-lille-vega-2026-10-21-oplev-oranssi-pazuzu-i-vega--k-b-billetter-her",
+    "artist": "Oplev Oranssi Pazuzu i VEGA. Køb billetter her",
+    "date": "2026-10-21",
+    "time": "21:00",
+    "venue": "Lille VEGA",
+    "room": "Lille VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/oranssi-pazuzu-2026-10-21",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_OransiPazuzu_2026-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-lille-vega-2026-10-21-experience-oranssi-pazuzu-in-vega--buy-tickets-here",
+    "artist": "Experience Oranssi Pazuzu in VEGA. Buy tickets here",
     "date": "2026-10-21",
     "time": "",
     "venue": "Lille VEGA",
@@ -221,8 +325,21 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-store-vega-2026-10-22-vega",
-    "artist": "VEGA",
+    "id": "vega-store-vega-2026-10-22-oplev-slayyyter-den-22--oktober-i-store-vega--k-b-billetter",
+    "artist": "Oplev Slayyyter den 22. oktober i Store VEGA. Køb billetter",
+    "date": "2026-10-22",
+    "time": "20:00",
+    "venue": "Store VEGA",
+    "room": "Store VEGA",
+    "genre": "Andet",
+    "status": "Udsolgt",
+    "url": "https://vega.dk/event/slayyyter-2026-10-22",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_Slayyyter_2026-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-store-vega-2026-10-22-experience-slayyyter-on-october-22-in-store-vega--buy-tickets",
+    "artist": "Experience Slayyyter on October 22 in Store VEGA. Buy tickets",
     "date": "2026-10-22",
     "time": "",
     "venue": "Store VEGA",
@@ -234,8 +351,8 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-lille-vega-2026-10-24-vega",
-    "artist": "VEGA",
+    "id": "vega-lille-vega-2026-10-24-oplev-draghouse-i-vega--k-b-billetter-her",
+    "artist": "Oplev Draghouse i VEGA. Køb billetter her",
     "date": "2026-10-24",
     "time": "21:00",
     "venue": "Lille VEGA",
@@ -247,8 +364,21 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-lille-vega-2026-10-26-vega",
-    "artist": "VEGA",
+    "id": "vega-lille-vega-2026-10-26-oplev-est-gee-i-vega--k-b-billetter-her",
+    "artist": "Oplev EST Gee i VEGA. Køb billetter her",
+    "date": "2026-10-26",
+    "time": "20:00",
+    "venue": "Lille VEGA",
+    "room": "Lille VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/est-gee-2026-10-26",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_ESTGee_2026-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-lille-vega-2026-10-26-experience-est-gee-in-vega--buy-tickets-here",
+    "artist": "Experience EST Gee in VEGA. Buy tickets here",
     "date": "2026-10-26",
     "time": "",
     "venue": "Lille VEGA",
@@ -260,8 +390,21 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-lille-vega-2026-10-27-vega",
-    "artist": "VEGA",
+    "id": "vega-lille-vega-2026-10-27-oplev-the-kilimanjaro-darkjazz-ensemble-i-vega--k-b-billetter-her",
+    "artist": "Oplev The KILIMANJARO Darkjazz Ensemble i VEGA. Køb billetter her",
+    "date": "2026-10-27",
+    "time": "20:00",
+    "venue": "Lille VEGA",
+    "room": "Lille VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/the-kilimanjaro-darkjazz-ensemble-2026-10-27",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_the KILIMANJARO Darkjazz Ensemble_2026-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-lille-vega-2026-10-27-experience-the-kilimanjaro-darkjazz-ensemble-in-vega--buy-tickets-here",
+    "artist": "Experience The KILIMANJARO Darkjazz Ensemble in VEGA. Buy tickets here",
     "date": "2026-10-27",
     "time": "",
     "venue": "Lille VEGA",
@@ -273,8 +416,21 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-store-vega-2026-10-28-vega",
-    "artist": "VEGA",
+    "id": "vega-store-vega-2026-10-28-oplev-alex-vargas-i-vega--k-b-billetter-her",
+    "artist": "Oplev Alex Vargas i VEGA. Køb billetter her",
+    "date": "2026-10-28",
+    "time": "20:00",
+    "venue": "Store VEGA",
+    "room": "Store VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/alex-vargas-ekstrakoncert-2026-10-28",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_AlexVargas_2026-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-store-vega-2026-10-28-experience-alex-vargas-in-vega--buy-tickets-here",
+    "artist": "Experience Alex Vargas in VEGA. Buy tickets here",
     "date": "2026-10-28",
     "time": "",
     "venue": "Store VEGA",
@@ -286,8 +442,21 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-lille-vega-2026-10-30-vega",
-    "artist": "VEGA",
+    "id": "vega-lille-vega-2026-10-30-oplev-carllo-yaboy-i-lille-vega-den-30--oktober--k-b-billetter-her",
+    "artist": "Oplev CARLLO YABOY i Lille VEGA den 30. oktober. Køb billetter her",
+    "date": "2026-10-30",
+    "time": "20:00",
+    "venue": "Lille VEGA",
+    "room": "Lille VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/carllo-yaboy-2026-10-30",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_CARLLOYABOY_2026-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-lille-vega-2026-10-30-experience-carllo-yaboy-in-lille-vega-on-october-30--buy-tickets-here",
+    "artist": "Experience CARLLO YABOY in Lille VEGA on October 30. Buy tickets here",
     "date": "2026-10-30",
     "time": "",
     "venue": "Lille VEGA",
@@ -299,8 +468,21 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-lille-vega-2026-11-05-vega",
-    "artist": "VEGA",
+    "id": "vega-lille-vega-2026-11-05-oplev-westside-cowboy-i-vega-den-5--november--k-b-billetter-her-",
+    "artist": "Oplev Westside Cowboy i VEGA den 5. november. Køb billetter her.",
+    "date": "2026-11-05",
+    "time": "20:00",
+    "venue": "Lille VEGA",
+    "room": "Lille VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/westside-cowboy-2026-11-05",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_WestsideCowboys_2026-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-lille-vega-2026-11-05-experience-westside-cowboy-at-vega-on-november-5--buy-tickets-here-",
+    "artist": "Experience Westside Cowboy at VEGA on November 5. Buy tickets here.",
     "date": "2026-11-05",
     "time": "",
     "venue": "Lille VEGA",
@@ -312,8 +494,21 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-lille-vega-2026-11-07-vega",
-    "artist": "VEGA",
+    "id": "vega-lille-vega-2026-11-07-oplev-eros-for-you-i-vega--k-b-billetter-her",
+    "artist": "Oplev Eros for you i VEGA. Køb billetter her",
+    "date": "2026-11-07",
+    "time": "21:00",
+    "venue": "Lille VEGA",
+    "room": "Lille VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/eros-for-you-2026-11-07",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_Erosforyou_2026-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-lille-vega-2026-11-07-experience-eros-for-you-in-vega--buy-tickets-here",
+    "artist": "Experience Eros for you in VEGA. Buy tickets here",
     "date": "2026-11-07",
     "time": "",
     "venue": "Lille VEGA",
@@ -325,8 +520,21 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-store-vega-2026-11-09-vega",
-    "artist": "VEGA",
+    "id": "vega-store-vega-2026-11-09-oplev-uro---2--ekstrakoncert-i-vega--k-b-billetter-her",
+    "artist": "Oplev URO - 2. ekstrakoncert i VEGA. Køb billetter her",
+    "date": "2026-11-09",
+    "time": "20:00",
+    "venue": "Store VEGA",
+    "room": "Store VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/uro-2-ekstrakoncert-2026-11-09",
+    "image": "https://payload.vega.dk/media/uro billedeee-3-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-store-vega-2026-11-09-experience-uro---2nd-extra-concert-in-vega--buy-tickets-here",
+    "artist": "Experience URO - 2nd extra concert in VEGA. Buy tickets here",
     "date": "2026-11-09",
     "time": "",
     "venue": "Store VEGA",
@@ -338,8 +546,21 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-store-vega-2026-11-10-vega",
-    "artist": "VEGA",
+    "id": "vega-store-vega-2026-11-10-oplev-the-streets-i-vega--k-b-billetter-her",
+    "artist": "Oplev The Streets i VEGA. Køb billetter her",
+    "date": "2026-11-10",
+    "time": "20:00",
+    "venue": "Store VEGA",
+    "room": "Store VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/the-streets-2026-11-10",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_TheStreets_2026-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-store-vega-2026-11-10-experience-the-streets-in-vega--buy-tickets-here",
+    "artist": "Experience The Streets in VEGA. Buy tickets here",
     "date": "2026-11-10",
     "time": "",
     "venue": "Store VEGA",
@@ -351,8 +572,21 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-store-vega-2026-11-11-vega",
-    "artist": "VEGA",
+    "id": "vega-store-vega-2026-11-11-oplev-uro---ekstrakoncert-i-vega--k-b-billetter-her",
+    "artist": "Oplev URO - Ekstrakoncert i VEGA. Køb billetter her",
+    "date": "2026-11-11",
+    "time": "20:00",
+    "venue": "Store VEGA",
+    "room": "Store VEGA",
+    "genre": "Andet",
+    "status": "Udsolgt",
+    "url": "https://vega.dk/event/uro-ekstrakoncert-2026-11-11",
+    "image": "https://payload.vega.dk/media/uro billedeee-3-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-store-vega-2026-11-11-oplev-uro---extra-concert-i-vega--k-b-billetter-her",
+    "artist": "Oplev URO - Extra concert i VEGA. Køb billetter her",
     "date": "2026-11-11",
     "time": "",
     "venue": "Store VEGA",
@@ -364,8 +598,21 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-store-vega-2026-11-12-vega",
-    "artist": "VEGA",
+    "id": "vega-store-vega-2026-11-12-uro--12-11-2026-",
+    "artist": "URO (12.11.2026)",
+    "date": "2026-11-12",
+    "time": "20:00",
+    "venue": "Store VEGA",
+    "room": "Store VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/uro-2026-11-12",
+    "image": "https://payload.vega.dk/media/uro billedeee-3-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-store-vega-2026-11-12-oplev-uro-i-vega--k-b-billetter-her",
+    "artist": "Oplev URO i VEGA. Køb billetter her",
     "date": "2026-11-12",
     "time": "",
     "venue": "Store VEGA",
@@ -377,8 +624,21 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-lille-vega-2026-11-12-vega",
-    "artist": "VEGA",
+    "id": "vega-lille-vega-2026-11-12-oplev-baske-i-vega--k-b-billetter-her",
+    "artist": "Oplev Baske i VEGA. Køb billetter her",
+    "date": "2026-11-12",
+    "time": "21:00",
+    "venue": "Lille VEGA",
+    "room": "Lille VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/baske-2026-11-12",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_Baske_2026-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-lille-vega-2026-11-12-experience-baske-in-vega--buy-tickets-here",
+    "artist": "Experience Baske in VEGA. Buy tickets here",
     "date": "2026-11-12",
     "time": "",
     "venue": "Lille VEGA",
@@ -390,8 +650,21 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-store-vega-2026-11-13-vega",
-    "artist": "VEGA",
+    "id": "vega-store-vega-2026-11-13-oplev-mikael-simpson-i-vega--k-b-billetter-her",
+    "artist": "Oplev Mikael Simpson i VEGA. Køb billetter her",
+    "date": "2026-11-13",
+    "time": "20:00",
+    "venue": "Store VEGA",
+    "room": "Store VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/mikael-simpson-2026-11-13",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_MikaelSimpson_2026-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-store-vega-2026-11-13-experience-mikael-simpson-in-vega--buy-tickets-here",
+    "artist": "Experience Mikael Simpson in VEGA. Buy tickets here",
     "date": "2026-11-13",
     "time": "",
     "venue": "Store VEGA",
@@ -403,8 +676,21 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-lille-vega-2026-11-14-vega",
-    "artist": "VEGA",
+    "id": "vega-lille-vega-2026-11-14-oplev-100-wet-i-vega-den-14--november--k-b-billetter-her",
+    "artist": "Oplev 100%WET i VEGA den 14. november. Køb billetter her",
+    "date": "2026-11-14",
+    "time": "21:00",
+    "venue": "Lille VEGA",
+    "room": "Lille VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/100percentwet-2026-11-14",
+    "image": "https://payload.vega.dk/media/2026_Kalender_100WET-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-lille-vega-2026-11-14-experience-100-wet-in-vega-on-november-14--buy-tickets-here",
+    "artist": "Experience 100%WET in VEGA on November 14. Buy tickets here",
     "date": "2026-11-14",
     "time": "",
     "venue": "Lille VEGA",
@@ -416,8 +702,8 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-store-vega-2026-11-16-vega",
-    "artist": "VEGA",
+    "id": "vega-store-vega-2026-11-16-oplev-vega-backstage-i-vega--k-b-billetter-her",
+    "artist": "Oplev VEGA Backstage i VEGA. Køb billetter her",
     "date": "2026-11-16",
     "time": "",
     "venue": "Store VEGA",
@@ -429,8 +715,21 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-lille-vega-2026-11-17-vega",
-    "artist": "VEGA",
+    "id": "vega-lille-vega-2026-11-17-oplev-archspire-i-vega--k-b-billetter-her",
+    "artist": "Oplev Archspire i VEGA. Køb billetter her",
+    "date": "2026-11-17",
+    "time": "18:30",
+    "venue": "Lille VEGA",
+    "room": "Lille VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/archspire-2026-11-17",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_Archspire_2026-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-lille-vega-2026-11-17-experience-archspire-in-vega--buy-tickets-here",
+    "artist": "Experience Archspire in VEGA. Buy tickets here",
     "date": "2026-11-17",
     "time": "",
     "venue": "Lille VEGA",
@@ -442,8 +741,21 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-lille-vega-2026-11-19-vega",
-    "artist": "VEGA",
+    "id": "vega-lille-vega-2026-11-19-oplev-the-browning-i-vega--k-b-billetter-her",
+    "artist": "Oplev The Browning i VEGA. Køb billetter her",
+    "date": "2026-11-19",
+    "time": "20:00",
+    "venue": "Lille VEGA",
+    "room": "Lille VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/the-browning-2026-11-19",
+    "image": "https://payload.vega.dk/media/2026_Kalender_TheBrowning-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-lille-vega-2026-11-19-experience-the-browning-in-vega--buy-tickets-here",
+    "artist": "Experience The Browning in VEGA. Buy tickets here",
     "date": "2026-11-19",
     "time": "",
     "venue": "Lille VEGA",
@@ -455,8 +767,21 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-lille-vega-2026-12-02-vega",
-    "artist": "VEGA",
+    "id": "vega-lille-vega-2026-12-02-oplev-pay-i-vega--k-b-billetter-her",
+    "artist": "Oplev PAY i VEGA. Køb billetter her",
+    "date": "2026-12-02",
+    "time": "20:00",
+    "venue": "Lille VEGA",
+    "room": "Lille VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/pay-2026-12-02",
+    "image": "https://payload.vega.dk/media/2026_Kalender_12_12_PAY-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-lille-vega-2026-12-02-experience-pay-in-vega--buy-tickets-here",
+    "artist": "Experience PAY in VEGA. Buy tickets here",
     "date": "2026-12-02",
     "time": "",
     "venue": "Lille VEGA",
@@ -468,8 +793,21 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-lille-vega-2026-12-05-vega",
-    "artist": "VEGA",
+    "id": "vega-lille-vega-2026-12-05-oplev-guzo-i-vega--k-b-billetter-her",
+    "artist": "Oplev GUZO i VEGA. Køb billetter her",
+    "date": "2026-12-05",
+    "time": "20:00",
+    "venue": "Lille VEGA",
+    "room": "Lille VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/guzo-2026-12-05",
+    "image": "https://payload.vega.dk/media/2026_Kalender_GUZO-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-lille-vega-2026-12-05-experience-guzo-in-vega--buy-tickets-here",
+    "artist": "Experience GUZO in VEGA. Buy tickets here",
     "date": "2026-12-05",
     "time": "",
     "venue": "Lille VEGA",
@@ -481,8 +819,21 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-lille-vega-2026-12-06-vega",
-    "artist": "VEGA",
+    "id": "vega-lille-vega-2026-12-06-oplev-trold-for-b-rn-i-vega--k-b-billetter-her",
+    "artist": "Oplev TROLD for børn i VEGA. Køb billetter her",
+    "date": "2026-12-06",
+    "time": "14:00",
+    "venue": "Lille VEGA",
+    "room": "Lille VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/trold-for-born-2026-12-06",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_TROLDforbÃ¸rn_2026-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-lille-vega-2026-12-06-experience-trold-for-b-rn-in-vega--buy-tickets-here",
+    "artist": "Experience TROLD for børn in VEGA. Buy tickets here",
     "date": "2026-12-06",
     "time": "",
     "venue": "Lille VEGA",
@@ -494,8 +845,8 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-lille-vega-2026-12-10-vega",
-    "artist": "VEGA",
+    "id": "vega-lille-vega-2026-12-10-holdo--10-12-2026-",
+    "artist": "Holdo (10.12.2026)",
     "date": "2026-12-10",
     "time": "",
     "venue": "Lille VEGA",
@@ -507,8 +858,8 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-lille-vega-2026-12-12-vega",
-    "artist": "VEGA",
+    "id": "vega-lille-vega-2026-12-12-users--12-12-2026-",
+    "artist": "USERS (12.12.2026)",
     "date": "2026-12-12",
     "time": "",
     "venue": "Lille VEGA",
@@ -520,8 +871,21 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-store-vega-2026-12-22-vega",
-    "artist": "VEGA",
+    "id": "vega-store-vega-2026-12-22-oplev-anton-westerlin-i-vega--k-b-din-billet-her-",
+    "artist": "Oplev Anton Westerlin i VEGA. Køb din billet her.",
+    "date": "2026-12-22",
+    "time": "22:00",
+    "venue": "Store VEGA",
+    "room": "Store VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/anton-westerlin-2026-12-22",
+    "image": "https://payload.vega.dk/media/VEGA_kalender_Anton_Westerlin_2026-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-store-vega-2026-12-22-experience-anton-westerlin-in-vega--buy-your-ticket-here-",
+    "artist": "Experience Anton Westerlin in VEGA. Buy your ticket here.",
     "date": "2026-12-22",
     "time": "",
     "venue": "Store VEGA",
@@ -533,8 +897,21 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-store-vega-2026-12-29-vega",
-    "artist": "VEGA",
+    "id": "vega-store-vega-2026-12-29-oplev-outlandish-i-vega--k-b-billetter-her",
+    "artist": "Oplev Outlandish i VEGA. Køb billetter her",
+    "date": "2026-12-29",
+    "time": "20:00",
+    "venue": "Store VEGA",
+    "room": "Store VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/outlandish-2026-12-29",
+    "image": "https://payload.vega.dk/media/Hjemmeside_Kalender_Outlandish_2026-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-store-vega-2026-12-29-experience-outlandish-in-vega--buy-tickets-here",
+    "artist": "Experience Outlandish in VEGA. Buy tickets here",
     "date": "2026-12-29",
     "time": "",
     "venue": "Store VEGA",
@@ -546,8 +923,21 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-store-vega-2027-01-08-vega",
-    "artist": "VEGA",
+    "id": "vega-store-vega-2027-01-08-oplev-syl-til--bningskoncert-i-vega--k-b-billetter-her-",
+    "artist": "Oplev SYL til åbningskoncert i VEGA. Køb billetter her.",
+    "date": "2027-01-08",
+    "time": "20:00",
+    "venue": "Store VEGA",
+    "room": "Store VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/syl-2027-01-08",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_SYL_2027-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-store-vega-2027-01-08-experience-syl-at-the-opening-concert-in-vega--buy-tickets-here-",
+    "artist": "Experience SYL at the opening concert in VEGA. Buy tickets here.",
     "date": "2027-01-08",
     "time": "",
     "venue": "Store VEGA",
@@ -559,8 +949,21 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-store-vega-2027-01-09-vega",
-    "artist": "VEGA",
+    "id": "vega-store-vega-2027-01-09-oplev-iceage-i-vega--k-b-billetter-her",
+    "artist": "Oplev Iceage i VEGA. Køb billetter her",
+    "date": "2027-01-09",
+    "time": "20:00",
+    "venue": "Store VEGA",
+    "room": "Store VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/iceage-2027-01-09",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_Iceage_2026-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-store-vega-2027-01-09-experience-iceage-in-vega--buy-tickets-here",
+    "artist": "Experience Iceage in VEGA. Buy tickets here",
     "date": "2027-01-09",
     "time": "",
     "venue": "Store VEGA",
@@ -572,8 +975,21 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-store-vega-2027-01-14-vega",
-    "artist": "VEGA",
+    "id": "vega-store-vega-2027-01-14-oplev-kvadrillers-i-store-vega-den-14--januar-2027--k-b-billetter-her-",
+    "artist": "Oplev Kvadrillers i Store VEGA den 14. januar 2027. Køb billetter her.",
+    "date": "2027-01-14",
+    "time": "20:00",
+    "venue": "Store VEGA",
+    "room": "Store VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/kvadrillers-2027-01-14",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_Kvadrillers_2026-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-store-vega-2027-01-14-experience-kvadrillers-at-store-vega-on-january-14--2027--buy-tickets-here-",
+    "artist": "Experience Kvadrillers at Store VEGA on January 14, 2027. Buy tickets here.",
     "date": "2027-01-14",
     "time": "",
     "venue": "Store VEGA",
@@ -585,8 +1001,21 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-lille-vega-2027-01-16-vega",
-    "artist": "VEGA",
+    "id": "vega-lille-vega-2027-01-16-oplev-folkets-festival-2027--k-b-billetter-her",
+    "artist": "Oplev Folkets Festival 2027. Køb billetter her",
+    "date": "2027-01-16",
+    "time": "16:00",
+    "venue": "Lille VEGA",
+    "room": "Lille VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/folkets-festival-2027-2027-01-16",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_FolketsFestival_2027-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-lille-vega-2027-01-16-experience-folkets-festival-2027--buy-tickets-here",
+    "artist": "Experience Folkets Festival 2027. Buy tickets here",
     "date": "2027-01-16",
     "time": "",
     "venue": "Lille VEGA",
@@ -598,8 +1027,21 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-store-vega-2027-01-27-vega",
-    "artist": "VEGA",
+    "id": "vega-store-vega-2027-01-27-oplev-mico-i-vega--k-b-billetter-her",
+    "artist": "Oplev MICO i VEGA. Køb billetter her",
+    "date": "2027-01-27",
+    "time": "20:00",
+    "venue": "Store VEGA",
+    "room": "Store VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/mico-2027-01-27",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_MICO_2027-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-store-vega-2027-01-27-experience-mico-in-vega--buy-tickets-here",
+    "artist": "Experience MICO in VEGA. Buy tickets here",
     "date": "2027-01-27",
     "time": "",
     "venue": "Store VEGA",
@@ -611,8 +1053,21 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-store-vega-2027-02-03-vega",
-    "artist": "VEGA",
+    "id": "vega-store-vega-2027-02-03-oplev-the-mary-wallopers-i-vega--k-b-billetter-her",
+    "artist": "Oplev The Mary Wallopers i VEGA. Køb billetter her",
+    "date": "2027-02-03",
+    "time": "20:00",
+    "venue": "Store VEGA",
+    "room": "Store VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/the-mary-wallopers-2027-02-03",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_TheMaryWallopers_2027-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-store-vega-2027-02-03-experience-the-mary-wallopers-in-vega--buy-tickets-here",
+    "artist": "Experience The Mary Wallopers in VEGA. Buy tickets here",
     "date": "2027-02-03",
     "time": "",
     "venue": "Store VEGA",
@@ -624,8 +1079,21 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-lille-vega-2027-02-04-vega",
-    "artist": "VEGA",
+    "id": "vega-lille-vega-2027-02-04-oplev-sch-fer-i-vega--k-b-billetter-her",
+    "artist": "Oplev Schæfer i VEGA. Køb billetter her",
+    "date": "2027-02-04",
+    "time": "20:00",
+    "venue": "Lille VEGA",
+    "room": "Lille VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/schaefer-2027-02-04",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_SchÃ¦fer_2027-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-lille-vega-2027-02-04-experience-sch-fer-in-vega--buy-tickets-here",
+    "artist": "Experience Schæfer in VEGA. Buy tickets here",
     "date": "2027-02-04",
     "time": "",
     "venue": "Lille VEGA",
@@ -637,8 +1105,21 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-store-vega-2027-02-04-vega",
-    "artist": "VEGA",
+    "id": "vega-store-vega-2027-02-04-oplev-eee-gee-i-vega--k-b-billetter-her",
+    "artist": "Oplev eee gee i VEGA. Køb billetter her",
+    "date": "2027-02-04",
+    "time": "20:00",
+    "venue": "Store VEGA",
+    "room": "Store VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/eee-gee-2027-02-04",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_EeeGee_2027-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-store-vega-2027-02-04-experience-eee-gee-in-vega--buy-tickets-here",
+    "artist": "Experience eee gee in VEGA. Buy tickets here",
     "date": "2027-02-04",
     "time": "",
     "venue": "Store VEGA",
@@ -650,8 +1131,21 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-store-vega-2027-02-05-vega",
-    "artist": "VEGA",
+    "id": "vega-store-vega-2027-02-05-oplev-eee-gee-i-vega--k-b-billetter-her",
+    "artist": "Oplev eee gee i VEGA. Køb billetter her",
+    "date": "2027-02-05",
+    "time": "20:00",
+    "venue": "Store VEGA",
+    "room": "Store VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/eee-gee-2027-02-05",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_EeeGee_2027-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-store-vega-2027-02-05-experience-eee-gee-in-vega--buy-tickets-here",
+    "artist": "Experience eee gee in VEGA. Buy tickets here",
     "date": "2027-02-05",
     "time": "",
     "venue": "Store VEGA",
@@ -663,8 +1157,21 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-store-vega-2027-02-06-vega",
-    "artist": "VEGA",
+    "id": "vega-store-vega-2027-02-06-oplev-eee-gee-i-vega--k-b-billetter-her",
+    "artist": "Oplev eee gee i VEGA. Køb billetter her",
+    "date": "2027-02-06",
+    "time": "20:00",
+    "venue": "Store VEGA",
+    "room": "Store VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/eee-gee-2027-02-06",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_EeeGee_2027-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-store-vega-2027-02-06-experience-eee-gee-in-vega--buy-tickets-here",
+    "artist": "Experience eee gee in VEGA. Buy tickets here",
     "date": "2027-02-06",
     "time": "",
     "venue": "Store VEGA",
@@ -676,8 +1183,21 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-lille-vega-2027-02-12-vega",
-    "artist": "VEGA",
+    "id": "vega-lille-vega-2027-02-12-oplev-muskila---simona-abdallah-i-vega--k-b-billetter-her",
+    "artist": "Oplev Muskila & Simona Abdallah i VEGA. Køb billetter her",
+    "date": "2027-02-12",
+    "time": "22:00",
+    "venue": "Lille VEGA",
+    "room": "Lille VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/muskila-simona-abdallah-2027-02-12",
+    "image": "https://payload.vega.dk/media/VEGA_kalender_Muskila & Simona Abdallah_2026-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-lille-vega-2027-02-12-experience-muskila---simona-abdallah-in-vega--buy-tickets-here",
+    "artist": "Experience Muskila & Simona Abdallah in VEGA. Buy tickets here",
     "date": "2027-02-12",
     "time": "",
     "venue": "Lille VEGA",
@@ -689,8 +1209,8 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-store-vega-2027-02-13-vega",
-    "artist": "VEGA",
+    "id": "vega-store-vega-2027-02-13-oplev-lowly-i-vega--k-b-billetter-her",
+    "artist": "Oplev Lowly i VEGA. Køb billetter her",
     "date": "2027-02-13",
     "time": "20:00",
     "venue": "Store VEGA",
@@ -702,8 +1222,8 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-store-vega-2027-02-14-vega",
-    "artist": "VEGA",
+    "id": "vega-store-vega-2027-02-14-experience-masego-in-vega--buy-tickets-here",
+    "artist": "Experience Masego in VEGA. Buy tickets here",
     "date": "2027-02-14",
     "time": "",
     "venue": "Store VEGA",
@@ -715,8 +1235,21 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-lille-vega-2027-02-14-vega",
-    "artist": "VEGA",
+    "id": "vega-lille-vega-2027-02-14-oplev-clap-your-hands-say-yeah--k-b-billetter-her-",
+    "artist": "Oplev Clap Your Hands Say Yeah. Køb Billetter her.",
+    "date": "2027-02-14",
+    "time": "20:00",
+    "venue": "Lille VEGA",
+    "room": "Lille VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/clap-your-hands-say-yeah-2027-02-14",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_Clap_Your_Hands_Say_Yeah_2027-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-lille-vega-2027-02-14-experience-clap-your-hands-say-yeah--buy-tickets-here-",
+    "artist": "Experience Clap Your Hands Say Yeah. Buy Tickets here.",
     "date": "2027-02-14",
     "time": "",
     "venue": "Lille VEGA",
@@ -728,8 +1261,21 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-lille-vega-2027-02-15-vega",
-    "artist": "VEGA",
+    "id": "vega-lille-vega-2027-02-15-oplev-los-bitchos---friends-i-vega--k-b-billetter-her",
+    "artist": "Oplev Los Bitchos & Friends i VEGA. Køb billetter her",
+    "date": "2027-02-15",
+    "time": "20:00",
+    "venue": "Lille VEGA",
+    "room": "Lille VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/los-bitchos-and-friends-2027-02-15",
+    "image": "https://payload.vega.dk/media/5dThn9f4-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-lille-vega-2027-02-15-experience-los-bitchos---friends-at-vega--buy-tickets-here",
+    "artist": "Experience Los Bitchos & Friends at VEGA. Buy tickets here",
     "date": "2027-02-15",
     "time": "",
     "venue": "Lille VEGA",
@@ -741,8 +1287,21 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-store-vega-2027-02-17-vega",
-    "artist": "VEGA",
+    "id": "vega-store-vega-2027-02-17-oplev-hollywood-undead-i-vega--k-b-billetter-her",
+    "artist": "Oplev Hollywood Undead i VEGA. Køb billetter her",
+    "date": "2027-02-17",
+    "time": "18:45",
+    "venue": "Store VEGA",
+    "room": "Store VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/hollywood-undead-2027-02-17",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_HollywoodUndead_2027-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-store-vega-2027-02-17-experience-hollywood-undead-in-vega--buy-tickets-here",
+    "artist": "Experience Hollywood Undead in VEGA. Buy tickets here",
     "date": "2027-02-17",
     "time": "",
     "venue": "Store VEGA",
@@ -754,8 +1313,21 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-store-vega-2027-02-18-vega",
-    "artist": "VEGA",
+    "id": "vega-store-vega-2027-02-18-oplev-tabloid-i-vega--k-b-billetter-her",
+    "artist": "Oplev Tabloid i VEGA. Køb billetter her",
+    "date": "2027-02-18",
+    "time": "20:00",
+    "venue": "Store VEGA",
+    "room": "Store VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/tabloid-2027-02-18",
+    "image": "https://payload.vega.dk/media/Vega-Kalender-Tabloid-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-store-vega-2027-02-18-experience-tabloid-in-vega--buy-tickets-here-",
+    "artist": "Experience Tabloid in VEGA. Buy tickets here.",
     "date": "2027-02-18",
     "time": "",
     "venue": "Store VEGA",
@@ -767,8 +1339,21 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-store-vega-2027-02-19-vega",
-    "artist": "VEGA",
+    "id": "vega-store-vega-2027-02-19-oplev-snuggle-i-vega--k-b-billetter-her",
+    "artist": "Oplev snuggle i VEGA. Køb billetter her",
+    "date": "2027-02-19",
+    "time": "20:00",
+    "venue": "Store VEGA",
+    "room": "Store VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/snuggle-2027-02-19",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_Snuggle_2026-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-store-vega-2027-02-19-experience-snuggle-in-vega--buy-tickets-here",
+    "artist": "Experience snuggle in VEGA. Buy tickets here",
     "date": "2027-02-19",
     "time": "",
     "venue": "Store VEGA",
@@ -780,8 +1365,21 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-store-vega-2027-02-24-vega",
-    "artist": "VEGA",
+    "id": "vega-store-vega-2027-02-24-oplev-eiv-r-i-vega--k-b-billetter-her",
+    "artist": "Oplev Eivør i VEGA. Køb billetter her",
+    "date": "2027-02-24",
+    "time": "20:00",
+    "venue": "Store VEGA",
+    "room": "Store VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/eivor-2027-02-24",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_EivÃ¸r_2027-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-store-vega-2027-02-24-experience-eiv-r-in-vega--buy-tickets-here",
+    "artist": "Experience Eivør in VEGA. Buy tickets here",
     "date": "2027-02-24",
     "time": "",
     "venue": "Store VEGA",
@@ -793,8 +1391,21 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-lille-vega-2027-03-01-vega",
-    "artist": "VEGA",
+    "id": "vega-lille-vega-2027-03-01-oplev-party-cannon---internal-bleeding-i-vega--k-b-biletter-her-",
+    "artist": "Oplev Party Cannon + Internal Bleeding i VEGA. Køb Biletter her.",
+    "date": "2027-03-01",
+    "time": "20:00",
+    "venue": "Lille VEGA",
+    "room": "Lille VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/party-cannon-internal-bleeding-2027-03-01",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_Party_Cannon+Internal_Bleeding_2027-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-lille-vega-2027-03-01-experience-party-cannon---internal-bleeding-in-vega--buy-tickets-here-",
+    "artist": "Experience Party Cannon + Internal Bleeding in VEGA. Buy tickets here.",
     "date": "2027-03-01",
     "time": "",
     "venue": "Lille VEGA",
@@ -806,8 +1417,21 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-lille-vega-2027-03-02-vega",
-    "artist": "VEGA",
+    "id": "vega-lille-vega-2027-03-02-oplev-this-is-lorelei-i-vega--k-b-billetter-her",
+    "artist": "Oplev This Is Lorelei i VEGA. Køb billetter her",
+    "date": "2027-03-02",
+    "time": "21:00",
+    "venue": "Lille VEGA",
+    "room": "Lille VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/this-is-lorelei-2027-03-02",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_ThisIsLorelei_2027-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-lille-vega-2027-03-02-experience-this-is-lorelei-in-vega--buy-tickets-here",
+    "artist": "Experience This Is Lorelei in VEGA. Buy tickets here",
     "date": "2027-03-02",
     "time": "",
     "venue": "Lille VEGA",
@@ -819,8 +1443,21 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-store-vega-2027-03-03-vega",
-    "artist": "VEGA",
+    "id": "vega-store-vega-2027-03-03-oplev-kid-francescoli-i-vega--k-b-billetter-her",
+    "artist": "Oplev Kid Francescoli i VEGA. Køb billetter her",
+    "date": "2027-03-03",
+    "time": "20:00",
+    "venue": "Store VEGA",
+    "room": "Store VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/kid-francescoli-2027-03-03",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_Kid Francescoli_2027-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-store-vega-2027-03-03-experience-kid-francescoli-in-vega--buy-tickets-here",
+    "artist": "Experience Kid Francescoli in VEGA. Buy tickets here",
     "date": "2027-03-03",
     "time": "",
     "venue": "Store VEGA",
@@ -832,8 +1469,21 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-store-vega-2027-03-10-vega",
-    "artist": "VEGA",
+    "id": "vega-store-vega-2027-03-10-oplev-dina--gon-i-vega--k-b-billetter-her",
+    "artist": "Oplev Dina Ögon i VEGA. Køb billetter her",
+    "date": "2027-03-10",
+    "time": "20:00",
+    "venue": "Store VEGA",
+    "room": "Store VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/dina-ogon-2027-03-10",
+    "image": "https://payload.vega.dk/media/VEGA_kalender_Dina_Ãgon_2027-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-store-vega-2027-03-10-experience-dina--gon-in-vega--buy-tickets-here-",
+    "artist": "Experience Dina Ögon in VEGA. Buy tickets here.",
     "date": "2027-03-10",
     "time": "",
     "venue": "Store VEGA",
@@ -845,8 +1495,21 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-store-vega-2027-03-11-vega",
-    "artist": "VEGA",
+    "id": "vega-store-vega-2027-03-11-oplev-school-of-x-i-vega--k-b-billetter-her",
+    "artist": "Oplev School of X i VEGA. Køb billetter her",
+    "date": "2027-03-11",
+    "time": "20:00",
+    "venue": "Store VEGA",
+    "room": "Store VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/school-of-x-2027-03-11",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_School_of_X_2027-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-store-vega-2027-03-11-experience-school-of-x-in-vega--buy-tickets-here",
+    "artist": "Experience School of X in VEGA. Buy tickets here",
     "date": "2027-03-11",
     "time": "",
     "venue": "Store VEGA",
@@ -858,8 +1521,21 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-store-vega-2027-03-12-vega",
-    "artist": "VEGA",
+    "id": "vega-store-vega-2027-03-12-oplev-getdown-services-i-vega--k-b-billetter-her",
+    "artist": "Oplev Getdown Services i VEGA. Køb billetter her",
+    "date": "2027-03-12",
+    "time": "20:00",
+    "venue": "Store VEGA",
+    "room": "Store VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/getdown-services-2027-03-12",
+    "image": "https://payload.vega.dk/media/GetdownServices_Hjemmeside_Kalender_2026-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-store-vega-2027-03-12-experience-getdown-services-in-vega--buy-tickets-here",
+    "artist": "Experience Getdown Services in VEGA. Buy tickets here",
     "date": "2027-03-12",
     "time": "",
     "venue": "Store VEGA",
@@ -871,8 +1547,21 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-store-vega-2027-03-13-vega",
-    "artist": "VEGA",
+    "id": "vega-store-vega-2027-03-13-oplev-passenger-i-vega--k-b-billetter-her",
+    "artist": "Oplev Passenger i VEGA. Køb billetter her",
+    "date": "2027-03-13",
+    "time": "20:00",
+    "venue": "Store VEGA",
+    "room": "Store VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/passenger-2027-03-13",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_Passenger_2027-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-store-vega-2027-03-13-experience-passenger-in-vega--buy-tickets-here",
+    "artist": "Experience Passenger in VEGA. Buy tickets here",
     "date": "2027-03-13",
     "time": "",
     "venue": "Store VEGA",
@@ -884,8 +1573,21 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-lille-vega-2027-03-19-vega",
-    "artist": "VEGA",
+    "id": "vega-lille-vega-2027-03-19-oplev-fimiguerrero-i-vega--k-b-billetter-her",
+    "artist": "Oplev Fimiguerrero i VEGA. Køb billetter her",
+    "date": "2027-03-19",
+    "time": "21:00",
+    "venue": "Lille VEGA",
+    "room": "Lille VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/fimiguerrero-2027-03-19",
+    "image": "https://payload.vega.dk/media/Fimiguerrero_VEGA_Kalender_2026-700x550.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-lille-vega-2027-03-19-experience-fimiguerrero-in-vega--buy-tickets-here",
+    "artist": "Experience Fimiguerrero in VEGA. Buy tickets here",
     "date": "2027-03-19",
     "time": "",
     "venue": "Lille VEGA",
@@ -897,8 +1599,21 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-lille-vega-2027-03-20-vega",
-    "artist": "VEGA",
+    "id": "vega-lille-vega-2027-03-20-oplev-trepac-i-vega--k-b-billetter-her",
+    "artist": "Oplev Trepac i VEGA. Køb billetter her",
+    "date": "2027-03-20",
+    "time": "21:00",
+    "venue": "Lille VEGA",
+    "room": "Lille VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/trepac-2027-03-20",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_Trepac_2027-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-lille-vega-2027-03-20-experience-trepac-in-vega--buy-tickets-here",
+    "artist": "Experience Trepac in VEGA. Buy tickets here",
     "date": "2027-03-20",
     "time": "",
     "venue": "Lille VEGA",
@@ -910,8 +1625,21 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-store-vega-2027-03-20-vega",
-    "artist": "VEGA",
+    "id": "vega-store-vega-2027-03-20-oplev-trentem-ller-i-vega--k-b-billetter-her",
+    "artist": "Oplev trentemøller i VEGA. Køb billetter her",
+    "date": "2027-03-20",
+    "time": "20:00",
+    "venue": "Store VEGA",
+    "room": "Store VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/trentemoller-2027-03-20",
+    "image": "https://payload.vega.dk/media/2026_Kalender_TrentemÃ¸ller-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-store-vega-2027-03-20-experience-trente-windmills-in-vega--buy-tickets-here",
+    "artist": "Experience Trente windmills in VEGA. Buy tickets here",
     "date": "2027-03-20",
     "time": "",
     "venue": "Store VEGA",
@@ -923,8 +1651,21 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-store-vega-2027-03-21-vega",
-    "artist": "VEGA",
+    "id": "vega-store-vega-2027-03-21-oplev-palaye-royale-i-vega--k-b-billetter-her",
+    "artist": "Oplev Palaye Royale i VEGA. Køb billetter her",
+    "date": "2027-03-21",
+    "time": "20:00",
+    "venue": "Store VEGA",
+    "room": "Store VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/palaye-royale-2027-03-21",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_PalayeRoyale_2027-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-store-vega-2027-03-21-experience-palaye-royale-in-vega--buy-tickets-here",
+    "artist": "Experience Palaye Royale in VEGA. Buy tickets here",
     "date": "2027-03-21",
     "time": "",
     "venue": "Store VEGA",
@@ -936,8 +1677,21 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-store-vega-2027-03-27-vega",
-    "artist": "VEGA",
+    "id": "vega-store-vega-2027-03-27-oplev-olivver-i-vega--k-b-billetter-her",
+    "artist": "Oplev OLIVVER i VEGA. Køb billetter her",
+    "date": "2027-03-27",
+    "time": "20:00",
+    "venue": "Store VEGA",
+    "room": "Store VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/olivver-2027-03-27",
+    "image": "https://payload.vega.dk/media/2026_Kalender_olivvver-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-store-vega-2027-03-27-experience-olivver-in-vega--buy-tickets-here",
+    "artist": "Experience OLIVVER in VEGA. Buy tickets here",
     "date": "2027-03-27",
     "time": "",
     "venue": "Store VEGA",
@@ -949,8 +1703,21 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-lille-vega-2027-03-31-vega",
-    "artist": "VEGA",
+    "id": "vega-lille-vega-2027-03-31-oplev-karla-i-vega--k-b-billetter-her",
+    "artist": "Oplev KARLA i VEGA. Køb billetter her",
+    "date": "2027-03-31",
+    "time": "20:00",
+    "venue": "Lille VEGA",
+    "room": "Lille VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/karla-2027-03-31",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_Karla_2027-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-lille-vega-2027-03-31-experience-karla-in-vega--buy-tickets-here",
+    "artist": "Experience KARLA in VEGA. Buy tickets here",
     "date": "2027-03-31",
     "time": "",
     "venue": "Lille VEGA",
@@ -962,8 +1729,21 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-lille-vega-2027-04-01-vega",
-    "artist": "VEGA",
+    "id": "vega-lille-vega-2027-04-01-oplev-kn-gt-i-vega--k-b-billetter-her-",
+    "artist": "Oplev Knægt i VEGA. Køb billetter her.",
+    "date": "2027-04-01",
+    "time": "20:00",
+    "venue": "Lille VEGA",
+    "room": "Lille VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/knaegt-2027-04-01",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_KnÃ¦gt_2027-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-lille-vega-2027-04-01-experience-kn-gt-in-vega--buy-tickets-here-",
+    "artist": "Experience Knægt in VEGA. Buy tickets here.",
     "date": "2027-04-01",
     "time": "",
     "venue": "Lille VEGA",
@@ -975,8 +1755,21 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-lille-vega-2027-04-02-vega",
-    "artist": "VEGA",
+    "id": "vega-lille-vega-2027-04-02-oplev-synne-vo-i-vega--k-b-billetter-her",
+    "artist": "Oplev Synne Vo i VEGA. Køb billetter her",
+    "date": "2027-04-02",
+    "time": "21:00",
+    "venue": "Lille VEGA",
+    "room": "Lille VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/synne-vo-2027-04-02",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_SynneVo_2027-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-lille-vega-2027-04-02-experience-synne-vo-in-vega--buy-tickets-here",
+    "artist": "Experience Synne Vo in VEGA. Buy tickets here",
     "date": "2027-04-02",
     "time": "",
     "venue": "Lille VEGA",
@@ -988,8 +1781,21 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-store-vega-2027-04-02-vega",
-    "artist": "VEGA",
+    "id": "vega-store-vega-2027-04-02-oplev-andreas-odbjerg-i-vega--k-b-billetter-her",
+    "artist": "Oplev Andreas Odbjerg i VEGA. Køb billetter her",
+    "date": "2027-04-02",
+    "time": "20:00",
+    "venue": "Store VEGA",
+    "room": "Store VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/andreas-odbjerg-2027-04-02",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_AndreasOdbjerg_2027-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-store-vega-2027-04-02-experience-andreas-odbjerg-in-vega--buy-tickets-here",
+    "artist": "Experience Andreas Odbjerg in VEGA. Buy tickets here",
     "date": "2027-04-02",
     "time": "",
     "venue": "Store VEGA",
@@ -1001,8 +1807,21 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-lille-vega-2027-04-04-vega",
-    "artist": "VEGA",
+    "id": "vega-lille-vega-2027-04-04-oplev-ye-vagabonds-i-vega--k-b-billetter-her",
+    "artist": "Oplev Ye Vagabonds i VEGA. Køb billetter her",
+    "date": "2027-04-04",
+    "time": "20:00",
+    "venue": "Lille VEGA",
+    "room": "Lille VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/ye-vagabonds-2027-04-04",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_YeVagabonds_2027-1-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-lille-vega-2027-04-04-experience-ye-vagabonds-in-vega--buy-tickets-here",
+    "artist": "Experience Ye Vagabonds in VEGA. Buy tickets here",
     "date": "2027-04-04",
     "time": "",
     "venue": "Lille VEGA",
@@ -1014,8 +1833,21 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-lille-vega-2027-04-07-vega",
-    "artist": "VEGA",
+    "id": "vega-lille-vega-2027-04-07-oplev-rosa-i-vega--k-b-billetter-her",
+    "artist": "Oplev Rosa i VEGA. Køb billetter her",
+    "date": "2027-04-07",
+    "time": "20:00",
+    "venue": "Lille VEGA",
+    "room": "Lille VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/rosa-2027-04-07",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_ROSA_2026-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-lille-vega-2027-04-07-experience-rosa-in-vega--buy-tickets-here",
+    "artist": "Experience Rosa in VEGA. Buy tickets here",
     "date": "2027-04-07",
     "time": "",
     "venue": "Lille VEGA",
@@ -1027,8 +1859,21 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-store-vega-2027-04-08-vega",
-    "artist": "VEGA",
+    "id": "vega-store-vega-2027-04-08-oplev-kedde-i-vega--k-b-billetter-her",
+    "artist": "Oplev KEDDE i VEGA. Køb billetter her",
+    "date": "2027-04-08",
+    "time": "20:00",
+    "venue": "Store VEGA",
+    "room": "Store VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/kedde-2027-04-08",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_Kedde_2027-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-store-vega-2027-04-08-experience-kedde-in-vega--buy-tickets-here",
+    "artist": "Experience KEDDE in VEGA. Buy tickets here",
     "date": "2027-04-08",
     "time": "",
     "venue": "Store VEGA",
@@ -1040,8 +1885,21 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-store-vega-2027-04-09-vega",
-    "artist": "VEGA",
+    "id": "vega-store-vega-2027-04-09-oplev-marie-key-i-vega--k-b-billetter-her",
+    "artist": "Oplev Marie Key i VEGA. Køb billetter her",
+    "date": "2027-04-09",
+    "time": "20:00",
+    "venue": "Store VEGA",
+    "room": "Store VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/marie-key-2027-04-09",
+    "image": "https://payload.vega.dk/media/2026_Kalender_09_04_MarieKey-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-store-vega-2027-04-09-experience-marie-key-in-vega--buy-tickets-here",
+    "artist": "Experience Marie Key in VEGA. Buy tickets here",
     "date": "2027-04-09",
     "time": "",
     "venue": "Store VEGA",
@@ -1053,8 +1911,21 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-lille-vega-2027-04-15-vega",
-    "artist": "VEGA",
+    "id": "vega-lille-vega-2027-04-15-oplev-144-hz-i-vega--k-b-billetter-her-",
+    "artist": "Oplev 144 Hz i VEGA. Køb billetter her.",
+    "date": "2027-04-15",
+    "time": "20:00",
+    "venue": "Lille VEGA",
+    "room": "Lille VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/144hz-2027-04-15",
+    "image": "https://payload.vega.dk/media/VEGA_kalender_144HZ_2027-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-lille-vega-2027-04-15-experience-144-hz-in-vega--buy-tickets-here-",
+    "artist": "Experience 144 Hz in VEGA. Buy tickets here.",
     "date": "2027-04-15",
     "time": "",
     "venue": "Lille VEGA",
@@ -1066,8 +1937,21 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-store-vega-2027-04-16-vega",
-    "artist": "VEGA",
+    "id": "vega-store-vega-2027-04-16-oplev--sten-i-vega--k-b-billetter-her-",
+    "artist": "Oplev Østen i VEGA. Køb billetter her.",
+    "date": "2027-04-16",
+    "time": "20:00",
+    "venue": "Store VEGA",
+    "room": "Store VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/osten-2027-04-16",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_ÃSTEN_2026-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-store-vega-2027-04-16-experience-the-east-in-vega--buy-tickets-here-",
+    "artist": "Experience the East in VEGA. Buy tickets here.",
     "date": "2027-04-16",
     "time": "",
     "venue": "Store VEGA",
@@ -1079,8 +1963,21 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-lille-vega-2027-04-17-vega",
-    "artist": "VEGA",
+    "id": "vega-lille-vega-2027-04-17-oplev-shinyhunt-i-vega--k-b-billetter-her-",
+    "artist": "Oplev shinyhunt i VEGA. Køb billetter her.",
+    "date": "2027-04-17",
+    "time": "21:00",
+    "venue": "Lille VEGA",
+    "room": "Lille VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/shinyhunt-2027-04-17",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_shinyhunt_2027-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-lille-vega-2027-04-17-experience-shinyhunt-in-vega--buy-tickets-here-",
+    "artist": "Experience shinyhunt in VEGA. Buy tickets here.",
     "date": "2027-04-17",
     "time": "",
     "venue": "Lille VEGA",
@@ -1092,8 +1989,21 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-store-vega-2027-04-17-vega",
-    "artist": "VEGA",
+    "id": "vega-store-vega-2027-04-17-oplev-johnny-deluxe-i-vega--k-b-billetter-her",
+    "artist": "Oplev Johnny Deluxe i VEGA. Køb billetter her",
+    "date": "2027-04-17",
+    "time": "20:00",
+    "venue": "Store VEGA",
+    "room": "Store VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/johnny-deluxe-2027-04-17",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_JohnnyDeluxe_2027-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-store-vega-2027-04-17-experience-johnny-deluxe-in-vega--buy-tickets-here",
+    "artist": "Experience Johnny Deluxe in VEGA. Buy tickets here",
     "date": "2027-04-17",
     "time": "",
     "venue": "Store VEGA",
@@ -1105,8 +2015,21 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-store-vega-2027-04-23-vega",
-    "artist": "VEGA",
+    "id": "vega-store-vega-2027-04-23-oplev-barselona---ekstrakoncert-i-store-vega-den-23--april--k-b-billetter-her",
+    "artist": "Oplev Barselona - Ekstrakoncert i Store VEGA den 23. april. Køb billetter her",
+    "date": "2027-04-23",
+    "time": "20:00",
+    "venue": "Store VEGA",
+    "room": "Store VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/barselona-ekstrakoncert-2027-04-23",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_Barselona_2026-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-store-vega-2027-04-23-experience-barselona-in-store-vega-on-april-23--buy-tickets-here",
+    "artist": "Experience Barselona in Store VEGA on April 23. Buy tickets here",
     "date": "2027-04-23",
     "time": "",
     "venue": "Store VEGA",
@@ -1118,8 +2041,21 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-store-vega-2027-04-29-vega",
-    "artist": "VEGA",
+    "id": "vega-store-vega-2027-04-29-oplev-s-n-i-vega--k-b-billetter-her",
+    "artist": "Oplev Søn i VEGA. Køb billetter her",
+    "date": "2027-04-29",
+    "time": "20:00",
+    "venue": "Store VEGA",
+    "room": "Store VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/son-2027-04-29",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_SÃ¸n_2027-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-store-vega-2027-04-29-experience-s-n-in-vega--buy-tickets-here",
+    "artist": "Experience Søn in VEGA. Buy tickets here",
     "date": "2027-04-29",
     "time": "",
     "venue": "Store VEGA",
@@ -1131,8 +2067,21 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-lille-vega-2027-04-29-vega",
-    "artist": "VEGA",
+    "id": "vega-lille-vega-2027-04-29-oplev-papa-e-i-vega--k-b-billetter-her",
+    "artist": "Oplev Papa E i VEGA. Køb billetter her",
+    "date": "2027-04-29",
+    "time": "21:00",
+    "venue": "Lille VEGA",
+    "room": "Lille VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/papa-e-2027-04-29",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_2027_PapaE-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-lille-vega-2027-04-29-experience-papa-e-in-vega--buy-tickets-here",
+    "artist": "Experience Papa E in VEGA. Buy tickets here",
     "date": "2027-04-29",
     "time": "",
     "venue": "Lille VEGA",
@@ -1144,8 +2093,21 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-store-vega-2027-04-30-vega",
-    "artist": "VEGA",
+    "id": "vega-store-vega-2027-04-30-oplev-psyched-up-janis-i-vega--k-b-billetter-her-",
+    "artist": "Oplev Psyched Up Janis i VEGA. Køb Billetter her.",
+    "date": "2027-04-30",
+    "time": "20:00",
+    "venue": "Store VEGA",
+    "room": "Store VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/psyched-up-janis-2027-04-30",
+    "image": "https://payload.vega.dk/media/VEGA_kalender_Psyched_Up_Janis_2027-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-store-vega-2027-04-30-experience-psyched-up-janis-in-vega--buy-tickets-here-",
+    "artist": "Experience Psyched Up Janis in VEGA. Buy tickets here.",
     "date": "2027-04-30",
     "time": "",
     "venue": "Store VEGA",
@@ -1157,8 +2119,21 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-lille-vega-2027-05-01-vega",
-    "artist": "VEGA",
+    "id": "vega-lille-vega-2027-05-01-oplev-this-is-the-kit-i-vega--k-b-billetter-her-",
+    "artist": "Oplev This is The Kit i VEGA. Køb billetter her.",
+    "date": "2027-05-01",
+    "time": "21:00",
+    "venue": "Lille VEGA",
+    "room": "Lille VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/this-is-the-kit-2027-05-01",
+    "image": "https://payload.vega.dk/media/VEGA_kalender_ThisIsTheKit_2027-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-lille-vega-2027-05-01-experience-this-is-the-kit-in-vega--buy-tickets-here-",
+    "artist": "Experience This is The Kit in VEGA. Buy tickets here.",
     "date": "2027-05-01",
     "time": "",
     "venue": "Lille VEGA",
@@ -1170,8 +2145,21 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-store-vega-2027-05-08-vega",
-    "artist": "VEGA",
+    "id": "vega-store-vega-2027-05-08-oplev-the-floor-is-made-of-lava-i-vega--k-b-billetter-her",
+    "artist": "Oplev The Floor Is Made Of Lava i VEGA. Køb billetter her",
+    "date": "2027-05-08",
+    "time": "20:00",
+    "venue": "Store VEGA",
+    "room": "Store VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/the-floor-is-made-of-lava-2027-05-08",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_TheFloorIsMadeOfLava_2027-1200x630.png",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-store-vega-2027-05-08-experience-the-floor-is-made-of-lava-in-vega--buy-tickets-here",
+    "artist": "Experience The Floor Is Made Of Lava in VEGA. Buy tickets here",
     "date": "2027-05-08",
     "time": "",
     "venue": "Store VEGA",
@@ -1183,8 +2171,21 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-store-vega-2027-05-21-vega",
-    "artist": "VEGA",
+    "id": "vega-store-vega-2027-05-21-oplev-tobias-sten-i-vega--k-b-billetter-her-",
+    "artist": "Oplev Tobias Sten i VEGA. Køb Billetter her.",
+    "date": "2027-05-21",
+    "time": "20:00",
+    "venue": "Store VEGA",
+    "room": "Store VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/tobias-sten-2027-05-21",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_Tobias_Sten_2027-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-store-vega-2027-05-21-experience-tobias-sten-in-vega--buy-tickets-here-",
+    "artist": "Experience Tobias Sten in VEGA. Buy tickets here.",
     "date": "2027-05-21",
     "time": "",
     "venue": "Store VEGA",
@@ -1196,8 +2197,8 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-store-vega-2027-05-27-vega",
-    "artist": "VEGA",
+    "id": "vega-store-vega-2027-05-27-oplev-tomas-h-ffding-i-vega--k-b-billetter-her",
+    "artist": "Oplev Tomas Høffding i VEGA. Køb billetter her",
     "date": "2027-05-27",
     "time": "20:00",
     "venue": "Store VEGA",
@@ -1209,8 +2210,21 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-store-vega-2027-05-28-vega",
-    "artist": "VEGA",
+    "id": "vega-store-vega-2027-05-28-oplev-love-shop-i-vega--k-b-billetter-her",
+    "artist": "Oplev Love Shop i VEGA. Køb billetter her",
+    "date": "2027-05-28",
+    "time": "20:00",
+    "venue": "Store VEGA",
+    "room": "Store VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/love-shop-2027-05-28",
+    "image": "https://payload.vega.dk/media/LoveShop_Hjemmeside_Kalender_2026-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-store-vega-2027-05-28-experience-love-shop-in-vega--buy-tickets-here",
+    "artist": "Experience Love Shop in VEGA. Buy tickets here",
     "date": "2027-05-28",
     "time": "",
     "venue": "Store VEGA",
