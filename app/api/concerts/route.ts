@@ -1,3 +1,4 @@
+import drStored from '../../../data/dr-concerts.json';
 import {NextResponse} from 'next/server';
 
 type Concert={id:string;artist:string;date:string;time?:string;venue:string;room:string;genre:string;status:string;url:string;image:string;source:string};
@@ -170,8 +171,8 @@ export async function GET(){
   }
 
   const mapped=allEvents.map(toConcert).filter(Boolean) as Concert[];
-  const drResult=await fetchDR();
-  const dr=drResult.concerts;
+  const dr=(drStored as Concert[]).filter(c=>c.date>=new Date().toISOString().slice(0,10));
+  const drResult={diagnostics:{mode:'scheduled-browser-crawler',stored:drStored.length,concerts:dr.length}};
   mapped.push(...dr);
   const unique=new Map<string,Concert>();
   for(const concert of mapped){
