@@ -35,6 +35,8 @@ for(const url of urls){
   if(!response?.ok())continue;
   const item=await page.evaluate(()=>{
    const h=document.querySelector('h1')?.textContent?.trim()||'';
+   const ogTitle=document.querySelector('meta[property="og:title"]')?.getAttribute('content')||'';
+   const title=document.title||'';
    const text=document.body.innerText;
    const pos=text.indexOf(h);const eventText=pos>=0?text.slice(pos):text;
    const before=pos>=0?text.slice(Math.max(0,pos-120),pos):'';
@@ -44,12 +46,12 @@ for(const url of urls){
    const time=eventText.match(/Koncertstart:\s*(\d{1,2})[.:](\d{2})/i);
    const image=document.querySelector('meta[property="og:image"]')?.getAttribute('content')||'';
    const genre=document.querySelector('meta[property="article:tag"]')?.getAttribute('content')||'';
-   return {h,date:date?.slice(1)||[],venue,time:time?time[1].padStart(2,'0')+':'+time[2]:'',image,genre,status:/Udsolgt/.test(text.slice(0,1100))?'Udsolgt':'Billetter'};
+   return {h,ogTitle,title,date:date?.slice(1)||[],venue,time:time?time[1].padStart(2,'0')+':'+time[2]:'',image,genre,status:/Udsolgt/.test(text.slice(0,1100))?'Udsolgt':'Billetter'};
   });
   if(!item.h||!item.venue||item.date.length!==3){console.log('VEGA unmatched event',url,JSON.stringify(item).slice(0,320));continue;}
   const date=item.date[2]+'-'+item.date[1].padStart(2,'0')+'-'+item.date[0].padStart(2,'0');
   if(date<today)continue;
-  const artist=item.h.replace(/\s*[-–]\s*Ekstrakoncert$/i,'').trim();
+  const artist=(item.ogTitle||item.title||item.h).replace(/\s*[|–-]\s*(?:VEGA|Store VEGA|Lille VEGA).*$/i,'').replace(/\s*[-–]\s*Ekstrakoncert$/i,'').trim();
   const key=[item.venue,date,artist.toLowerCase()].join('|');
   entries.set(key,{id:'vega-'+key.toLowerCase().replace(/[^a-z0-9-]/g,'-'),artist,date,time:item.time,venue:item.venue,room:item.venue,genre:item.genre||'Andet',status:item.status,url,image:item.image,source:'VEGA'});
  }catch(e){console.log('VEGA skip:',url,String(e).slice(0,75))}
