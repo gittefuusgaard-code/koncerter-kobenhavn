@@ -17,10 +17,13 @@ export default function Home(){
  return <div className="site">
   <header className="topbar"><div className="identity"><b>KBH<span>LIVE</span></b><em>BYENS KONCERTER, SAMLET</em></div><div className="count"><span className="liveDot">●</span> Opdateret løbende <span className="countDivider">{loading?'Henter…':concerts.length+' kommende koncerter'}</span></div></header>
   <main className="main">
-   <div className="discoveryBanner"><div><span className="bannerKicker">● &nbsp; NYE KONCERTER</span><h2>Gå ikke glip af din næste koncert.</h2><p>Se nye koncerter i København, så snart vi opdager dem — helt uden tilmelding.</p></div><button onClick={()=>document.getElementById("new-concerts")?.scrollIntoView({behavior:"smooth"})}>SE NYE KONCERTER <span>→</span></button></div>
-   <section id="new-concerts" className="newConcerts" aria-label="Netop annoncerede koncerter">
+   <section id="new-concerts" className="discoveryBanner discoveryCombined" aria-label="Nye koncerter">
+    <div className="discoveryIntro"><span className="bannerKicker">● &nbsp; NYE KONCERTER</span><h2>Gå ikke glip af din næste koncert.</h2><p>Se nye koncerter i København, så snart vi opdager dem — helt uden tilmelding.</p></div>
+    <div className="discoveryFeed">
     <div className="newHeading"><div><span className="newEyebrow">NYT PÅ KBH LIVE</span><h2>Netop annoncerede koncerter</h2><p>Koncerter, vi for nylig har opdaget på spillestederne i København.</p></div><div className="newTabs"><button className={newPeriod==='today'?'active':''} onClick={()=>{setNewPeriod('today');setShowAllNew(false)}}>I dag</button><button className={newPeriod==='week'?'active':''} onClick={()=>{setNewPeriod('week');setShowAllNew(false)}}>Denne uge</button></div></div>
     {loading?<p className="newEmpty">Henter nye koncerter…</p>:newConcerts.length===0?<p className="newEmpty">Ingen nye koncerter registreret {newPeriod==='today'?'de seneste 24 timer':'de seneste 7 dage'} endnu.</p>:<><div className="newItems">{(showAllNew?newConcerts:newConcerts.slice(0,5)).map(c=><a key={c.id} className="newItem" href={c.url||undefined} target={c.url?'_blank':undefined} rel="noreferrer"><span className="newBadge">NY</span><span className="newArtist">{c.artist}</span><span className="newVenue">{c.venue}</span><span className="newDate">{formatDate(c.date)}</span><span className="newArrow">↗</span></a>)}</div>{newConcerts.length>5&&<button className="newMore" onClick={()=>setShowAllNew(v=>!v)}>{showAllNew?'Vis færre':'Se alle '+newConcerts.length+' nye koncerter'}</button>}</>}
+
+    </div>
    </section>
    <div className="listingHeading"><div><span className="sectionKicker">PÅ PLAKATEN</span><h1>Kommende koncerter</h1></div><span>{shown.length} resultater</span></div>
    <div className="controls">
