@@ -12,7 +12,7 @@ const baseline=Object.keys(history).length===0;
 let added=0;
 for(const c of payload.concerts){
   const key=keyOf(c);
-  if(!history[key]) {history[key]=baseline?'':now;added++;}
+  if(!(key in history)){history[key]=baseline && c.source!=='VEGA'?'':now;added++;}
 }
 await writeFile(path,JSON.stringify(history,null,2)+'\n');
 console.log('Concert history:',Object.keys(history).length,'added:',added,'baseline:',baseline);
