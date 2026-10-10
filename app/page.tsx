@@ -1,7 +1,7 @@
 'use client';
 import {useEffect,useMemo,useState} from 'react';
 
-type Concert={id:string;artist:string;date:string;time?:string;venue:string;room?:string;genre:string;status:string;url?:string;image?:string};
+type Concert={id:string;artist:string;date:string;time?:string;venue:string;room?:string;genre:string;status:string;url?:string;image?:string;firstSeen?:string|null};
 type ViewMode='grid'|'list'|'calendar';
 const venues=['Alle steder','Royal Arena','K.B. Hallen','Store VEGA','Lille VEGA','Falkonersalen','Forum Copenhagen','DR Koncerthuset','Amager Bio','Pumpehuset','Poolen' ];
 const genres=['Alle','Pop','Rock/Indie','Hip-hop/Rap','R&B/Soul','Electronic','Jazz/Blues','Metal','Folk/Country','Classical','Andet'];
@@ -9,12 +9,18 @@ const genreClass=(g:string)=>'g-'+g.toLowerCase().replace(/[^a-z]+/g,'-').replac
 const formatDate=(d:string)=>new Intl.DateTimeFormat('da-DK',{weekday:'short',day:'numeric',month:'short'}).format(new Date(d+'T12:00:00'));
 
 export default function Home(){
+ const [newPeriod,setNewPeriod]=useState<'today'|'week'>('week'),[showAllNew,setShowAllNew]=useState(false);
  const [concerts,setConcerts]=useState<Concert[]>([]),[q,setQ]=useState(''),[venue,setVenue]=useState('Alle steder'),[genre,setGenre]=useState('Alle'),[view,setView]=useState<ViewMode>('grid'),[showSoldOut,setShowSoldOut]=useState(true),[loading,setLoading]=useState(true);
  useEffect(()=>{fetch('/api/concerts').then(r=>r.json()).then(d=>setConcerts(d.concerts||[])).finally(()=>setLoading(false))},[]);
  const shown=useMemo(()=>concerts.filter(c=>(venue==='Alle steder'||c.venue===venue)&&(genre==='Alle'||c.genre===genre)&&(showSoldOut||c.status!=='Udsolgt')&&(!q||c.artist.toLowerCase().includes(q.toLowerCase())||c.venue.toLowerCase().includes(q.toLowerCase()))),[concerts,q,venue,genre,showSoldOut]);
+ const newConcerts=useMemo(()=>concerts.filter(c=>{if(!c.firstSeen)return false;const age=Date.now()-new Date(c.firstSeen).getTime();return age>=0&&age<(newPeriod==='today'?86400000:7*86400000)}).sort((a,b)=>String(b.firstSeen).localeCompare(String(a.firstSeen))),[concerts,newPeriod]);
  return <div className="site">
   <header className="topbar"><div className="identity"><b>KBH<span>LIVE</span></b><em>Koncerter i København</em></div><div className="count">{loading?'Henter…':shown.length+' koncerter'}</div></header>
   <main className="main">
+   <section className="newConcerts" aria-label="Netop annoncerede koncerter">
+    <div className="newHeading"><div><span className="newEyebrow">NYT PÅ KBH LIVE</span><h2>Netop annoncerede koncerter</h2><p>Koncerter, vi for nylig har opdaget på spillestederne i København.</p></div><div className="newTabs"><button className={newPeriod==='today'?'active':''} onClick={()=>{setNewPeriod('today');setShowAllNew(false)}}>I dag</button><button className={newPeriod==='week'?'active':''} onClick={()=>{setNewPeriod('week');setShowAllNew(false)}}>Denne uge</button></div></div>
+    {loading?<p className="newEmpty">Henter nye koncerter…</p>:newConcerts.length===0?<p className="newEmpty">Ingen nye koncerter registreret {newPeriod==='today'?'de seneste 24 timer':'de seneste 7 dage'} endnu.</p>:<><div className="newItems">{(showAllNew?newConcerts:newConcerts.slice(0,5)).map(c=><a key={c.id} className="newItem" href={c.url||undefined} target={c.url?'_blank':undefined} rel="noreferrer"><span className="newBadge">NY</span><span className="newArtist">{c.artist}</span><span className="newVenue">{c.venue}</span><span className="newDate">{formatDate(c.date)}</span><span className="newArrow">↗</span></a>)}</div>{newConcerts.length>5&&<button className="newMore" onClick={()=>setShowAllNew(v=>!v)}>{showAllNew?'Vis færre':'Se alle '+newConcerts.length+' nye koncerter'}</button>}</>}
+   </section>
    <div className="controls">
     <input value={q} onChange={e=>setQ(e.target.value)} placeholder="Søg artist eller venue…"/>
     <select value={venue} onChange={e=>setVenue(e.target.value)}>{venues.map(v=><option key={v}>{v}</option>)}</select>
