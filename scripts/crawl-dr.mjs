@@ -4,6 +4,9 @@ import { mkdir, writeFile } from 'node:fs/promises';
 const browser = await chromium.launch({ headless: true });
 const page = await browser.newPage({ locale: 'da-DK', userAgent: 'Mozilla/5.0 (compatible; ConcertCalendarBot/1.0)' });
 const found = new Map();
+const diagnostics = [];
+const capturedResponses = [];
+page.on('response', response => {const url=response.url();if(/drkoncerthuset|billetter\.drkoncerthuset/.test(url)&&/json|api|event|calendar|kalender|search|itix/i.test(url)) capturedResponses.push({status:response.status(),url:url.slice(0,350),type:response.headers()['content-type']||''});});
 const origins = ['https://www.drkoncerthuset.dk/kalender/', 'https://billet.drkoncerthuset.dk/kalender/'];
 const extract = (item, base) => {
   if (!item || typeof item !== 'object') return;
@@ -41,6 +44,7 @@ try {
       const links = await page.locator('a[href]').evaluateAll(nodes =>
         [...new Set(nodes.map(n => n.href).filter(u => /drkoncerthuset\.dk/.test(u) && /koncert|event|arrangement|kalender/i.test(u)))].slice(0,250));
       const pages = [origin, ...links.filter(u => u !== origin).slice(0,100)];
+      diagnostics.push({origin,status:response?.status(),title:await page.title(),links:links.length,sampleLinks:links.slice(0,15),text:(await page.locator('body').innerText().catch(()=>'' )).slice(0,5000),responses:capturedResponses.slice(-60)});
       for (const url of pages) {
         try {
           if (url !== origin) await page.goto(url, {waitUntil:'domcontentloaded',timeout:20000});
@@ -54,7 +58,10 @@ try {
   }
 } finally { await browser.close(); }
 if (!found.size) {
-  console.error('No DR events found; preserving last successful dataset');
+  await mkdir('artifacts', {recursive:true});
+  await writeFile('artifacts/dr-diagnostics.json',JSON.stringify({diagnostics,responses:capturedResponses.slice(-150)},null,2));
+  console.error('No DR events found; diagnostics saved to artifacts/dr-diagnostics.json; preserving last successful dataset');
+  console.log(JSON.stringify({diagnostics:diagnostics.map(({text,...rest})=>({...rest,text:text.slice(0,1200)})),responses:capturedResponses.slice(-30)},null,2));
   process.exitCode = 1;
 } else {
   await mkdir('data', {recursive:true});
