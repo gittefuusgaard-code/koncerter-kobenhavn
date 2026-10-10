@@ -1,3 +1,4 @@
+import concertHistory from '../../../data/concert-history.json';
 import drStored from '../../../data/dr-concerts.json';
 import {NextResponse} from 'next/server';
 
@@ -179,7 +180,8 @@ export async function GET(){
    const key=[concert.venue,concert.date,concert.time||'',concert.artist.toLowerCase()].join('|');
    if(!unique.has(key)) unique.set(key,concert);
   }
-  const concerts=[...unique.values()].sort((a,b)=>a.date.localeCompare(b.date)||(a.time||'').localeCompare(b.time||''));
+  const history=concertHistory as Record<string,string>;
+  const concerts=[...unique.values()].map(c=>({...c,firstSeen:history[[c.venue,c.date,c.time||'',c.artist.toLowerCase().trim()].join('|')]||null})).sort((a,b)=>a.date.localeCompare(b.date)||(a.time||'').localeCompare(b.time||''));
 
   return NextResponse.json({
    concerts,
