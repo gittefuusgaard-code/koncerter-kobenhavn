@@ -87,3 +87,13 @@ footer{border-top:1px solid #ddd;color:#8c8c91}
 @media(max-width:1150px){.concertGrid{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media(max-width:800px){.concertGrid{grid-template-columns:repeat(2,minmax(0,1fr))}.discoveryBanner{padding:24px;flex-direction:column;align-items:flex-start}.controls{flex-wrap:wrap}.controls input:not([type=checkbox]){width:100%;flex:1 1 100%}}
 @media(max-width:520px){.topbar{padding:0 16px}.countDivider{display:none}.main{padding:20px 16px 50px}.discoveryBanner{border-radius:14px;margin-bottom:24px}.discoveryBanner button{width:100%}.newConcerts{margin-bottom:30px}.listingHeading h1{font-size:34px}.listingHeading>span{white-space:nowrap}.concertGrid{grid-template-columns:1fr;gap:14px}.image{height:220px}.cardBody{min-height:160px}.controls select{flex:1}.views{margin-left:auto}.genreFilters button{padding:9px 13px}}
+
+
+/* Typography: Figma-inspired Inter across the interface */
+html,body,button,input,select{font-family:var(--font-inter),Inter,Arial,sans-serif}
+.identity b{font-weight:850;letter-spacing:-.055em}
+.discoveryBanner h2{font-weight:800;letter-spacing:-.052em}
+.listingHeading h1{font-weight:850;letter-spacing:-.065em}
+.cardBody h2{font-weight:800;letter-spacing:-.048em}
+.newHeading h2{font-weight:800;letter-spacing:-.045em}
+.controls input,.controls select{font-family:inherit}
