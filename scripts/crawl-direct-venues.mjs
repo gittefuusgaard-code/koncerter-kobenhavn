@@ -2,10 +2,10 @@ import {chromium} from 'playwright';
 import {readFile,writeFile} from 'node:fs/promises';
 
 const configs=[
- {venue:'Royal Arena',base:'https://www.royalarena.dk',start:['https://www.royalarena.dk/en/shows'],patterns:[/\/shows?\//i,/\/events?\//i]},
+ {venue:'Royal Arena',base:'https://www.royalarena.dk',start:['https://www.royalarena.dk/shows','https://www.royalarena.dk/en/shows'],patterns:[/\/shows?\//i,/\/events?\//i]},
  {venue:'K.B. Hallen',base:'https://kbhallen.dk',start:['https://kbhallen.dk/kalender/'],patterns:[/\/event\//i,/\/koncert\//i]},
- {venue:'Amager Bio',base:'https://amagerbio.dk',start:['https://amagerbio.dk/'],patterns:[/\/event\//i,/\/koncert\//i,/\/events\//i]},
- {venue:'Pumpehuset',base:'https://pumpehuset.dk',start:['https://pumpehuset.dk/'],patterns:[/\/koncerter\//i]}
+ {venue:'Amager Bio',base:'https://amagerbio.dk',start:['https://amagerbio.dk/','https://amagerbio.dk/program/'],patterns:[/\/event\//i,/\/koncert\//i,/\/events\//i]},
+ {venue:'Pumpehuset',base:'https://pumpehuset.dk',start:['https://pumpehuset.dk/','https://pumpehuset.dk/program/'],patterns:[/\/koncerter\//i]}
 ];
 const browser=await chromium.launch({headless:true});
 const page=await browser.newPage();
