@@ -88,7 +88,8 @@ for(const config of configs){
     const rawDate=e.startDate||meta.datetime||meta.text.slice(0,1000);
     const date=toISO(rawDate);if(!date||date<today)continue;
     const name=normalize(e.name||meta.title).replace(/\s*[|–-]\s*(?:Pumpehuset|Royal Arena|Amager Bio)\s*$/i,'').replace(/\s*[|–]\s*(?:Royal Arena|K\.B\. Hallen|Amager Bio|Pumpehuset).*$/i,'');
-    if(!name||name.length>130||/^(?:program|kalender|koncerter|shows|events)$/i.test(name)||/\b(?:MMA|wrestling|boxing|stand.?up|foredrag)\b/i.test(name))continue;
+    const artist=config.venue==='Pumpehuset'?name.replace(/\s+giver koncert i Pumpehuset\s*$/i,'').trim():name;
+    if(!artist||artist.length>130||/^(?:program|kalender|koncerter|shows|events)$/i.test(name)||/\b(?:MMA|wrestling|boxing|stand.?up|foredrag)\b/i.test(name))continue;
     const location=normalize(e.location?.name||e.location?.[0]?.name||'');
     const venue=config.venue==='Amager Bio'&&/\bbeta\b/i.test(location)?'':config.venue;
     if(!venue)continue;
@@ -97,8 +98,8 @@ for(const config of configs){
     const urlValue=validUrl(e.url||url,config)||url;
     const image=typeof e.image==='string'?e.image:Array.isArray(e.image)?(typeof e.image[0]==='string'?e.image[0]:e.image[0]?.url):e.image?.url||meta.image;
     const status=/sold.?out|udsolgt/i.test(JSON.stringify(e.offers||'')+' '+meta.text.slice(0,900))?'Udsolgt':'Billetter';
-    const key=[venue,date,time,name.toLowerCase()].join('|');
-    if(!unique.has(key)){unique.set(key,{id:'direct-'+key.toLowerCase().replace(/[^a-z0-9-]/g,'-'),artist:name,date,time,venue,room:venue,genre:'Andet',status,url:urlValue,image:image||'',source:config.venue});count++}
+    const key=[venue,date,time,artist.toLowerCase()].join('|');
+    if(!unique.has(key)){unique.set(key,{id:'direct-'+key.toLowerCase().replace(/[^a-z0-9-]/g,'-'),artist,date,time,venue,room:venue,genre:'Andet',status,url:urlValue,image:image||'',source:config.venue});count++}
    }
   }catch(e){console.log('Skipped',config.venue,url,String(e).slice(0,80))}
  }
