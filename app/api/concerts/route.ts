@@ -187,7 +187,16 @@ export async function GET(){
    if(!unique.has(key)) unique.set(key,concert);
   }
   const history=concertHistory as Record<string,string>;
-  const concerts=[...unique.values()].map(c=>({...c,firstSeen:history[[c.venue,c.date,c.time||'',c.artist.toLowerCase().trim()].join('|')]||null})).sort((a,b)=>a.date.localeCompare(b.date)||(a.time||'').localeCompare(b.time||''));
+  const normalizeIdentity=(v:string)=>v.normalize('NFKC').toLowerCase().replace(/&amp;/g,'&').replace(/[–—]/g,'-').replace(/\s+/g,' ').trim();
+  const firstSeenByIdentity=new Map<string,string>();
+  for(const [key,value] of Object.entries(history)){
+   if(key.startsWith('__'))continue;
+   const parts=key.split('|');
+   if(parts.length<4)continue;
+   const identity=[normalizeIdentity(parts[0]),parts[1],normalizeIdentity(parts.slice(3).join('|'))].join('|');
+   if(!firstSeenByIdentity.has(identity)||(!firstSeenByIdentity.get(identity)&&value))firstSeenByIdentity.set(identity,value);
+  }
+  const concerts=[...unique.values()].map(c=>({...c,firstSeen:firstSeenByIdentity.get([normalizeIdentity(c.venue),c.date,normalizeIdentity(c.artist)].join('|'))||null})).sort((a,b)=>a.date.localeCompare(b.date)||(a.time||'').localeCompare(b.time||''));
 
   return NextResponse.json({
    concerts,
