@@ -2,7 +2,7 @@ import {chromium} from 'playwright';
 import {readFile,writeFile} from 'node:fs/promises';
 
 const configs=[
- {venue:'Royal Arena',base:'https://www.royalarena.dk',start:['https://www.royalarena.dk/shows','https://www.royalarena.dk/en/shows'],patterns:[/\/shows?\//i,/\/events?\//i]},
+ {venue:'Royal Arena',base:'https://www.royalarena.dk',start:['https://www.royalarena.dk/shows','https://www.royalarena.dk/en/shows'],patterns:[/\/shows?\//i,/\/events?\//i,/\/all-events\//i]},
  {venue:'K.B. Hallen',base:'https://kbhallen.dk',start:['https://kbhallen.dk/kalender/'],patterns:[/\/event\//i,/\/koncert\//i]},
  {venue:'Amager Bio',base:'https://amagerbio.dk',start:['https://amagerbio.dk/','https://amagerbio.dk/program/'],patterns:[/\/event\//i,/\/koncert\//i,/\/events\//i]},
  {venue:'Pumpehuset',base:'https://pumpehuset.dk',start:['https://pumpehuset.dk/','https://pumpehuset.dk/program/'],patterns:[/\/koncerter\//i]}
@@ -11,23 +11,25 @@ const browser=await chromium.launch({headless:true});
 const page=await browser.newPage();
 const today=new Date().toISOString().slice(0,10);
 const normalize=(s)=>String(s||'').replace(/\s+/g,' ').trim();
-const validUrl=(link,c)=>{try{const u=new URL(link,c.base);return u.hostname===new URL(c.base).hostname&&!/\.(?:jpg|png|pdf|svg|webp|zip)$/i.test(u.pathname)?u.href.split('#')[0]:null}catch{return null}};
+const validUrl=(link,c)=>{try{const u=new URL(link,c.base);return u.hostname.replace(/^www\./,'')===new URL(c.base).hostname.replace(/^www\./,'')&&!/\.(?:jpg|png|pdf|svg|webp|zip)$/i.test(u.pathname)?u.href.split('#')[0]:null}catch{return null}};
 const getJSON=()=>page.evaluate(()=>{
  const output=[];
  for(const tag of document.querySelectorAll('script[type="application/ld+json"]')){
   try{
    const parsed=JSON.parse(tag.textContent||'null');
-   const walk=x=>{if(!x||typeof x!=='object')return;if(Array.isArray(x)){x.forEach(walk);return}if(/(?:MusicEvent|Event)/i.test([].concat(x['@type']||[]).join(' ')))output.push(x);if(x['@graph'])walk(x['@graph']);if(x.itemListElement)walk(x.itemListElement);if(x.item)walk(x.item)};
+   const walk=x=>{if(!x||typeof x!=='object')return;if(Array.isArray(x)){x.forEach(walk);return}if(/(?:MusicEvent|Event)/i.test([].concat(x['@type']||[]).join(' ')))output.push(x);if(x['@graph'])walk(x['@graph']);if(x.itemListElement)walk(x.itemListElement);if(x.item)walk(x.item);if(x.events)walk(x.events);if(x.mainEntity)walk(x.mainEntity)};
    walk(parsed);
   }catch{}
  }
  return output;
 });
-const monthMap={jan:1,feb:2,mar:3,apr:4,maj:5,jun:6,jul:7,aug:8,sep:9,okt:10,oct:10,nov:11,dec:12};
+const monthMap={jan:1,feb:2,mar:3,apr:4,may:5,maj:5,jun:6,jul:7,aug:8,sep:9,okt:10,oct:10,nov:11,dec:12};
 const toISO=(raw)=>{
  const s=normalize(raw);
  if(/^20\d\d-\d\d-\d\d/.test(s))return s.slice(0,10);
- const m=s.match(/(\d{1,2})[.\s-]+(jan|feb|mar|apr|maj|jun|jul|aug|sep|okt|oct|nov|dec)[a-zæøå.]*[\s.,-]+(20\d\d)/i);
+ const numeric=s.match(/\b(\d{1,2})[.\/-](\d{1,2})[.\/-](20\d\d)\b/);if(numeric)return numeric[3]+'-'+numeric[2].padStart(2,'0')+'-'+numeric[1].padStart(2,'0');
+ const m=s.match(/(\d{1,2})[.\s-]+(jan|feb|mar|apr|may|maj|jun|jul|aug|sep|okt|oct|nov|dec)[a-zæøå.]*[\s.,-]+(20\d\d)/i);
+ const us=s.match(/\b(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*\s+(\d{1,2})[,\s]+(20\d\d)/i);if(us)return us[3]+'-'+String(monthMap[us[1].toLowerCase()]).padStart(2,'0')+'-'+us[2].padStart(2,'0');
  if(m)return m[3]+'-'+String(monthMap[m[2].toLowerCase()]).padStart(2,'0')+'-'+m[1].padStart(2,'0');
  return '';
 };
@@ -66,7 +68,13 @@ for(const config of configs){
     datetime:document.querySelector('time[datetime]')?.getAttribute('datetime')||'',
     text:document.body.innerText.slice(0,6000)
    }));
-   const events=structured.filter(e=>/MusicEvent/i.test([].concat(e['@type']||[]).join(' ')) || (config.venue==='K.B. Hallen' && !/sports?|mma|boxing|wrestling|comedy|stand.?up|foredrag|show|galla/i.test(String(e.name||''))));
+   const isEventPage=config.patterns.some(p=>p.test(new URL(url).pathname));
+   const excluded=/\b(?:sports?|mma|boxing|wrestling|comedy|stand.?up|foredrag|galla|globetrotters)\b/i;
+   const events=structured.filter(e=>isEventPage && !excluded.test(String(e.name||'')) && /(?:MusicEvent|Event)/i.test([].concat(e['@type']||[]).join(' ')));
+   if(!events.length && config.venue==='Royal Arena' && /\/all-events\//i.test(new URL(url).pathname)){
+    const match=meta.text.match(/\b(?:jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)\s+\d{1,2}\s+20\d\d/i);
+    if(match&&!excluded.test(meta.title))events.push({name:meta.title,startDate:match[0]});
+   }
    if(!events.length && config.venue==='K.B. Hallen' && /\/event\//i.test(new URL(url).pathname))events.push({name:meta.title,startDate:meta.datetime});
    for(const e of events){
     const rawDate=e.startDate||meta.datetime||meta.text.slice(0,1000);
