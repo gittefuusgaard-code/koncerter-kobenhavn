@@ -13,6 +13,7 @@ let concerts=[...vega,...dr,...direct];
 const directSources=['Royal Arena','K.B. Hallen','Amager Bio','Pumpehuset'];
 const initialized=new Set(directSources.filter(source=>history['__initialized__:'+source]));
 const firstDirectSources=new Set(directSources.filter(source=>direct.some(c=>c.source===source)&&!initialized.has(source)));
+const vegaBaseline=!history['__initialized__:VEGA'];
 try{
  const endpoint=process.env.CONCERTS_API_URL || 'https://koncerter-kobenhavn-git-main-gitte.vercel.app/api/concerts';
  const response=await fetch(endpoint,{headers:{'Cache-Control':'no-cache'},signal:AbortSignal.timeout(25000)});
@@ -30,10 +31,11 @@ for(const c of concerts){
  if(!c.artist||!c.venue||!c.date)continue;
  const key=keyOf(c);
  if(!(key in history)){
-  history[key]=(baseline && c.source!=='VEGA')||firstDirectSources.has(c.source)?'':now;
+  history[key]=(baseline && c.source!=='VEGA')||firstDirectSources.has(c.source)||(vegaBaseline&&c.source==='VEGA')?'':now;
   added++;
  }
 }
 for(const source of firstDirectSources)history['__initialized__:'+source]=now;
+if(vegaBaseline)history['__initialized__:VEGA']=now;
 await writeFile(path,JSON.stringify(history,null,2)+'\n');
 console.log('Concert history:',Object.keys(history).length,'added:',added,'baseline:',baseline);
