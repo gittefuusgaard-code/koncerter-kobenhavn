@@ -36,6 +36,7 @@ const toISO=(raw)=>{
 const unique=new Map();
 for(const config of configs){
  const urls=new Set(config.start);
+ const calendarUrls=new Set();
  const sitemapQueue=[new URL('/sitemap.xml',config.base).href,new URL('/wp-sitemap.xml',config.base).href];
  const visited=new Set();
  while(sitemapQueue.length&&visited.size<18){
@@ -53,12 +54,15 @@ for(const config of configs){
  for(const start of config.start){
   try{
    await page.goto(start,{waitUntil:'domcontentloaded',timeout:22000});
+   await page.waitForTimeout(2500);
    const links=await page.locator('a[href]').evaluateAll(nodes=>nodes.map(a=>a.href));
-   for(const link of links){const safe=validUrl(link,config);if(safe&&config.patterns.some(p=>p.test(new URL(safe).pathname)))urls.add(safe)}
+   for(const link of links){const safe=validUrl(link,config);if(safe&&config.patterns.some(p=>p.test(new URL(safe).pathname))){urls.add(safe);calendarUrls.add(safe)}}
   }catch(e){console.log('Calendar failed',config.venue,String(e).slice(0,120))}
  }
  let count=0;
- for(const url of [...urls].slice(0,230)){
+ const candidates=[...new Set([...calendarUrls,...urls])].filter(u=>!config.start.includes(u));
+ console.log(config.venue,'calendar links:',calendarUrls.size,'sitemap candidates:',urls.size,'scanning:',Math.min(candidates.length,config.venue==='Pumpehuset'?240:350));
+ for(const url of candidates.slice(0,config.venue==='Pumpehuset'?240:350)){
   try{
    const response=await page.goto(url,{waitUntil:'domcontentloaded',timeout:15000});if(!response?.ok())continue;
    const structured=await getJSON();
@@ -71,15 +75,19 @@ for(const config of configs){
    const isEventPage=config.patterns.some(p=>p.test(new URL(url).pathname));
    const excluded=/\b(?:sports?|mma|boxing|wrestling|comedy|stand.?up|foredrag|galla|globetrotters)\b/i;
    const events=structured.filter(e=>isEventPage && !excluded.test(String(e.name||'')) && /(?:MusicEvent|Event)/i.test([].concat(e['@type']||[]).join(' ')));
+   if(!events.length && config.venue==='Pumpehuset' && /\/koncerter\/[^/]+/i.test(new URL(url).pathname)){
+    const match=meta.text.match(/\b(\d{1,2})[.]?\s+(jan|feb|mar|apr|maj|jun|jul|aug|sep|okt|nov|dec)[a-zæøå]*\s+20\d\d\b/i);
+    if(match&&!excluded.test(meta.title)&&/showet starter|dørene åbner/i.test(meta.text))events.push({name:meta.title,startDate:match[0]});
+   }
    if(!events.length && config.venue==='Royal Arena' && /\/all-events\//i.test(new URL(url).pathname)){
-    const match=meta.text.match(/\b(?:jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)\s+\d{1,2}\s+20\d\d/i);
+    const match=meta.text.match(/\b(?:jan|feb|mar|apr|may|jun|jul|aug|sep|oct|okt|nov|dec)\s+\d{1,2}\s+20\d\d/i);
     if(match&&!excluded.test(meta.title))events.push({name:meta.title,startDate:match[0]});
    }
    if(!events.length && config.venue==='K.B. Hallen' && /\/event\//i.test(new URL(url).pathname))events.push({name:meta.title,startDate:meta.datetime});
    for(const e of events){
     const rawDate=e.startDate||meta.datetime||meta.text.slice(0,1000);
     const date=toISO(rawDate);if(!date||date<today)continue;
-    const name=normalize(e.name||meta.title).replace(/\s*[|–]\s*(?:Royal Arena|K\.B\. Hallen|Amager Bio|Pumpehuset).*$/i,'');
+    const name=normalize(e.name||meta.title).replace(/\s*[|–-]\s*(?:Pumpehuset|Royal Arena|Amager Bio)\s*$/i,'').replace(/\s*[|–]\s*(?:Royal Arena|K\.B\. Hallen|Amager Bio|Pumpehuset).*$/i,'');
     if(!name||name.length>130||/^(?:program|kalender|koncerter|shows|events)$/i.test(name)||/\b(?:MMA|wrestling|boxing|stand.?up|foredrag)\b/i.test(name))continue;
     const location=normalize(e.location?.name||e.location?.[0]?.name||'');
     const venue=config.venue==='Amager Bio'&&/\bbeta\b/i.test(location)?'':config.venue;
