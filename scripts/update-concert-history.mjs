@@ -10,7 +10,7 @@ const baseline=Object.keys(history).length===0;
 const normalize=s=>String(s||'').normalize('NFKC').toLowerCase().replace(/&amp;/g,'&').replace(/[–—]/g,'-').replace(/\s+/g,' ').trim();
 const identity=c=>[normalize(c.venue),c.date,normalize(c.artist)].join('|');
 const keyOf=c=>[c.venue,c.date,c.time||'',c.artist.toLowerCase().trim()].join('|');
-const existingIdentity=new Set(Object.keys(history).filter(k=>!k.startsWith('__')).map(k=>{const p=k.split('|');return identity({venue:p[0],date:p[1],artist:p.slice(3).join('|')})}));
+const existingIdentity=new Map(Object.entries(history).filter(([k])=>!k.startsWith('__')).map(([k,v])=>{const p=k.split('|');return [identity({venue:p[0],date:p[1],artist:p.slice(3).join('|')}),v]}));
 
 let concerts=[...vega,...dr,...direct];
 const directSources=['Royal Arena','K.B. Hallen','Amager Bio','Pumpehuset'];
@@ -36,8 +36,8 @@ for(const c of concerts){
  if(!(key in history)){
   const id=identity(c);
   const alreadyKnown=existingIdentity.has(id);
-  history[key]=alreadyKnown?'':((baseline && c.source!=='VEGA')||firstDirectSources.has(c.source)||(vegaBaseline&&c.source==='VEGA')?'':now);
-  existingIdentity.add(id);
+  history[key]=alreadyKnown?existingIdentity.get(id):((baseline && c.source!=='VEGA')||firstDirectSources.has(c.source)||(vegaBaseline&&c.source==='VEGA')?'':now);
+  existingIdentity.set(id,history[key]);
   added++;
  }
 }
