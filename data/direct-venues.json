@@ -1,18 +1,5 @@
 [
   {
-    "id": "direct-k-b--hallen-2026-10-10-20-00-khalid",
-    "artist": "Khalid",
-    "date": "2026-10-10",
-    "time": "20:00",
-    "venue": "K.B. Hallen",
-    "room": "K.B. Hallen",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://kbhallen.dk/event/khalid_2026-10-10/",
-    "image": "https://kbhallen.dk/site/assets/files/4895/1920x1080_2.1920x1080.png",
-    "source": "K.B. Hallen"
-  },
-  {
     "id": "direct-k-b--hallen-2026-10-11-19-30-myles-smith---support--josie-edwards",
     "artist": "Myles Smith - Support: Josie Edwards",
     "date": "2026-10-11",
