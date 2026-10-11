@@ -2,7 +2,7 @@ name: Update concert discovery history
 on:
   workflow_dispatch:
   schedule:
-    - cron: '35 */6 * * *'
+    - cron: '55 */3 * * *'
 permissions:
   contents: write
 concurrency:
