@@ -169,19 +169,6 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-store-vega-2026-10-22-slayyyter-den-22--oktober",
-    "artist": "Slayyyter den 22. oktober",
-    "date": "2026-10-22",
-    "time": "20:00",
-    "venue": "Store VEGA",
-    "room": "Store VEGA",
-    "genre": "Andet",
-    "status": "Udsolgt",
-    "url": "https://vega.dk/event/slayyyter-2026-10-22",
-    "image": "https://payload.vega.dk/media/VEGA_Kalender_Slayyyter_2026-1200x630.jpg",
-    "source": "VEGA"
-  },
-  {
     "id": "vega-lille-vega-2026-10-22-lea-romea",
     "artist": "Lea Romea",
     "date": "2026-10-22",
@@ -192,6 +179,19 @@
     "status": "Billetter",
     "url": "https://vega.dk/event/lea-romea-2026-10-22",
     "image": "https://payload.vega.dk/media/VEGA_Kalender_LeaRomeaLV_2026-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-store-vega-2026-10-22-slayyyter-den-22--oktober",
+    "artist": "Slayyyter den 22. oktober",
+    "date": "2026-10-22",
+    "time": "20:00",
+    "venue": "Store VEGA",
+    "room": "Store VEGA",
+    "genre": "Andet",
+    "status": "Udsolgt",
+    "url": "https://vega.dk/event/slayyyter-2026-10-22",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_Slayyyter_2026-1200x630.jpg",
     "source": "VEGA"
   },
   {
