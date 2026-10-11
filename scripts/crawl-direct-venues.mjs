@@ -103,6 +103,45 @@ for(const config of configs){
    }
   }catch(e){console.log('Skipped',config.venue,url,String(e).slice(0,80))}
  }
+
+ // Amager Bio's own site does not expose individual concert URLs to this crawler.
+ // Use its dedicated Ticketmaster venue calendar as a verified secondary source.
+ if(config.venue==='Amager Bio'){
+  const calendar='https://www.ticketmaster.dk/venue/amager-bio-kobenhavn-s-billetter/ama/203?language=en-us';
+  for(let index=0;index<4;index++){
+   try{
+    const response=await page.goto(calendar+'&page='+index,{waitUntil:'domcontentloaded',timeout:25000});
+    if(!response?.ok())continue;
+    await page.waitForTimeout(1200);
+    const listings=await page.evaluate(()=>{
+     const results=[];
+     const anchors=[...document.querySelectorAll('a[href*="/event/"]')];
+     for(const a of anchors){
+      const container=a.closest('li,article,[data-testid*="event"],[class*="event-listing"],[class*="eventList"]')||a.parentElement?.parentElement;
+      const text=(container?.innerText||a.innerText||'').replace(/\\s+/g,' ').trim();
+      const title=(a.getAttribute('aria-label')||a.innerText||'').replace(/\\s+/g,' ').trim();
+      results.push({url:a.href,text,title,image:container?.querySelector('img')?.src||''});
+     }
+     return results;
+    });
+    console.log('Amager Bio Ticketmaster page',index,'candidate links:',listings.length);
+    for(const entry of listings){
+     const combined=entry.title+' '+entry.text;
+     const dateMatch=combined.match(/\\b(\\d{1,2})[.\\/-](\\d{1,2})[.\\/-](20\\d\\d)\\b/);
+     const english=combined.match(/\\b(\\d{1,2})\\s+(January|February|March|April|May|June|July|August|September|October|November|December)\\s+(20\\d\\d)\\b/i);
+     const months={january:1,february:2,march:3,april:4,may:5,june:6,july:7,august:8,september:9,october:10,november:11,december:12};
+     const date=dateMatch?dateMatch[3]+'-'+dateMatch[2].padStart(2,'0')+'-'+dateMatch[1].padStart(2,'0'):english?english[3]+'-'+String(months[english[2].toLowerCase()]).padStart(2,'0')+'-'+english[1].padStart(2,'0'):'';
+     if(!date||date<today||/\\b(cancelled|postponed|aflyst|udskudt|comedy|stand-up)\\b/i.test(combined))continue;
+     const name=entry.title.replace(/^.*?(?:information for|for)\\s+/i,'').replace(/,?\\s*\\d{1,2}[.\\/-]\\d{1,2}[.\\/-]20\\d\\d.*$/,'').replace(/\\s*[-–|]\\s*Amager Bio.*$/i,'').trim();
+     if(!name||name.length>120||/^(find tickets|buy tickets|event info)$/i.test(name))continue;
+     const timeMatch=combined.match(/(?:20\\d\\d[,\\s]+|,\\s*)(\\d{1,2})[.:](\\d{2})\\b/);
+     const time=timeMatch?timeMatch[1].padStart(2,'0')+':'+timeMatch[2]:'';
+     const key=['Amager Bio',date,time,name.toLowerCase()].join('|');
+     if(!unique.has(key)){unique.set(key,{id:'direct-'+key.toLowerCase().replace(/[^a-z0-9-]/g,'-'),artist:name,date,time,venue:'Amager Bio',room:'Amager Bio',genre:'Andet',status:/sold out|udsolgt/i.test(combined)?'Udsolgt':'Billetter',url:entry.url,image:entry.image,source:'Amager Bio'});count++}
+    }
+   }catch(error){console.log('Amager Bio Ticketmaster failed page',index,String(error).slice(0,160))}
+  }
+ }
  console.log(config.venue,'discovered:',urls.size,'parsed:',count);
 }
 await browser.close();
