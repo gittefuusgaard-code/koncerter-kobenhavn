@@ -1,31 +1,5 @@
 [
   {
-    "id": "direct-k-b--hallen-2026-10-11-19-30-myles-smith---support--josie-edwards",
-    "artist": "Myles Smith - Support: Josie Edwards",
-    "date": "2026-10-11",
-    "time": "19:30",
-    "venue": "K.B. Hallen",
-    "room": "K.B. Hallen",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://kbhallen.dk/event/myles-smith_2026-10-11/",
-    "image": "https://kbhallen.dk/site/assets/files/4899/lead_-_20251119_jm_myles_smith_shot_01_0061_small_size.1920x1080.jpg",
-    "source": "K.B. Hallen"
-  },
-  {
-    "id": "direct-pumpehuset-2026-10-11--fink",
-    "artist": "Fink",
-    "date": "2026-10-11",
-    "time": "",
-    "venue": "Pumpehuset",
-    "room": "Pumpehuset",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://pumpehuset.dk/koncerter/fink-2/",
-    "image": "https://pumpehuset.dk/wp-content/uploads/Fink-press-photo.jpg",
-    "source": "Pumpehuset"
-  },
-  {
     "id": "direct-pumpehuset-2026-10-12--little-big",
     "artist": "Little Big",
     "date": "2026-10-12",
@@ -179,6 +153,19 @@
     "status": "Billetter",
     "url": "https://pumpehuset.dk/koncerter/conway-the-machine/",
     "image": "https://pumpehuset.dk/wp-content/uploads/Conway-The-Machine.jpg",
+    "source": "Pumpehuset"
+  },
+  {
+    "id": "direct-pumpehuset-2026-10-22--mark-william-lewis---spawner-presented-by-night-journeys-i-pumpehuset",
+    "artist": "Mark William Lewis + Spawner presented by Night Journeys i Pumpehuset",
+    "date": "2026-10-22",
+    "time": "",
+    "venue": "Pumpehuset",
+    "room": "Pumpehuset",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://pumpehuset.dk/koncerter/mark-william-lewis-spawner-presented-by-night-journeys/",
+    "image": "https://pumpehuset.dk/wp-content/uploads/mark-william-lewis-1.jpg",
     "source": "Pumpehuset"
   },
   {
