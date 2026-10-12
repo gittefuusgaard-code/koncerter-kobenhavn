@@ -1,44 +1,5 @@
 [
   {
-    "id": "dr-eventyrlig-efter-rsferie-2026-10-11-10-00",
-    "artist": "Eventyrlig Efterårsferie",
-    "date": "2026-10-11",
-    "time": "10:00",
-    "venue": "DR Koncerthuset",
-    "room": "STUDIE 1",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://www.drkoncerthuset.dk/kalender/2026/eventyrlig-efteraarsferie/eventyrlig-efteraarsferie-2/",
-    "image": "https://www.drkoncerthuset.dk/media/fgakxo0f/event_34235.jpg?width=1600&height=800&v=1dcfe1a0a2d7bb0&quality=80",
-    "source": "DR Koncerthuset"
-  },
-  {
-    "id": "dr-eventyrlig-efter-rsferie-2026-10-11-13-30",
-    "artist": "Eventyrlig Efterårsferie",
-    "date": "2026-10-11",
-    "time": "13:30",
-    "venue": "DR Koncerthuset",
-    "room": "STUDIE 1",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://www.drkoncerthuset.dk/kalender/2026/eventyrlig-efteraarsferie/eventyrlig-efteraarsferie-3/",
-    "image": "https://www.drkoncerthuset.dk/media/fgakxo0f/event_34235.jpg?width=1600&height=800&v=1dcfe1a0a2d7bb0&quality=80",
-    "source": "DR Koncerthuset"
-  },
-  {
-    "id": "dr-tv-2-2026-10-11-20-00",
-    "artist": "TV-2",
-    "date": "2026-10-11",
-    "time": "20:00",
-    "venue": "DR Koncerthuset",
-    "room": "KONCERTSALEN",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://www.drkoncerthuset.dk/kalender/2026/tv-2/tv-2-akusti-sk-tour-2026/",
-    "image": "https://www.drkoncerthuset.dk/media/l2cjjadg/event_32981.jpg?mode=crop&width=1200&height=630&quality=80",
-    "source": "DR Koncerthuset"
-  },
-  {
     "id": "dr-eventyrlig-efter-rsferie-2026-10-12-10-00",
     "artist": "Eventyrlig Efterårsferie",
     "date": "2026-10-12",
@@ -48,7 +9,7 @@
     "genre": "Andet",
     "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/eventyrlig-efteraarsferie/eventyrlig-efteraarsferie-4/",
-    "image": "https://www.drkoncerthuset.dk/media/fgakxo0f/event_34235.jpg?mode=crop&width=1200&height=630&quality=80",
+    "image": "https://www.drkoncerthuset.dk/media/fgakxo0f/event_34235.jpg?width=1600&height=800&v=1dcfe1a0a2d7bb0&quality=80",
     "source": "DR Koncerthuset"
   },
   {
@@ -61,7 +22,7 @@
     "genre": "Andet",
     "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/eventyrlig-efteraarsferie/eventyrlig-efteraarsferie-5/",
-    "image": "https://www.drkoncerthuset.dk/media/fgakxo0f/event_34235.jpg?mode=crop&width=1200&height=630&quality=80",
+    "image": "https://www.drkoncerthuset.dk/media/fgakxo0f/event_34235.jpg?width=1600&height=800&v=1dcfe1a0a2d7bb0&quality=80",
     "source": "DR Koncerthuset"
   },
   {
@@ -74,7 +35,7 @@
     "genre": "Andet",
     "status": "Venteliste",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/p3-guld/p3-guld/",
-    "image": "https://www.drkoncerthuset.dk/media/g1qjcts0/event_35178.jpg?mode=crop&width=1200&height=630&quality=80",
+    "image": "https://www.drkoncerthuset.dk/media/g1qjcts0/event_35178.jpg?width=1600&height=800&v=1dd4504f4122b00&quality=80",
     "source": "DR Koncerthuset"
   },
   {
@@ -87,7 +48,7 @@
     "genre": "Andet",
     "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/young-the-giant/young-the-giant-victory-garden-tour/",
-    "image": "https://www.drkoncerthuset.dk/media/ugiifsfn/event_35135.jpg?mode=crop&width=1200&height=630&quality=80",
+    "image": "https://www.drkoncerthuset.dk/media/ugiifsfn/event_35135.jpg?width=1600&height=800&v=1dd3926ea52fa70&quality=80",
     "source": "DR Koncerthuset"
   },
   {
@@ -100,7 +61,7 @@
     "genre": "Andet",
     "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/zucchero/zucchero-ekstrakoncert/",
-    "image": "https://www.drkoncerthuset.dk/media/oqrm1pla/event_30792.jpg?mode=crop&width=1200&height=630&quality=80",
+    "image": "https://www.drkoncerthuset.dk/media/oqrm1pla/event_30792.jpg?width=1600&height=800&v=1dc6f2844145370&quality=80",
     "source": "DR Koncerthuset"
   },
   {
