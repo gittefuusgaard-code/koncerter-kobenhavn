@@ -1,18 +1,5 @@
 [
   {
-    "id": "vega-store-vega-2026-10-11-cat-power",
-    "artist": "Cat Power",
-    "date": "2026-10-11",
-    "time": "20:00",
-    "venue": "Store VEGA",
-    "room": "Store VEGA",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://vega.dk/event/cat-power-2026-10-11",
-    "image": "https://payload.vega.dk/media/VEGA-2026-Kalender-CatPower-1200x630.jpg",
-    "source": "VEGA"
-  },
-  {
     "id": "vega-store-vega-2026-10-13-eve",
     "artist": "Eve",
     "date": "2026-10-13",
