@@ -13,7 +13,7 @@ const keyOf=c=>[c.venue,c.date,c.time||'',c.artist.toLowerCase().trim()].join('|
 const existingIdentity=new Map(Object.entries(history).filter(([k])=>!k.startsWith('__')).map(([k,v])=>{const p=k.split('|');return [identity({venue:p[0],date:p[1],artist:p.slice(3).join('|')}),v]}));
 
 let concerts=[...vega,...dr,...direct];
-const directSources=['Royal Arena','K.B. Hallen','Amager Bio','Pumpehuset'];
+const directSources=['Royal Arena','K.B. Hallen','Amager Bio','Pumpehuset','Bremen Teater'];
 const initialized=new Set(directSources.filter(source=>history['__initialized__:'+source]));
 const firstDirectSources=new Set(directSources.filter(source=>direct.some(c=>c.source===source)&&!initialized.has(source)));
 const vegaBaseline=!history['__initialized__:VEGA'];
