@@ -1,31 +1,5 @@
 [
   {
-    "id": "dr-eventyrlig-efter-rsferie-2026-10-12-10-00",
-    "artist": "Eventyrlig Efterårsferie",
-    "date": "2026-10-12",
-    "time": "10:00",
-    "venue": "DR Koncerthuset",
-    "room": "STUDIE 1",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://www.drkoncerthuset.dk/kalender/2026/eventyrlig-efteraarsferie/eventyrlig-efteraarsferie-4/",
-    "image": "https://www.drkoncerthuset.dk/media/fgakxo0f/event_34235.jpg?width=1600&height=800&v=1dcfe1a0a2d7bb0&quality=80",
-    "source": "DR Koncerthuset"
-  },
-  {
-    "id": "dr-eventyrlig-efter-rsferie-2026-10-12-13-30",
-    "artist": "Eventyrlig Efterårsferie",
-    "date": "2026-10-12",
-    "time": "13:30",
-    "venue": "DR Koncerthuset",
-    "room": "STUDIE 1",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://www.drkoncerthuset.dk/kalender/2026/eventyrlig-efteraarsferie/eventyrlig-efteraarsferie-5/",
-    "image": "https://www.drkoncerthuset.dk/media/fgakxo0f/event_34235.jpg?width=1600&height=800&v=1dcfe1a0a2d7bb0&quality=80",
-    "source": "DR Koncerthuset"
-  },
-  {
     "id": "dr-p3-guld-2026-10-16-21-00",
     "artist": "P3 Guld",
     "date": "2026-10-16",
@@ -74,7 +48,7 @@
     "genre": "Andet",
     "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/alba-akvama/alba-akvama/",
-    "image": "https://www.drkoncerthuset.dk/media/1nznhvxq/event_32974.jpg?mode=crop&width=1200&height=630&quality=80",
+    "image": "https://www.drkoncerthuset.dk/media/1nznhvxq/event_32974.jpg?width=1600&height=800&v=1dcb5ddba8aca10&quality=80",
     "source": "DR Koncerthuset"
   },
   {
@@ -87,7 +61,7 @@
     "genre": "Andet",
     "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/zucchero/zucchero/",
-    "image": "https://www.drkoncerthuset.dk/media/oqrm1pla/event_30792.jpg?mode=crop&width=1200&height=630&quality=80",
+    "image": "https://www.drkoncerthuset.dk/media/oqrm1pla/event_30792.jpg?width=1600&height=800&v=1dc6f2844145370&quality=80",
     "source": "DR Koncerthuset"
   },
   {
@@ -1099,7 +1073,7 @@
     "venue": "DR Koncerthuset",
     "room": "STUDIE 1",
     "genre": "Andet",
-    "status": "Billetter",
+    "status": "Venteliste",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/boerstes-store-julefest/boerstes-store-julefest-14/",
     "image": "https://www.drkoncerthuset.dk/media/hxxbcay5/event_34884.jpg?mode=crop&width=1200&height=630&quality=80",
     "source": "DR Koncerthuset"
@@ -2470,6 +2444,19 @@
     "source": "DR Koncerthuset"
   },
   {
+    "id": "dr-hazlett-2027-03-07-20-00",
+    "artist": "Hazlett",
+    "date": "2027-03-07",
+    "time": "20:00",
+    "venue": "DR Koncerthuset",
+    "room": "STUDIE 2",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://www.drkoncerthuset.dk/kalender/2027/hazlett/hazlett/",
+    "image": "https://www.drkoncerthuset.dk/media/i1ydxva1/event_35187.jpg?mode=crop&width=1200&height=630&quality=80",
+    "source": "DR Koncerthuset"
+  },
+  {
     "id": "dr-heather-nova-2027-03-08-20-00",
     "artist": "Heather Nova",
     "date": "2027-03-08",
@@ -2633,7 +2620,7 @@
     "venue": "DR Koncerthuset",
     "room": "KONCERTSALEN",
     "genre": "Andet",
-    "status": "Billetter",
+    "status": "Venteliste",
     "url": "https://www.drkoncerthuset.dk/kalender/2027/hermanos-gutierrez/hermanos-gutierrez/",
     "image": "https://www.drkoncerthuset.dk/media/vcalqszf/event_35360.jpg?mode=crop&width=1200&height=630&quality=80",
     "source": "DR Koncerthuset"
