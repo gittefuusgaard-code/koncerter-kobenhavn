@@ -5,6 +5,7 @@ const configs=[
  {venue:'Royal Arena',base:'https://www.royalarena.dk',start:['https://www.royalarena.dk/shows','https://www.royalarena.dk/en/shows'],patterns:[/\/shows?\//i,/\/events?\//i,/\/all-events\//i]},
  {venue:'K.B. Hallen',base:'https://kbhallen.dk',start:['https://kbhallen.dk/kalender/'],patterns:[/\/event\//i,/\/koncert\//i]},
  {venue:'Amager Bio',base:'https://amagerbio.dk',start:['https://amagerbio.dk/','https://amagerbio.dk/program/'],patterns:[/\/event\//i,/\/koncert\//i,/\/events\//i]},
+ {venue:'Bremen Teater',base:'https://www.brementeater.dk',start:['https://www.brementeater.dk/'],patterns:[/\/events?\//i,/\/arrangementer?\//i,/\/program\//i,/\/show\//i,/\/koncerter?\//i]},
  {venue:'Pumpehuset',base:'https://pumpehuset.dk',start:['https://pumpehuset.dk/','https://pumpehuset.dk/program/'],patterns:[/\/koncerter\//i]}
 ];
 const browser=await chromium.launch({headless:true});
@@ -74,7 +75,8 @@ for(const config of configs){
    }));
    const isEventPage=config.patterns.some(p=>p.test(new URL(url).pathname));
    const excluded=/\b(?:sports?|mma|boxing|wrestling|comedy|stand.?up|foredrag|galla|globetrotters)\b/i;
-   const events=structured.filter(e=>isEventPage && !excluded.test(String(e.name||'')) && /(?:MusicEvent|Event)/i.test([].concat(e['@type']||[]).join(' ')));
+   const bremenMusic=/\b(?:music|musik|koncert|jazz|blues|rock|pop|folk|soul|band|orchestra|orkester|singer|songwriter|festival|tour)\b/i;
+   const events=structured.filter(e=>isEventPage && !excluded.test(String(e.name||'')) && /(?:MusicEvent|Event)/i.test([].concat(e['@type']||[]).join(' ')) && (config.venue!=='Bremen Teater'||/MusicEvent/i.test([].concat(e['@type']||[]).join(' '))||bremenMusic.test([e.name,e.description,e.genre].join(' '))));
    if(!events.length && config.venue==='Pumpehuset' && /\/koncerter\/[^/]+/i.test(new URL(url).pathname)){
     const match=meta.text.match(/\b(\d{1,2})[.]?\s+(jan|feb|mar|apr|maj|jun|jul|aug|sep|okt|nov|dec)[a-zæøå]*\s+20\d\d\b/i);
     if(match&&!excluded.test(meta.title)&&/showet starter|dørene åbner/i.test(meta.text))events.push({name:meta.title,startDate:match[0]});
