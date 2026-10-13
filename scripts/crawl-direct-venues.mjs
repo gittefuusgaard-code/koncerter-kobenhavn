@@ -76,7 +76,7 @@ for(const config of configs){
    const isEventPage=config.patterns.some(p=>p.test(new URL(url).pathname));
    const excluded=/\b(?:sports?|mma|boxing|wrestling|comedy|stand.?up|foredrag|galla|globetrotters)\b/i;
    const bremenMusic=/\b(?:music|musik|koncert|jazz|blues|rock|pop|folk|soul|band|orchestra|orkester|singer|songwriter|festival|tour)\b/i;
-   const events=structured.filter(e=>isEventPage && !excluded.test(String(e.name||'')) && /(?:MusicEvent|Event)/i.test([].concat(e['@type']||[]).join(' ')) && (config.venue!=='Bremen Teater'||/MusicEvent/i.test([].concat(e['@type']||[]).join(' '))||bremenMusic.test([e.name,e.description,e.genre].join(' '))));
+   const events=structured.filter(e=>isEventPage && (config.venue==='Bremen Teater'||!excluded.test(String(e.name||''))) && /(?:MusicEvent|Event)/i.test([].concat(e['@type']||[]).join(' ')));
    if(!events.length && config.venue==='Pumpehuset' && /\/koncerter\/[^/]+/i.test(new URL(url).pathname)){
     const match=meta.text.match(/\b(\d{1,2})[.]?\s+(jan|feb|mar|apr|maj|jun|jul|aug|sep|okt|nov|dec)[a-zæøå]*\s+20\d\d\b/i);
     if(match&&!excluded.test(meta.title)&&/showet starter|dørene åbner/i.test(meta.text))events.push({name:meta.title,startDate:match[0]});
@@ -91,7 +91,7 @@ for(const config of configs){
     const date=toISO(rawDate);if(!date||date<today)continue;
     const name=normalize(e.name||meta.title).replace(/\s*[|–-]\s*(?:Pumpehuset|Royal Arena|Amager Bio)\s*$/i,'').replace(/\s*[|–]\s*(?:Royal Arena|K\.B\. Hallen|Amager Bio|Pumpehuset).*$/i,'');
     const artist=config.venue==='Pumpehuset'?name.replace(/\s+giver koncert i Pumpehuset\s*$/i,'').trim():name;
-    if(!artist||artist.length>130||/^(?:program|kalender|koncerter|shows|events)$/i.test(name)||/\b(?:MMA|wrestling|boxing|stand.?up|foredrag)\b/i.test(name))continue;
+    if(!artist||artist.length>130||/^(?:program|kalender|koncerter|shows|events)$/i.test(name)||(config.venue!=='Bremen Teater'&&/\b(?:MMA|wrestling|boxing|stand.?up|foredrag)\b/i.test(name)))continue;
     const location=normalize(e.location?.name||e.location?.[0]?.name||'');
     const venue=config.venue==='Amager Bio'&&/\bbeta\b/i.test(location)?'':config.venue;
     if(!venue)continue;
