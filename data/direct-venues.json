@@ -1,18 +1,5 @@
 [
   {
-    "id": "direct-pumpehuset-2026-10-12--little-big",
-    "artist": "Little Big",
-    "date": "2026-10-12",
-    "time": "",
-    "venue": "Pumpehuset",
-    "room": "Pumpehuset",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://pumpehuset.dk/koncerter/little-big-2/",
-    "image": "https://pumpehuset.dk/wp-content/uploads/LittleBig_Copenhagen_1080x1080px.png",
-    "source": "Pumpehuset"
-  },
-  {
     "id": "direct-pumpehuset-2026-10-13--54-ultra",
     "artist": "54 Ultra",
     "date": "2026-10-13",
@@ -180,6 +167,19 @@
     "url": "https://www.royalarena.dk/en/all-events/le-sserafim-tickets-ae1663052",
     "image": "https://dynamicmedia.livenationinternational.com/z/c/c/16b8ece9-f593-4a02-bc2d-e615f077faf4.png",
     "source": "Royal Arena"
+  },
+  {
+    "id": "direct-pumpehuset-2026-10-23--hoa-hoa-hoa-rave-i-pumpehuset",
+    "artist": "Hoa-Hoa-Hoa Rave i Pumpehuset",
+    "date": "2026-10-23",
+    "time": "",
+    "venue": "Pumpehuset",
+    "room": "Pumpehuset",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://pumpehuset.dk/koncerter/twilight-rave/",
+    "image": "https://pumpehuset.dk/wp-content/uploads/Hoa-Hoa-Hoa-Rave-Banner-COPENHAGEN.jpg",
+    "source": "Pumpehuset"
   },
   {
     "id": "direct-royal-arena-2026-10-24--saveus",
