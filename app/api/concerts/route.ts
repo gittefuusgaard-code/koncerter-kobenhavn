@@ -9,13 +9,13 @@ type Concert={id:string;artist:string;date:string;time?:string;venue:string;room
 const VENUES=[
  'Royal Arena','K.B. Hallen','Store VEGA','Lille VEGA','Falkonersalen',
  'Forum Copenhagen','Amager Bio',
- 'Pumpehuset','Poolen'
+ 'Pumpehuset','Bremen Teater','Poolen'
 ];
 
 const JAMBASE_VENUES=[
  'Royal Arena','KB Hallen','Store VEGA','Lille VEGA','Scandic Falkoner',
  'Forum Copenhagen','DR Koncerthuset','Koncerthuset','Amager Bio',
- 'Pumpehuset','Poolen'
+ 'Pumpehuset','Bremen Teater','Poolen'
 ];
 
 const venueAliases:Record<string,string[]>={
@@ -27,6 +27,7 @@ const venueAliases:Record<string,string[]>={
  'Forum Copenhagen':['forum copenhagen','forum københavn'],
  'Amager Bio':['amager bio'],
  'Pumpehuset':['pumpehuset'],
+ 'Bremen Teater':['bremen teater','bremen'],
  'Poolen':['poolen']
 };
 
