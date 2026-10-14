@@ -22,7 +22,7 @@
     "genre": "Andet",
     "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/young-the-giant/young-the-giant-victory-garden-tour/",
-    "image": "https://www.drkoncerthuset.dk/media/ugiifsfn/event_35135.jpg?width=1600&height=800&v=1dd3926ea52fa70&quality=80",
+    "image": "https://www.drkoncerthuset.dk/media/ugiifsfn/event_35135.jpg?mode=crop&width=1200&height=630&quality=80",
     "source": "DR Koncerthuset"
   },
   {
@@ -35,7 +35,7 @@
     "genre": "Andet",
     "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/zucchero/zucchero-ekstrakoncert/",
-    "image": "https://www.drkoncerthuset.dk/media/oqrm1pla/event_30792.jpg?width=1600&height=800&v=1dc6f2844145370&quality=80",
+    "image": "https://www.drkoncerthuset.dk/media/oqrm1pla/event_30792.jpg?mode=crop&width=1200&height=630&quality=80",
     "source": "DR Koncerthuset"
   },
   {
@@ -48,7 +48,7 @@
     "genre": "Andet",
     "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/alba-akvama/alba-akvama/",
-    "image": "https://www.drkoncerthuset.dk/media/1nznhvxq/event_32974.jpg?width=1600&height=800&v=1dcb5ddba8aca10&quality=80",
+    "image": "https://www.drkoncerthuset.dk/media/1nznhvxq/event_32974.jpg?mode=crop&width=1200&height=630&quality=80",
     "source": "DR Koncerthuset"
   },
   {
@@ -61,7 +61,7 @@
     "genre": "Andet",
     "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/zucchero/zucchero/",
-    "image": "https://www.drkoncerthuset.dk/media/oqrm1pla/event_30792.jpg?width=1600&height=800&v=1dc6f2844145370&quality=80",
+    "image": "https://www.drkoncerthuset.dk/media/oqrm1pla/event_30792.jpg?mode=crop&width=1200&height=630&quality=80",
     "source": "DR Koncerthuset"
   },
   {
@@ -2223,6 +2223,19 @@
     "source": "DR Koncerthuset"
   },
   {
+    "id": "dr-michael-learns-to-rock-2027-02-21-20-00",
+    "artist": "Michael Learns To Rock",
+    "date": "2027-02-21",
+    "time": "20:00",
+    "venue": "DR Koncerthuset",
+    "room": "KONCERTSALEN",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://www.drkoncerthuset.dk/kalender/2027/michael-learns-to-rock/michael-learns-to-rock-mltr-dk-2027-1/",
+    "image": "https://www.drkoncerthuset.dk/media/3wzf4pcg/event_35185.jpg?mode=crop&width=1200&height=630&quality=80",
+    "source": "DR Koncerthuset"
+  },
+  {
     "id": "dr-the-tallest-man-on-earth-2027-02-22-20-00",
     "artist": "The Tallest Man On Earth",
     "date": "2027-02-22",
@@ -2613,6 +2626,19 @@
     "source": "DR Koncerthuset"
   },
   {
+    "id": "dr-hermanos-guti-rrez-2027-03-20-20-00",
+    "artist": "Hermanos Gutiérrez",
+    "date": "2027-03-20",
+    "time": "20:00",
+    "venue": "DR Koncerthuset",
+    "room": "KONCERTSALEN",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://www.drkoncerthuset.dk/kalender/2027/hermanos-gutierrez/hermanos-gutierrez-1/",
+    "image": "https://www.drkoncerthuset.dk/media/vcalqszf/event_35360.jpg?mode=crop&width=1200&height=630&quality=80",
+    "source": "DR Koncerthuset"
+  },
+  {
     "id": "dr-hermanos-guti-rrez-2027-03-21-20-00",
     "artist": "Hermanos Gutiérrez",
     "date": "2027-03-21",
@@ -2938,6 +2964,19 @@
     "source": "DR Koncerthuset"
   },
   {
+    "id": "dr-levi-sct-2027-05-05-20-00",
+    "artist": "Levi.Sct",
+    "date": "2027-05-05",
+    "time": "20:00",
+    "venue": "DR Koncerthuset",
+    "room": "KONCERTSALEN",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://www.drkoncerthuset.dk/kalender/2027/levisct/levisct/",
+    "image": "https://www.drkoncerthuset.dk/media/galpothj/event_35448.jpg?mode=crop&width=1200&height=630&quality=80",
+    "source": "DR Koncerthuset"
+  },
+  {
     "id": "dr-berliner-filharmonikerne-2027-05-06-19-30",
     "artist": "Berliner Filharmonikerne",
     "date": "2027-05-06",
@@ -3156,6 +3195,19 @@
     "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2027/beethoven-orkestret-bonn/beethoven-orkestret-bonn-kaftan-shirinyan-og-beethoven/",
     "image": "https://www.drkoncerthuset.dk/media/43uj4nrk/event_34861.jpg?mode=crop&width=1200&height=630&quality=80",
+    "source": "DR Koncerthuset"
+  },
+  {
+    "id": "dr-fallulah-2027-09-17-20-30",
+    "artist": "Fallulah",
+    "date": "2027-09-17",
+    "time": "20:30",
+    "venue": "DR Koncerthuset",
+    "room": "STUDIE 3",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://www.drkoncerthuset.dk/kalender/2027/fallulah/fallulah/",
+    "image": "https://www.drkoncerthuset.dk/media/xv2nqeda/event_35447.jpg?mode=crop&width=1200&height=630&quality=80",
     "source": "DR Koncerthuset"
   },
   {
