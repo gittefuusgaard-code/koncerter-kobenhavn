@@ -1,18 +1,5 @@
 [
   {
-    "id": "direct-pumpehuset-2026-10-13--54-ultra",
-    "artist": "54 Ultra",
-    "date": "2026-10-13",
-    "time": "",
-    "venue": "Pumpehuset",
-    "room": "Pumpehuset",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://pumpehuset.dk/koncerter/54-ultra/",
-    "image": "https://pumpehuset.dk/wp-content/uploads/54-ULTRA-PRESS-PHOTO-OCT-2025-kopi-1-e1781599759518.jpg",
-    "source": "Pumpehuset"
-  },
-  {
     "id": "direct-pumpehuset-2026-10-14--stvw-pres--punk-rave-i-pumpehuset",
     "artist": "STVW pres. Punk Rave i Pumpehuset",
     "date": "2026-10-14",
@@ -206,6 +193,19 @@
     "url": "https://kbhallen.dk/event/placebo_2026-10-24/",
     "image": "https://kbhallen.dk/site/assets/files/4891/placebo_-_lead_press_shot_credit_scarlet_page.1920x1080.jpg",
     "source": "K.B. Hallen"
+  },
+  {
+    "id": "direct-pumpehuset-2026-10-24--la-malafamera---halloween-edition-i-pumpehuset",
+    "artist": "La Malafamera - Halloween Edition i Pumpehuset",
+    "date": "2026-10-24",
+    "time": "",
+    "venue": "Pumpehuset",
+    "room": "Pumpehuset",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://pumpehuset.dk/koncerter/la-malafamera-halloween-edition/",
+    "image": "",
+    "source": "Pumpehuset"
   },
   {
     "id": "direct-royal-arena-2026-10-25--deep-purple",
