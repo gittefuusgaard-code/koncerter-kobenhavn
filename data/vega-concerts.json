@@ -1,31 +1,5 @@
 [
   {
-    "id": "vega-store-vega-2026-10-13-eve",
-    "artist": "Eve",
-    "date": "2026-10-13",
-    "time": "20:00",
-    "venue": "Store VEGA",
-    "room": "Store VEGA",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://vega.dk/event/eve-2026-10-13",
-    "image": "https://payload.vega.dk/media/VEGA_Kalender_Eve_2026-1200x630.jpg",
-    "source": "VEGA"
-  },
-  {
-    "id": "vega-lille-vega-2026-10-13-matt-maeson",
-    "artist": "Matt Maeson",
-    "date": "2026-10-13",
-    "time": "20:00",
-    "venue": "Lille VEGA",
-    "room": "Lille VEGA",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://vega.dk/event/matt-maeson-2026-10-13",
-    "image": "https://payload.vega.dk/media/VEGA_Kalender_MattMaeson_2026-1200x630.jpg",
-    "source": "VEGA"
-  },
-  {
     "id": "vega-lille-vega-2026-10-14-fed---phil",
     "artist": "FED & Phil",
     "date": "2026-10-14",
