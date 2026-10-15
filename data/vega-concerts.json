@@ -247,19 +247,6 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-lille-vega-2026-10-31-hola-ghost",
-    "artist": "Hola Ghost",
-    "date": "2026-10-31",
-    "time": "20:00",
-    "venue": "Lille VEGA",
-    "room": "Lille VEGA",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://vega.dk/event/hola-ghost-2026-10-31",
-    "image": "https://payload.vega.dk/media/VEGA_Kalender_Hola Ghost_2026-4-1200x630.jpg",
-    "source": "VEGA"
-  },
-  {
     "id": "vega-store-vega-2026-10-31-kenton-slash-demon",
     "artist": "Kenton Slash Demon",
     "date": "2026-10-31",
@@ -270,6 +257,19 @@
     "status": "Billetter",
     "url": "https://vega.dk/event/kenton-slash-demon-2026-10-31",
     "image": "https://payload.vega.dk/media/VEGA_Kalender_KentonSlashDemon_2026-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-lille-vega-2026-10-31-hola-ghost",
+    "artist": "Hola Ghost",
+    "date": "2026-10-31",
+    "time": "20:00",
+    "venue": "Lille VEGA",
+    "room": "Lille VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/hola-ghost-2026-10-31",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_Hola Ghost_2026-4-1200x630.jpg",
     "source": "VEGA"
   },
   {
@@ -1040,6 +1040,19 @@
     "source": "VEGA"
   },
   {
+    "id": "vega-store-vega-2026-12-27-sort-sol",
+    "artist": "Sort Sol",
+    "date": "2026-12-27",
+    "time": "20:00",
+    "venue": "Store VEGA",
+    "room": "Store VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/sort-sol-2026-12-27",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_SortSol_2026-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
     "id": "vega-store-vega-2026-12-29-outlandish",
     "artist": "Outlandish",
     "date": "2026-12-29",
@@ -1560,6 +1573,19 @@
     "source": "VEGA"
   },
   {
+    "id": "vega-lille-vega-2027-03-16-marika-hackman",
+    "artist": "Marika Hackman",
+    "date": "2027-03-16",
+    "time": "20:00",
+    "venue": "Lille VEGA",
+    "room": "Lille VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/marika-hackman-2027-03-16",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_MarikaHackman_2027-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
     "id": "vega-store-vega-2027-03-17-jonathan",
     "artist": "JONATHAN",
     "date": "2027-03-17",
@@ -2012,6 +2038,19 @@
     "status": "Billetter",
     "url": "https://vega.dk/event/john-vincent-iii-2027-06-05",
     "image": "https://payload.vega.dk/media/VEGA_Kalender_JohnVincentIII_2026-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-store-vega-2027-09-04-lars-winnerb-ck",
+    "artist": "Lars Winnerbäck",
+    "date": "2027-09-04",
+    "time": "20:00",
+    "venue": "Store VEGA",
+    "room": "Store VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/lars-winnerback-2027-09-04",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_LarsWinnerbacl_2027-1200x630.jpg",
     "source": "VEGA"
   },
   {
