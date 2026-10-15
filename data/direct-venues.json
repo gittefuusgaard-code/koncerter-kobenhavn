@@ -1,18 +1,5 @@
 [
   {
-    "id": "direct-pumpehuset-2026-10-14--stvw-pres--punk-rave-i-pumpehuset",
-    "artist": "STVW pres. Punk Rave i Pumpehuset",
-    "date": "2026-10-14",
-    "time": "",
-    "venue": "Pumpehuset",
-    "room": "Pumpehuset",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://pumpehuset.dk/koncerter/stvw-pres-punk-rave/",
-    "image": "https://pumpehuset.dk/wp-content/uploads/STVW_2025_01_TRANSPARENT-e1773649685176.jpg",
-    "source": "Pumpehuset"
-  },
-  {
     "id": "direct-pumpehuset-2026-10-15--oplev-nimino-i-pumpehuset",
     "artist": "Oplev nimino i Pumpehuset",
     "date": "2026-10-15",
@@ -232,6 +219,19 @@
     "url": "https://kbhallen.dk/event/joe-bonamassa_2026-10-27/",
     "image": "https://kbhallen.dk/site/assets/files/4778/joe_bonamasssa_laurence_harvey.1920x1080.jpg",
     "source": "K.B. Hallen"
+  },
+  {
+    "id": "direct-pumpehuset-2026-10-28--razorlight-spiller-i-pumpehuset",
+    "artist": "Razorlight spiller i Pumpehuset",
+    "date": "2026-10-28",
+    "time": "",
+    "venue": "Pumpehuset",
+    "room": "Pumpehuset",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://pumpehuset.dk/koncerter/razorlight/",
+    "image": "https://pumpehuset.dk/wp-content/uploads/Razorlight-press.jpeg",
+    "source": "Pumpehuset"
   },
   {
     "id": "direct-k-b--hallen-2026-10-30-19-00-dimmu-borgir--amp--behemoth---support--dark-funeral",
