@@ -1,18 +1,5 @@
 [
   {
-    "id": "vega-lille-vega-2026-10-14-fed---phil",
-    "artist": "FED & Phil",
-    "date": "2026-10-14",
-    "time": "20:00",
-    "venue": "Lille VEGA",
-    "room": "Lille VEGA",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://vega.dk/event/fed-and-phil-2026-10-14",
-    "image": "https://payload.vega.dk/media/VEGA_Kalender_FED&Phil_2026-1200x630.jpg",
-    "source": "VEGA"
-  },
-  {
     "id": "vega-store-vega-2026-10-15-haken",
     "artist": "Haken",
     "date": "2026-10-15",
