@@ -1,18 +1,5 @@
 [
   {
-    "id": "direct-pumpehuset-2026-10-15--oplev-nimino-i-pumpehuset",
-    "artist": "Oplev nimino i Pumpehuset",
-    "date": "2026-10-15",
-    "time": "",
-    "venue": "Pumpehuset",
-    "room": "Pumpehuset",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://pumpehuset.dk/koncerter/nimino/",
-    "image": "https://pumpehuset.dk/wp-content/uploads/nimino-e1780923721831.jpg",
-    "source": "Pumpehuset"
-  },
-  {
     "id": "direct-pumpehuset-2026-10-16--dizzee-rascal",
     "artist": "Dizzee Rascal",
     "date": "2026-10-16",
@@ -218,6 +205,19 @@
     "status": "Billetter",
     "url": "https://pumpehuset.dk/koncerter/razorlight/",
     "image": "https://pumpehuset.dk/wp-content/uploads/Razorlight-press.jpeg",
+    "source": "Pumpehuset"
+  },
+  {
+    "id": "direct-pumpehuset-2026-10-29--den--strigske-edm-stjerne-ely-oaks-g-ster-pumpehuset",
+    "artist": "Den østrigske EDM-stjerne Ely Oaks gæster Pumpehuset",
+    "date": "2026-10-29",
+    "time": "",
+    "venue": "Pumpehuset",
+    "room": "Pumpehuset",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://pumpehuset.dk/koncerter/ely-oaks/",
+    "image": "https://pumpehuset.dk/wp-content/uploads/Ely-Oaks-3.jpg",
     "source": "Pumpehuset"
   },
   {
