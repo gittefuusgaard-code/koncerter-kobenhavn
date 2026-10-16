@@ -1235,6 +1235,19 @@
     "source": "VEGA"
   },
   {
+    "id": "vega-lille-vega-2027-02-05-madra-salach",
+    "artist": "Madra Salach",
+    "date": "2027-02-05",
+    "time": "21:00",
+    "venue": "Lille VEGA",
+    "room": "Lille VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/madra-salach-2027-02-05",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_MadraSalach_2027-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
     "id": "vega-store-vega-2027-02-05-eee-gee",
     "artist": "eee gee",
     "date": "2027-02-05",
@@ -1362,6 +1375,19 @@
     "status": "Billetter",
     "url": "https://vega.dk/event/snuggle-2027-02-19",
     "image": "https://payload.vega.dk/media/VEGA_Kalender_Snuggle_2026-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-store-vega-2027-02-21-westside-gunn",
+    "artist": "Westside Gunn",
+    "date": "2027-02-21",
+    "time": "20:00",
+    "venue": "Store VEGA",
+    "room": "Store VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/westside-gunn-2027-02-21",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_WestsideGunn_2027-1200x630.jpg",
     "source": "VEGA"
   },
   {
@@ -1960,6 +1986,19 @@
     "status": "Billetter",
     "url": "https://vega.dk/event/this-is-the-kit-2027-05-01",
     "image": "https://payload.vega.dk/media/VEGA_kalender_ThisIsTheKit_2027-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-store-vega-2027-05-04-orbital",
+    "artist": "Orbital",
+    "date": "2027-05-04",
+    "time": "20:00",
+    "venue": "Store VEGA",
+    "room": "Store VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/orbital-2027-05-04",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_Orbitial_2027-1200x630.jpg",
     "source": "VEGA"
   },
   {
