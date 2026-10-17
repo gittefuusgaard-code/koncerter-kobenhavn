@@ -1,18 +1,5 @@
 [
   {
-    "id": "direct-royal-arena-2026-10-17--topgunn",
-    "artist": "TopGunn",
-    "date": "2026-10-17",
-    "time": "",
-    "venue": "Royal Arena",
-    "room": "Royal Arena",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://www.royalarena.dk/en/all-events/topgunn-tickets-ae1646265",
-    "image": "https://dynamicmedia.livenationinternational.com/g/h/l/be2507bc-fcd3-4161-8483-8cec5f12d828.jpg",
-    "source": "Royal Arena"
-  },
-  {
     "id": "direct-k-b--hallen-2026-10-17--airtox-dominance-8-0",
     "artist": "AIRTOX DOMINANCE 8.0",
     "date": "2026-10-17",
@@ -596,6 +583,19 @@
     "url": "https://pumpehuset.dk/koncerter/vinterbyhaven-2027/",
     "image": "https://pumpehuset.dk/wp-content/uploads/Karaoke-billede-til-web.webp",
     "source": "Pumpehuset"
+  },
+  {
+    "id": "direct-royal-arena-2027-01-21--lukas-graham",
+    "artist": "Lukas Graham",
+    "date": "2027-01-21",
+    "time": "",
+    "venue": "Royal Arena",
+    "room": "Royal Arena",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://www.royalarena.dk/all-events/lukas-graham-tickets-ae813886",
+    "image": "https://dynamicmedia.livenationinternational.com/u/l/a/4f4e252e-2ec0-4ea9-915a-f4d30cd53ede.png",
+    "source": "Royal Arena"
   },
   {
     "id": "direct-k-b--hallen-2027-01-30-18-30-bullet-for-my-valentine---plus-very-special-guests--pendulum",
