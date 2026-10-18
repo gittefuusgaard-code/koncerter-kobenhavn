@@ -1,18 +1,5 @@
 [
   {
-    "id": "vega-store-vega-2026-10-17-dj-aligator",
-    "artist": "DJ Aligator",
-    "date": "2026-10-17",
-    "time": "21:00",
-    "venue": "Store VEGA",
-    "room": "Store VEGA",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://vega.dk/event/dj-aligator-2026-10-16-1",
-    "image": "https://payload.vega.dk/media/Vega-Kalender-DjAligator-1200x630.jpg",
-    "source": "VEGA"
-  },
-  {
     "id": "vega-store-vega-2026-10-18-kaizers-orchestra---ekstrakoncert-den-18--oktober",
     "artist": "Kaizers Orchestra - Ekstrakoncert den 18. oktober",
     "date": "2026-10-18",
