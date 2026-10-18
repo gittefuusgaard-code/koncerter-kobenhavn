@@ -1,18 +1,5 @@
 [
   {
-    "id": "direct-pumpehuset-2026-10-17--silva-bumpa-spiller-i-pumpehuset",
-    "artist": "Silva Bumpa spiller i Pumpehuset",
-    "date": "2026-10-17",
-    "time": "",
-    "venue": "Pumpehuset",
-    "room": "Pumpehuset",
-    "genre": "Andet",
-    "status": "Udsolgt",
-    "url": "https://pumpehuset.dk/koncerter/silva-bumpa/",
-    "image": "https://pumpehuset.dk/wp-content/uploads/SILVA-BUMPA-PRESS-2-e1785235309770.jpg",
-    "source": "Pumpehuset"
-  },
-  {
     "id": "direct-royal-arena-2026-10-18--stevie-wonder",
     "artist": "Stevie Wonder",
     "date": "2026-10-18",
@@ -219,6 +206,19 @@
     "url": "https://kbhallen.dk/event/the-fray_2026-10-31/",
     "image": "https://kbhallen.dk/site/assets/files/4887/tfr1240.1920x1080.jpg",
     "source": "K.B. Hallen"
+  },
+  {
+    "id": "direct-pumpehuset-2026-10-31--the-epic-halloween-drag-show-i-pumpehusety",
+    "artist": "The EPIC Halloween Drag Show i Pumpehusety",
+    "date": "2026-10-31",
+    "time": "",
+    "venue": "Pumpehuset",
+    "room": "Pumpehuset",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://pumpehuset.dk/koncerter/the-epic-halloween-drag-show/",
+    "image": "https://pumpehuset.dk/wp-content/uploads/The-EPIC-Drag-Halloween-Show-1.jpg",
+    "source": "Pumpehuset"
   },
   {
     "id": "direct-k-b--hallen-2026-11-01-20-00-tyla---support--royal-musiq",
