@@ -1,18 +1,5 @@
 [
   {
-    "id": "direct-pumpehuset-2026-10-18--humanity-s-last-breath-i-pumpehuset",
-    "artist": "Humanity's Last Breath i Pumpehuset",
-    "date": "2026-10-18",
-    "time": "",
-    "venue": "Pumpehuset",
-    "room": "Pumpehuset",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://pumpehuset.dk/koncerter/humanitys-last-breath/",
-    "image": "https://pumpehuset.dk/wp-content/uploads/Humanitys-Last-Breath-promo-pic.jpg",
-    "source": "Pumpehuset"
-  },
-  {
     "id": "direct-pumpehuset-2026-10-21--conway-the-machine-kommer-til-pumpehuset",
     "artist": "Conway The Machine kommer til Pumpehuset",
     "date": "2026-10-21",
@@ -219,6 +206,19 @@
     "url": "https://kbhallen.dk/event/tyla_2026-11-01/",
     "image": "https://kbhallen.dk/site/assets/files/4969/static_tm-spotlight_1024x576_tyla_2026_photo_74.1920x1080.jpg",
     "source": "K.B. Hallen"
+  },
+  {
+    "id": "direct-pumpehuset-2026-11-02--oplev-leap-i-pumpehuset",
+    "artist": "Oplev LEAP i Pumpehuset",
+    "date": "2026-11-02",
+    "time": "",
+    "venue": "Pumpehuset",
+    "room": "Pumpehuset",
+    "genre": "Andet",
+    "status": "Udsolgt",
+    "url": "https://pumpehuset.dk/koncerter/leap/",
+    "image": "https://pumpehuset.dk/wp-content/uploads/LEAP_01_LiamMaxwell.jpg",
+    "source": "Pumpehuset"
   },
   {
     "id": "direct-pumpehuset-2026-11-05--roskilde-festival-pr-senterer--headline-flip-i-pumpehuset",
