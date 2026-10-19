@@ -494,19 +494,6 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-store-vega-2026-11-18-saint-levant",
-    "artist": "Saint Levant",
-    "date": "2026-11-18",
-    "time": "20:00",
-    "venue": "Store VEGA",
-    "room": "Store VEGA",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://vega.dk/event/saint-levant-2026-11-18",
-    "image": "https://payload.vega.dk/media/VEGA_Kalender_SaintLevant_2026-1200x630.jpg",
-    "source": "VEGA"
-  },
-  {
     "id": "vega-lille-vega-2026-11-18-leenalchi",
     "artist": "Leenalchi",
     "date": "2026-11-18",
@@ -517,6 +504,19 @@
     "status": "Billetter",
     "url": "https://vega.dk/event/leenalchi-2026-11-18",
     "image": "https://payload.vega.dk/media/2619_big-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-store-vega-2026-11-18-saint-levant",
+    "artist": "Saint Levant",
+    "date": "2026-11-18",
+    "time": "20:00",
+    "venue": "Store VEGA",
+    "room": "Store VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/saint-levant-2026-11-18",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_SaintLevant_2026-1200x630.jpg",
     "source": "VEGA"
   },
   {
