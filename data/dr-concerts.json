@@ -1,18 +1,5 @@
 [
   {
-    "id": "dr-tv-2-2026-10-19-20-00",
-    "artist": "TV-2",
-    "date": "2026-10-19",
-    "time": "20:00",
-    "venue": "DR Koncerthuset",
-    "room": "KONCERTSALEN",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://www.drkoncerthuset.dk/kalender/2026/tv-2/tv-2-akusti-sk-tour-2026-2-ekstrakoncert/",
-    "image": "https://www.drkoncerthuset.dk/media/l2cjjadg/event_32981.jpg?width=1600&height=800&v=1dcb513a85fd0d0&quality=80",
-    "source": "DR Koncerthuset"
-  },
-  {
     "id": "dr-tv-2-2026-10-20-20-00",
     "artist": "TV-2",
     "date": "2026-10-20",
@@ -20,7 +7,7 @@
     "venue": "DR Koncerthuset",
     "room": "KONCERTSALEN",
     "genre": "Andet",
-    "status": "Billetter",
+    "status": "Venteliste",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/tv-2/tv-2-akusti-sk-tour-2026-ekstrakoncert/",
     "image": "https://www.drkoncerthuset.dk/media/l2cjjadg/event_32981.jpg?width=1600&height=800&v=1dcb513a85fd0d0&quality=80",
     "source": "DR Koncerthuset"
@@ -35,7 +22,7 @@
     "genre": "Andet",
     "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/rasmus-walter/rasmus-walter/",
-    "image": "https://www.drkoncerthuset.dk/media/4yaffwjr/event_30595.jpg?mode=crop&width=1200&height=630&quality=80",
+    "image": "https://www.drkoncerthuset.dk/media/4yaffwjr/event_30595.jpg?width=1600&height=800&v=1dc5df296b64a30&quality=80",
     "source": "DR Koncerthuset"
   },
   {
@@ -48,7 +35,7 @@
     "genre": "Andet",
     "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/kochanovsky-sjostakovitj/kochanovsky-sjostakovitj/",
-    "image": "https://www.drkoncerthuset.dk/media/q3scc2bc/event_30973.jpg?mode=crop&width=1200&height=630&quality=80",
+    "image": "https://www.drkoncerthuset.dk/media/rfkln1lo/kochanovsky-sjostakovitj_2550x1275px_medikon.jpg?width=1600&height=800&v=1dd2b12be60bf00&quality=80",
     "source": "DR Koncerthuset"
   },
   {
@@ -61,7 +48,7 @@
     "genre": "Andet",
     "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/dr-big-band-mathias-heise-1/dr-big-band-mathias-heise-a-love-supreme-revisited/",
-    "image": "https://www.drkoncerthuset.dk/media/oumczz35/event_33924.jpg?mode=crop&width=1200&height=630&quality=80",
+    "image": "https://www.drkoncerthuset.dk/media/oumczz35/event_33924.jpg?width=1600&height=800&v=1dcdba323cea650&quality=80",
     "source": "DR Koncerthuset"
   },
   {
@@ -74,7 +61,7 @@
     "genre": "Andet",
     "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/okvsho/okvsho/",
-    "image": "https://www.drkoncerthuset.dk/media/ldcfscfe/event_33115.jpg?mode=crop&width=1200&height=630&quality=80",
+    "image": "https://www.drkoncerthuset.dk/media/ldcfscfe/event_33115.jpg?width=1600&height=800&v=1dcb83dd631b550&quality=80",
     "source": "DR Koncerthuset"
   },
   {
@@ -382,10 +369,10 @@
     "date": "2026-11-07",
     "time": "21:00",
     "venue": "DR Koncerthuset",
-    "room": "KONCERTSALEN",
+    "room": "STUDIE 2",
     "genre": "Andet",
     "status": "Billetter",
-    "url": "https://www.drkoncerthuset.dk/kalender/2026/maribou-state-dj/maribou-state-dj/",
+    "url": "https://www.drkoncerthuset.dk/kalender/2026/maribou-state-dj/maribou-state-dj-1/",
     "image": "https://www.drkoncerthuset.dk/media/xaihulmw/event_35001.jpg?mode=crop&width=1200&height=630&quality=80",
     "source": "DR Koncerthuset"
   },
@@ -1047,7 +1034,7 @@
     "venue": "DR Koncerthuset",
     "room": "KONCERTSALEN",
     "genre": "Andet",
-    "status": "Billetter",
+    "status": "Venteliste",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/drs-store-juleshow/drs-store-juleshow/",
     "image": "https://www.drkoncerthuset.dk/media/uzca5plo/event_35197.jpg?mode=crop&width=1200&height=630&quality=80",
     "source": "DR Koncerthuset"
@@ -1073,7 +1060,7 @@
     "venue": "DR Koncerthuset",
     "room": "KONCERTSALEN",
     "genre": "Andet",
-    "status": "Billetter",
+    "status": "Venteliste",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/drs-store-juleshow/drs-store-juleshow-1/",
     "image": "https://www.drkoncerthuset.dk/media/uzca5plo/event_35197.jpg?mode=crop&width=1200&height=630&quality=80",
     "source": "DR Koncerthuset"
@@ -2935,6 +2922,19 @@
     "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2027/luisi-mozart/luisi-mozart/",
     "image": "https://www.drkoncerthuset.dk/media/tcvhljul/event_30989.jpg?mode=crop&width=1200&height=630&quality=80",
+    "source": "DR Koncerthuset"
+  },
+  {
+    "id": "dr-dorthe-gerlach-2027-05-08-20-30",
+    "artist": "Dorthe Gerlach",
+    "date": "2027-05-08",
+    "time": "20:30",
+    "venue": "DR Koncerthuset",
+    "room": "STUDIE 2",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://www.drkoncerthuset.dk/kalender/2027/dorthe-gerlach/dorthe-gerlach-live-2027/",
+    "image": "https://www.drkoncerthuset.dk/media/ztccood5/event_35454.jpg?mode=crop&width=1200&height=630&quality=80",
     "source": "DR Koncerthuset"
   },
   {
