@@ -1,18 +1,5 @@
 [
   {
-    "id": "vega-store-vega-2026-10-19-kaizers-orchestra-den-19--oktober",
-    "artist": "Kaizers Orchestra den 19. oktober",
-    "date": "2026-10-19",
-    "time": "20:00",
-    "venue": "Store VEGA",
-    "room": "Store VEGA",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://vega.dk/event/kaizers-orchestra-2026-10-19",
-    "image": "https://payload.vega.dk/media/VEGA_Kalender_KaizersOrchestra_2026-1200x630.jpg",
-    "source": "VEGA"
-  },
-  {
     "id": "vega-store-vega-2026-10-20-fkj",
     "artist": "FKJ",
     "date": "2026-10-20",
