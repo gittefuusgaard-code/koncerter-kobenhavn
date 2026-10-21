@@ -1,18 +1,5 @@
 [
   {
-    "id": "vega-store-vega-2026-10-20-fkj",
-    "artist": "FKJ",
-    "date": "2026-10-20",
-    "time": "20:00",
-    "venue": "Store VEGA",
-    "room": "Store VEGA",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://vega.dk/event/fkj-2026-10-20",
-    "image": "https://payload.vega.dk/media/VEGA_Kalender_FKJ_2026-1200x630.jpg",
-    "source": "VEGA"
-  },
-  {
     "id": "vega-store-vega-2026-10-21-ella-augusta",
     "artist": "Ella Augusta",
     "date": "2026-10-21",
