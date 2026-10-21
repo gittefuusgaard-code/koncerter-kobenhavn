@@ -1,18 +1,5 @@
 [
   {
-    "id": "vega-store-vega-2026-10-21-ella-augusta",
-    "artist": "Ella Augusta",
-    "date": "2026-10-21",
-    "time": "20:00",
-    "venue": "Store VEGA",
-    "room": "Store VEGA",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://vega.dk/event/ella-augusta-2026-10-21",
-    "image": "https://payload.vega.dk/media/VEGA_Kalender_EllaAugusta_2026-1200x630.jpg",
-    "source": "VEGA"
-  },
-  {
     "id": "vega-lille-vega-2026-10-21-oranssi-pazuzu",
     "artist": "Oranssi Pazuzu",
     "date": "2026-10-21",
@@ -23,6 +10,19 @@
     "status": "Billetter",
     "url": "https://vega.dk/event/oranssi-pazuzu-2026-10-21",
     "image": "https://payload.vega.dk/media/VEGA_Kalender_OransiPazuzu_2026-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-store-vega-2026-10-21-ella-augusta",
+    "artist": "Ella Augusta",
+    "date": "2026-10-21",
+    "time": "20:00",
+    "venue": "Store VEGA",
+    "room": "Store VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/ella-augusta-2026-10-21",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_EllaAugusta_2026-1200x630.jpg",
     "source": "VEGA"
   },
   {
@@ -247,19 +247,6 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-lille-vega-2026-11-06-jembaa-groove",
-    "artist": "Jembaa Groove",
-    "date": "2026-11-06",
-    "time": "20:00",
-    "venue": "Lille VEGA",
-    "room": "Lille VEGA",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://vega.dk/event/jembaa-groove-2026-11-06",
-    "image": "https://payload.vega.dk/media/VEGA_Kalender_JembaaGroove_2026-1200x630.jpg",
-    "source": "VEGA"
-  },
-  {
     "id": "vega-store-vega-2026-11-06-barselona",
     "artist": "Barselona",
     "date": "2026-11-06",
@@ -270,6 +257,19 @@
     "status": "Udsolgt",
     "url": "https://vega.dk/event/barselona-2026-11-06",
     "image": "https://payload.vega.dk/media/VEGA_Kalender_Barselona_2026-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-lille-vega-2026-11-06-jembaa-groove",
+    "artist": "Jembaa Groove",
+    "date": "2026-11-06",
+    "time": "20:00",
+    "venue": "Lille VEGA",
+    "room": "Lille VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/jembaa-groove-2026-11-06",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_JembaaGroove_2026-1200x630.jpg",
     "source": "VEGA"
   },
   {
@@ -494,19 +494,6 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-lille-vega-2026-11-19-the-browning",
-    "artist": "The Browning",
-    "date": "2026-11-19",
-    "time": "20:00",
-    "venue": "Lille VEGA",
-    "room": "Lille VEGA",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://vega.dk/event/the-browning-2026-11-19",
-    "image": "https://payload.vega.dk/media/2026_Kalender_TheBrowning-1200x630.jpg",
-    "source": "VEGA"
-  },
-  {
     "id": "vega-store-vega-2026-11-19-michael-williams",
     "artist": "Michael Williams",
     "date": "2026-11-19",
@@ -520,16 +507,16 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-store-vega-2026-11-21-notion",
-    "artist": "NOTION",
-    "date": "2026-11-21",
+    "id": "vega-lille-vega-2026-11-19-the-browning",
+    "artist": "The Browning",
+    "date": "2026-11-19",
     "time": "20:00",
-    "venue": "Store VEGA",
-    "room": "Store VEGA",
+    "venue": "Lille VEGA",
+    "room": "Lille VEGA",
     "genre": "Andet",
     "status": "Billetter",
-    "url": "https://vega.dk/event/notion-2026-11-21",
-    "image": "https://payload.vega.dk/media/VEGA_Kalender_NOTION_2026-1200x630.jpg",
+    "url": "https://vega.dk/event/the-browning-2026-11-19",
+    "image": "https://payload.vega.dk/media/2026_Kalender_TheBrowning-1200x630.jpg",
     "source": "VEGA"
   },
   {
@@ -543,6 +530,19 @@
     "status": "Billetter",
     "url": "https://vega.dk/event/junkyard-drive-2026-11-21",
     "image": "https://payload.vega.dk/media/VEGA_Kalender_JunkyardDrive_2026-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-store-vega-2026-11-21-notion",
+    "artist": "NOTION",
+    "date": "2026-11-21",
+    "time": "20:00",
+    "venue": "Store VEGA",
+    "room": "Store VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/notion-2026-11-21",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_NOTION_2026-1200x630.jpg",
     "source": "VEGA"
   },
   {
@@ -1157,19 +1157,6 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-lille-vega-2027-02-05-madra-salach",
-    "artist": "Madra Salach",
-    "date": "2027-02-05",
-    "time": "21:00",
-    "venue": "Lille VEGA",
-    "room": "Lille VEGA",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://vega.dk/event/madra-salach-2027-02-05",
-    "image": "https://payload.vega.dk/media/VEGA_Kalender_MadraSalach_2027-1200x630.jpg",
-    "source": "VEGA"
-  },
-  {
     "id": "vega-store-vega-2027-02-05-eee-gee",
     "artist": "eee gee",
     "date": "2027-02-05",
@@ -1180,6 +1167,19 @@
     "status": "Billetter",
     "url": "https://vega.dk/event/eee-gee-2027-02-05",
     "image": "https://payload.vega.dk/media/VEGA_Kalender_EeeGee_2027-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-lille-vega-2027-02-05-madra-salach",
+    "artist": "Madra Salach",
+    "date": "2027-02-05",
+    "time": "21:00",
+    "venue": "Lille VEGA",
+    "room": "Lille VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/madra-salach-2027-02-05",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_MadraSalach_2027-1200x630.jpg",
     "source": "VEGA"
   },
   {
@@ -1843,6 +1843,19 @@
     "status": "Billetter",
     "url": "https://vega.dk/event/soppgirobygget-2027-04-24",
     "image": "https://payload.vega.dk/media/VEGA_Kalender_Soppgirobygget_2027-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-store-vega-2027-04-26-morcheeba",
+    "artist": "Morcheeba",
+    "date": "2027-04-26",
+    "time": "20:00",
+    "venue": "Store VEGA",
+    "room": "Store VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/morcheeba-2027-04-26",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_Morcheeba_2027-1200x630.jpg",
     "source": "VEGA"
   },
   {
