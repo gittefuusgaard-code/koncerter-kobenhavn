@@ -624,6 +624,19 @@
     "source": "K.B. Hallen"
   },
   {
+    "id": "direct-pumpehuset-2027-02-13--a-good-year",
+    "artist": "A Good Year",
+    "date": "2027-02-13",
+    "time": "",
+    "venue": "Pumpehuset",
+    "room": "Pumpehuset",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://pumpehuset.dk/koncerter/a-good-year/",
+    "image": "https://pumpehuset.dk/wp-content/uploads/A-Good-Year-e1791295898903.jpg",
+    "source": "Pumpehuset"
+  },
+  {
     "id": "direct-k-b--hallen-2027-02-14-20-00-malcolm-todd---support--natanya",
     "artist": "Malcolm Todd - Support: Natanya",
     "date": "2027-02-14",
@@ -752,19 +765,6 @@
     "url": "https://kbhallen.dk/event/michael-r-starring-ben_2027-04-09/",
     "image": "https://kbhallen.dk/site/assets/files/4982/msb_1200x628_image_only.1920x1080.jpg",
     "source": "K.B. Hallen"
-  },
-  {
-    "id": "direct-pumpehuset-2027-04-26--mocheeba",
-    "artist": "Mocheeba",
-    "date": "2027-04-26",
-    "time": "",
-    "venue": "Pumpehuset",
-    "room": "Pumpehuset",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://pumpehuset.dk/koncerter/morcheeba/",
-    "image": "https://pumpehuset.dk/wp-content/uploads/Morcheeba-e1791185167545.jpg",
-    "source": "Pumpehuset"
   },
   {
     "id": "direct-k-b--hallen-2027-04-27-18-00-in-flames---speciel-guest--trivium---support--paleface-swiss---opening-support--vola",
