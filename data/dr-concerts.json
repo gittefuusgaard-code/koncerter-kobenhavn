@@ -1,18 +1,5 @@
 [
   {
-    "id": "dr-tv-2-2026-10-20-20-00",
-    "artist": "TV-2",
-    "date": "2026-10-20",
-    "time": "20:00",
-    "venue": "DR Koncerthuset",
-    "room": "KONCERTSALEN",
-    "genre": "Andet",
-    "status": "Venteliste",
-    "url": "https://www.drkoncerthuset.dk/kalender/2026/tv-2/tv-2-akusti-sk-tour-2026-ekstrakoncert/",
-    "image": "https://www.drkoncerthuset.dk/media/l2cjjadg/event_32981.jpg?width=1600&height=800&v=1dcb513a85fd0d0&quality=80",
-    "source": "DR Koncerthuset"
-  },
-  {
     "id": "dr-rasmus-walter-2026-10-21-20-00",
     "artist": "Rasmus Walter",
     "date": "2026-10-21",
@@ -74,7 +61,7 @@
     "genre": "Andet",
     "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/kochanovsky-sjostakovitj/kochanovsky-sjostakovitj-1/",
-    "image": "https://www.drkoncerthuset.dk/media/q3scc2bc/event_30973.jpg?mode=crop&width=1200&height=630&quality=80",
+    "image": "https://www.drkoncerthuset.dk/media/rfkln1lo/kochanovsky-sjostakovitj_2550x1275px_medikon.jpg?width=1600&height=800&v=1dd2b12be60bf00&quality=80",
     "source": "DR Koncerthuset"
   },
   {
@@ -87,7 +74,7 @@
     "genre": "Andet",
     "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/dr-pigekoret-i-moerke-alsion/dr-pigekoret-i-moerke/",
-    "image": "https://www.drkoncerthuset.dk/media/yj5jmm1o/event_32754.jpg?mode=crop&width=1200&height=630&quality=80",
+    "image": "https://www.drkoncerthuset.dk/media/yj5jmm1o/event_32754.jpg?width=1600&height=800&v=1dcaa43123eab60&quality=80",
     "source": "DR Koncerthuset"
   },
   {
@@ -111,7 +98,7 @@
     "venue": "DR Koncerthuset",
     "room": "KONCERTSALEN",
     "genre": "Andet",
-    "status": "Billetter",
+    "status": "Venteliste",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/claus-hempler/claus-hempler/",
     "image": "https://www.drkoncerthuset.dk/media/akjhe4ax/event_33812.jpg?mode=crop&width=1200&height=630&quality=80",
     "source": "DR Koncerthuset"
