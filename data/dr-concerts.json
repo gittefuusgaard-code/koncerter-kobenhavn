@@ -1,18 +1,5 @@
 [
   {
-    "id": "dr-rasmus-walter-2026-10-21-20-00",
-    "artist": "Rasmus Walter",
-    "date": "2026-10-21",
-    "time": "20:00",
-    "venue": "DR Koncerthuset",
-    "room": "KONCERTSALEN",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://www.drkoncerthuset.dk/kalender/2026/rasmus-walter/rasmus-walter/",
-    "image": "https://www.drkoncerthuset.dk/media/4yaffwjr/event_30595.jpg?width=1600&height=800&v=1dc5df296b64a30&quality=80",
-    "source": "DR Koncerthuset"
-  },
-  {
     "id": "dr-kochanovsky---sjostakovitj-2026-10-22-19-30",
     "artist": "Kochanovsky & Sjostakovitj",
     "date": "2026-10-22",
@@ -3130,6 +3117,19 @@
     "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2027/fallulah/fallulah/",
     "image": "https://www.drkoncerthuset.dk/media/xv2nqeda/event_35447.jpg?mode=crop&width=1200&height=630&quality=80",
+    "source": "DR Koncerthuset"
+  },
+  {
+    "id": "dr-alex-vargas-2027-09-22-20-00",
+    "artist": "Alex Vargas",
+    "date": "2027-09-22",
+    "time": "20:00",
+    "venue": "DR Koncerthuset",
+    "room": "KONCERTSALEN",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://www.drkoncerthuset.dk/kalender/2027/alex-vargas/alex-vargas-solo-2027/",
+    "image": "https://www.drkoncerthuset.dk/media/3kspydcr/event_35465.jpg?mode=crop&width=1200&height=630&quality=80",
     "source": "DR Koncerthuset"
   },
   {
