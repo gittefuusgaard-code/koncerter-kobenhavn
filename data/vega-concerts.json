@@ -1,44 +1,5 @@
 [
   {
-    "id": "vega-lille-vega-2026-10-21-krallice",
-    "artist": "Krallice",
-    "date": "2026-10-21",
-    "time": "20:00",
-    "venue": "Lille VEGA",
-    "room": "Lille VEGA",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://vega.dk/event/krallice-2026-10-21",
-    "image": "https://payload.vega.dk/media/VEGA_Kalender_ Krallice_2026-1200x630.jpg",
-    "source": "VEGA"
-  },
-  {
-    "id": "vega-lille-vega-2026-10-21-oranssi-pazuzu",
-    "artist": "Oranssi Pazuzu",
-    "date": "2026-10-21",
-    "time": "20:30",
-    "venue": "Lille VEGA",
-    "room": "Lille VEGA",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://vega.dk/event/oranssi-pazuzu-2026-10-21",
-    "image": "https://payload.vega.dk/media/VEGA_Kalender_OransiPazuzu_2026-1200x630.jpg",
-    "source": "VEGA"
-  },
-  {
-    "id": "vega-store-vega-2026-10-21-ella-augusta",
-    "artist": "Ella Augusta",
-    "date": "2026-10-21",
-    "time": "20:00",
-    "venue": "Store VEGA",
-    "room": "Store VEGA",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://vega.dk/event/ella-augusta-2026-10-21",
-    "image": "https://payload.vega.dk/media/VEGA_Kalender_EllaAugusta_2026-1200x630.jpg",
-    "source": "VEGA"
-  },
-  {
     "id": "vega-lille-vega-2026-10-22-lea-romea",
     "artist": "Lea Romea",
     "date": "2026-10-22",
