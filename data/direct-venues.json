@@ -1,18 +1,5 @@
 [
   {
-    "id": "direct-pumpehuset-2026-10-21--conway-the-machine-kommer-til-pumpehuset",
-    "artist": "Conway The Machine kommer til Pumpehuset",
-    "date": "2026-10-21",
-    "time": "",
-    "venue": "Pumpehuset",
-    "room": "Pumpehuset",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://pumpehuset.dk/koncerter/conway-the-machine/",
-    "image": "https://pumpehuset.dk/wp-content/uploads/Conway-The-Machine.jpg",
-    "source": "Pumpehuset"
-  },
-  {
     "id": "direct-pumpehuset-2026-10-22--mark-william-lewis---spawner-presented-by-night-journeys-i-pumpehuset",
     "artist": "Mark William Lewis + Spawner presented by Night Journeys i Pumpehuset",
     "date": "2026-10-22",
@@ -218,6 +205,19 @@
     "status": "Udsolgt",
     "url": "https://pumpehuset.dk/koncerter/leap/",
     "image": "https://pumpehuset.dk/wp-content/uploads/LEAP_01_LiamMaxwell.jpg",
+    "source": "Pumpehuset"
+  },
+  {
+    "id": "direct-pumpehuset-2026-11-03--k--rij-",
+    "artist": "Käärijä",
+    "date": "2026-11-03",
+    "time": "",
+    "venue": "Pumpehuset",
+    "room": "Pumpehuset",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://pumpehuset.dk/koncerter/kaarija/",
+    "image": "https://pumpehuset.dk/wp-content/uploads/Kaarija_Eurodiskotour_PR.jpg",
     "source": "Pumpehuset"
   },
   {
