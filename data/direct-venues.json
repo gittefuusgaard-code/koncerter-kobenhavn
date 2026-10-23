@@ -1,18 +1,5 @@
 [
   {
-    "id": "direct-pumpehuset-2026-10-22--mark-william-lewis---spawner-presented-by-night-journeys-i-pumpehuset",
-    "artist": "Mark William Lewis + Spawner presented by Night Journeys i Pumpehuset",
-    "date": "2026-10-22",
-    "time": "",
-    "venue": "Pumpehuset",
-    "room": "Pumpehuset",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://pumpehuset.dk/koncerter/mark-william-lewis-spawner-presented-by-night-journeys/",
-    "image": "https://pumpehuset.dk/wp-content/uploads/mark-william-lewis-1.jpg",
-    "source": "Pumpehuset"
-  },
-  {
     "id": "direct-royal-arena-2026-10-23--le-sserafim",
     "artist": "LE SSERAFIM",
     "date": "2026-10-23",
@@ -218,6 +205,19 @@
     "status": "Billetter",
     "url": "https://pumpehuset.dk/koncerter/kaarija/",
     "image": "https://pumpehuset.dk/wp-content/uploads/Kaarija_Eurodiskotour_PR.jpg",
+    "source": "Pumpehuset"
+  },
+  {
+    "id": "direct-pumpehuset-2026-11-04--stvw-pres--punk-rave-i-pumpehuset",
+    "artist": "STVW pres. Punk Rave i Pumpehuset",
+    "date": "2026-11-04",
+    "time": "",
+    "venue": "Pumpehuset",
+    "room": "Pumpehuset",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://pumpehuset.dk/koncerter/stvw-pres-punk-rave-2/",
+    "image": "https://pumpehuset.dk/wp-content/uploads/STVW_2025_01_TRANSPARENT-e1773649685176.jpg",
     "source": "Pumpehuset"
   },
   {
