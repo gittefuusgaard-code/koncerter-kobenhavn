@@ -221,19 +221,6 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-store-vega-2026-11-07-malk-de-koijn",
-    "artist": "Malk De Koijn",
-    "date": "2026-11-07",
-    "time": "20:00",
-    "venue": "Store VEGA",
-    "room": "Store VEGA",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://vega.dk/event/malk-de-koijn-2026-11-07",
-    "image": "https://payload.vega.dk/media/VEGA_Kalender_Malk_De_Koijn_2026-1200x630.jpg",
-    "source": "VEGA"
-  },
-  {
     "id": "vega-lille-vega-2026-11-07-eros-for-you",
     "artist": "Eros for you",
     "date": "2026-11-07",
@@ -244,6 +231,19 @@
     "status": "Billetter",
     "url": "https://vega.dk/event/eros-for-you-2026-11-07",
     "image": "https://payload.vega.dk/media/VEGA_Kalender_Erosforyou_2026-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-store-vega-2026-11-07-malk-de-koijn",
+    "artist": "Malk De Koijn",
+    "date": "2026-11-07",
+    "time": "20:00",
+    "venue": "Store VEGA",
+    "room": "Store VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/malk-de-koijn-2026-11-07",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_Malk_De_Koijn_2026-1200x630.jpg",
     "source": "VEGA"
   },
   {
@@ -1105,19 +1105,6 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-store-vega-2027-02-05-eee-gee",
-    "artist": "eee gee",
-    "date": "2027-02-05",
-    "time": "20:00",
-    "venue": "Store VEGA",
-    "room": "Store VEGA",
-    "genre": "Andet",
-    "status": "Udsolgt",
-    "url": "https://vega.dk/event/eee-gee-2027-02-05",
-    "image": "https://payload.vega.dk/media/VEGA_Kalender_EeeGee_2027-1200x630.jpg",
-    "source": "VEGA"
-  },
-  {
     "id": "vega-lille-vega-2027-02-05-madra-salach",
     "artist": "Madra Salach",
     "date": "2027-02-05",
@@ -1128,6 +1115,19 @@
     "status": "Billetter",
     "url": "https://vega.dk/event/madra-salach-2027-02-05",
     "image": "https://payload.vega.dk/media/VEGA_Kalender_MadraSalach_2027-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-store-vega-2027-02-05-eee-gee",
+    "artist": "eee gee",
+    "date": "2027-02-05",
+    "time": "20:00",
+    "venue": "Store VEGA",
+    "room": "Store VEGA",
+    "genre": "Andet",
+    "status": "Udsolgt",
+    "url": "https://vega.dk/event/eee-gee-2027-02-05",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_EeeGee_2027-1200x630.jpg",
     "source": "VEGA"
   },
   {
