@@ -1,18 +1,5 @@
 [
   {
-    "id": "dr-kochanovsky---sjostakovitj-2026-10-22-19-30",
-    "artist": "Kochanovsky & Sjostakovitj",
-    "date": "2026-10-22",
-    "time": "19:30",
-    "venue": "DR Koncerthuset",
-    "room": "KONCERTSALEN",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://www.drkoncerthuset.dk/kalender/2026/kochanovsky-sjostakovitj/kochanovsky-sjostakovitj/",
-    "image": "https://www.drkoncerthuset.dk/media/rfkln1lo/kochanovsky-sjostakovitj_2550x1275px_medikon.jpg?width=1600&height=800&v=1dd2b12be60bf00&quality=80",
-    "source": "DR Koncerthuset"
-  },
-  {
     "id": "dr-dr-big-band---mathias-heise-2026-10-23-20-00",
     "artist": "DR Big Band & Mathias Heise",
     "date": "2026-10-23",
@@ -74,7 +61,7 @@
     "genre": "Andet",
     "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/hannah-schneider/hannah-schneider/",
-    "image": "https://www.drkoncerthuset.dk/media/faucsbgi/event_32832.jpg?mode=crop&width=1200&height=630&quality=80",
+    "image": "https://www.drkoncerthuset.dk/media/faucsbgi/event_32832.jpg?width=1600&height=800&v=1dcacac4bc69490&quality=80",
     "source": "DR Koncerthuset"
   },
   {
@@ -87,7 +74,7 @@
     "genre": "Andet",
     "status": "Venteliste",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/claus-hempler/claus-hempler/",
-    "image": "https://www.drkoncerthuset.dk/media/akjhe4ax/event_33812.jpg?mode=crop&width=1200&height=630&quality=80",
+    "image": "https://www.drkoncerthuset.dk/media/akjhe4ax/event_33812.jpg?width=1600&height=800&v=1dcd210a4fa9eb0&quality=80",
     "source": "DR Koncerthuset"
   },
   {
@@ -2779,6 +2766,19 @@
     "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2027/petrenko-elgar/petrenko-elgar/",
     "image": "https://www.drkoncerthuset.dk/media/jf3nbrof/event_30986.jpg?mode=crop&width=1200&height=630&quality=80",
+    "source": "DR Koncerthuset"
+  },
+  {
+    "id": "dr-s-ren-ulrik-thomsen---det-glemte-kvarter-x-aarhus-jazz-orchestra-2027-04-23-19-30",
+    "artist": "Søren Ulrik Thomsen & Det Glemte Kvarter x Aarhus Jazz Orchestra",
+    "date": "2027-04-23",
+    "time": "19:30",
+    "venue": "DR Koncerthuset",
+    "room": "STUDIE 2",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://www.drkoncerthuset.dk/kalender/2027/soeren-ulrik-thomsen-det-glemte-kvarter-x-aarhus-jazz-orchestra/soeren-ulrik-thomsen-det-glemte-kvarter-x-aarhus-jazz-orchestra/",
+    "image": "https://www.drkoncerthuset.dk/media/beoddpol/event_35466.jpg?mode=crop&width=1200&height=630&quality=80",
     "source": "DR Koncerthuset"
   },
   {
