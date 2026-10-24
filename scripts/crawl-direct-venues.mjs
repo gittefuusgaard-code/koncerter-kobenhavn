@@ -5,7 +5,7 @@ const configs=[
  {venue:'Royal Arena',base:'https://www.royalarena.dk',start:['https://www.royalarena.dk/shows','https://www.royalarena.dk/en/shows'],patterns:[/\/shows?\//i,/\/events?\//i,/\/all-events\//i]},
  {venue:'K.B. Hallen',base:'https://kbhallen.dk',start:['https://kbhallen.dk/kalender/'],patterns:[/\/event\//i,/\/koncert\//i]},
  {venue:'Amager Bio',base:'https://amagerbio.dk',start:['https://amagerbio.dk/','https://amagerbio.dk/program/'],patterns:[/\/event\//i,/\/koncert\//i,/\/events\//i]},
- {venue:'Bremen Teater',base:'https://www.brementeater.dk',start:['https://www.brementeater.dk/'],patterns:[/\/events?\//i,/\/arrangementer?\//i,/\/program\//i,/\/show\//i,/\/koncerter?\//i]},
+ {venue:'Bremen Teater',base:'https://www.brementeater.dk',start:['https://www.brementeater.dk/'],patterns:[/\/arrangementer\//i,/\/datoer\//i]},
  {venue:'Pumpehuset',base:'https://pumpehuset.dk',start:['https://pumpehuset.dk/','https://pumpehuset.dk/program/'],patterns:[/\/koncerter\//i]}
 ];
 const browser=await chromium.launch({headless:true});
@@ -73,6 +73,24 @@ for(const config of configs){
     datetime:document.querySelector('time[datetime]')?.getAttribute('datetime')||'',
     text:document.body.innerText.slice(0,6000)
    }));
+   // Bremen event detail pages list individual performances, often without JSON-LD.
+   // Each date/time is a separate event; comedy and talks are intentionally included.
+   if(config.venue==='Bremen Teater' && /\\/arrangementer\\/[^/]+/i.test(new URL(url).pathname)){
+    const dates=[...meta.text.matchAll(/\\b(\\d{1,2})\\.(\\d{1,2})\\.(20\\d{2})\\s+kl\\.\\s*(\\d{1,2}[.:]\\d{2})?/gi)];
+    const title=normalize(meta.title);
+    if(title && title.length<130 && !/^(?:arrangementer|program)$/i.test(title)){
+     for(const match of dates){
+      const date=match[3]+'-'+match[2].padStart(2,'0')+'-'+match[1].padStart(2,'0');
+      if(date<today)continue;
+      const time=match[4]?match[4].replace('.',':').padStart(5,'0'):'';
+      const near=meta.text.slice(match.index,match.index+110);
+      const status=/udsolgt/i.test(near)?'Udsolgt':/venteliste/i.test(near)?'Venteliste':'Billetter';
+      const key=['Bremen Teater',date,time,title.toLowerCase()].join('|');
+      if(!unique.has(key)){unique.set(key,{id:'direct-'+key.toLowerCase().replace(/[^a-z0-9-]/g,'-'),artist:title,date,time,venue:'Bremen Teater',room:'Bremen Teater',genre:'Andet',status,url,image:meta.image||'',source:'Bremen Teater'});count++}
+     }
+    }
+    continue;
+   }
    const isEventPage=config.patterns.some(p=>p.test(new URL(url).pathname));
    const excluded=/\b(?:sports?|mma|boxing|wrestling|comedy|stand.?up|foredrag|galla|globetrotters)\b/i;
    const bremenMusic=/\b(?:music|musik|koncert|jazz|blues|rock|pop|folk|soul|band|orchestra|orkester|singer|songwriter|festival|tour)\b/i;
