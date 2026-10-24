@@ -1,31 +1,5 @@
 [
   {
-    "id": "dr-dr-big-band---mathias-heise-2026-10-23-20-00",
-    "artist": "DR Big Band & Mathias Heise",
-    "date": "2026-10-23",
-    "time": "20:00",
-    "venue": "DR Koncerthuset",
-    "room": "KONCERTSALEN",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://www.drkoncerthuset.dk/kalender/2026/dr-big-band-mathias-heise-1/dr-big-band-mathias-heise-a-love-supreme-revisited/",
-    "image": "https://www.drkoncerthuset.dk/media/oumczz35/event_33924.jpg?width=1600&height=800&v=1dcdba323cea650&quality=80",
-    "source": "DR Koncerthuset"
-  },
-  {
-    "id": "dr-okvsho-2026-10-23-20-30",
-    "artist": "Okvsho",
-    "date": "2026-10-23",
-    "time": "20:30",
-    "venue": "DR Koncerthuset",
-    "room": "STUDIE 3",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://www.drkoncerthuset.dk/kalender/2026/okvsho/okvsho/",
-    "image": "https://www.drkoncerthuset.dk/media/ldcfscfe/event_33115.jpg?width=1600&height=800&v=1dcb83dd631b550&quality=80",
-    "source": "DR Koncerthuset"
-  },
-  {
     "id": "dr-kochanovsky---sjostakovitj-2026-10-24-14-00",
     "artist": "Kochanovsky & Sjostakovitj",
     "date": "2026-10-24",
@@ -61,7 +35,7 @@
     "genre": "Andet",
     "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/hannah-schneider/hannah-schneider/",
-    "image": "https://www.drkoncerthuset.dk/media/faucsbgi/event_32832.jpg?width=1600&height=800&v=1dcacac4bc69490&quality=80",
+    "image": "https://www.drkoncerthuset.dk/media/faucsbgi/event_32832.jpg?mode=crop&width=1200&height=630&quality=80",
     "source": "DR Koncerthuset"
   },
   {
@@ -72,9 +46,9 @@
     "venue": "DR Koncerthuset",
     "room": "KONCERTSALEN",
     "genre": "Andet",
-    "status": "Venteliste",
+    "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/claus-hempler/claus-hempler/",
-    "image": "https://www.drkoncerthuset.dk/media/akjhe4ax/event_33812.jpg?width=1600&height=800&v=1dcd210a4fa9eb0&quality=80",
+    "image": "https://www.drkoncerthuset.dk/media/akjhe4ax/event_33812.jpg?mode=crop&width=1200&height=630&quality=80",
     "source": "DR Koncerthuset"
   },
   {
@@ -1060,7 +1034,7 @@
     "venue": "DR Koncerthuset",
     "room": "KONCERTSALEN",
     "genre": "Andet",
-    "status": "Venteliste",
+    "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/aaret-der-gik-2026/aaret-der-gik-2026/",
     "image": "https://www.drkoncerthuset.dk/media/oykcumk0/event_35232.jpg?mode=crop&width=1200&height=630&quality=80",
     "source": "DR Koncerthuset"
@@ -3120,6 +3094,19 @@
     "source": "DR Koncerthuset"
   },
   {
+    "id": "dr-alex-vargas-2027-09-21-20-00",
+    "artist": "Alex Vargas",
+    "date": "2027-09-21",
+    "time": "20:00",
+    "venue": "DR Koncerthuset",
+    "room": "KONCERTSALEN",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://www.drkoncerthuset.dk/kalender/2027/alex-vargas/alex-vargas-solo-2027-ekstrakoncert/",
+    "image": "https://www.drkoncerthuset.dk/media/3kspydcr/event_35465.jpg?mode=crop&width=1200&height=630&quality=80",
+    "source": "DR Koncerthuset"
+  },
+  {
     "id": "dr-alex-vargas-2027-09-22-20-00",
     "artist": "Alex Vargas",
     "date": "2027-09-22",
@@ -3127,7 +3114,7 @@
     "venue": "DR Koncerthuset",
     "room": "KONCERTSALEN",
     "genre": "Andet",
-    "status": "Billetter",
+    "status": "Venteliste",
     "url": "https://www.drkoncerthuset.dk/kalender/2027/alex-vargas/alex-vargas-solo-2027/",
     "image": "https://www.drkoncerthuset.dk/media/3kspydcr/event_35465.jpg?mode=crop&width=1200&height=630&quality=80",
     "source": "DR Koncerthuset"
