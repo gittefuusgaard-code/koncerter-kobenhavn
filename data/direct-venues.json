@@ -1,18 +1,5 @@
 [
   {
-    "id": "direct-royal-arena-2026-10-24--saveus",
-    "artist": "Saveus",
-    "date": "2026-10-24",
-    "time": "",
-    "venue": "Royal Arena",
-    "room": "Royal Arena",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://www.royalarena.dk/en/all-events/saveus-tickets-ae784818",
-    "image": "https://dynamicmedia.livenationinternational.com/o/w/i/b4563042-017c-4385-9435-4b4bc6ccc36d.png",
-    "source": "Royal Arena"
-  },
-  {
     "id": "direct-k-b--hallen-2026-10-24-20-00-placebo---support--kallsup",
     "artist": "Placebo - Support: Kallsup",
     "date": "2026-10-24",
@@ -674,6 +661,19 @@
     "url": "https://kbhallen.dk/event/airtox-dominance-9.0_2027-01-23/",
     "image": "https://kbhallen.dk/site/assets/files/5035/image01165.1648x863.jpeg",
     "source": "K.B. Hallen"
+  },
+  {
+    "id": "direct-royal-arena-2027-01-24--aespa",
+    "artist": "aespa",
+    "date": "2027-01-24",
+    "time": "",
+    "venue": "Royal Arena",
+    "room": "Royal Arena",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://www.royalarena.dk/all-events/aespa-tickets-ae1422768",
+    "image": "https://dynamicmedia.livenationinternational.com/p/b/n/040d1b29-7b3f-4572-a4a0-bb107dcd0080.jpg",
+    "source": "Royal Arena"
   },
   {
     "id": "direct-bremen-teater-2027-01-29-18-00-christian-fuhlendorff",
