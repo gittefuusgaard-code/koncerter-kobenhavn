@@ -1,18 +1,5 @@
 [
   {
-    "id": "direct-k-b--hallen-2026-10-24-20-00-placebo---support--kallsup",
-    "artist": "Placebo - Support: Kallsup",
-    "date": "2026-10-24",
-    "time": "20:00",
-    "venue": "K.B. Hallen",
-    "room": "K.B. Hallen",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://kbhallen.dk/event/placebo_2026-10-24/",
-    "image": "https://kbhallen.dk/site/assets/files/4891/placebo_-_lead_press_shot_credit_scarlet_page.1920x1080.jpg",
-    "source": "K.B. Hallen"
-  },
-  {
     "id": "direct-pumpehuset-2026-10-24--la-malafamera---halloween-edition-i-pumpehuset",
     "artist": "La Malafamera - Halloween Edition i Pumpehuset",
     "date": "2026-10-24",
@@ -479,6 +466,19 @@
     "url": "https://www.royalarena.dk/all-events/bryson-tiller-tickets-ae800043",
     "image": "https://dynamicmedia.livenationinternational.com/t/u/n/522748fd-b422-4a0b-bcad-c7ef8f3988f0.jpg",
     "source": "Royal Arena"
+  },
+  {
+    "id": "direct-bremen-teater-2026-11-21-20-00-hakkedrengene",
+    "artist": "Hakkedrengene",
+    "date": "2026-11-21",
+    "time": "20:00",
+    "venue": "Bremen Teater",
+    "room": "Bremen Teater",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://www.brementeater.dk/arrangementer/hakkedrengene",
+    "image": "",
+    "source": "Bremen Teater"
   },
   {
     "id": "direct-k-b--hallen-2026-11-23-20-00-beabadoobee",
