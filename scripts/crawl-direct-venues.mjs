@@ -75,8 +75,8 @@ for(const config of configs){
    }));
    // Bremen event detail pages list individual performances, often without JSON-LD.
    // Each date/time is a separate event; comedy and talks are intentionally included.
-   if(config.venue==='Bremen Teater' && /\\/arrangementer\\/[^/]+/i.test(new URL(url).pathname)){
-    const dates=[...meta.text.matchAll(/\\b(\\d{1,2})\\.(\\d{1,2})\\.(20\\d{2})\\s+kl\\.\\s*(\\d{1,2}[.:]\\d{2})?/gi)];
+   if(config.venue==='Bremen Teater' && /\/arrangementer\/[^/]+/i.test(new URL(url).pathname)){
+    const dates=[...meta.text.matchAll(/\b(\d{1,2})\.(\d{1,2})\.(20\d{2})\s+kl\.\s*(\d{1,2}[.:]\d{2})?/gi)];
     const title=normalize(meta.title);
     if(title && title.length<130 && !/^(?:arrangementer|program)$/i.test(title)){
      for(const match of dates){
