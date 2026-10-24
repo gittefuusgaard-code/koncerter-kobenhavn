@@ -13,19 +13,6 @@
     "source": "Royal Arena"
   },
   {
-    "id": "direct-pumpehuset-2026-10-24--la-malafamera---halloween-edition-i-pumpehuset",
-    "artist": "La Malafamera - Halloween Edition i Pumpehuset",
-    "date": "2026-10-24",
-    "time": "",
-    "venue": "Pumpehuset",
-    "room": "Pumpehuset",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://pumpehuset.dk/koncerter/la-malafamera-halloween-edition/",
-    "image": "",
-    "source": "Pumpehuset"
-  },
-  {
     "id": "direct-k-b--hallen-2026-10-24-20-00-placebo---support--kallsup",
     "artist": "Placebo - Support: Kallsup",
     "date": "2026-10-24",
@@ -37,6 +24,19 @@
     "url": "https://kbhallen.dk/event/placebo_2026-10-24/",
     "image": "https://kbhallen.dk/site/assets/files/4891/placebo_-_lead_press_shot_credit_scarlet_page.1920x1080.jpg",
     "source": "K.B. Hallen"
+  },
+  {
+    "id": "direct-pumpehuset-2026-10-24--la-malafamera---halloween-edition-i-pumpehuset",
+    "artist": "La Malafamera - Halloween Edition i Pumpehuset",
+    "date": "2026-10-24",
+    "time": "",
+    "venue": "Pumpehuset",
+    "room": "Pumpehuset",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://pumpehuset.dk/koncerter/la-malafamera-halloween-edition/",
+    "image": "",
+    "source": "Pumpehuset"
   },
   {
     "id": "direct-royal-arena-2026-10-25--deep-purple",
@@ -91,19 +91,6 @@
     "source": "Pumpehuset"
   },
   {
-    "id": "direct-pumpehuset-2026-10-30--cassius-club-360----special-guest-i-pumpehuset",
-    "artist": "Cassius CLUB 360° + Special Guest i Pumpehuset",
-    "date": "2026-10-30",
-    "time": "",
-    "venue": "Pumpehuset",
-    "room": "Pumpehuset",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://pumpehuset.dk/koncerter/cassius-club-360-special-guest/",
-    "image": "https://pumpehuset.dk/wp-content/uploads/Cassius.jpg",
-    "source": "Pumpehuset"
-  },
-  {
     "id": "direct-k-b--hallen-2026-10-30-19-00-dimmu-borgir--amp--behemoth---support--dark-funeral",
     "artist": "Dimmu Borgir &amp; Behemoth - Support: Dark Funeral",
     "date": "2026-10-30",
@@ -117,16 +104,16 @@
     "source": "K.B. Hallen"
   },
   {
-    "id": "direct-pumpehuset-2026-10-31--the-epic-halloween-drag-show-i-pumpehusety",
-    "artist": "The EPIC Halloween Drag Show i Pumpehusety",
-    "date": "2026-10-31",
+    "id": "direct-pumpehuset-2026-10-30--cassius-club-360----special-guest-i-pumpehuset",
+    "artist": "Cassius CLUB 360° + Special Guest i Pumpehuset",
+    "date": "2026-10-30",
     "time": "",
     "venue": "Pumpehuset",
     "room": "Pumpehuset",
     "genre": "Andet",
     "status": "Billetter",
-    "url": "https://pumpehuset.dk/koncerter/the-epic-halloween-drag-show/",
-    "image": "https://pumpehuset.dk/wp-content/uploads/The-EPIC-Drag-Halloween-Show-1.jpg",
+    "url": "https://pumpehuset.dk/koncerter/cassius-club-360-special-guest/",
+    "image": "https://pumpehuset.dk/wp-content/uploads/Cassius.jpg",
     "source": "Pumpehuset"
   },
   {
@@ -141,6 +128,19 @@
     "url": "https://kbhallen.dk/event/the-fray_2026-10-31/",
     "image": "https://kbhallen.dk/site/assets/files/4887/tfr1240.1920x1080.jpg",
     "source": "K.B. Hallen"
+  },
+  {
+    "id": "direct-pumpehuset-2026-10-31--the-epic-halloween-drag-show-i-pumpehusety",
+    "artist": "The EPIC Halloween Drag Show i Pumpehusety",
+    "date": "2026-10-31",
+    "time": "",
+    "venue": "Pumpehuset",
+    "room": "Pumpehuset",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://pumpehuset.dk/koncerter/the-epic-halloween-drag-show/",
+    "image": "https://pumpehuset.dk/wp-content/uploads/The-EPIC-Drag-Halloween-Show-1.jpg",
+    "source": "Pumpehuset"
   },
   {
     "id": "direct-k-b--hallen-2026-11-01-20-00-tyla---support--royal-musiq",
