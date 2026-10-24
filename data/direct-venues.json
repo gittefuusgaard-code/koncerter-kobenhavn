@@ -78,6 +78,32 @@
     "source": "Pumpehuset"
   },
   {
+    "id": "direct-bremen-teater-2026-10-29-20-30-hadi-ka-koush",
+    "artist": "Hadi Ka-Koush",
+    "date": "2026-10-29",
+    "time": "20:30",
+    "venue": "Bremen Teater",
+    "room": "Bremen Teater",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://www.brementeater.dk/arrangementer/hadi-ka-koush",
+    "image": "",
+    "source": "Bremen Teater"
+  },
+  {
+    "id": "direct-bremen-teater-2026-10-29-18-00-hadi-ka-koush",
+    "artist": "Hadi Ka-Koush",
+    "date": "2026-10-29",
+    "time": "18:00",
+    "venue": "Bremen Teater",
+    "room": "Bremen Teater",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://www.brementeater.dk/arrangementer/hadi-ka-koush",
+    "image": "",
+    "source": "Bremen Teater"
+  },
+  {
     "id": "direct-pumpehuset-2026-10-29--den--strigske-edm-stjerne-ely-oaks-g-ster-pumpehuset",
     "artist": "Den østrigske EDM-stjerne Ely Oaks gæster Pumpehuset",
     "date": "2026-10-29",
@@ -234,6 +260,32 @@
     "source": "K.B. Hallen"
   },
   {
+    "id": "direct-bremen-teater-2026-11-06-20-30-adnan",
+    "artist": "Adnan",
+    "date": "2026-11-06",
+    "time": "20:30",
+    "venue": "Bremen Teater",
+    "room": "Bremen Teater",
+    "genre": "Andet",
+    "status": "Udsolgt",
+    "url": "https://www.brementeater.dk/arrangementer/adnan",
+    "image": "",
+    "source": "Bremen Teater"
+  },
+  {
+    "id": "direct-bremen-teater-2026-11-06-18-00-adnan",
+    "artist": "Adnan",
+    "date": "2026-11-06",
+    "time": "18:00",
+    "venue": "Bremen Teater",
+    "room": "Bremen Teater",
+    "genre": "Andet",
+    "status": "Udsolgt",
+    "url": "https://www.brementeater.dk/arrangementer/adnan",
+    "image": "",
+    "source": "Bremen Teater"
+  },
+  {
     "id": "direct-royal-arena-2026-11-07--emma-sehested-h-eg",
     "artist": "Emma Sehested Høeg",
     "date": "2026-11-07",
@@ -323,6 +375,32 @@
     "url": "https://www.royalarena.dk/all-events/queen-machine-tickets-ae1259871",
     "image": "https://networksites.livenationinternational.com/networksites/jg3hdv5e/queenmachine_royalarena1920x1080text_0.jpg",
     "source": "Royal Arena"
+  },
+  {
+    "id": "direct-bremen-teater-2026-11-14-18-30-bodil-j-rgensen---lisbeth-wulff",
+    "artist": "Bodil Jørgensen & Lisbeth Wulff",
+    "date": "2026-11-14",
+    "time": "18:30",
+    "venue": "Bremen Teater",
+    "room": "Bremen Teater",
+    "genre": "Andet",
+    "status": "Udsolgt",
+    "url": "https://www.brementeater.dk/arrangementer/bodil-jorgensen-lisbeth-wulff",
+    "image": "",
+    "source": "Bremen Teater"
+  },
+  {
+    "id": "direct-bremen-teater-2026-11-14-15-00-bodil-j-rgensen---lisbeth-wulff",
+    "artist": "Bodil Jørgensen & Lisbeth Wulff",
+    "date": "2026-11-14",
+    "time": "15:00",
+    "venue": "Bremen Teater",
+    "room": "Bremen Teater",
+    "genre": "Andet",
+    "status": "Udsolgt",
+    "url": "https://www.brementeater.dk/arrangementer/bodil-jorgensen-lisbeth-wulff",
+    "image": "",
+    "source": "Bremen Teater"
   },
   {
     "id": "direct-k-b--hallen-2026-11-15-20-00-the-kid-laroi---support--nate-sib---opener--wizthemc",
@@ -468,6 +546,32 @@
     "source": "K.B. Hallen"
   },
   {
+    "id": "direct-bremen-teater-2026-11-28-20-30-eva-jin",
+    "artist": "Eva Jin",
+    "date": "2026-11-28",
+    "time": "20:30",
+    "venue": "Bremen Teater",
+    "room": "Bremen Teater",
+    "genre": "Andet",
+    "status": "Udsolgt",
+    "url": "https://www.brementeater.dk/arrangementer/eva-jin",
+    "image": "",
+    "source": "Bremen Teater"
+  },
+  {
+    "id": "direct-bremen-teater-2026-11-28-18-00-eva-jin",
+    "artist": "Eva Jin",
+    "date": "2026-11-28",
+    "time": "18:00",
+    "venue": "Bremen Teater",
+    "room": "Bremen Teater",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://www.brementeater.dk/arrangementer/eva-jin",
+    "image": "",
+    "source": "Bremen Teater"
+  },
+  {
     "id": "direct-royal-arena-2026-12-05--breinholt-s-giga-juleshow",
     "artist": "Breinholt's GIGA Juleshow",
     "date": "2026-12-05",
@@ -479,6 +583,19 @@
     "url": "https://www.royalarena.dk/all-events/breinholt-s-giga-juleshow-tickets-ae1665062",
     "image": "https://networksites.livenationinternational.com/networksites/mc2p4pm4/some_16x9_breinholtsjuleshow2026.jpg",
     "source": "Royal Arena"
+  },
+  {
+    "id": "direct-bremen-teater-2026-12-05-20-00-adnan",
+    "artist": "Adnan",
+    "date": "2026-12-05",
+    "time": "20:00",
+    "venue": "Bremen Teater",
+    "room": "Bremen Teater",
+    "genre": "Andet",
+    "status": "Udsolgt",
+    "url": "https://www.brementeater.dk/arrangementer/adnan",
+    "image": "",
+    "source": "Bremen Teater"
   },
   {
     "id": "direct-royal-arena-2026-12-07--bryan-adams",
@@ -559,6 +676,32 @@
     "source": "K.B. Hallen"
   },
   {
+    "id": "direct-bremen-teater-2027-01-29-18-00-christian-fuhlendorff",
+    "artist": "Christian Fuhlendorff",
+    "date": "2027-01-29",
+    "time": "18:00",
+    "venue": "Bremen Teater",
+    "room": "Bremen Teater",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://www.brementeater.dk/arrangementer/christian-fuhlendorff",
+    "image": "",
+    "source": "Bremen Teater"
+  },
+  {
+    "id": "direct-bremen-teater-2027-01-29-20-30-christian-fuhlendorff",
+    "artist": "Christian Fuhlendorff",
+    "date": "2027-01-29",
+    "time": "20:30",
+    "venue": "Bremen Teater",
+    "room": "Bremen Teater",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://www.brementeater.dk/arrangementer/christian-fuhlendorff",
+    "image": "",
+    "source": "Bremen Teater"
+  },
+  {
     "id": "direct-k-b--hallen-2027-01-30-18-30-bullet-for-my-valentine---plus-very-special-guests--pendulum",
     "artist": "Bullet For My Valentine - Plus very Special Guests: Pendulum",
     "date": "2027-01-30",
@@ -570,6 +713,32 @@
     "url": "https://kbhallen.dk/event/bullet-for-my-valentine_2027-01-30/",
     "image": "https://kbhallen.dk/site/assets/files/5011/4201998d_bfmv_press_photo_2.1920x1080.jpg",
     "source": "K.B. Hallen"
+  },
+  {
+    "id": "direct-bremen-teater-2027-01-30-18-00-christian-fuhlendorff",
+    "artist": "Christian Fuhlendorff",
+    "date": "2027-01-30",
+    "time": "18:00",
+    "venue": "Bremen Teater",
+    "room": "Bremen Teater",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://www.brementeater.dk/arrangementer/christian-fuhlendorff",
+    "image": "",
+    "source": "Bremen Teater"
+  },
+  {
+    "id": "direct-bremen-teater-2027-01-30-20-30-christian-fuhlendorff",
+    "artist": "Christian Fuhlendorff",
+    "date": "2027-01-30",
+    "time": "20:30",
+    "venue": "Bremen Teater",
+    "room": "Bremen Teater",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://www.brementeater.dk/arrangementer/christian-fuhlendorff",
+    "image": "",
+    "source": "Bremen Teater"
   },
   {
     "id": "direct-k-b--hallen-2027-02-06-17-00-the-galactic-darts-showdown",
@@ -596,6 +765,32 @@
     "url": "https://kbhallen.dk/event/jonah-blacksmith_2027-02-12/",
     "image": "https://kbhallen.dk/site/assets/files/5007/jb-arenafilm27_prismic.1920x1080.png",
     "source": "K.B. Hallen"
+  },
+  {
+    "id": "direct-bremen-teater-2027-02-13-18-00-frank-hvam",
+    "artist": "Frank Hvam",
+    "date": "2027-02-13",
+    "time": "18:00",
+    "venue": "Bremen Teater",
+    "room": "Bremen Teater",
+    "genre": "Andet",
+    "status": "Udsolgt",
+    "url": "https://www.brementeater.dk/arrangementer/frank-hvam",
+    "image": "",
+    "source": "Bremen Teater"
+  },
+  {
+    "id": "direct-bremen-teater-2027-02-13-20-30-frank-hvam",
+    "artist": "Frank Hvam",
+    "date": "2027-02-13",
+    "time": "20:30",
+    "venue": "Bremen Teater",
+    "room": "Bremen Teater",
+    "genre": "Andet",
+    "status": "Udsolgt",
+    "url": "https://www.brementeater.dk/arrangementer/frank-hvam",
+    "image": "",
+    "source": "Bremen Teater"
   },
   {
     "id": "direct-pumpehuset-2027-02-13--a-good-year",
@@ -741,6 +936,32 @@
     "source": "K.B. Hallen"
   },
   {
+    "id": "direct-bremen-teater-2027-04-07-18-00-casper-christensen",
+    "artist": "Casper Christensen",
+    "date": "2027-04-07",
+    "time": "18:00",
+    "venue": "Bremen Teater",
+    "room": "Bremen Teater",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://www.brementeater.dk/arrangementer/casper-christensen",
+    "image": "",
+    "source": "Bremen Teater"
+  },
+  {
+    "id": "direct-bremen-teater-2027-04-07-20-30-casper-christensen",
+    "artist": "Casper Christensen",
+    "date": "2027-04-07",
+    "time": "20:30",
+    "venue": "Bremen Teater",
+    "room": "Bremen Teater",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://www.brementeater.dk/arrangementer/casper-christensen",
+    "image": "",
+    "source": "Bremen Teater"
+  },
+  {
     "id": "direct-k-b--hallen-2027-04-09-20-00-michael--starring-ben---direct-from-the-west-end",
     "artist": "Michael® Starring Ben - Direct From The West End",
     "date": "2027-04-09",
@@ -778,6 +999,58 @@
     "url": "https://kbhallen.dk/event/bill-bailey_2027-04-29/",
     "image": "https://kbhallen.dk/site/assets/files/4947/bill_bailey_landscape_clean.1920x1080.jpg",
     "source": "K.B. Hallen"
+  },
+  {
+    "id": "direct-bremen-teater-2027-06-03-18-00-casper-christensen",
+    "artist": "Casper Christensen",
+    "date": "2027-06-03",
+    "time": "18:00",
+    "venue": "Bremen Teater",
+    "room": "Bremen Teater",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://www.brementeater.dk/arrangementer/casper-christensen",
+    "image": "",
+    "source": "Bremen Teater"
+  },
+  {
+    "id": "direct-bremen-teater-2027-06-03-20-30-casper-christensen",
+    "artist": "Casper Christensen",
+    "date": "2027-06-03",
+    "time": "20:30",
+    "venue": "Bremen Teater",
+    "room": "Bremen Teater",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://www.brementeater.dk/arrangementer/casper-christensen",
+    "image": "",
+    "source": "Bremen Teater"
+  },
+  {
+    "id": "direct-bremen-teater-2027-06-04-18-00-casper-christensen",
+    "artist": "Casper Christensen",
+    "date": "2027-06-04",
+    "time": "18:00",
+    "venue": "Bremen Teater",
+    "room": "Bremen Teater",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://www.brementeater.dk/arrangementer/casper-christensen",
+    "image": "",
+    "source": "Bremen Teater"
+  },
+  {
+    "id": "direct-bremen-teater-2027-06-04-20-30-casper-christensen",
+    "artist": "Casper Christensen",
+    "date": "2027-06-04",
+    "time": "20:30",
+    "venue": "Bremen Teater",
+    "room": "Bremen Teater",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://www.brementeater.dk/arrangementer/casper-christensen",
+    "image": "",
+    "source": "Bremen Teater"
   },
   {
     "id": "direct-k-b--hallen-2027-06-05-20-00-jorja-smith",
