@@ -1,57 +1,5 @@
 [
   {
-    "id": "dr-kochanovsky---sjostakovitj-2026-10-24-14-00",
-    "artist": "Kochanovsky & Sjostakovitj",
-    "date": "2026-10-24",
-    "time": "14:00",
-    "venue": "DR Koncerthuset",
-    "room": "KONCERTSALEN",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://www.drkoncerthuset.dk/kalender/2026/kochanovsky-sjostakovitj/kochanovsky-sjostakovitj-1/",
-    "image": "https://www.drkoncerthuset.dk/media/rfkln1lo/kochanovsky-sjostakovitj_2550x1275px_medikon.jpg?width=1600&height=800&v=1dd2b12be60bf00&quality=80",
-    "source": "DR Koncerthuset"
-  },
-  {
-    "id": "dr-dr-pigekoret-i-m-rke-2026-10-24-19-30",
-    "artist": "DR Pigekoret i mørke",
-    "date": "2026-10-24",
-    "time": "19:30",
-    "venue": "DR Koncerthuset",
-    "room": "KONCERTSALEN",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://www.drkoncerthuset.dk/kalender/2026/dr-pigekoret-i-moerke-alsion/dr-pigekoret-i-moerke/",
-    "image": "https://www.drkoncerthuset.dk/media/yj5jmm1o/event_32754.jpg?width=1600&height=800&v=1dcaa43123eab60&quality=80",
-    "source": "DR Koncerthuset"
-  },
-  {
-    "id": "dr-hannah-schneider-2026-10-24-19-30",
-    "artist": "Hannah Schneider",
-    "date": "2026-10-24",
-    "time": "19:30",
-    "venue": "DR Koncerthuset",
-    "room": "STUDIE 3",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://www.drkoncerthuset.dk/kalender/2026/hannah-schneider/hannah-schneider/",
-    "image": "https://www.drkoncerthuset.dk/media/faucsbgi/event_32832.jpg?mode=crop&width=1200&height=630&quality=80",
-    "source": "DR Koncerthuset"
-  },
-  {
-    "id": "dr-claus-hempler-2026-10-24-21-00",
-    "artist": "Claus Hempler",
-    "date": "2026-10-24",
-    "time": "21:00",
-    "venue": "DR Koncerthuset",
-    "room": "KONCERTSALEN",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://www.drkoncerthuset.dk/kalender/2026/claus-hempler/claus-hempler/",
-    "image": "https://www.drkoncerthuset.dk/media/akjhe4ax/event_33812.jpg?mode=crop&width=1200&height=630&quality=80",
-    "source": "DR Koncerthuset"
-  },
-  {
     "id": "dr-mercury-rev-2026-10-26-20-30",
     "artist": "Mercury Rev",
     "date": "2026-10-26",
@@ -61,7 +9,7 @@
     "genre": "Andet",
     "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/mercury-rev/mercury-rev-celebrating-25-years-of-all-is-dream/",
-    "image": "https://www.drkoncerthuset.dk/media/1lpdwen0/event_30570.jpg?mode=crop&width=1200&height=630&quality=80",
+    "image": "https://www.drkoncerthuset.dk/media/1lpdwen0/event_30570.jpg?width=1600&height=800&v=1dc5ac07c2a2630&quality=80",
     "source": "DR Koncerthuset"
   },
   {
@@ -74,7 +22,7 @@
     "genre": "Andet",
     "status": "Venteliste",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/luisi-verdis-requiem/luisi-verdis-requiem/",
-    "image": "https://www.drkoncerthuset.dk/media/d1efixld/event_30974.jpg?mode=crop&width=1200&height=630&quality=80",
+    "image": "https://www.drkoncerthuset.dk/media/2iynpapz/luisi-verdis-requiem_2550x1275px_medikon.jpg?rxy=0.4693187243831811,0.3922480620155039&width=1600&height=800&v=1dd2b13a6299960&quality=80",
     "source": "DR Koncerthuset"
   },
   {
@@ -87,7 +35,7 @@
     "genre": "Andet",
     "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/freja-kirk/freja-kirk-hey-freja/",
-    "image": "https://www.drkoncerthuset.dk/media/xg1dig42/event_30510.jpg?mode=crop&width=1200&height=630&quality=80",
+    "image": "https://www.drkoncerthuset.dk/media/xg1dig42/event_30510.jpg?width=1600&height=800&v=1dc55658511daf0&quality=80",
     "source": "DR Koncerthuset"
   },
   {
