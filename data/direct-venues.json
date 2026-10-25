@@ -1,18 +1,5 @@
 [
   {
-    "id": "direct-royal-arena-2026-10-25--deep-purple",
-    "artist": "Deep Purple",
-    "date": "2026-10-25",
-    "time": "",
-    "venue": "Royal Arena",
-    "room": "Royal Arena",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://www.royalarena.dk/en/all-events/deep-purple-tickets-ae3790",
-    "image": "https://networksites.livenationinternational.com/networksites/anfprvnu/deep-purple_1920x1080_ra.png",
-    "source": "Royal Arena"
-  },
-  {
     "id": "direct-k-b--hallen-2026-10-27-20-00-joe-bonamassa",
     "artist": "Joe Bonamassa",
     "date": "2026-10-27",
@@ -78,19 +65,6 @@
     "source": "Pumpehuset"
   },
   {
-    "id": "direct-k-b--hallen-2026-10-30-19-00-dimmu-borgir--amp--behemoth---support--dark-funeral",
-    "artist": "Dimmu Borgir &amp; Behemoth - Support: Dark Funeral",
-    "date": "2026-10-30",
-    "time": "19:00",
-    "venue": "K.B. Hallen",
-    "room": "K.B. Hallen",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://kbhallen.dk/event/dimmu-borgir-behemoth_2026-10-30/",
-    "image": "https://kbhallen.dk/site/assets/files/4842/skaermbillede_2025-11-28_kl__09_21_47.1920x1080.png",
-    "source": "K.B. Hallen"
-  },
-  {
     "id": "direct-pumpehuset-2026-10-30--cassius-club-360----special-guest-i-pumpehuset",
     "artist": "Cassius CLUB 360° + Special Guest i Pumpehuset",
     "date": "2026-10-30",
@@ -104,16 +78,16 @@
     "source": "Pumpehuset"
   },
   {
-    "id": "direct-k-b--hallen-2026-10-31-20-00-the-fray",
-    "artist": "The Fray",
-    "date": "2026-10-31",
-    "time": "20:00",
+    "id": "direct-k-b--hallen-2026-10-30-19-00-dimmu-borgir--amp--behemoth---support--dark-funeral",
+    "artist": "Dimmu Borgir &amp; Behemoth - Support: Dark Funeral",
+    "date": "2026-10-30",
+    "time": "19:00",
     "venue": "K.B. Hallen",
     "room": "K.B. Hallen",
     "genre": "Andet",
     "status": "Billetter",
-    "url": "https://kbhallen.dk/event/the-fray_2026-10-31/",
-    "image": "https://kbhallen.dk/site/assets/files/4887/tfr1240.1920x1080.jpg",
+    "url": "https://kbhallen.dk/event/dimmu-borgir-behemoth_2026-10-30/",
+    "image": "https://kbhallen.dk/site/assets/files/4842/skaermbillede_2025-11-28_kl__09_21_47.1920x1080.png",
     "source": "K.B. Hallen"
   },
   {
@@ -128,6 +102,19 @@
     "url": "https://pumpehuset.dk/koncerter/the-epic-halloween-drag-show/",
     "image": "https://pumpehuset.dk/wp-content/uploads/The-EPIC-Drag-Halloween-Show-1.jpg",
     "source": "Pumpehuset"
+  },
+  {
+    "id": "direct-k-b--hallen-2026-10-31-20-00-the-fray",
+    "artist": "The Fray",
+    "date": "2026-10-31",
+    "time": "20:00",
+    "venue": "K.B. Hallen",
+    "room": "K.B. Hallen",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://kbhallen.dk/event/the-fray_2026-10-31/",
+    "image": "https://kbhallen.dk/site/assets/files/4887/tfr1240.1920x1080.jpg",
+    "source": "K.B. Hallen"
   },
   {
     "id": "direct-k-b--hallen-2026-11-01-20-00-tyla---support--royal-musiq",
@@ -208,19 +195,6 @@
     "source": "Royal Arena"
   },
   {
-    "id": "direct-k-b--hallen-2026-11-06-20-00-esdeekid",
-    "artist": "EsDeeKid",
-    "date": "2026-11-06",
-    "time": "20:00",
-    "venue": "K.B. Hallen",
-    "room": "K.B. Hallen",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://kbhallen.dk/event/esdeekid_2026-11-06/",
-    "image": "https://kbhallen.dk/site/assets/files/4973/jack986040659-r1-106.1920x1080.jpg",
-    "source": "K.B. Hallen"
-  },
-  {
     "id": "direct-bremen-teater-2026-11-06-20-30-adnan",
     "artist": "Adnan",
     "date": "2026-11-06",
@@ -258,6 +232,19 @@
     "url": "https://pumpehuset.dk/koncerter/mammoth/",
     "image": "https://pumpehuset.dk/wp-content/uploads/Mammoth-web-kopi.jpg",
     "source": "Pumpehuset"
+  },
+  {
+    "id": "direct-k-b--hallen-2026-11-06-20-00-esdeekid",
+    "artist": "EsDeeKid",
+    "date": "2026-11-06",
+    "time": "20:00",
+    "venue": "K.B. Hallen",
+    "room": "K.B. Hallen",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://kbhallen.dk/event/esdeekid_2026-11-06/",
+    "image": "https://kbhallen.dk/site/assets/files/4973/jack986040659-r1-106.1920x1080.jpg",
+    "source": "K.B. Hallen"
   },
   {
     "id": "direct-royal-arena-2026-11-07--emma-sehested-h-eg",
@@ -520,19 +507,6 @@
     "source": "Royal Arena"
   },
   {
-    "id": "direct-k-b--hallen-2026-11-28-20-00-august-h-yen",
-    "artist": "August Høyen",
-    "date": "2026-11-28",
-    "time": "20:00",
-    "venue": "K.B. Hallen",
-    "room": "K.B. Hallen",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://kbhallen.dk/event/august-hoyen_2026-11-28/",
-    "image": "https://kbhallen.dk/site/assets/files/4829/august_hoyen_-_pressefoto.1920x1080.jpg",
-    "source": "K.B. Hallen"
-  },
-  {
     "id": "direct-bremen-teater-2026-11-28-20-30-eva-jin",
     "artist": "Eva Jin",
     "date": "2026-11-28",
@@ -557,6 +531,19 @@
     "url": "https://www.brementeater.dk/arrangementer/eva-jin",
     "image": "",
     "source": "Bremen Teater"
+  },
+  {
+    "id": "direct-k-b--hallen-2026-11-28-20-00-august-h-yen",
+    "artist": "August Høyen",
+    "date": "2026-11-28",
+    "time": "20:00",
+    "venue": "K.B. Hallen",
+    "room": "K.B. Hallen",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://kbhallen.dk/event/august-hoyen_2026-11-28/",
+    "image": "https://kbhallen.dk/site/assets/files/4829/august_hoyen_-_pressefoto.1920x1080.jpg",
+    "source": "K.B. Hallen"
   },
   {
     "id": "direct-royal-arena-2026-12-05--breinholt-s-giga-juleshow",
@@ -702,19 +689,6 @@
     "source": "Bremen Teater"
   },
   {
-    "id": "direct-k-b--hallen-2027-01-30-18-30-bullet-for-my-valentine---plus-very-special-guests--pendulum",
-    "artist": "Bullet For My Valentine - Plus very Special Guests: Pendulum",
-    "date": "2027-01-30",
-    "time": "18:30",
-    "venue": "K.B. Hallen",
-    "room": "K.B. Hallen",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://kbhallen.dk/event/bullet-for-my-valentine_2027-01-30/",
-    "image": "https://kbhallen.dk/site/assets/files/5011/4201998d_bfmv_press_photo_2.1920x1080.jpg",
-    "source": "K.B. Hallen"
-  },
-  {
     "id": "direct-bremen-teater-2027-01-30-18-00-christian-fuhlendorff",
     "artist": "Christian Fuhlendorff",
     "date": "2027-01-30",
@@ -739,6 +713,19 @@
     "url": "https://www.brementeater.dk/arrangementer/christian-fuhlendorff",
     "image": "",
     "source": "Bremen Teater"
+  },
+  {
+    "id": "direct-k-b--hallen-2027-01-30-18-30-bullet-for-my-valentine---plus-very-special-guests--pendulum",
+    "artist": "Bullet For My Valentine - Plus very Special Guests: Pendulum",
+    "date": "2027-01-30",
+    "time": "18:30",
+    "venue": "K.B. Hallen",
+    "room": "K.B. Hallen",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://kbhallen.dk/event/bullet-for-my-valentine_2027-01-30/",
+    "image": "https://kbhallen.dk/site/assets/files/5011/4201998d_bfmv_press_photo_2.1920x1080.jpg",
+    "source": "K.B. Hallen"
   },
   {
     "id": "direct-k-b--hallen-2027-02-06-17-00-the-galactic-darts-showdown",
@@ -817,6 +804,19 @@
     "url": "https://kbhallen.dk/event/malcolm-todd_2027-02-14/",
     "image": "https://kbhallen.dk/site/assets/files/4999/static_ln-carousel-desktop_1920x1080_malcolmtodd_2027_photo.1920x1080.jpg",
     "source": "K.B. Hallen"
+  },
+  {
+    "id": "direct-royal-arena-2027-02-17--five-finger-death-punch",
+    "artist": "Five Finger Death Punch",
+    "date": "2027-02-17",
+    "time": "",
+    "venue": "Royal Arena",
+    "room": "Royal Arena",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://www.royalarena.dk/all-events/five-finger-death-punch-tickets-ae24668",
+    "image": "https://dynamicmedia.livenationinternational.com/t/z/a/0d1a19c9-5f9b-4d3c-a2f6-608844c6daef.jpg",
+    "source": "Royal Arena"
   },
   {
     "id": "direct-k-b--hallen-2027-02-26--cannonball-2027",
