@@ -1,31 +1,5 @@
 [
   {
-    "id": "vega-store-vega-2026-10-24-loke-deph",
-    "artist": "Loke Deph",
-    "date": "2026-10-24",
-    "time": "20:00",
-    "venue": "Store VEGA",
-    "room": "Store VEGA",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://vega.dk/event/loke-deph-2026-10-24",
-    "image": "https://payload.vega.dk/media/Loke Deph spiller i VEGA-1200x630.jpg",
-    "source": "VEGA"
-  },
-  {
-    "id": "vega-lille-vega-2026-10-24-draghouse",
-    "artist": "Draghouse",
-    "date": "2026-10-24",
-    "time": "21:00",
-    "venue": "Lille VEGA",
-    "room": "Lille VEGA",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://vega.dk/event/draghouse-2026-10-24",
-    "image": "https://payload.vega.dk/media/VEGA_Kalender_Draghouse_2026-1-1200x630.jpg",
-    "source": "VEGA"
-  },
-  {
     "id": "vega-lille-vega-2026-10-26-est-gee",
     "artist": "EST Gee",
     "date": "2026-10-26",
