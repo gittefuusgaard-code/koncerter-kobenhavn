@@ -1,18 +1,5 @@
 [
   {
-    "id": "direct-pumpehuset-2026-10-24--la-malafamera---halloween-edition-i-pumpehuset",
-    "artist": "La Malafamera - Halloween Edition i Pumpehuset",
-    "date": "2026-10-24",
-    "time": "",
-    "venue": "Pumpehuset",
-    "room": "Pumpehuset",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://pumpehuset.dk/koncerter/la-malafamera-halloween-edition/",
-    "image": "",
-    "source": "Pumpehuset"
-  },
-  {
     "id": "direct-royal-arena-2026-10-25--deep-purple",
     "artist": "Deep Purple",
     "date": "2026-10-25",
@@ -258,6 +245,19 @@
     "url": "https://www.brementeater.dk/arrangementer/adnan",
     "image": "",
     "source": "Bremen Teater"
+  },
+  {
+    "id": "direct-pumpehuset-2026-11-06--eddie-van-halens-s-n-indtager-pumpehuset-med-mammoth",
+    "artist": "Eddie Van Halens søn indtager Pumpehuset med Mammoth",
+    "date": "2026-11-06",
+    "time": "",
+    "venue": "Pumpehuset",
+    "room": "Pumpehuset",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://pumpehuset.dk/koncerter/mammoth/",
+    "image": "https://pumpehuset.dk/wp-content/uploads/Mammoth-web-kopi.jpg",
+    "source": "Pumpehuset"
   },
   {
     "id": "direct-royal-arena-2026-11-07--emma-sehested-h-eg",
