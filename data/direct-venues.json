@@ -260,8 +260,8 @@
     "source": "Royal Arena"
   },
   {
-    "id": "direct-k-b--hallen-2026-11-07-20-00-von-quar",
-    "artist": "Von Quar",
+    "id": "direct-k-b--hallen-2026-11-07-20-00-von-quar---supports--dj-zaymie---lea-ey-bj-rg---slalum---oskar-witt---legobygger123---slush-eyes",
+    "artist": "Von Quar - Supports: DJ Zaymie + Lea Eyðbjørg + Slalum + Oskar Witt + Legobygger123 + Slush Eyes",
     "date": "2026-11-07",
     "time": "20:00",
     "venue": "K.B. Hallen",
@@ -1076,6 +1076,19 @@
     "status": "Billetter",
     "url": "https://kbhallen.dk/event/brit-floyd_2027-10-09/",
     "image": "https://kbhallen.dk/site/assets/files/5019/brit_floyd_1080x1350.1920x1080.png",
+    "source": "K.B. Hallen"
+  },
+  {
+    "id": "direct-k-b--hallen-2027-10-10-20-00-till-lindemann",
+    "artist": "TIll Lindemann",
+    "date": "2027-10-10",
+    "time": "20:00",
+    "venue": "K.B. Hallen",
+    "room": "K.B. Hallen",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://kbhallen.dk/event/till-lindemann_2027-10-10/",
+    "image": "https://kbhallen.dk/site/assets/files/5048/pressefoto_lindemann2027_2_credit-jens_koch.1920x1080.jpg",
     "source": "K.B. Hallen"
   },
   {
