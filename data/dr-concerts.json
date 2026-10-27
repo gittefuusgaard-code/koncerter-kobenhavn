@@ -1,18 +1,5 @@
 [
   {
-    "id": "dr-mercury-rev-2026-10-26-20-30",
-    "artist": "Mercury Rev",
-    "date": "2026-10-26",
-    "time": "20:30",
-    "venue": "DR Koncerthuset",
-    "room": "STUDIE 2",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://www.drkoncerthuset.dk/kalender/2026/mercury-rev/mercury-rev-celebrating-25-years-of-all-is-dream/",
-    "image": "https://www.drkoncerthuset.dk/media/1lpdwen0/event_30570.jpg?width=1600&height=800&v=1dc5ac07c2a2630&quality=80",
-    "source": "DR Koncerthuset"
-  },
-  {
     "id": "dr-luisi---verdis-requiem-2026-10-29-19-30",
     "artist": "Luisi & Verdis Requiem",
     "date": "2026-10-29",
@@ -74,7 +61,7 @@
     "genre": "Andet",
     "status": "Venteliste",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/luisi-verdis-requiem/luisi-verdis-requiem-2/",
-    "image": "https://www.drkoncerthuset.dk/media/d1efixld/event_30974.jpg?mode=crop&width=1200&height=630&quality=80",
+    "image": "https://www.drkoncerthuset.dk/media/2iynpapz/luisi-verdis-requiem_2550x1275px_medikon.jpg?rxy=0.4693187243831811,0.3922480620155039&width=1600&height=800&v=1dd2b13a6299960&quality=80",
     "source": "DR Koncerthuset"
   },
   {
@@ -254,7 +241,7 @@
     "venue": "DR Koncerthuset",
     "room": "STUDIE 2",
     "genre": "Andet",
-    "status": "Billetter",
+    "status": "Venteliste",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/maribou-state-dj/maribou-state-dj-1/",
     "image": "https://www.drkoncerthuset.dk/media/xaihulmw/event_35001.jpg?mode=crop&width=1200&height=630&quality=80",
     "source": "DR Koncerthuset"
@@ -2028,6 +2015,19 @@
     "source": "DR Koncerthuset"
   },
   {
+    "id": "dr-mindekoncert-nicolai-munch-hansen-2027-02-20-20-30",
+    "artist": "Mindekoncert Nicolai Munch-Hansen",
+    "date": "2027-02-20",
+    "time": "20:30",
+    "venue": "DR Koncerthuset",
+    "room": "STUDIE 2",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://www.drkoncerthuset.dk/kalender/2027/mindekoncert-nicolai-munch-hansen/mindekoncert-nicolai-munch-hansen/",
+    "image": "https://www.drkoncerthuset.dk/media/30wjdt5m/event_35243.jpg?mode=crop&width=1200&height=630&quality=80",
+    "source": "DR Koncerthuset"
+  },
+  {
     "id": "dr-michael-learns-to-rock-2027-02-21-20-00",
     "artist": "Michael Learns To Rock",
     "date": "2027-02-21",
@@ -2740,6 +2740,19 @@
     "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2027/sira-jovina/sira-jovina/",
     "image": "https://www.drkoncerthuset.dk/media/vkcjmbkt/event_35390.jpg?mode=crop&width=1200&height=630&quality=80",
+    "source": "DR Koncerthuset"
+  },
+  {
+    "id": "dr-daniel-norgren-2027-04-28-20-00",
+    "artist": "Daniel Norgren",
+    "date": "2027-04-28",
+    "time": "20:00",
+    "venue": "DR Koncerthuset",
+    "room": "KONCERTSALEN",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://www.drkoncerthuset.dk/kalender/2027/daniel-norgren/daniel-norgren/",
+    "image": "https://www.drkoncerthuset.dk/media/tdkczaeq/event_35495.jpg?mode=crop&width=1200&height=630&quality=80",
     "source": "DR Koncerthuset"
   },
   {
