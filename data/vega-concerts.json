@@ -1,18 +1,5 @@
 [
   {
-    "id": "vega-lille-vega-2026-10-26-est-gee",
-    "artist": "EST Gee",
-    "date": "2026-10-26",
-    "time": "20:00",
-    "venue": "Lille VEGA",
-    "room": "Lille VEGA",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://vega.dk/event/est-gee-2026-10-26",
-    "image": "https://payload.vega.dk/media/VEGA_Kalender_ESTGee_2026-1200x630.jpg",
-    "source": "VEGA"
-  },
-  {
     "id": "vega-lille-vega-2026-10-27-the-kilimanjaro-darkjazz-ensemble",
     "artist": "The KILIMANJARO Darkjazz Ensemble",
     "date": "2026-10-27",
