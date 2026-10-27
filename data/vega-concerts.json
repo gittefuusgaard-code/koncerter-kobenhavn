@@ -377,19 +377,6 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-lille-vega-2026-11-18-leenalchi",
-    "artist": "Leenalchi",
-    "date": "2026-11-18",
-    "time": "20:00",
-    "venue": "Lille VEGA",
-    "room": "Lille VEGA",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://vega.dk/event/leenalchi-2026-11-18",
-    "image": "https://payload.vega.dk/media/2619_big-1200x630.jpg",
-    "source": "VEGA"
-  },
-  {
     "id": "vega-store-vega-2026-11-18-saint-levant",
     "artist": "Saint Levant",
     "date": "2026-11-18",
@@ -400,6 +387,19 @@
     "status": "Billetter",
     "url": "https://vega.dk/event/saint-levant-2026-11-18",
     "image": "https://payload.vega.dk/media/VEGA_Kalender_SaintLevant_2026-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-lille-vega-2026-11-18-leenalchi",
+    "artist": "Leenalchi",
+    "date": "2026-11-18",
+    "time": "20:00",
+    "venue": "Lille VEGA",
+    "room": "Lille VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/leenalchi-2026-11-18",
+    "image": "https://payload.vega.dk/media/2619_big-1200x630.jpg",
     "source": "VEGA"
   },
   {
@@ -494,19 +494,6 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-store-vega-2026-11-25-chelsea-wolfe",
-    "artist": "Chelsea Wolfe",
-    "date": "2026-11-25",
-    "time": "20:00",
-    "venue": "Store VEGA",
-    "room": "Store VEGA",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://vega.dk/event/chelsea-wolfe-2026-11-25",
-    "image": "https://payload.vega.dk/media/VEGA_Kalender_ChelseaWolfe_2026-1200x630.jpg",
-    "source": "VEGA"
-  },
-  {
     "id": "vega-lille-vega-2026-11-25-dahlin",
     "artist": "Dahlin",
     "date": "2026-11-25",
@@ -520,16 +507,16 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-lille-vega-2026-11-26-np-york",
-    "artist": "NP York",
-    "date": "2026-11-26",
-    "time": "21:00",
-    "venue": "Lille VEGA",
-    "room": "Lille VEGA",
+    "id": "vega-store-vega-2026-11-25-chelsea-wolfe",
+    "artist": "Chelsea Wolfe",
+    "date": "2026-11-25",
+    "time": "20:00",
+    "venue": "Store VEGA",
+    "room": "Store VEGA",
     "genre": "Andet",
     "status": "Billetter",
-    "url": "https://vega.dk/event/np-york-2026-11-26",
-    "image": "https://payload.vega.dk/media/VEGA_Kalender_NPYork-ny_2026-1200x630.jpg",
+    "url": "https://vega.dk/event/chelsea-wolfe-2026-11-25",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_ChelseaWolfe_2026-1200x630.jpg",
     "source": "VEGA"
   },
   {
@@ -543,6 +530,19 @@
     "status": "Billetter",
     "url": "https://vega.dk/event/allan-olsen-and-det-sidste-slaeng-2026-11-26",
     "image": "https://payload.vega.dk/media/VEGA_Kalender_2026_AllanOlsen&detsidsteslÃ¦ng-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-lille-vega-2026-11-26-np-york",
+    "artist": "NP York",
+    "date": "2026-11-26",
+    "time": "21:00",
+    "venue": "Lille VEGA",
+    "room": "Lille VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/np-york-2026-11-26",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_NPYork-ny_2026-1200x630.jpg",
     "source": "VEGA"
   },
   {
@@ -1365,6 +1365,19 @@
     "source": "VEGA"
   },
   {
+    "id": "vega-store-vega-2027-03-07-jacob-banks",
+    "artist": "Jacob Banks",
+    "date": "2027-03-07",
+    "time": "20:00",
+    "venue": "Store VEGA",
+    "room": "Store VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/jacob-banks-2027-03-07",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_JacobBanks_2027-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
     "id": "vega-store-vega-2027-03-10-dina--gon",
     "artist": "Dina Ögon",
     "date": "2027-03-10",
@@ -1466,6 +1479,19 @@
     "status": "Billetter",
     "url": "https://vega.dk/event/fimiguerrero-2027-03-19",
     "image": "https://payload.vega.dk/media/Fimiguerrero_VEGA_Kalender_2026-700x550.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-store-vega-2027-03-19-oskar-med-k",
+    "artist": "Oskar med k",
+    "date": "2027-03-19",
+    "time": "20:00",
+    "venue": "Store VEGA",
+    "room": "Store VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/oskar-med-k-2027-03-19",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_Oskarmedk_2027-1200x630.jpg",
     "source": "VEGA"
   },
   {
@@ -1595,6 +1621,19 @@
     "genre": "Andet",
     "status": "Billetter",
     "url": "https://vega.dk/event/andreas-odbjerg-2027-04-02",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_AndreasOdbjerg_2027-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-store-vega-2027-04-03-andreas-odbjerg---ekstrakoncert",
+    "artist": "Andreas Odbjerg - Ekstrakoncert",
+    "date": "2027-04-03",
+    "time": "20:00",
+    "venue": "Store VEGA",
+    "room": "Store VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/andreas-odbjerg-ekstrakoncert-2027-04-03",
     "image": "https://payload.vega.dk/media/VEGA_Kalender_AndreasOdbjerg_2027-1200x630.jpg",
     "source": "VEGA"
   },
