@@ -182,6 +182,19 @@
     "source": "Royal Arena"
   },
   {
+    "id": "direct-k-b--hallen-2026-11-06-20-00-esdeekid",
+    "artist": "EsDeeKid",
+    "date": "2026-11-06",
+    "time": "20:00",
+    "venue": "K.B. Hallen",
+    "room": "K.B. Hallen",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://kbhallen.dk/event/esdeekid_2026-11-06/",
+    "image": "https://kbhallen.dk/site/assets/files/4973/jack986040659-r1-106.1920x1080.jpg",
+    "source": "K.B. Hallen"
+  },
+  {
     "id": "direct-bremen-teater-2026-11-06-20-30-adnan",
     "artist": "Adnan",
     "date": "2026-11-06",
@@ -206,19 +219,6 @@
     "url": "https://www.brementeater.dk/arrangementer/adnan",
     "image": "",
     "source": "Bremen Teater"
-  },
-  {
-    "id": "direct-k-b--hallen-2026-11-06-20-00-esdeekid",
-    "artist": "EsDeeKid",
-    "date": "2026-11-06",
-    "time": "20:00",
-    "venue": "K.B. Hallen",
-    "room": "K.B. Hallen",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://kbhallen.dk/event/esdeekid_2026-11-06/",
-    "image": "https://kbhallen.dk/site/assets/files/4973/jack986040659-r1-106.1920x1080.jpg",
-    "source": "K.B. Hallen"
   },
   {
     "id": "direct-pumpehuset-2026-11-06--eddie-van-halens-s-n-indtager-pumpehuset-med-mammoth",
@@ -481,6 +481,19 @@
     "source": "Royal Arena"
   },
   {
+    "id": "direct-k-b--hallen-2026-11-28-20-00-august-h-yen",
+    "artist": "August Høyen",
+    "date": "2026-11-28",
+    "time": "20:00",
+    "venue": "K.B. Hallen",
+    "room": "K.B. Hallen",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://kbhallen.dk/event/august-hoyen_2026-11-28/",
+    "image": "https://kbhallen.dk/site/assets/files/4829/august_hoyen_-_pressefoto.1920x1080.jpg",
+    "source": "K.B. Hallen"
+  },
+  {
     "id": "direct-bremen-teater-2026-11-28-20-30-eva-jin",
     "artist": "Eva Jin",
     "date": "2026-11-28",
@@ -505,19 +518,6 @@
     "url": "https://www.brementeater.dk/arrangementer/eva-jin",
     "image": "",
     "source": "Bremen Teater"
-  },
-  {
-    "id": "direct-k-b--hallen-2026-11-28-20-00-august-h-yen",
-    "artist": "August Høyen",
-    "date": "2026-11-28",
-    "time": "20:00",
-    "venue": "K.B. Hallen",
-    "room": "K.B. Hallen",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://kbhallen.dk/event/august-hoyen_2026-11-28/",
-    "image": "https://kbhallen.dk/site/assets/files/4829/august_hoyen_-_pressefoto.1920x1080.jpg",
-    "source": "K.B. Hallen"
   },
   {
     "id": "direct-royal-arena-2026-12-05--breinholt-s-giga-juleshow",
@@ -663,6 +663,19 @@
     "source": "Bremen Teater"
   },
   {
+    "id": "direct-k-b--hallen-2027-01-30-18-30-bullet-for-my-valentine---plus-very-special-guests--pendulum",
+    "artist": "Bullet For My Valentine - Plus very Special Guests: Pendulum",
+    "date": "2027-01-30",
+    "time": "18:30",
+    "venue": "K.B. Hallen",
+    "room": "K.B. Hallen",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://kbhallen.dk/event/bullet-for-my-valentine_2027-01-30/",
+    "image": "https://kbhallen.dk/site/assets/files/5011/4201998d_bfmv_press_photo_2.1920x1080.jpg",
+    "source": "K.B. Hallen"
+  },
+  {
     "id": "direct-bremen-teater-2027-01-30-18-00-christian-fuhlendorff",
     "artist": "Christian Fuhlendorff",
     "date": "2027-01-30",
@@ -687,19 +700,6 @@
     "url": "https://www.brementeater.dk/arrangementer/christian-fuhlendorff",
     "image": "",
     "source": "Bremen Teater"
-  },
-  {
-    "id": "direct-k-b--hallen-2027-01-30-18-30-bullet-for-my-valentine---plus-very-special-guests--pendulum",
-    "artist": "Bullet For My Valentine - Plus very Special Guests: Pendulum",
-    "date": "2027-01-30",
-    "time": "18:30",
-    "venue": "K.B. Hallen",
-    "room": "K.B. Hallen",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://kbhallen.dk/event/bullet-for-my-valentine_2027-01-30/",
-    "image": "https://kbhallen.dk/site/assets/files/5011/4201998d_bfmv_press_photo_2.1920x1080.jpg",
-    "source": "K.B. Hallen"
   },
   {
     "id": "direct-k-b--hallen-2027-02-06-17-00-the-galactic-darts-showdown",
