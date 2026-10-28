@@ -85,7 +85,7 @@
     "venue": "DR Koncerthuset",
     "room": "KONCERTSALEN",
     "genre": "Andet",
-    "status": "Venteliste",
+    "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/folkeklubben-danmarks-underholdningsorkester/folkeklubben-danmarks-underholdningsorkester/",
     "image": "https://www.drkoncerthuset.dk/media/zzgo0b5n/event_30633.jpg?mode=crop&width=1200&height=630&quality=80",
     "source": "DR Koncerthuset"
@@ -124,7 +124,7 @@
     "venue": "DR Koncerthuset",
     "room": "KONCERTSALEN",
     "genre": "Andet",
-    "status": "Venteliste",
+    "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/folkeklubben-danmarks-underholdningsorkester/folkeklubben-danmarks-underholdningsorkester-ekstrakoncert/",
     "image": "https://www.drkoncerthuset.dk/media/zzgo0b5n/event_30633.jpg?mode=crop&width=1200&height=630&quality=80",
     "source": "DR Koncerthuset"
@@ -3039,6 +3039,19 @@
     "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2027/beethoven-orkestret-bonn/beethoven-orkestret-bonn-kaftan-shirinyan-og-beethoven/",
     "image": "https://www.drkoncerthuset.dk/media/43uj4nrk/event_34861.jpg?mode=crop&width=1200&height=630&quality=80",
+    "source": "DR Koncerthuset"
+  },
+  {
+    "id": "dr-beth-gibbons-2027-07-12-20-00",
+    "artist": "Beth Gibbons",
+    "date": "2027-07-12",
+    "time": "20:00",
+    "venue": "DR Koncerthuset",
+    "room": "KONCERTSALEN",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://www.drkoncerthuset.dk/kalender/2027/beth-gibbons/beth-gibbons-lives-outgrown/",
+    "image": "https://www.drkoncerthuset.dk/media/iadehfze/event_35508.jpg?mode=crop&width=1200&height=630&quality=80",
     "source": "DR Koncerthuset"
   },
   {
