@@ -520,19 +520,6 @@
     "source": "Bremen Teater"
   },
   {
-    "id": "direct-royal-arena-2026-12-05--breinholt-s-giga-juleshow",
-    "artist": "Breinholt's GIGA Juleshow",
-    "date": "2026-12-05",
-    "time": "",
-    "venue": "Royal Arena",
-    "room": "Royal Arena",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://www.royalarena.dk/all-events/breinholt-s-giga-juleshow-tickets-ae1665062",
-    "image": "https://networksites.livenationinternational.com/networksites/mc2p4pm4/some_16x9_breinholtsjuleshow2026.jpg",
-    "source": "Royal Arena"
-  },
-  {
     "id": "direct-bremen-teater-2026-12-05-20-00-adnan",
     "artist": "Adnan",
     "date": "2026-12-05",
@@ -790,6 +777,19 @@
     "status": "Billetter",
     "url": "https://www.royalarena.dk/all-events/five-finger-death-punch-tickets-ae24668",
     "image": "https://dynamicmedia.livenationinternational.com/t/z/a/0d1a19c9-5f9b-4d3c-a2f6-608844c6daef.jpg",
+    "source": "Royal Arena"
+  },
+  {
+    "id": "direct-royal-arena-2027-02-23--dominic-fike",
+    "artist": "Dominic Fike",
+    "date": "2027-02-23",
+    "time": "",
+    "venue": "Royal Arena",
+    "room": "Royal Arena",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://www.royalarena.dk/all-events/dominic-fike-tickets-ae1273034",
+    "image": "https://dynamicmedia.livenationinternational.com/b/f/g/f43a6d01-fe3c-4967-83dd-f9e5db851dac.jpg",
     "source": "Royal Arena"
   },
   {
