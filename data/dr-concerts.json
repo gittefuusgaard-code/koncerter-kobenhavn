@@ -7,7 +7,7 @@
     "venue": "DR Koncerthuset",
     "room": "KONCERTSALEN",
     "genre": "Andet",
-    "status": "Venteliste",
+    "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/luisi-verdis-requiem/luisi-verdis-requiem/",
     "image": "https://www.drkoncerthuset.dk/media/2iynpapz/luisi-verdis-requiem_2550x1275px_medikon.jpg?rxy=0.4693187243831811,0.3922480620155039&width=1600&height=800&v=1dd2b13a6299960&quality=80",
     "source": "DR Koncerthuset"
@@ -33,7 +33,7 @@
     "venue": "DR Koncerthuset",
     "room": "KONCERTSALEN",
     "genre": "Andet",
-    "status": "Venteliste",
+    "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/luisi-verdis-requiem/luisi-verdis-requiem-1/",
     "image": "https://www.drkoncerthuset.dk/media/2iynpapz/luisi-verdis-requiem_2550x1275px_medikon.jpg?rxy=0.4693187243831811,0.3922480620155039&width=1600&height=800&v=1dd2b13a6299960&quality=80",
     "source": "DR Koncerthuset"
@@ -59,7 +59,7 @@
     "venue": "DR Koncerthuset",
     "room": "KONCERTSALEN",
     "genre": "Andet",
-    "status": "Venteliste",
+    "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/luisi-verdis-requiem/luisi-verdis-requiem-2/",
     "image": "https://www.drkoncerthuset.dk/media/2iynpapz/luisi-verdis-requiem_2550x1275px_medikon.jpg?rxy=0.4693187243831811,0.3922480620155039&width=1600&height=800&v=1dd2b13a6299960&quality=80",
     "source": "DR Koncerthuset"
@@ -74,7 +74,7 @@
     "genre": "Andet",
     "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/goldie-boutilier/goldie-boutilier-goldie-boutilier-s-party-26-tour/",
-    "image": "https://www.drkoncerthuset.dk/media/u5ultsjx/event_34062.jpg?mode=crop&width=1200&height=630&quality=80",
+    "image": "https://www.drkoncerthuset.dk/media/u5ultsjx/event_34062.jpg?width=1600&height=800&v=1dce91061850b90&quality=80",
     "source": "DR Koncerthuset"
   },
   {
@@ -2961,6 +2961,19 @@
     "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2027/jo-koy-just-being-koy-tour/jo-koy/",
     "image": "https://www.drkoncerthuset.dk/media/faha1fjv/event_32838.jpg?mode=crop&width=1200&height=630&quality=80",
+    "source": "DR Koncerthuset"
+  },
+  {
+    "id": "dr-s-s-fenger-2027-05-19-20-00",
+    "artist": "Søs Fenger",
+    "date": "2027-05-19",
+    "time": "20:00",
+    "venue": "DR Koncerthuset",
+    "room": "KONCERTSALEN",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://www.drkoncerthuset.dk/kalender/2027/soes-fenger/soes-fenger/",
+    "image": "https://www.drkoncerthuset.dk/media/keqpth31/event_35515.jpg?mode=crop&width=1200&height=630&quality=80",
     "source": "DR Koncerthuset"
   },
   {
