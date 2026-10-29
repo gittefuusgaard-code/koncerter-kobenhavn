@@ -195,19 +195,6 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-store-vega-2026-11-09-uro---2--ekstrakoncert",
-    "artist": "URO - 2. ekstrakoncert",
-    "date": "2026-11-09",
-    "time": "20:00",
-    "venue": "Store VEGA",
-    "room": "Store VEGA",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://vega.dk/event/uro-2-ekstrakoncert-2026-11-09",
-    "image": "https://payload.vega.dk/media/uro billedeee-3-1200x630.jpg",
-    "source": "VEGA"
-  },
-  {
     "id": "vega-lille-vega-2026-11-09-josiah-and-the-bonnevilles",
     "artist": "Josiah and the Bonnevilles",
     "date": "2026-11-09",
@@ -218,6 +205,19 @@
     "status": "Billetter",
     "url": "https://vega.dk/event/josiah-and-the-bonnevilles-2026-11-09",
     "image": "https://payload.vega.dk/media/VEGA_Kalender_JosiahandTheBonnes_2026-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-store-vega-2026-11-09-uro---2--ekstrakoncert",
+    "artist": "URO - 2. ekstrakoncert",
+    "date": "2026-11-09",
+    "time": "20:00",
+    "venue": "Store VEGA",
+    "room": "Store VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/uro-2-ekstrakoncert-2026-11-09",
+    "image": "https://payload.vega.dk/media/uro billedeee-3-1200x630.jpg",
     "source": "VEGA"
   },
   {
