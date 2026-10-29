@@ -234,19 +234,6 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-lille-vega-2026-11-11-mathias-ranch",
-    "artist": "Mathias Ranch",
-    "date": "2026-11-11",
-    "time": "20:00",
-    "venue": "Lille VEGA",
-    "room": "Lille VEGA",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://vega.dk/event/mathias-ranch-2026-11-11",
-    "image": "https://payload.vega.dk/media/VEGA_Kalender_MathiasRanch_2026-1200x630.jpg",
-    "source": "VEGA"
-  },
-  {
     "id": "vega-store-vega-2026-11-11-uro---ekstrakoncert",
     "artist": "URO - Ekstrakoncert",
     "date": "2026-11-11",
@@ -257,6 +244,19 @@
     "status": "Udsolgt",
     "url": "https://vega.dk/event/uro-ekstrakoncert-2026-11-11",
     "image": "https://payload.vega.dk/media/uro billedeee-3-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-lille-vega-2026-11-11-mathias-ranch",
+    "artist": "Mathias Ranch",
+    "date": "2026-11-11",
+    "time": "20:00",
+    "venue": "Lille VEGA",
+    "room": "Lille VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/mathias-ranch-2026-11-11",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_MathiasRanch_2026-1200x630.jpg",
     "source": "VEGA"
   },
   {
@@ -494,19 +494,6 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-lille-vega-2026-11-26-np-york",
-    "artist": "NP York",
-    "date": "2026-11-26",
-    "time": "21:00",
-    "venue": "Lille VEGA",
-    "room": "Lille VEGA",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://vega.dk/event/np-york-2026-11-26",
-    "image": "https://payload.vega.dk/media/VEGA_Kalender_NPYork-ny_2026-1200x630.jpg",
-    "source": "VEGA"
-  },
-  {
     "id": "vega-store-vega-2026-11-26-allan-olsen---det-sidste-sl-ng",
     "artist": "Allan Olsen & Det Sidste Slæng",
     "date": "2026-11-26",
@@ -517,6 +504,19 @@
     "status": "Billetter",
     "url": "https://vega.dk/event/allan-olsen-and-det-sidste-slaeng-2026-11-26",
     "image": "https://payload.vega.dk/media/VEGA_Kalender_2026_AllanOlsen&detsidsteslÃ¦ng-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-lille-vega-2026-11-26-np-york",
+    "artist": "NP York",
+    "date": "2026-11-26",
+    "time": "21:00",
+    "venue": "Lille VEGA",
+    "room": "Lille VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/np-york-2026-11-26",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_NPYork-ny_2026-1200x630.jpg",
     "source": "VEGA"
   },
   {
@@ -1950,6 +1950,19 @@
     "source": "VEGA"
   },
   {
+    "id": "vega-lille-vega-2027-06-16-diiv",
+    "artist": "DIIV",
+    "date": "2027-06-16",
+    "time": "21:00",
+    "venue": "Lille VEGA",
+    "room": "Lille VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/diiv-2027-06-16",
+    "image": "https://payload.vega.dk/media/VEGA_kalender_DIIV_2027-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
     "id": "vega-store-vega-2027-09-04-lars-winnerb-ck",
     "artist": "Lars Winnerbäck",
     "date": "2027-09-04",
@@ -1973,6 +1986,19 @@
     "status": "Billetter",
     "url": "https://vega.dk/event/sivert-hoyem-2027-09-14",
     "image": "https://payload.vega.dk/media/foto Marthe Vannebo-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-store-vega-2027-09-15-the-chats",
+    "artist": "The Chats",
+    "date": "2027-09-15",
+    "time": "20:00",
+    "venue": "Store VEGA",
+    "room": "Store VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/the-chats-2027-09-15",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_TheChats_2027-1200x630.jpg",
     "source": "VEGA"
   },
   {
