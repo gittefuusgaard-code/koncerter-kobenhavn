@@ -1183,6 +1183,19 @@
     "source": "VEGA"
   },
   {
+    "id": "vega-store-vega-2027-02-20-club-live",
+    "artist": "CLUB LIVE",
+    "date": "2027-02-20",
+    "time": "23:59",
+    "venue": "Store VEGA",
+    "room": "Store VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/club-live-2027-02-20",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_CLubLive_2027-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
     "id": "vega-store-vega-2027-02-21-westside-gunn",
     "artist": "Westside Gunn",
     "date": "2027-02-21",
