@@ -1,31 +1,5 @@
 [
   {
-    "id": "vega-store-vega-2026-10-29-alex-vargas",
-    "artist": "Alex Vargas",
-    "date": "2026-10-29",
-    "time": "20:00",
-    "venue": "Store VEGA",
-    "room": "Store VEGA",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://vega.dk/event/alex-vargas-2026-10-29",
-    "image": "https://payload.vega.dk/media/VEGA_Kalender_AlexVargas_2026-1200x630.jpg",
-    "source": "VEGA"
-  },
-  {
-    "id": "vega-lille-vega-2026-10-29-the-clockworks",
-    "artist": "The Clockworks",
-    "date": "2026-10-29",
-    "time": "20:00",
-    "venue": "Lille VEGA",
-    "room": "Lille VEGA",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://vega.dk/event/the-clockworks-2026-10-29",
-    "image": "https://payload.vega.dk/media/VEGA_Kalender_TheClockworks_2026-1200x630.jpg",
-    "source": "VEGA"
-  },
-  {
     "id": "vega-lille-vega-2026-10-30-carllo-yaboy",
     "artist": "CARLLO YABOY",
     "date": "2026-10-30",
