@@ -1,31 +1,5 @@
 [
   {
-    "id": "dr-luisi---verdis-requiem-2026-10-29-19-30",
-    "artist": "Luisi & Verdis Requiem",
-    "date": "2026-10-29",
-    "time": "19:30",
-    "venue": "DR Koncerthuset",
-    "room": "KONCERTSALEN",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://www.drkoncerthuset.dk/kalender/2026/luisi-verdis-requiem/luisi-verdis-requiem/",
-    "image": "https://www.drkoncerthuset.dk/media/2iynpapz/luisi-verdis-requiem_2550x1275px_medikon.jpg?rxy=0.4693187243831811,0.3922480620155039&width=1600&height=800&v=1dd2b13a6299960&quality=80",
-    "source": "DR Koncerthuset"
-  },
-  {
-    "id": "dr-freja-kirk-2026-10-29-20-00",
-    "artist": "Freja Kirk",
-    "date": "2026-10-29",
-    "time": "20:00",
-    "venue": "DR Koncerthuset",
-    "room": "STUDIE 2",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://www.drkoncerthuset.dk/kalender/2026/freja-kirk/freja-kirk-hey-freja/",
-    "image": "https://www.drkoncerthuset.dk/media/xg1dig42/event_30510.jpg?width=1600&height=800&v=1dc55658511daf0&quality=80",
-    "source": "DR Koncerthuset"
-  },
-  {
     "id": "dr-luisi---verdis-requiem-2026-10-30-19-30",
     "artist": "Luisi & Verdis Requiem",
     "date": "2026-10-30",
@@ -33,7 +7,7 @@
     "venue": "DR Koncerthuset",
     "room": "KONCERTSALEN",
     "genre": "Andet",
-    "status": "Billetter",
+    "status": "Venteliste",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/luisi-verdis-requiem/luisi-verdis-requiem-1/",
     "image": "https://www.drkoncerthuset.dk/media/2iynpapz/luisi-verdis-requiem_2550x1275px_medikon.jpg?rxy=0.4693187243831811,0.3922480620155039&width=1600&height=800&v=1dd2b13a6299960&quality=80",
     "source": "DR Koncerthuset"
@@ -87,7 +61,7 @@
     "genre": "Andet",
     "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/folkeklubben-danmarks-underholdningsorkester/folkeklubben-danmarks-underholdningsorkester/",
-    "image": "https://www.drkoncerthuset.dk/media/zzgo0b5n/event_30633.jpg?mode=crop&width=1200&height=630&quality=80",
+    "image": "https://www.drkoncerthuset.dk/media/zzgo0b5n/event_30633.jpg?width=1600&height=800&v=1dc604929171550&quality=80",
     "source": "DR Koncerthuset"
   },
   {
@@ -100,7 +74,7 @@
     "genre": "Andet",
     "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/folkeklubben-danmarks-underholdningsorkester/folkeklubben-danmarks-underholdningsorkester-3-ekstrakoncert/",
-    "image": "https://www.drkoncerthuset.dk/media/zzgo0b5n/event_30633.jpg?mode=crop&width=1200&height=630&quality=80",
+    "image": "https://www.drkoncerthuset.dk/media/zzgo0b5n/event_30633.jpg?width=1600&height=800&v=1dc604929171550&quality=80",
     "source": "DR Koncerthuset"
   },
   {
@@ -3117,6 +3091,19 @@
     "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2027/michael-falch/michael-falch-ind-i-moerket-igen/",
     "image": "https://www.drkoncerthuset.dk/media/arblvnfy/event_35201.jpg?mode=crop&width=1200&height=630&quality=80",
+    "source": "DR Koncerthuset"
+  },
+  {
+    "id": "dr-haevn-2027-10-16-20-00",
+    "artist": "HAEVN",
+    "date": "2027-10-16",
+    "time": "20:00",
+    "venue": "DR Koncerthuset",
+    "room": "KONCERTSALEN",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://www.drkoncerthuset.dk/kalender/2027/haevn/haevn/",
+    "image": "https://www.drkoncerthuset.dk/media/4y2h3skx/event_35542.jpg?mode=crop&width=1200&height=630&quality=80",
     "source": "DR Koncerthuset"
   },
   {
