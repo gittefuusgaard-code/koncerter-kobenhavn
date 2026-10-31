@@ -1,31 +1,5 @@
 [
   {
-    "id": "direct-k-b--hallen-2026-10-30-19-00-dimmu-borgir--amp--behemoth---support--dark-funeral",
-    "artist": "Dimmu Borgir &amp; Behemoth - Support: Dark Funeral",
-    "date": "2026-10-30",
-    "time": "19:00",
-    "venue": "K.B. Hallen",
-    "room": "K.B. Hallen",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://kbhallen.dk/event/dimmu-borgir-behemoth_2026-10-30/",
-    "image": "https://kbhallen.dk/site/assets/files/4842/skaermbillede_2025-11-28_kl__09_21_47.1920x1080.png",
-    "source": "K.B. Hallen"
-  },
-  {
-    "id": "direct-pumpehuset-2026-10-30--cassius-club-360----special-guest-i-pumpehuset",
-    "artist": "Cassius CLUB 360° + Special Guest i Pumpehuset",
-    "date": "2026-10-30",
-    "time": "",
-    "venue": "Pumpehuset",
-    "room": "Pumpehuset",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://pumpehuset.dk/koncerter/cassius-club-360-special-guest/",
-    "image": "https://pumpehuset.dk/wp-content/uploads/Cassius.jpg",
-    "source": "Pumpehuset"
-  },
-  {
     "id": "direct-k-b--hallen-2026-10-31-20-00-the-fray",
     "artist": "The Fray",
     "date": "2026-10-31",
@@ -257,6 +231,19 @@
     "status": "Billetter",
     "url": "https://pumpehuset.dk/koncerter/nemzzz/",
     "image": "https://pumpehuset.dk/wp-content/uploads/nemzzz.jpg",
+    "source": "Pumpehuset"
+  },
+  {
+    "id": "direct-pumpehuset-2026-11-11--wolves-in-the-throne-room-kommer-til-pumpehuset",
+    "artist": "Wolves in the Throne Room kommer til Pumpehuset",
+    "date": "2026-11-11",
+    "time": "",
+    "venue": "Pumpehuset",
+    "room": "Pumpehuset",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://pumpehuset.dk/koncerter/wolves-in-the-throne-room-2/",
+    "image": "https://pumpehuset.dk/wp-content/uploads/Wolves-in-the-thone-room.jpg",
     "source": "Pumpehuset"
   },
   {
