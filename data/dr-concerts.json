@@ -1,31 +1,5 @@
 [
   {
-    "id": "dr-luisi---verdis-requiem-2026-10-30-19-30",
-    "artist": "Luisi & Verdis Requiem",
-    "date": "2026-10-30",
-    "time": "19:30",
-    "venue": "DR Koncerthuset",
-    "room": "KONCERTSALEN",
-    "genre": "Andet",
-    "status": "Venteliste",
-    "url": "https://www.drkoncerthuset.dk/kalender/2026/luisi-verdis-requiem/luisi-verdis-requiem-1/",
-    "image": "https://www.drkoncerthuset.dk/media/2iynpapz/luisi-verdis-requiem_2550x1275px_medikon.jpg?rxy=0.4693187243831811,0.3922480620155039&width=1600&height=800&v=1dd2b13a6299960&quality=80",
-    "source": "DR Koncerthuset"
-  },
-  {
-    "id": "dr-ryan-beatty-2026-10-30-20-00",
-    "artist": "Ryan Beatty",
-    "date": "2026-10-30",
-    "time": "20:00",
-    "venue": "DR Koncerthuset",
-    "room": "STUDIE 2",
-    "genre": "Andet",
-    "status": "Venteliste",
-    "url": "https://www.drkoncerthuset.dk/kalender/2026/ryan-beatty/ryan-beatty/",
-    "image": "https://www.drkoncerthuset.dk/media/jahi2uzt/261030-ryan-beatty_2550x1275.jpg?width=1600&height=800&v=1dcfa34edf25f80&quality=80",
-    "source": "DR Koncerthuset"
-  },
-  {
     "id": "dr-luisi---verdis-requiem-2026-10-31-13-00",
     "artist": "Luisi & Verdis Requiem",
     "date": "2026-10-31",
@@ -33,7 +7,7 @@
     "venue": "DR Koncerthuset",
     "room": "KONCERTSALEN",
     "genre": "Andet",
-    "status": "Billetter",
+    "status": "Venteliste",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/luisi-verdis-requiem/luisi-verdis-requiem-2/",
     "image": "https://www.drkoncerthuset.dk/media/2iynpapz/luisi-verdis-requiem_2550x1275px_medikon.jpg?rxy=0.4693187243831811,0.3922480620155039&width=1600&height=800&v=1dd2b13a6299960&quality=80",
     "source": "DR Koncerthuset"
@@ -87,7 +61,7 @@
     "genre": "Andet",
     "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/zimmer90/zimmer90-arthouse-tour-2026/",
-    "image": "https://www.drkoncerthuset.dk/media/watljelf/event_32444.jpg?mode=crop&width=1200&height=630&quality=80",
+    "image": "https://www.drkoncerthuset.dk/media/watljelf/event_32444.jpg?width=1600&height=800&v=1dc91249af3ee80&quality=80",
     "source": "DR Koncerthuset"
   },
   {
@@ -100,7 +74,7 @@
     "genre": "Andet",
     "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/folkeklubben-danmarks-underholdningsorkester/folkeklubben-danmarks-underholdningsorkester-ekstrakoncert/",
-    "image": "https://www.drkoncerthuset.dk/media/zzgo0b5n/event_30633.jpg?mode=crop&width=1200&height=630&quality=80",
+    "image": "https://www.drkoncerthuset.dk/media/zzgo0b5n/event_30633.jpg?width=1600&height=800&v=1dc604929171550&quality=80",
     "source": "DR Koncerthuset"
   },
   {
@@ -124,7 +98,7 @@
     "venue": "DR Koncerthuset",
     "room": "STUDIE 2",
     "genre": "Andet",
-    "status": "Venteliste",
+    "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/jamie-duffy/jamie-duffy/",
     "image": "https://www.drkoncerthuset.dk/media/pclllzld/event_33925.jpg?mode=crop&width=1200&height=630&quality=80",
     "source": "DR Koncerthuset"
@@ -527,7 +501,7 @@
     "venue": "DR Koncerthuset",
     "room": "STUDIE 3",
     "genre": "Andet",
-    "status": "Venteliste",
+    "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/frida-saiya/frida-saiya/",
     "image": "https://www.drkoncerthuset.dk/media/c2cos1af/event_33312.jpg?mode=crop&width=1200&height=630&quality=80",
     "source": "DR Koncerthuset"
@@ -1430,6 +1404,19 @@
     "source": "DR Koncerthuset"
   },
   {
+    "id": "dr-science---cocktails--inside-your-inner-voice-2027-01-17-20-00",
+    "artist": "Science & Cocktails: Inside Your Inner Voice",
+    "date": "2027-01-17",
+    "time": "20:00",
+    "venue": "DR Koncerthuset",
+    "room": "KONCERTSALEN",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://www.drkoncerthuset.dk/kalender/2027/science-cocktails-inside-your-inner-voice/science-cocktails-inside-your-inner-voice/",
+    "image": "https://www.drkoncerthuset.dk/media/hpzbqdu2/event_35548.jpg?mode=crop&width=1200&height=630&quality=80",
+    "source": "DR Koncerthuset"
+  },
+  {
     "id": "dr-david-bowie-2027-01-18-20-00",
     "artist": "David Bowie",
     "date": "2027-01-18",
@@ -1768,6 +1755,19 @@
     "source": "DR Koncerthuset"
   },
   {
+    "id": "dr-jesse-welles-2027-02-09-20-00",
+    "artist": "Jesse Welles",
+    "date": "2027-02-09",
+    "time": "20:00",
+    "venue": "DR Koncerthuset",
+    "room": "KONCERTSALEN",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://www.drkoncerthuset.dk/kalender/2027/jesse-welles/jesse-welles-red-tour/",
+    "image": "https://www.drkoncerthuset.dk/media/esrfbmej/event_35468.jpg?mode=crop&width=1200&height=630&quality=80",
+    "source": "DR Koncerthuset"
+  },
+  {
     "id": "dr-kwamie-liv-2027-02-10-20-00",
     "artist": "Kwamie Liv",
     "date": "2027-02-10",
@@ -2012,6 +2012,19 @@
     "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2027/michael-learns-to-rock/michael-learns-to-rock-mltr-dk-2027-1/",
     "image": "https://www.drkoncerthuset.dk/media/3wzf4pcg/event_35185.jpg?mode=crop&width=1200&height=630&quality=80",
+    "source": "DR Koncerthuset"
+  },
+  {
+    "id": "dr-fireside-talk--sandheden-fra-syge-kvinder-2027-02-22-19-30",
+    "artist": "Fireside Talk: Sandheden fra syge kvinder",
+    "date": "2027-02-22",
+    "time": "19:30",
+    "venue": "DR Koncerthuset",
+    "room": "STUDIE 2",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://www.drkoncerthuset.dk/kalender/2027/fireside-talk-sandheden-fra-syge-kvinder/fireside-talk-sandheden-fra-syge-kvinder-henriette-svarre-nielsen-roja-pakari-og-line-hoffmeyer-modereret-af-emma-holten/",
+    "image": "https://www.drkoncerthuset.dk/media/np0dhif1/event_35539.jpg?mode=crop&width=1200&height=630&quality=80",
     "source": "DR Koncerthuset"
   },
   {
@@ -2493,6 +2506,19 @@
     "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2027/mor-ve-oetesi/mor-ve-oetesi-unplugged-europe-tour/",
     "image": "https://www.drkoncerthuset.dk/media/5g5lqjjn/event_34799.jpg?mode=crop&width=1200&height=630&quality=80",
+    "source": "DR Koncerthuset"
+  },
+  {
+    "id": "dr-fireside-talk--udvalgte-kolb-tter-2027-03-31-20-00",
+    "artist": "Fireside Talk: Udvalgte kolbøtter",
+    "date": "2027-03-31",
+    "time": "20:00",
+    "venue": "DR Koncerthuset",
+    "room": "KONCERTSALEN",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://www.drkoncerthuset.dk/kalender/2027/fireside-talk-udvalgte-kolboetter/fireside-talk-udvalgte-kolboetter-jakob-ellemann-jensen-og-svend-brinkmann-moderator-natasja-crone/",
+    "image": "https://www.drkoncerthuset.dk/media/z3jdrf5s/event_35528.jpg?mode=crop&width=1200&height=630&quality=80",
     "source": "DR Koncerthuset"
   },
   {
@@ -3104,6 +3130,19 @@
     "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2027/haevn/haevn/",
     "image": "https://www.drkoncerthuset.dk/media/4y2h3skx/event_35542.jpg?mode=crop&width=1200&height=630&quality=80",
+    "source": "DR Koncerthuset"
+  },
+  {
+    "id": "dr-milling---molbech---madonna-2027-10-23-20-00",
+    "artist": "Milling & Molbech - Madonna",
+    "date": "2027-10-23",
+    "time": "20:00",
+    "venue": "DR Koncerthuset",
+    "room": "KONCERTSALEN",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://www.drkoncerthuset.dk/kalender/2027/milling-molbech-madonna/milling-molbech-madonna-historien-bag-musikken-du-elsker/",
+    "image": "https://www.drkoncerthuset.dk/media/50uavfvw/event_35523.jpg?mode=crop&width=1200&height=630&quality=80",
     "source": "DR Koncerthuset"
   },
   {
