@@ -1,31 +1,5 @@
 [
   {
-    "id": "direct-k-b--hallen-2026-10-31-20-00-the-fray",
-    "artist": "The Fray",
-    "date": "2026-10-31",
-    "time": "20:00",
-    "venue": "K.B. Hallen",
-    "room": "K.B. Hallen",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://kbhallen.dk/event/the-fray_2026-10-31/",
-    "image": "https://kbhallen.dk/site/assets/files/4887/tfr1240.1920x1080.jpg",
-    "source": "K.B. Hallen"
-  },
-  {
-    "id": "direct-pumpehuset-2026-10-31--the-epic-halloween-drag-show-i-pumpehusety",
-    "artist": "The EPIC Halloween Drag Show i Pumpehusety",
-    "date": "2026-10-31",
-    "time": "",
-    "venue": "Pumpehuset",
-    "room": "Pumpehuset",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://pumpehuset.dk/koncerter/the-epic-halloween-drag-show/",
-    "image": "https://pumpehuset.dk/wp-content/uploads/The-EPIC-Drag-Halloween-Show-1.jpg",
-    "source": "Pumpehuset"
-  },
-  {
     "id": "direct-k-b--hallen-2026-11-01-20-00-tyla---support--royal-musiq",
     "artist": "Tyla - Support: Royal MusiQ",
     "date": "2026-11-01",
@@ -258,6 +232,19 @@
     "url": "https://kbhallen.dk/event/kneecap_2026-11-12/",
     "image": "https://kbhallen.dk/site/assets/files/4959/liars_tale_lead_press_shot-1.1920x1080.jpg",
     "source": "K.B. Hallen"
+  },
+  {
+    "id": "direct-pumpehuset-2026-11-12--lamentari---albumrelease-i-pumpehuset",
+    "artist": "LAMENTARI - albumrelease i Pumpehuset",
+    "date": "2026-11-12",
+    "time": "",
+    "venue": "Pumpehuset",
+    "room": "Pumpehuset",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://pumpehuset.dk/koncerter/lamentari/",
+    "image": "https://pumpehuset.dk/wp-content/uploads/lamentari.jpg",
+    "source": "Pumpehuset"
   },
   {
     "id": "direct-royal-arena-2026-11-14--queen-machine",
