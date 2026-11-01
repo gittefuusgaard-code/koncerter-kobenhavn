@@ -1443,6 +1443,19 @@
     "source": "VEGA"
   },
   {
+    "id": "vega-store-vega-2027-03-20-trentem-ller",
+    "artist": "trentemøller",
+    "date": "2027-03-20",
+    "time": "20:00",
+    "venue": "Store VEGA",
+    "room": "Store VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/trentemoller-2027-03-20",
+    "image": "https://payload.vega.dk/media/2026_Kalender_TrentemÃ¸ller-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
     "id": "vega-store-vega-2027-03-21-palaye-royale",
     "artist": "Palaye Royale",
     "date": "2027-03-21",
