@@ -1,44 +1,5 @@
 [
   {
-    "id": "dr-folkeklubben---danmarks-underholdningsorkester-2026-11-01-16-00",
-    "artist": "Folkeklubben & Danmarks Underholdningsorkester",
-    "date": "2026-11-01",
-    "time": "16:00",
-    "venue": "DR Koncerthuset",
-    "room": "KONCERTSALEN",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://www.drkoncerthuset.dk/kalender/2026/folkeklubben-danmarks-underholdningsorkester/folkeklubben-danmarks-underholdningsorkester-3-ekstrakoncert/",
-    "image": "https://www.drkoncerthuset.dk/media/zzgo0b5n/event_30633.jpg?width=1600&height=800&v=1dc604929171550&quality=80",
-    "source": "DR Koncerthuset"
-  },
-  {
-    "id": "dr-zimmer90-2026-11-01-19-30",
-    "artist": "Zimmer90",
-    "date": "2026-11-01",
-    "time": "19:30",
-    "venue": "DR Koncerthuset",
-    "room": "STUDIE 2",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://www.drkoncerthuset.dk/kalender/2026/zimmer90/zimmer90-arthouse-tour-2026/",
-    "image": "https://www.drkoncerthuset.dk/media/watljelf/event_32444.jpg?width=1600&height=800&v=1dc91249af3ee80&quality=80",
-    "source": "DR Koncerthuset"
-  },
-  {
-    "id": "dr-folkeklubben---danmarks-underholdningsorkester-2026-11-01-20-00",
-    "artist": "Folkeklubben & Danmarks Underholdningsorkester",
-    "date": "2026-11-01",
-    "time": "20:00",
-    "venue": "DR Koncerthuset",
-    "room": "KONCERTSALEN",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://www.drkoncerthuset.dk/kalender/2026/folkeklubben-danmarks-underholdningsorkester/folkeklubben-danmarks-underholdningsorkester-ekstrakoncert/",
-    "image": "https://www.drkoncerthuset.dk/media/zzgo0b5n/event_30633.jpg?width=1600&height=800&v=1dc604929171550&quality=80",
-    "source": "DR Koncerthuset"
-  },
-  {
     "id": "dr-folkeklubben---danmarks-underholdningsorkester-2026-11-02-20-00",
     "artist": "Folkeklubben & Danmarks Underholdningsorkester",
     "date": "2026-11-02",
@@ -74,7 +35,7 @@
     "genre": "Andet",
     "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/hanne-boel/hanne-boel-live-med-band/",
-    "image": "https://www.drkoncerthuset.dk/media/k2ek1bvx/event_32460.jpg?width=1600&height=800&v=1dc94db06c625b0&quality=80",
+    "image": "https://www.drkoncerthuset.dk/media/k2ek1bvx/event_32460.jpg?mode=crop&width=1200&height=630&quality=80",
     "source": "DR Koncerthuset"
   },
   {
