@@ -1,18 +1,5 @@
 [
   {
-    "id": "direct-pumpehuset-2026-11-02--oplev-leap-i-pumpehuset",
-    "artist": "Oplev LEAP i Pumpehuset",
-    "date": "2026-11-02",
-    "time": "",
-    "venue": "Pumpehuset",
-    "room": "Pumpehuset",
-    "genre": "Andet",
-    "status": "Udsolgt",
-    "url": "https://pumpehuset.dk/koncerter/leap/",
-    "image": "https://pumpehuset.dk/wp-content/uploads/LEAP_01_LiamMaxwell.jpg",
-    "source": "Pumpehuset"
-  },
-  {
     "id": "direct-pumpehuset-2026-11-03--k--rij-",
     "artist": "Käärijä",
     "date": "2026-11-03",
@@ -231,6 +218,19 @@
     "status": "Billetter",
     "url": "https://pumpehuset.dk/koncerter/lamentari/",
     "image": "https://pumpehuset.dk/wp-content/uploads/lamentari.jpg",
+    "source": "Pumpehuset"
+  },
+  {
+    "id": "direct-pumpehuset-2026-11-13--oplev-icona-pop-live-i-pumpehuset",
+    "artist": "Oplev Icona Pop live i Pumpehuset",
+    "date": "2026-11-13",
+    "time": "",
+    "venue": "Pumpehuset",
+    "room": "Pumpehuset",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://pumpehuset.dk/koncerter/icona-pop/",
+    "image": "https://pumpehuset.dk/wp-content/uploads/icona-po-p-e1779257970784.jpg",
     "source": "Pumpehuset"
   },
   {
