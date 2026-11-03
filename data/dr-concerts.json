@@ -1,18 +1,5 @@
 [
   {
-    "id": "dr-folkeklubben---danmarks-underholdningsorkester-2026-11-02-20-00",
-    "artist": "Folkeklubben & Danmarks Underholdningsorkester",
-    "date": "2026-11-02",
-    "time": "20:00",
-    "venue": "DR Koncerthuset",
-    "room": "KONCERTSALEN",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://www.drkoncerthuset.dk/kalender/2026/folkeklubben-danmarks-underholdningsorkester/folkeklubben-danmarks-underholdningsorkester-2-ekstrakoncert/",
-    "image": "https://www.drkoncerthuset.dk/media/zzgo0b5n/event_30633.jpg?width=1600&height=800&v=1dc604929171550&quality=80",
-    "source": "DR Koncerthuset"
-  },
-  {
     "id": "dr-jamie-duffy-2026-11-03-19-30",
     "artist": "Jamie Duffy",
     "date": "2026-11-03",
@@ -35,7 +22,7 @@
     "genre": "Andet",
     "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/hanne-boel/hanne-boel-live-med-band/",
-    "image": "https://www.drkoncerthuset.dk/media/k2ek1bvx/event_32460.jpg?mode=crop&width=1200&height=630&quality=80",
+    "image": "https://www.drkoncerthuset.dk/media/k2ek1bvx/event_32460.jpg?width=1600&height=800&v=1dc94db06c625b0&quality=80",
     "source": "DR Koncerthuset"
   },
   {
@@ -423,7 +410,7 @@
     "venue": "DR Koncerthuset",
     "room": "STUDIE 3",
     "genre": "Andet",
-    "status": "Billetter",
+    "status": "Venteliste",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/frida-saiya/frida-saiya/",
     "image": "https://www.drkoncerthuset.dk/media/c2cos1af/event_33312.jpg?mode=crop&width=1200&height=630&quality=80",
     "source": "DR Koncerthuset"
@@ -683,7 +670,7 @@
     "venue": "DR Koncerthuset",
     "room": "KONCERTSALEN",
     "genre": "Andet",
-    "status": "Billetter",
+    "status": "Venteliste",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/its-actually-christmas/its-actually-christmas-at-the-symphony-2/",
     "image": "https://www.drkoncerthuset.dk/media/uman5tbr/event_32652.jpg?mode=crop&width=1200&height=630&quality=80",
     "source": "DR Koncerthuset"
@@ -1700,6 +1687,19 @@
     "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2027/kwamie-liv/kwamie-liv-foraar-2027/",
     "image": "https://www.drkoncerthuset.dk/media/x0ul3hwr/event_35117.jpg?mode=crop&width=1200&height=630&quality=80",
+    "source": "DR Koncerthuset"
+  },
+  {
+    "id": "dr-sampa-the-great-2027-02-10-21-00",
+    "artist": "Sampa The Great",
+    "date": "2027-02-10",
+    "time": "21:00",
+    "venue": "DR Koncerthuset",
+    "room": "STUDIE 3",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://www.drkoncerthuset.dk/kalender/2027/sampa-the-great/sampa-the-great/",
+    "image": "https://www.drkoncerthuset.dk/media/giigcrga/event_35545.jpg?mode=crop&width=1200&height=630&quality=80",
     "source": "DR Koncerthuset"
   },
   {
