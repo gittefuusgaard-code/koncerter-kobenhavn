@@ -1,18 +1,5 @@
 [
   {
-    "id": "direct-pumpehuset-2026-11-03--k--rij-",
-    "artist": "Käärijä",
-    "date": "2026-11-03",
-    "time": "",
-    "venue": "Pumpehuset",
-    "room": "Pumpehuset",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://pumpehuset.dk/koncerter/kaarija/",
-    "image": "https://pumpehuset.dk/wp-content/uploads/Kaarija_Eurodiskotour_PR.jpg",
-    "source": "Pumpehuset"
-  },
-  {
     "id": "direct-pumpehuset-2026-11-04--stvw-pres--punk-rave-i-pumpehuset",
     "artist": "STVW pres. Punk Rave i Pumpehuset",
     "date": "2026-11-04",
@@ -297,6 +284,19 @@
     "url": "https://kbhallen.dk/event/tove-lo_2026-11-16/",
     "image": "https://kbhallen.dk/site/assets/files/4994/press-shot.1920x1080.jpg",
     "source": "K.B. Hallen"
+  },
+  {
+    "id": "direct-pumpehuset-2026-11-16--den-marokkanske-rapstjerne-elgrandetoto-indtager",
+    "artist": "Den marokkanske rapstjerne ElGrandeToto indtager",
+    "date": "2026-11-16",
+    "time": "",
+    "venue": "Pumpehuset",
+    "room": "Pumpehuset",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://pumpehuset.dk/koncerter/elgrandetoto/",
+    "image": "https://pumpehuset.dk/wp-content/uploads/ElGrandeToto-e1784018011475.jpg",
+    "source": "Pumpehuset"
   },
   {
     "id": "direct-royal-arena-2026-11-17--the-prodigy",
