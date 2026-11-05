@@ -13,19 +13,6 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-lille-vega-2026-11-06-jembaa-groove",
-    "artist": "Jembaa Groove",
-    "date": "2026-11-06",
-    "time": "20:00",
-    "venue": "Lille VEGA",
-    "room": "Lille VEGA",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://vega.dk/event/jembaa-groove-2026-11-06",
-    "image": "https://payload.vega.dk/media/VEGA_Kalender_JembaaGroove_2026-1200x630.jpg",
-    "source": "VEGA"
-  },
-  {
     "id": "vega-store-vega-2026-11-06-barselona",
     "artist": "Barselona",
     "date": "2026-11-06",
@@ -36,6 +23,19 @@
     "status": "Udsolgt",
     "url": "https://vega.dk/event/barselona-2026-11-06",
     "image": "https://payload.vega.dk/media/VEGA_Kalender_Barselona_2026-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-lille-vega-2026-11-06-jembaa-groove",
+    "artist": "Jembaa Groove",
+    "date": "2026-11-06",
+    "time": "20:00",
+    "venue": "Lille VEGA",
+    "room": "Lille VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/jembaa-groove-2026-11-06",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_JembaaGroove_2026-1200x630.jpg",
     "source": "VEGA"
   },
   {
@@ -722,7 +722,7 @@
     "venue": "Store VEGA",
     "room": "Store VEGA",
     "genre": "Andet",
-    "status": "Billetter",
+    "status": "Udsolgt",
     "url": "https://vega.dk/event/anton-westerlin-2026-12-22",
     "image": "https://payload.vega.dk/media/VEGA_kalender_Anton_Westerlin_2026-1200x630.jpg",
     "source": "VEGA"
@@ -894,6 +894,19 @@
     "status": "Billetter",
     "url": "https://vega.dk/event/mico-2027-01-27",
     "image": "https://payload.vega.dk/media/VEGA_Kalender_MICO_2027-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-lille-vega-2027-01-28-albertslund-terror-korps",
+    "artist": "Albertslund Terror Korps",
+    "date": "2027-01-28",
+    "time": "21:00",
+    "venue": "Lille VEGA",
+    "room": "Lille VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/albertslund-terror-korps-2027-01-28",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_Albertslund_Terror_Korps_2027-1200x630.jpg",
     "source": "VEGA"
   },
   {
@@ -1612,6 +1625,19 @@
     "source": "VEGA"
   },
   {
+    "id": "vega-store-vega-2027-04-14-natkat",
+    "artist": "NATKAT",
+    "date": "2027-04-14",
+    "time": "20:00",
+    "venue": "Store VEGA",
+    "room": "Store VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/natkat-2027-04-14",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_NATKAT_2027-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
     "id": "vega-lille-vega-2027-04-15-144-hz",
     "artist": "144 Hz",
     "date": "2027-04-15",
@@ -1856,6 +1882,19 @@
     "status": "Billetter",
     "url": "https://vega.dk/event/brakence-2027-06-01",
     "image": "https://payload.vega.dk/media/VEGA_Kalender_Brakence_2027-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-lille-vega-2027-06-04-the-william-blakes",
+    "artist": "The William Blakes",
+    "date": "2027-06-04",
+    "time": "21:00",
+    "venue": "Lille VEGA",
+    "room": "Lille VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/the-william-blakes-2027-06-04",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_TheWilliamBlakes_2027-1200x630.jpg",
     "source": "VEGA"
   },
   {
