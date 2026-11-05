@@ -1,18 +1,5 @@
 [
   {
-    "id": "dr-allan-olsen---det-sidste-sl-ng-2026-11-04-20-00",
-    "artist": "Allan Olsen & Det Sidste Slæng",
-    "date": "2026-11-04",
-    "time": "20:00",
-    "venue": "DR Koncerthuset",
-    "room": "KONCERTSALEN",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://www.drkoncerthuset.dk/kalender/2026/allan-olsen-det-sidste-slaeng/allan-olsen-det-sidste-slaeng/",
-    "image": "https://www.drkoncerthuset.dk/media/x1tmpeac/event_30641.jpg?width=1600&height=800&v=1dc644e160f4b40&quality=80",
-    "source": "DR Koncerthuset"
-  },
-  {
     "id": "dr-luisi---brahms-2026-11-05-19-30",
     "artist": "Luisi & Brahms",
     "date": "2026-11-05",
@@ -35,7 +22,7 @@
     "genre": "Andet",
     "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/luisi-brahms/luisi-brahms-1/",
-    "image": "https://www.drkoncerthuset.dk/media/f2qbfqam/event_30975.jpg?mode=crop&width=1200&height=630&quality=80",
+    "image": "https://www.drkoncerthuset.dk/media/f2qbfqam/event_30975.jpg?width=1600&height=800&v=1dc91db6f7cfdc0&quality=80",
     "source": "DR Koncerthuset"
   },
   {
@@ -48,7 +35,7 @@
     "genre": "Andet",
     "status": "Venteliste",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/dr-big-band-feat-etienne-charles/dr-big-band-feat-etienne-charles-caribbean-connection/",
-    "image": "https://www.drkoncerthuset.dk/media/v1rdzge0/event_32737.jpg?mode=crop&width=1200&height=630&quality=80",
+    "image": "https://www.drkoncerthuset.dk/media/v1rdzge0/event_32737.jpg?width=1600&height=800&v=1dcaa41a0ab9db0&quality=80",
     "source": "DR Koncerthuset"
   },
   {
@@ -61,7 +48,7 @@
     "genre": "Andet",
     "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/namesbliss/namesbliss/",
-    "image": "https://www.drkoncerthuset.dk/media/lcob1zcp/260320-namesbliss_2550x1275.jpg?mode=crop&width=1200&height=630&quality=80",
+    "image": "https://www.drkoncerthuset.dk/media/lcob1zcp/260320-namesbliss_2550x1275.jpg?width=1600&height=800&v=1dd3942f32e3760&quality=80",
     "source": "DR Koncerthuset"
   },
   {
@@ -74,7 +61,7 @@
     "genre": "Andet",
     "status": "Venteliste",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/maribou-state-dj/maribou-state-dj-1/",
-    "image": "https://www.drkoncerthuset.dk/media/xaihulmw/event_35001.jpg?mode=crop&width=1200&height=630&quality=80",
+    "image": "https://www.drkoncerthuset.dk/media/xaihulmw/event_35001.jpg?width=1600&height=800&v=1dd33bfaae09d00&quality=80",
     "source": "DR Koncerthuset"
   },
   {
@@ -2285,6 +2272,19 @@
     "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2027/alberte-winding-danmarks-underholdningsorkester/alberte-winding-danmarks-underholdningsorkester-3-ekstrakoncert/",
     "image": "https://www.drkoncerthuset.dk/media/ar4hovp1/event_33873.jpg?mode=crop&width=1200&height=630&quality=80",
+    "source": "DR Koncerthuset"
+  },
+  {
+    "id": "dr-atusji-2027-03-16-21-00",
+    "artist": "Atusji",
+    "date": "2027-03-16",
+    "time": "21:00",
+    "venue": "DR Koncerthuset",
+    "room": "STUDIE 3",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://www.drkoncerthuset.dk/kalender/2027/atusji/atusji/",
+    "image": "https://www.drkoncerthuset.dk/media/zxemlcm1/event_35509.jpg?mode=crop&width=1200&height=630&quality=80",
     "source": "DR Koncerthuset"
   },
   {
