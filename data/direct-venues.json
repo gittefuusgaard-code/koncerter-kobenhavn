@@ -1,18 +1,5 @@
 [
   {
-    "id": "direct-pumpehuset-2026-11-05--roskilde-festival-pr-senterer--headline-flip-i-pumpehuset",
-    "artist": "Roskilde Festival præsenterer: Headline Flip i Pumpehuset",
-    "date": "2026-11-05",
-    "time": "",
-    "venue": "Pumpehuset",
-    "room": "Pumpehuset",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://pumpehuset.dk/koncerter/headline-flip-masiv-ayla-inga-bari-hemmeligt-navn/",
-    "image": "https://pumpehuset.dk/wp-content/uploads/Headline-flip-ny-1280x720.png",
-    "source": "Pumpehuset"
-  },
-  {
     "id": "direct-royal-arena-2026-11-06--jungle",
     "artist": "Jungle",
     "date": "2026-11-06",
@@ -349,6 +336,19 @@
     "url": "https://www.royalarena.dk/all-events/westlife-tickets-ae457",
     "image": "https://dynamicmedia.livenationinternational.com/x/t/a/f868fd4b-afa3-4943-ac01-0f1900d6c2f3.jpg",
     "source": "Royal Arena"
+  },
+  {
+    "id": "direct-pumpehuset-2026-11-19--karoline-mousing-headliner-i-pumpehuset",
+    "artist": "Karoline Mousing headliner i Pumpehuset",
+    "date": "2026-11-19",
+    "time": "",
+    "venue": "Pumpehuset",
+    "room": "Pumpehuset",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://pumpehuset.dk/koncerter/karoline-mousing/",
+    "image": "https://pumpehuset.dk/wp-content/uploads/Karoline-mousing-hjside-e1770109336340.jpg",
+    "source": "Pumpehuset"
   },
   {
     "id": "direct-royal-arena-2026-11-20--bryson-tiller",
