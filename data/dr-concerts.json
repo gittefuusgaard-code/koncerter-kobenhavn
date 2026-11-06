@@ -1,18 +1,5 @@
 [
   {
-    "id": "dr-luisi---brahms-2026-11-05-19-30",
-    "artist": "Luisi & Brahms",
-    "date": "2026-11-05",
-    "time": "19:30",
-    "venue": "DR Koncerthuset",
-    "room": "KONCERTSALEN",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://www.drkoncerthuset.dk/kalender/2026/luisi-brahms/luisi-brahms/",
-    "image": "https://www.drkoncerthuset.dk/media/f2qbfqam/event_30975.jpg?width=1600&height=800&v=1dc91db6f7cfdc0&quality=80",
-    "source": "DR Koncerthuset"
-  },
-  {
     "id": "dr-luisi---brahms-2026-11-06-19-30",
     "artist": "Luisi & Brahms",
     "date": "2026-11-06",
@@ -39,19 +26,6 @@
     "source": "DR Koncerthuset"
   },
   {
-    "id": "dr-namesbliss-2026-11-06-20-30",
-    "artist": "namesbliss",
-    "date": "2026-11-06",
-    "time": "20:30",
-    "venue": "DR Koncerthuset",
-    "room": "STUDIE 3",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://www.drkoncerthuset.dk/kalender/2026/namesbliss/namesbliss/",
-    "image": "https://www.drkoncerthuset.dk/media/lcob1zcp/260320-namesbliss_2550x1275.jpg?width=1600&height=800&v=1dd3942f32e3760&quality=80",
-    "source": "DR Koncerthuset"
-  },
-  {
     "id": "dr-maribou-state-dj-2026-11-07-21-00",
     "artist": "Maribou State DJ",
     "date": "2026-11-07",
@@ -74,7 +48,7 @@
     "genre": "Andet",
     "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/tom-kristensen-sange-fra-en-fribytter/tom-kristensen-sange-fra-en-fribytter-nordkraft-big-band-med-sinne-eeg-og-jesper-lohmann/",
-    "image": "https://www.drkoncerthuset.dk/media/soqfzypl/event_32456.jpg?mode=crop&width=1200&height=630&quality=80",
+    "image": "https://www.drkoncerthuset.dk/media/soqfzypl/event_32456.jpg?width=1600&height=800&v=1dc94096ca5e460&quality=80",
     "source": "DR Koncerthuset"
   },
   {
@@ -87,7 +61,7 @@
     "genre": "Andet",
     "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/mina-okabe/mina-okabe/",
-    "image": "https://www.drkoncerthuset.dk/media/pkweiktb/event_34199.jpg?mode=crop&width=1200&height=630&quality=80",
+    "image": "https://www.drkoncerthuset.dk/media/pkweiktb/event_34199.jpg?width=1600&height=800&v=1dcfcb24c465c10&quality=80",
     "source": "DR Koncerthuset"
   },
   {
@@ -100,7 +74,7 @@
     "genre": "Andet",
     "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/fireside-talks-bo-bech-claus-meyer/fireside-talks-bo-bech-claus-meyer-med-velsmag-som-vaerktoej-en-samtale-om-drivkraft-udtryk-og-aftryk/",
-    "image": "https://www.drkoncerthuset.dk/media/vplpxblj/event_35015.jpg?mode=crop&width=1200&height=630&quality=80",
+    "image": "https://www.drkoncerthuset.dk/media/vplpxblj/event_35015.jpg?width=1600&height=800&v=1dd2fe618ae1bb0&quality=80",
     "source": "DR Koncerthuset"
   },
   {
@@ -452,19 +426,6 @@
     "status": "Venteliste",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/edis/edis/",
     "image": "https://www.drkoncerthuset.dk/media/jwrg52b4/event_33992.jpg?mode=crop&width=1200&height=630&quality=80",
-    "source": "DR Koncerthuset"
-  },
-  {
-    "id": "dr-jeff3-2026-11-21-20-30",
-    "artist": "JEFF3",
-    "date": "2026-11-21",
-    "time": "20:30",
-    "venue": "DR Koncerthuset",
-    "room": "STUDIE 3",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://www.drkoncerthuset.dk/kalender/2026/jeff3/jeff3/",
-    "image": "https://www.drkoncerthuset.dk/media/imnlyqsb/event_35206.jpg?mode=crop&width=1200&height=630&quality=80",
     "source": "DR Koncerthuset"
   },
   {
@@ -2373,7 +2334,7 @@
     "venue": "DR Koncerthuset",
     "room": "KONCERTSALEN",
     "genre": "Andet",
-    "status": "Billetter",
+    "status": "Venteliste",
     "url": "https://www.drkoncerthuset.dk/kalender/2027/brandi-carlile/brandi-carlile-the-human-tour/",
     "image": "https://www.drkoncerthuset.dk/media/hrcfw13o/event_34980.jpg?mode=crop&width=1200&height=630&quality=80",
     "source": "DR Koncerthuset"
@@ -2974,6 +2935,19 @@
     "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2027/fallulah/fallulah/",
     "image": "https://www.drkoncerthuset.dk/media/xv2nqeda/event_35447.jpg?mode=crop&width=1200&height=630&quality=80",
+    "source": "DR Koncerthuset"
+  },
+  {
+    "id": "dr-alex-vargas-2027-09-20-20-00",
+    "artist": "Alex Vargas",
+    "date": "2027-09-20",
+    "time": "20:00",
+    "venue": "DR Koncerthuset",
+    "room": "KONCERTSALEN",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://www.drkoncerthuset.dk/kalender/2027/alex-vargas/alex-vargas-solo-2027-2-ekstrakoncert/",
+    "image": "https://www.drkoncerthuset.dk/media/3kspydcr/event_35465.jpg?mode=crop&width=1200&height=630&quality=80",
     "source": "DR Koncerthuset"
   },
   {
