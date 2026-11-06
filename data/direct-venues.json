@@ -1,18 +1,5 @@
 [
   {
-    "id": "direct-royal-arena-2026-11-06--jungle",
-    "artist": "Jungle",
-    "date": "2026-11-06",
-    "time": "",
-    "venue": "Royal Arena",
-    "room": "Royal Arena",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://www.royalarena.dk/all-events/jungle-tickets-ae492312",
-    "image": "https://networksites.livenationinternational.com/networksites/o3ndnbyk/jungle_ra2026_some03_1920-x-1080.jpg",
-    "source": "Royal Arena"
-  },
-  {
     "id": "direct-k-b--hallen-2026-11-06-20-00-esdeekid",
     "artist": "EsDeeKid",
     "date": "2026-11-06",
@@ -791,6 +778,19 @@
     "url": "https://kbhallen.dk/event/katinka_2027-03-06/",
     "image": "https://kbhallen.dk/site/assets/files/4912/katinka_kbhallen01_danielbuchwald.1920x1080.jpg",
     "source": "K.B. Hallen"
+  },
+  {
+    "id": "direct-royal-arena-2027-03-07--teddy-swims",
+    "artist": "Teddy Swims",
+    "date": "2027-03-07",
+    "time": "",
+    "venue": "Royal Arena",
+    "room": "Royal Arena",
+    "genre": "Andet",
+    "status": "Udsolgt",
+    "url": "https://www.royalarena.dk/all-events/teddy-swims-tickets-ae1300113",
+    "image": "https://dynamicmedia.livenationinternational.com/h/j/m/2440d96f-20d0-4638-b7f5-f2a316b7fcbd.jpg",
+    "source": "Royal Arena"
   },
   {
     "id": "direct-k-b--hallen-2027-03-13-19-00-bon-jovi-dk",
