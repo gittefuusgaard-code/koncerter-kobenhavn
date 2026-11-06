@@ -1,18 +1,5 @@
 [
   {
-    "id": "vega-lille-vega-2026-11-05-westside-cowboy",
-    "artist": "Westside Cowboy",
-    "date": "2026-11-05",
-    "time": "20:00",
-    "venue": "Lille VEGA",
-    "room": "Lille VEGA",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://vega.dk/event/westside-cowboy-2026-11-05",
-    "image": "https://payload.vega.dk/media/VEGA_Kalender_WestsideCowboys_2026-1200x630.jpg",
-    "source": "VEGA"
-  },
-  {
     "id": "vega-store-vega-2026-11-06-barselona",
     "artist": "Barselona",
     "date": "2026-11-06",
@@ -208,19 +195,6 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-store-vega-2026-11-17-uld",
-    "artist": "Uld",
-    "date": "2026-11-17",
-    "time": "20:00",
-    "venue": "Store VEGA",
-    "room": "Store VEGA",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://vega.dk/event/uld-2026-11-17",
-    "image": "https://payload.vega.dk/media/2026_Kalender_ULD-1200x630.jpg",
-    "source": "VEGA"
-  },
-  {
     "id": "vega-lille-vega-2026-11-17-archspire",
     "artist": "Archspire",
     "date": "2026-11-17",
@@ -231,6 +205,19 @@
     "status": "Billetter",
     "url": "https://vega.dk/event/archspire-2026-11-17",
     "image": "https://payload.vega.dk/media/VEGA_Kalender_Archspire_2026-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-store-vega-2026-11-17-uld",
+    "artist": "Uld",
+    "date": "2026-11-17",
+    "time": "20:00",
+    "venue": "Store VEGA",
+    "room": "Store VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/uld-2026-11-17",
+    "image": "https://payload.vega.dk/media/2026_Kalender_ULD-1200x630.jpg",
     "source": "VEGA"
   },
   {
