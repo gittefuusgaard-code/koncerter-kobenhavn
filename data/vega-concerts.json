@@ -1,31 +1,5 @@
 [
   {
-    "id": "vega-lille-vega-2026-11-06-jembaa-groove",
-    "artist": "Jembaa Groove",
-    "date": "2026-11-06",
-    "time": "20:00",
-    "venue": "Lille VEGA",
-    "room": "Lille VEGA",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://vega.dk/event/jembaa-groove-2026-11-06",
-    "image": "https://payload.vega.dk/media/VEGA_Kalender_JembaaGroove_2026-1200x630.jpg",
-    "source": "VEGA"
-  },
-  {
-    "id": "vega-store-vega-2026-11-06-barselona",
-    "artist": "Barselona",
-    "date": "2026-11-06",
-    "time": "20:00",
-    "venue": "Store VEGA",
-    "room": "Store VEGA",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://vega.dk/event/barselona-2026-11-06",
-    "image": "https://payload.vega.dk/media/VEGA_Kalender_Barselona_2026-1200x630.jpg",
-    "source": "VEGA"
-  },
-  {
     "id": "vega-store-vega-2026-11-07-malk-de-koijn",
     "artist": "Malk De Koijn",
     "date": "2026-11-07",
