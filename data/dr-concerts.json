@@ -1,31 +1,5 @@
 [
   {
-    "id": "dr-luisi---brahms-2026-11-06-19-30",
-    "artist": "Luisi & Brahms",
-    "date": "2026-11-06",
-    "time": "19:30",
-    "venue": "DR Koncerthuset",
-    "room": "KONCERTSALEN",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://www.drkoncerthuset.dk/kalender/2026/luisi-brahms/luisi-brahms-1/",
-    "image": "https://www.drkoncerthuset.dk/media/f2qbfqam/event_30975.jpg?width=1600&height=800&v=1dc91db6f7cfdc0&quality=80",
-    "source": "DR Koncerthuset"
-  },
-  {
-    "id": "dr-dr-big-band-feat--etienne-charles-2026-11-06-20-00",
-    "artist": "DR Big Band feat. Etienne Charles",
-    "date": "2026-11-06",
-    "time": "20:00",
-    "venue": "DR Koncerthuset",
-    "room": "STUDIE 2",
-    "genre": "Andet",
-    "status": "Venteliste",
-    "url": "https://www.drkoncerthuset.dk/kalender/2026/dr-big-band-feat-etienne-charles/dr-big-band-feat-etienne-charles-caribbean-connection/",
-    "image": "https://www.drkoncerthuset.dk/media/v1rdzge0/event_32737.jpg?width=1600&height=800&v=1dcaa41a0ab9db0&quality=80",
-    "source": "DR Koncerthuset"
-  },
-  {
     "id": "dr-maribou-state-dj-2026-11-07-21-00",
     "artist": "Maribou State DJ",
     "date": "2026-11-07",
@@ -87,7 +61,7 @@
     "genre": "Andet",
     "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/milling-molbech/milling-molbech-bee-gees-saturday-night-fever-3/",
-    "image": "https://www.drkoncerthuset.dk/media/povnxykp/event_30039.jpg?mode=crop&width=1200&height=630&quality=80",
+    "image": "https://www.drkoncerthuset.dk/media/povnxykp/event_30039.jpg?width=1600&height=800&v=1dc2e0b73ba2810&quality=80",
     "source": "DR Koncerthuset"
   },
   {
@@ -100,7 +74,7 @@
     "genre": "Andet",
     "status": "Venteliste",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/milling-molbech/milling-molbech-bee-gees-saturday-night-fever-2/",
-    "image": "https://www.drkoncerthuset.dk/media/povnxykp/event_30039.jpg?mode=crop&width=1200&height=630&quality=80",
+    "image": "https://www.drkoncerthuset.dk/media/povnxykp/event_30039.jpg?width=1600&height=800&v=1dc2e0b73ba2810&quality=80",
     "source": "DR Koncerthuset"
   },
   {
