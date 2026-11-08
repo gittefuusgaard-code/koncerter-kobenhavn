@@ -1,18 +1,5 @@
 [
   {
-    "id": "dr-maribou-state-dj-2026-11-07-21-00",
-    "artist": "Maribou State DJ",
-    "date": "2026-11-07",
-    "time": "21:00",
-    "venue": "DR Koncerthuset",
-    "room": "STUDIE 2",
-    "genre": "Andet",
-    "status": "Venteliste",
-    "url": "https://www.drkoncerthuset.dk/kalender/2026/maribou-state-dj/maribou-state-dj-1/",
-    "image": "https://www.drkoncerthuset.dk/media/xaihulmw/event_35001.jpg?width=1600&height=800&v=1dd33bfaae09d00&quality=80",
-    "source": "DR Koncerthuset"
-  },
-  {
     "id": "dr-tom-kristensen---sange-fra-en-fribytter-2026-11-08-15-00",
     "artist": "Tom Kristensen - sange fra en fribytter",
     "date": "2026-11-08",
@@ -87,7 +74,7 @@
     "genre": "Andet",
     "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/yndling/yndling/",
-    "image": "https://www.drkoncerthuset.dk/media/n13cbphb/event_34967.jpg?mode=crop&width=1200&height=630&quality=80",
+    "image": "https://www.drkoncerthuset.dk/media/n13cbphb/event_34967.jpg?width=1600&height=800&v=1dd231439580210&quality=80",
     "source": "DR Koncerthuset"
   },
   {
