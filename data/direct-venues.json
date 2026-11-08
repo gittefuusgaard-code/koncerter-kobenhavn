@@ -1,18 +1,5 @@
 [
   {
-    "id": "direct-royal-arena-2026-11-08--fontaines-d-c-",
-    "artist": "Fontaines D.C.",
-    "date": "2026-11-08",
-    "time": "",
-    "venue": "Royal Arena",
-    "room": "Royal Arena",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://www.royalarena.dk/all-events/fontaines-d-c--tickets-ae1084678",
-    "image": "https://dynamicmedia.livenationinternational.com/i/b/t/d3e39d22-a8a3-4907-aa09-dcf87fe6bb95.jpg",
-    "source": "Royal Arena"
-  },
-  {
     "id": "direct-pumpehuset-2026-11-08--oplev-napalm-death-i-pumpehuset",
     "artist": "Oplev Napalm Death i Pumpehuset",
     "date": "2026-11-08",
@@ -712,6 +699,19 @@
     "status": "Udsolgt",
     "url": "https://www.royalarena.dk/all-events/teddy-swims-tickets-ae1300113",
     "image": "https://dynamicmedia.livenationinternational.com/h/j/m/2440d96f-20d0-4638-b7f5-f2a316b7fcbd.jpg",
+    "source": "Royal Arena"
+  },
+  {
+    "id": "direct-royal-arena-2027-03-10--kool---the-gang",
+    "artist": "Kool & The Gang",
+    "date": "2027-03-10",
+    "time": "",
+    "venue": "Royal Arena",
+    "room": "Royal Arena",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://www.royalarena.dk/all-events/kool-and-the-gang-tickets-ae129924",
+    "image": "https://dynamicmedia.livenationinternational.com/x/z/t/f6619be7-e710-4c23-9d9f-ab7ce3f72865.png",
     "source": "Royal Arena"
   },
   {
