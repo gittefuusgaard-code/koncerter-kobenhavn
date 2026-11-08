@@ -1,31 +1,5 @@
 [
   {
-    "id": "vega-store-vega-2026-11-07-malk-de-koijn",
-    "artist": "Malk De Koijn",
-    "date": "2026-11-07",
-    "time": "20:00",
-    "venue": "Store VEGA",
-    "room": "Store VEGA",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://vega.dk/event/malk-de-koijn-2026-11-07",
-    "image": "https://payload.vega.dk/media/VEGA_Kalender_Malk_De_Koijn_2026-1200x630.jpg",
-    "source": "VEGA"
-  },
-  {
-    "id": "vega-lille-vega-2026-11-07-eros-for-you",
-    "artist": "Eros for you",
-    "date": "2026-11-07",
-    "time": "21:00",
-    "venue": "Lille VEGA",
-    "room": "Lille VEGA",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://vega.dk/event/eros-for-you-2026-11-07",
-    "image": "https://payload.vega.dk/media/VEGA_Kalender_Erosforyou_2026-1200x630.jpg",
-    "source": "VEGA"
-  },
-  {
     "id": "vega-store-vega-2026-11-08-rita-pay-s",
     "artist": "Rita Payés",
     "date": "2026-11-08",
@@ -1261,19 +1235,6 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-lille-vega-2027-03-11-romes",
-    "artist": "ROMES",
-    "date": "2027-03-11",
-    "time": "21:00",
-    "venue": "Lille VEGA",
-    "room": "Lille VEGA",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://vega.dk/event/romes-2027-03-11",
-    "image": "https://payload.vega.dk/media/VEGA_kalender_ROMES_2027-1200x630.jpg",
-    "source": "VEGA"
-  },
-  {
     "id": "vega-store-vega-2027-03-11-school-of-x",
     "artist": "School of X",
     "date": "2027-03-11",
@@ -1284,6 +1245,19 @@
     "status": "Billetter",
     "url": "https://vega.dk/event/school-of-x-2027-03-11",
     "image": "https://payload.vega.dk/media/VEGA_Kalender_School_of_X_2027-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-lille-vega-2027-03-11-romes",
+    "artist": "ROMES",
+    "date": "2027-03-11",
+    "time": "21:00",
+    "venue": "Lille VEGA",
+    "room": "Lille VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/romes-2027-03-11",
+    "image": "https://payload.vega.dk/media/VEGA_kalender_ROMES_2027-1200x630.jpg",
     "source": "VEGA"
   },
   {
