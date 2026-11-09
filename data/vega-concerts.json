@@ -390,19 +390,6 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-store-vega-2026-12-03-lord-siva",
-    "artist": "Lord Siva",
-    "date": "2026-12-03",
-    "time": "20:00",
-    "venue": "Store VEGA",
-    "room": "Store VEGA",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://vega.dk/event/lord-siva-2026-12-03",
-    "image": "https://payload.vega.dk/media/VEGA_Kalender_LordSiva_2026-1200x630.jpg",
-    "source": "VEGA"
-  },
-  {
     "id": "vega-lille-vega-2026-12-03-noridc-plus---liveurope-festival-2026",
     "artist": "NORIDC PLUS - Liveurope Festival 2026",
     "date": "2026-12-03",
@@ -413,6 +400,19 @@
     "status": "Billetter",
     "url": "https://vega.dk/event/nordic-plus-2026-12-03",
     "image": "https://payload.vega.dk/media/VEGA_Nordic+_Kalender_2026-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-store-vega-2026-12-03-lord-siva",
+    "artist": "Lord Siva",
+    "date": "2026-12-03",
+    "time": "20:00",
+    "venue": "Store VEGA",
+    "room": "Store VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/lord-siva-2026-12-03",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_LordSiva_2026-1200x630.jpg",
     "source": "VEGA"
   },
   {
