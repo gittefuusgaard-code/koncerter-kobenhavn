@@ -1,31 +1,5 @@
 [
   {
-    "id": "dr-tom-kristensen---sange-fra-en-fribytter-2026-11-08-15-00",
-    "artist": "Tom Kristensen - sange fra en fribytter",
-    "date": "2026-11-08",
-    "time": "15:00",
-    "venue": "DR Koncerthuset",
-    "room": "STUDIE 2",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://www.drkoncerthuset.dk/kalender/2026/tom-kristensen-sange-fra-en-fribytter/tom-kristensen-sange-fra-en-fribytter-nordkraft-big-band-med-sinne-eeg-og-jesper-lohmann/",
-    "image": "https://www.drkoncerthuset.dk/media/soqfzypl/event_32456.jpg?width=1600&height=800&v=1dc94096ca5e460&quality=80",
-    "source": "DR Koncerthuset"
-  },
-  {
-    "id": "dr-mina-okabe-2026-11-08-20-00",
-    "artist": "Mina Okabe",
-    "date": "2026-11-08",
-    "time": "20:00",
-    "venue": "DR Koncerthuset",
-    "room": "KONCERTSALEN",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://www.drkoncerthuset.dk/kalender/2026/mina-okabe/mina-okabe/",
-    "image": "https://www.drkoncerthuset.dk/media/pkweiktb/event_34199.jpg?width=1600&height=800&v=1dcfcb24c465c10&quality=80",
-    "source": "DR Koncerthuset"
-  },
-  {
     "id": "dr-fireside-talks--bo-bech---claus-meyer-2026-11-09-19-30",
     "artist": "Fireside Talks: Bo Bech & Claus Meyer",
     "date": "2026-11-09",
@@ -59,7 +33,7 @@
     "venue": "DR Koncerthuset",
     "room": "KONCERTSALEN",
     "genre": "Andet",
-    "status": "Venteliste",
+    "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/milling-molbech/milling-molbech-bee-gees-saturday-night-fever-2/",
     "image": "https://www.drkoncerthuset.dk/media/povnxykp/event_30039.jpg?width=1600&height=800&v=1dc2e0b73ba2810&quality=80",
     "source": "DR Koncerthuset"
@@ -87,7 +61,7 @@
     "genre": "Andet",
     "status": "Venteliste",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/milling-molbech/milling-molbech-bee-gees-saturday-night-fever-1/",
-    "image": "https://www.drkoncerthuset.dk/media/povnxykp/event_30039.jpg?mode=crop&width=1200&height=630&quality=80",
+    "image": "https://www.drkoncerthuset.dk/media/povnxykp/event_30039.jpg?width=1600&height=800&v=1dc2e0b73ba2810&quality=80",
     "source": "DR Koncerthuset"
   },
   {
@@ -553,7 +527,7 @@
     "venue": "DR Koncerthuset",
     "room": "KONCERTSALEN",
     "genre": "Andet",
-    "status": "Venteliste",
+    "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/its-actually-christmas/its-actually-christmas-at-the-symphony-2/",
     "image": "https://www.drkoncerthuset.dk/media/uman5tbr/event_32652.jpg?mode=crop&width=1200&height=630&quality=80",
     "source": "DR Koncerthuset"
@@ -1846,19 +1820,6 @@
     "source": "DR Koncerthuset"
   },
   {
-    "id": "dr-anaiis-2027-02-23-19-30",
-    "artist": "anaiis",
-    "date": "2027-02-23",
-    "time": "19:30",
-    "venue": "DR Koncerthuset",
-    "room": "STUDIE 2",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://www.drkoncerthuset.dk/kalender/2027/anaiis/anaiis/",
-    "image": "https://www.drkoncerthuset.dk/media/qr1gbjjv/event_35249.jpg?mode=crop&width=1200&height=630&quality=80",
-    "source": "DR Koncerthuset"
-  },
-  {
     "id": "dr-julia-jacklin-2027-02-24-19-30",
     "artist": "Julia Jacklin",
     "date": "2027-02-24",
@@ -2048,7 +2009,7 @@
     "venue": "DR Koncerthuset",
     "room": "KONCERTSALEN",
     "genre": "Andet",
-    "status": "Billetter",
+    "status": "Venteliste",
     "url": "https://www.drkoncerthuset.dk/kalender/2027/mozarts-requiem/mozarts-requiem/",
     "image": "https://www.drkoncerthuset.dk/media/xxoh1nkl/event_32694.jpg?mode=crop&width=1200&height=630&quality=80",
     "source": "DR Koncerthuset"
