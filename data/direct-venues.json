@@ -1,18 +1,5 @@
 [
   {
-    "id": "direct-royal-arena-2026-11-09--j--cole",
-    "artist": "J. Cole",
-    "date": "2026-11-09",
-    "time": "",
-    "venue": "Royal Arena",
-    "room": "Royal Arena",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://www.royalarena.dk/all-events/j-cole-tickets-ae58904",
-    "image": "https://networksites.livenationinternational.com/networksites/qwwi3ljw/j-cole_768x384_ra.png",
-    "source": "Royal Arena"
-  },
-  {
     "id": "direct-pumpehuset-2026-11-10--nemzzz",
     "artist": "Nemzzz",
     "date": "2026-11-10",
@@ -260,10 +247,10 @@
     "source": "Pumpehuset"
   },
   {
-    "id": "direct-k-b--hallen-2026-11-23-20-00-beabadoobee---support--sofia-and-the-antoinettes",
+    "id": "direct-k-b--hallen-2026-11-23-19-30-beabadoobee---support--sofia-and-the-antoinettes",
     "artist": "Beabadoobee - Support: Sofia and the Antoinettes",
     "date": "2026-11-23",
-    "time": "20:00",
+    "time": "19:30",
     "venue": "K.B. Hallen",
     "room": "K.B. Hallen",
     "genre": "Andet",
@@ -715,6 +702,19 @@
     "source": "Royal Arena"
   },
   {
+    "id": "direct-royal-arena-2027-03-13--artigeardit",
+    "artist": "Artigeardit",
+    "date": "2027-03-13",
+    "time": "",
+    "venue": "Royal Arena",
+    "room": "Royal Arena",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://www.royalarena.dk/all-events/artigeardit-tickets-ae1123004",
+    "image": "https://dynamicmedia.livenationinternational.com/u/z/l/28c19b7c-8a75-4d92-9c0e-24f5042da50d.jpg",
+    "source": "Royal Arena"
+  },
+  {
     "id": "direct-k-b--hallen-2027-03-13-19-00-bon-jovi-dk",
     "artist": "BON JOVI DK",
     "date": "2027-03-13",
@@ -998,6 +998,19 @@
     "status": "Billetter",
     "url": "https://kbhallen.dk/event/texas_2027-11-02/",
     "image": "https://kbhallen.dk/site/assets/files/5031/press_image_1920x1080_2_mb.1920x1080.jpg",
+    "source": "K.B. Hallen"
+  },
+  {
+    "id": "direct-k-b--hallen-2027-11-21-20-00-the-dead-south",
+    "artist": "The Dead South",
+    "date": "2027-11-21",
+    "time": "20:00",
+    "venue": "K.B. Hallen",
+    "room": "K.B. Hallen",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://kbhallen.dk/event/the-dead-south_2027-11-21/",
+    "image": "https://kbhallen.dk/site/assets/files/5068/the_dead_south_-_20260314.1920x1080.jpg",
     "source": "K.B. Hallen"
   }
 ]
