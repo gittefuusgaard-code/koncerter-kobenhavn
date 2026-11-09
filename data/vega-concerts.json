@@ -1,18 +1,5 @@
 [
   {
-    "id": "vega-store-vega-2026-11-08-rita-pay-s",
-    "artist": "Rita Payés",
-    "date": "2026-11-08",
-    "time": "20:00",
-    "venue": "Store VEGA",
-    "room": "Store VEGA",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://vega.dk/event/rita-payes-x-lucia-fumero-2026-11-08",
-    "image": "https://payload.vega.dk/media/VEga_Kalender_RitaPayeÌs_2026-1200x630.jpg",
-    "source": "VEGA"
-  },
-  {
     "id": "vega-store-vega-2026-11-09-uro---2--ekstrakoncert",
     "artist": "URO - 2. ekstrakoncert",
     "date": "2026-11-09",
