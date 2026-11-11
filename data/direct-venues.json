@@ -1,18 +1,5 @@
 [
   {
-    "id": "direct-pumpehuset-2026-11-10--nemzzz",
-    "artist": "Nemzzz",
-    "date": "2026-11-10",
-    "time": "",
-    "venue": "Pumpehuset",
-    "room": "Pumpehuset",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://pumpehuset.dk/koncerter/nemzzz/",
-    "image": "https://pumpehuset.dk/wp-content/uploads/nemzzz.jpg",
-    "source": "Pumpehuset"
-  },
-  {
     "id": "direct-pumpehuset-2026-11-11--wolves-in-the-throne-room-kommer-til-pumpehuset",
     "artist": "Wolves in the Throne Room kommer til Pumpehuset",
     "date": "2026-11-11",
@@ -244,6 +231,19 @@
     "status": "Billetter",
     "url": "https://pumpehuset.dk/koncerter/trinix/",
     "image": "https://pumpehuset.dk/wp-content/uploads/trinix-scaled-e1770811665272.jpg",
+    "source": "Pumpehuset"
+  },
+  {
+    "id": "direct-pumpehuset-2026-11-22--master-boot-record-og-fulci-i-pumpehuset",
+    "artist": "MASTER BOOT RECORD og Fulci i Pumpehuset",
+    "date": "2026-11-22",
+    "time": "",
+    "venue": "Pumpehuset",
+    "room": "Pumpehuset",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://pumpehuset.dk/koncerter/master-boot-record-fulci/",
+    "image": "https://pumpehuset.dk/wp-content/uploads/master-boot-record-horizon.jpg",
     "source": "Pumpehuset"
   },
   {
@@ -663,6 +663,19 @@
     "source": "K.B. Hallen"
   },
   {
+    "id": "direct-royal-arena-2027-03-06--emma-sehested-h-eg",
+    "artist": "Emma Sehested Høeg",
+    "date": "2027-03-06",
+    "time": "",
+    "venue": "Royal Arena",
+    "room": "Royal Arena",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://www.royalarena.dk/all-events/emma-sehested-h%C3%B8eg-tickets-ae1524379",
+    "image": "https://dynamicmedia.livenationinternational.com/y/c/i/3b088466-e800-4fa0-8c56-a23dd8eb0a87.jpg",
+    "source": "Royal Arena"
+  },
+  {
     "id": "direct-k-b--hallen-2027-03-06-20-00-katinka",
     "artist": "Katinka",
     "date": "2027-03-06",
@@ -699,19 +712,6 @@
     "status": "Billetter",
     "url": "https://www.royalarena.dk/all-events/kool-and-the-gang-tickets-ae129924",
     "image": "https://dynamicmedia.livenationinternational.com/x/z/t/f6619be7-e710-4c23-9d9f-ab7ce3f72865.png",
-    "source": "Royal Arena"
-  },
-  {
-    "id": "direct-royal-arena-2027-03-13--artigeardit",
-    "artist": "Artigeardit",
-    "date": "2027-03-13",
-    "time": "",
-    "venue": "Royal Arena",
-    "room": "Royal Arena",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://www.royalarena.dk/all-events/artigeardit-tickets-ae1123004",
-    "image": "https://dynamicmedia.livenationinternational.com/u/z/l/28c19b7c-8a75-4d92-9c0e-24f5042da50d.jpg",
     "source": "Royal Arena"
   },
   {
