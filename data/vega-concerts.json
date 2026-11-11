@@ -1,18 +1,5 @@
 [
   {
-    "id": "vega-store-vega-2026-11-10-the-streets",
-    "artist": "The Streets",
-    "date": "2026-11-10",
-    "time": "20:00",
-    "venue": "Store VEGA",
-    "room": "Store VEGA",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://vega.dk/event/the-streets-2026-11-10",
-    "image": "https://payload.vega.dk/media/VEGA_Kalender_TheStreets_2026-1200x630.jpg",
-    "source": "VEGA"
-  },
-  {
     "id": "vega-lille-vega-2026-11-11-mathias-ranch",
     "artist": "Mathias Ranch",
     "date": "2026-11-11",
@@ -244,6 +231,19 @@
     "status": "Billetter",
     "url": "https://vega.dk/event/amistat-2026-11-24",
     "image": "https://payload.vega.dk/media/VEGA_Kalender_Amistat_2026-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-store-vega-2026-11-25-chelsea-wolfe",
+    "artist": "Chelsea Wolfe",
+    "date": "2026-11-25",
+    "time": "20:00",
+    "venue": "Store VEGA",
+    "room": "Store VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/chelsea-wolfe-2026-11-25",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_ChelseaWolfe_2026-1200x630.jpg",
     "source": "VEGA"
   },
   {
@@ -871,6 +871,19 @@
     "source": "VEGA"
   },
   {
+    "id": "vega-lille-vega-2027-02-07-vanishing-twins",
+    "artist": "Vanishing Twins",
+    "date": "2027-02-07",
+    "time": "21:00",
+    "venue": "Lille VEGA",
+    "room": "Lille VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/vanishing-twin-2027-02-07",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_VanishingTwin_2027-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
     "id": "vega-lille-vega-2027-02-12-muskila---simona-abdallah",
     "artist": "Muskila & Simona Abdallah",
     "date": "2027-02-12",
@@ -1128,6 +1141,19 @@
     "status": "Billetter",
     "url": "https://vega.dk/event/madsen-2027-03-04",
     "image": "https://payload.vega.dk/media/VEGA_Kalender_MADSEN_2027-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-lille-vega-2027-03-04-slush-eyes",
+    "artist": "Slush Eyes",
+    "date": "2027-03-04",
+    "time": "21:00",
+    "venue": "Lille VEGA",
+    "room": "Lille VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/slush-eyes-2027-03-04",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_SlushEyes_2027-1200x630.jpg",
     "source": "VEGA"
   },
   {
