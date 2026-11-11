@@ -1,31 +1,5 @@
 [
   {
-    "id": "dr-milling---molbech-2026-11-10-20-00",
-    "artist": "Milling & Molbech",
-    "date": "2026-11-10",
-    "time": "20:00",
-    "venue": "DR Koncerthuset",
-    "room": "KONCERTSALEN",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://www.drkoncerthuset.dk/kalender/2026/milling-molbech/milling-molbech-bee-gees-saturday-night-fever-2/",
-    "image": "https://www.drkoncerthuset.dk/media/povnxykp/event_30039.jpg?width=1600&height=800&v=1dc2e0b73ba2810&quality=80",
-    "source": "DR Koncerthuset"
-  },
-  {
-    "id": "dr-yndling-2026-11-10-20-30",
-    "artist": "Yndling",
-    "date": "2026-11-10",
-    "time": "20:30",
-    "venue": "DR Koncerthuset",
-    "room": "STUDIE 3",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://www.drkoncerthuset.dk/kalender/2026/yndling/yndling/",
-    "image": "https://www.drkoncerthuset.dk/media/n13cbphb/event_34967.jpg?width=1600&height=800&v=1dd231439580210&quality=80",
-    "source": "DR Koncerthuset"
-  },
-  {
     "id": "dr-milling---molbech-2026-11-11-20-00",
     "artist": "Milling & Molbech",
     "date": "2026-11-11",
@@ -48,7 +22,7 @@
     "genre": "Andet",
     "status": "Venteliste",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/milling-molbech/milling-molbech-bee-gees-saturday-night-fever/",
-    "image": "https://www.drkoncerthuset.dk/media/povnxykp/event_30039.jpg?width=1600&height=800&v=1dc2e0b73ba2810&quality=80",
+    "image": "https://www.drkoncerthuset.dk/media/povnxykp/event_30039.jpg?mode=crop&width=1200&height=630&quality=80",
     "source": "DR Koncerthuset"
   },
   {
@@ -1807,6 +1781,19 @@
     "source": "DR Koncerthuset"
   },
   {
+    "id": "dr-marcin-2027-02-25-19-30",
+    "artist": "Marcin",
+    "date": "2027-02-25",
+    "time": "19:30",
+    "venue": "DR Koncerthuset",
+    "room": "STUDIE 2",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://www.drkoncerthuset.dk/kalender/2027/marcin/marcin-an-evening-with-marcin/",
+    "image": "https://www.drkoncerthuset.dk/media/epjlbc5l/event_35619.jpg?mode=crop&width=1200&height=630&quality=80",
+    "source": "DR Koncerthuset"
+  },
+  {
     "id": "dr-michael-learns-to-rock-2027-02-25-20-00",
     "artist": "Michael Learns To Rock",
     "date": "2027-02-25",
@@ -2194,6 +2181,19 @@
     "status": "Venteliste",
     "url": "https://www.drkoncerthuset.dk/kalender/2027/hermanos-gutierrez/hermanos-gutierrez/",
     "image": "https://www.drkoncerthuset.dk/media/vcalqszf/event_35360.jpg?mode=crop&width=1200&height=630&quality=80",
+    "source": "DR Koncerthuset"
+  },
+  {
+    "id": "dr-trine-dyrholm-2027-03-24-20-00",
+    "artist": "Trine Dyrholm",
+    "date": "2027-03-24",
+    "time": "20:00",
+    "venue": "DR Koncerthuset",
+    "room": "KONCERTSALEN",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://www.drkoncerthuset.dk/kalender/2027/trine-dyrholm/trine-dyrholm-sange-jeg-har-sunget-2-ekstrakoncert/",
+    "image": "https://www.drkoncerthuset.dk/media/jv2hsjp1/event_34200.jpg?mode=crop&width=1200&height=630&quality=80",
     "source": "DR Koncerthuset"
   },
   {
@@ -2639,6 +2639,19 @@
     "source": "DR Koncerthuset"
   },
   {
+    "id": "dr-joyce-wrice-2027-05-13-20-00",
+    "artist": "Joyce Wrice",
+    "date": "2027-05-13",
+    "time": "20:00",
+    "venue": "DR Koncerthuset",
+    "room": "STUDIE 2",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://www.drkoncerthuset.dk/kalender/2027/joyce-wrice/joyce-wrice-the-machiko-tour/",
+    "image": "https://www.drkoncerthuset.dk/media/fayfl2se/event_35636.jpg?mode=crop&width=1200&height=630&quality=80",
+    "source": "DR Koncerthuset"
+  },
+  {
     "id": "dr-ollikainen---hardenberger-2027-05-14-19-30",
     "artist": "Ollikainen & Hardenberger",
     "date": "2027-05-14",
@@ -2795,6 +2808,19 @@
     "source": "DR Koncerthuset"
   },
   {
+    "id": "dr-dirty-projectors--solo--2027-06-20-19-30",
+    "artist": "Dirty Projectors (solo)",
+    "date": "2027-06-20",
+    "time": "19:30",
+    "venue": "DR Koncerthuset",
+    "room": "STUDIE 2",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://www.drkoncerthuset.dk/kalender/2027/dirty-projectors-solo/dirty-projectors-solo/",
+    "image": "https://www.drkoncerthuset.dk/media/5upf0zyl/dirty-projecrors_foto-matthew-reamer_2550x1275.jpg?mode=crop&width=1200&height=630&quality=80",
+    "source": "DR Koncerthuset"
+  },
+  {
     "id": "dr-beethoven-orkestret-bonn-2027-06-24-19-30",
     "artist": "Beethoven Orkestret Bonn",
     "date": "2027-06-24",
@@ -2882,6 +2908,19 @@
     "genre": "Andet",
     "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2027/michael-falch/michael-falch-ind-i-moerket-igen/",
+    "image": "https://www.drkoncerthuset.dk/media/arblvnfy/event_35201.jpg?mode=crop&width=1200&height=630&quality=80",
+    "source": "DR Koncerthuset"
+  },
+  {
+    "id": "dr-michael-falch-2027-09-26-15-30",
+    "artist": "Michael Falch",
+    "date": "2027-09-26",
+    "time": "15:30",
+    "venue": "DR Koncerthuset",
+    "room": "KONCERTSALEN",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://www.drkoncerthuset.dk/kalender/2027/michael-falch/michael-falch-ind-i-moerket-igen-ekstrakoncert/",
     "image": "https://www.drkoncerthuset.dk/media/arblvnfy/event_35201.jpg?mode=crop&width=1200&height=630&quality=80",
     "source": "DR Koncerthuset"
   },
