@@ -1,31 +1,5 @@
 [
   {
-    "id": "vega-lille-vega-2026-11-11-mathias-ranch",
-    "artist": "Mathias Ranch",
-    "date": "2026-11-11",
-    "time": "20:00",
-    "venue": "Lille VEGA",
-    "room": "Lille VEGA",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://vega.dk/event/mathias-ranch-2026-11-11",
-    "image": "https://payload.vega.dk/media/VEGA_Kalender_MathiasRanch_2026-1200x630.jpg",
-    "source": "VEGA"
-  },
-  {
-    "id": "vega-store-vega-2026-11-11-uro---ekstrakoncert",
-    "artist": "URO - Ekstrakoncert",
-    "date": "2026-11-11",
-    "time": "20:00",
-    "venue": "Store VEGA",
-    "room": "Store VEGA",
-    "genre": "Andet",
-    "status": "Udsolgt",
-    "url": "https://vega.dk/event/uro-ekstrakoncert-2026-11-11",
-    "image": "https://payload.vega.dk/media/uro billedeee-3-1200x630.jpg",
-    "source": "VEGA"
-  },
-  {
     "id": "vega-store-vega-2026-11-12-uro",
     "artist": "Uro",
     "date": "2026-11-12",
