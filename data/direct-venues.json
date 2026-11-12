@@ -1,18 +1,5 @@
 [
   {
-    "id": "direct-pumpehuset-2026-11-11--wolves-in-the-throne-room-kommer-til-pumpehuset",
-    "artist": "Wolves in the Throne Room kommer til Pumpehuset",
-    "date": "2026-11-11",
-    "time": "",
-    "venue": "Pumpehuset",
-    "room": "Pumpehuset",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://pumpehuset.dk/koncerter/wolves-in-the-throne-room-2/",
-    "image": "https://pumpehuset.dk/wp-content/uploads/Wolves-in-the-thone-room.jpg",
-    "source": "Pumpehuset"
-  },
-  {
     "id": "direct-k-b--hallen-2026-11-12-20-00-kneecap---support--fawzi-x-smokaholic",
     "artist": "Kneecap - Support: FAWZI X SMOKAHOLIC",
     "date": "2026-11-12",
@@ -258,6 +245,19 @@
     "url": "https://kbhallen.dk/event/beabadoobee_2026-11-23/",
     "image": "https://kbhallen.dk/site/assets/files/4951/beabadoobee_press_shot_2026.1920x1080.jpeg",
     "source": "K.B. Hallen"
+  },
+  {
+    "id": "direct-pumpehuset-2026-11-23--blackgold",
+    "artist": "BLACKGOLD",
+    "date": "2026-11-23",
+    "time": "",
+    "venue": "Pumpehuset",
+    "room": "Pumpehuset",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://pumpehuset.dk/koncerter/blackgold/",
+    "image": "https://pumpehuset.dk/wp-content/uploads/Black-Gold-Promo-@abbidraperphoto-1280x854.jpg",
+    "source": "Pumpehuset"
   },
   {
     "id": "direct-royal-arena-2026-11-27--blaue-blume",
