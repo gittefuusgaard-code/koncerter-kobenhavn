@@ -338,6 +338,19 @@
     "source": "Bremen Teater"
   },
   {
+    "id": "direct-pumpehuset-2026-12-05--oplev-otto-knows-i-pumpehuset",
+    "artist": "Oplev Otto Knows i Pumpehuset",
+    "date": "2026-12-05",
+    "time": "",
+    "venue": "Pumpehuset",
+    "room": "Pumpehuset",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://pumpehuset.dk/koncerter/otto-knows/",
+    "image": "https://pumpehuset.dk/wp-content/uploads/Otto-Knows-scaled.jpg",
+    "source": "Pumpehuset"
+  },
+  {
     "id": "direct-royal-arena-2026-12-07--bryan-adams",
     "artist": "Bryan Adams",
     "date": "2026-12-07",
