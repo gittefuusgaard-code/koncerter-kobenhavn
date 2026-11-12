@@ -1,18 +1,5 @@
 [
   {
-    "id": "dr-milling---molbech-2026-11-11-20-00",
-    "artist": "Milling & Molbech",
-    "date": "2026-11-11",
-    "time": "20:00",
-    "venue": "DR Koncerthuset",
-    "room": "KONCERTSALEN",
-    "genre": "Andet",
-    "status": "Venteliste",
-    "url": "https://www.drkoncerthuset.dk/kalender/2026/milling-molbech/milling-molbech-bee-gees-saturday-night-fever-1/",
-    "image": "https://www.drkoncerthuset.dk/media/povnxykp/event_30039.jpg?width=1600&height=800&v=1dc2e0b73ba2810&quality=80",
-    "source": "DR Koncerthuset"
-  },
-  {
     "id": "dr-milling---molbech-2026-11-12-20-00",
     "artist": "Milling & Molbech",
     "date": "2026-11-12",
@@ -20,9 +7,9 @@
     "venue": "DR Koncerthuset",
     "room": "KONCERTSALEN",
     "genre": "Andet",
-    "status": "Venteliste",
+    "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/milling-molbech/milling-molbech-bee-gees-saturday-night-fever/",
-    "image": "https://www.drkoncerthuset.dk/media/povnxykp/event_30039.jpg?mode=crop&width=1200&height=630&quality=80",
+    "image": "https://www.drkoncerthuset.dk/media/povnxykp/event_30039.jpg?width=1600&height=800&v=1dc2e0b73ba2810&quality=80",
     "source": "DR Koncerthuset"
   },
   {
@@ -35,7 +22,7 @@
     "genre": "Andet",
     "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/tigeroak/tigeroak/",
-    "image": "https://www.drkoncerthuset.dk/media/shnly3sg/261113-tigeroak_2550x1275_02.jpg?mode=crop&width=1200&height=630&quality=80",
+    "image": "https://www.drkoncerthuset.dk/media/shnly3sg/261113-tigeroak_2550x1275_02.jpg?width=1600&height=800&v=1dc5d19b3fa6790&quality=80",
     "source": "DR Koncerthuset"
   },
   {
@@ -2379,6 +2366,19 @@
     "source": "DR Koncerthuset"
   },
   {
+    "id": "dr-dr-juniorkoret-feat--fri-a-saiya-2027-04-17-16-00",
+    "artist": "DR Juniorkoret feat. Friða Saiya",
+    "date": "2027-04-17",
+    "time": "16:00",
+    "venue": "DR Koncerthuset",
+    "room": "STUDIE 2",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://www.drkoncerthuset.dk/kalender/2027/dr-juniorkoret-feat-frida-saiya/dr-juniorkoret-feat-frida-saiya/",
+    "image": "https://www.drkoncerthuset.dk/media/z2edefrt/event_35488.jpg?mode=crop&width=1200&height=630&quality=80",
+    "source": "DR Koncerthuset"
+  },
+  {
     "id": "dr--lafur-arnalds-2027-04-17-20-00",
     "artist": "Ólafur Arnalds",
     "date": "2027-04-17",
@@ -2389,6 +2389,32 @@
     "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2027/olafur-arnalds/olafur-arnalds/",
     "image": "https://www.drkoncerthuset.dk/media/ei0kmfqq/event_34862.jpg?mode=crop&width=1200&height=630&quality=80",
+    "source": "DR Koncerthuset"
+  },
+  {
+    "id": "dr-dr-juniorkoret-feat--fri-a-saiya-2027-04-18-13-30",
+    "artist": "DR Juniorkoret feat. Friða Saiya",
+    "date": "2027-04-18",
+    "time": "13:30",
+    "venue": "DR Koncerthuset",
+    "room": "STUDIE 2",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://www.drkoncerthuset.dk/kalender/2027/dr-juniorkoret-feat-frida-saiya/dr-juniorkoret-feat-frida-saiya-1/",
+    "image": "https://www.drkoncerthuset.dk/media/z2edefrt/event_35488.jpg?mode=crop&width=1200&height=630&quality=80",
+    "source": "DR Koncerthuset"
+  },
+  {
+    "id": "dr-dr-juniorkoret-feat--fri-a-saiya-2027-04-18-16-00",
+    "artist": "DR Juniorkoret feat. Friða Saiya",
+    "date": "2027-04-18",
+    "time": "16:00",
+    "venue": "DR Koncerthuset",
+    "room": "STUDIE 2",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://www.drkoncerthuset.dk/kalender/2027/dr-juniorkoret-feat-frida-saiya/dr-juniorkoret-feat-frida-saiya-2/",
+    "image": "https://www.drkoncerthuset.dk/media/z2edefrt/event_35488.jpg?mode=crop&width=1200&height=630&quality=80",
     "source": "DR Koncerthuset"
   },
   {
@@ -2974,6 +3000,19 @@
     "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2027/ministry-of-sound-classical/ministry-of-sound-classical-2/",
     "image": "https://www.drkoncerthuset.dk/media/lvqjjfns/event_34999.jpg?mode=crop&width=1200&height=630&quality=80",
+    "source": "DR Koncerthuset"
+  },
+  {
+    "id": "dr-peter--vig-2027-11-04-20-00",
+    "artist": "Peter Øvig",
+    "date": "2027-11-04",
+    "time": "20:00",
+    "venue": "DR Koncerthuset",
+    "room": "STUDIE 2",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://www.drkoncerthuset.dk/kalender/2027/peter-oevig/peter-oevig-aabenhed/",
+    "image": "https://www.drkoncerthuset.dk/media/fnjgowm3/event_35726.jpg?mode=crop&width=1200&height=630&quality=80",
     "source": "DR Koncerthuset"
   },
   {
