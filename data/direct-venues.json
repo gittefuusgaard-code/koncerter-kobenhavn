@@ -13,19 +13,6 @@
     "source": "Pumpehuset"
   },
   {
-    "id": "direct-royal-arena-2026-11-14--queen-machine",
-    "artist": "Queen Machine",
-    "date": "2026-11-14",
-    "time": "",
-    "venue": "Royal Arena",
-    "room": "Royal Arena",
-    "genre": "Andet",
-    "status": "Udsolgt",
-    "url": "https://www.royalarena.dk/all-events/queen-machine-tickets-ae1259871",
-    "image": "https://networksites.livenationinternational.com/networksites/jg3hdv5e/queenmachine_royalarena1920x1080text_0.jpg",
-    "source": "Royal Arena"
-  },
-  {
     "id": "direct-bremen-teater-2026-11-14-18-30-bodil-j-rgensen---lisbeth-wulff",
     "artist": "Bodil Jørgensen & Lisbeth Wulff",
     "date": "2026-11-14",
@@ -50,6 +37,19 @@
     "url": "https://www.brementeater.dk/arrangementer/bodil-jorgensen-lisbeth-wulff",
     "image": "",
     "source": "Bremen Teater"
+  },
+  {
+    "id": "direct-royal-arena-2026-11-14--queen-machine",
+    "artist": "Queen Machine",
+    "date": "2026-11-14",
+    "time": "",
+    "venue": "Royal Arena",
+    "room": "Royal Arena",
+    "genre": "Andet",
+    "status": "Udsolgt",
+    "url": "https://www.royalarena.dk/all-events/queen-machine-tickets-ae1259871",
+    "image": "https://networksites.livenationinternational.com/networksites/jg3hdv5e/queenmachine_royalarena1920x1080text_0.jpg",
+    "source": "Royal Arena"
   },
   {
     "id": "direct-k-b--hallen-2026-11-15-20-00-the-kid-laroi---support--nate-sib---opener--wizthemc",
@@ -91,19 +91,6 @@
     "source": "Pumpehuset"
   },
   {
-    "id": "direct-royal-arena-2026-11-17--the-prodigy",
-    "artist": "The Prodigy",
-    "date": "2026-11-17",
-    "time": "",
-    "venue": "Royal Arena",
-    "room": "Royal Arena",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://www.royalarena.dk/all-events/the-prodigy-tickets-ae8441",
-    "image": "https://dynamicmedia.livenationinternational.com/a/b/x/f97fd1d0-6be4-4b87-b091-c7a2951e31d9.jpg",
-    "source": "Royal Arena"
-  },
-  {
     "id": "direct-k-b--hallen-2026-11-17-17-30--rets-tr-2026",
     "artist": "Årets TR 2026",
     "date": "2026-11-17",
@@ -130,6 +117,19 @@
     "source": "Pumpehuset"
   },
   {
+    "id": "direct-royal-arena-2026-11-17--the-prodigy",
+    "artist": "The Prodigy",
+    "date": "2026-11-17",
+    "time": "",
+    "venue": "Royal Arena",
+    "room": "Royal Arena",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://www.royalarena.dk/all-events/the-prodigy-tickets-ae8441",
+    "image": "https://dynamicmedia.livenationinternational.com/a/b/x/f97fd1d0-6be4-4b87-b091-c7a2951e31d9.jpg",
+    "source": "Royal Arena"
+  },
+  {
     "id": "direct-k-b--hallen-2026-11-18-20-00-jessie-ware---with-very-special-guest--naomi-scott",
     "artist": "Jessie Ware - With very special guest: Naomi Scott",
     "date": "2026-11-18",
@@ -143,19 +143,6 @@
     "source": "K.B. Hallen"
   },
   {
-    "id": "direct-royal-arena-2026-11-19--westlife",
-    "artist": "Westlife",
-    "date": "2026-11-19",
-    "time": "",
-    "venue": "Royal Arena",
-    "room": "Royal Arena",
-    "genre": "Andet",
-    "status": "Udsolgt",
-    "url": "https://www.royalarena.dk/all-events/westlife-tickets-ae457",
-    "image": "https://dynamicmedia.livenationinternational.com/x/t/a/f868fd4b-afa3-4943-ac01-0f1900d6c2f3.jpg",
-    "source": "Royal Arena"
-  },
-  {
     "id": "direct-pumpehuset-2026-11-19--karoline-mousing-headliner-i-pumpehuset",
     "artist": "Karoline Mousing headliner i Pumpehuset",
     "date": "2026-11-19",
@@ -167,6 +154,19 @@
     "url": "https://pumpehuset.dk/koncerter/karoline-mousing/",
     "image": "https://pumpehuset.dk/wp-content/uploads/Karoline-mousing-hjside-e1770109336340.jpg",
     "source": "Pumpehuset"
+  },
+  {
+    "id": "direct-royal-arena-2026-11-19--westlife",
+    "artist": "Westlife",
+    "date": "2026-11-19",
+    "time": "",
+    "venue": "Royal Arena",
+    "room": "Royal Arena",
+    "genre": "Andet",
+    "status": "Udsolgt",
+    "url": "https://www.royalarena.dk/all-events/westlife-tickets-ae457",
+    "image": "https://dynamicmedia.livenationinternational.com/x/t/a/f868fd4b-afa3-4943-ac01-0f1900d6c2f3.jpg",
+    "source": "Royal Arena"
   },
   {
     "id": "direct-royal-arena-2026-11-20--bryson-tiller",
@@ -260,19 +260,6 @@
     "source": "Royal Arena"
   },
   {
-    "id": "direct-royal-arena-2026-11-28--noah-kahan",
-    "artist": "Noah Kahan",
-    "date": "2026-11-28",
-    "time": "",
-    "venue": "Royal Arena",
-    "room": "Royal Arena",
-    "genre": "Andet",
-    "status": "Udsolgt",
-    "url": "https://www.royalarena.dk/all-events/noah-kahan-tickets-ae1095445",
-    "image": "https://dynamicmedia.livenationinternational.com/z/t/w/f8cc4719-3146-4ff4-954a-b538df901b07.jpg",
-    "source": "Royal Arena"
-  },
-  {
     "id": "direct-k-b--hallen-2026-11-28-20-00-august-h-yen",
     "artist": "August Høyen",
     "date": "2026-11-28",
@@ -310,6 +297,19 @@
     "url": "https://www.brementeater.dk/arrangementer/eva-jin",
     "image": "",
     "source": "Bremen Teater"
+  },
+  {
+    "id": "direct-royal-arena-2026-11-28--noah-kahan",
+    "artist": "Noah Kahan",
+    "date": "2026-11-28",
+    "time": "",
+    "venue": "Royal Arena",
+    "room": "Royal Arena",
+    "genre": "Andet",
+    "status": "Udsolgt",
+    "url": "https://www.royalarena.dk/all-events/noah-kahan-tickets-ae1095445",
+    "image": "https://dynamicmedia.livenationinternational.com/z/t/w/f8cc4719-3146-4ff4-954a-b538df901b07.jpg",
+    "source": "Royal Arena"
   },
   {
     "id": "direct-bremen-teater-2026-12-05-20-00-adnan",
@@ -663,19 +663,6 @@
     "source": "K.B. Hallen"
   },
   {
-    "id": "direct-royal-arena-2027-03-06--emma-sehested-h-eg",
-    "artist": "Emma Sehested Høeg",
-    "date": "2027-03-06",
-    "time": "",
-    "venue": "Royal Arena",
-    "room": "Royal Arena",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://www.royalarena.dk/all-events/emma-sehested-h%C3%B8eg-tickets-ae1524379",
-    "image": "https://dynamicmedia.livenationinternational.com/y/c/i/3b088466-e800-4fa0-8c56-a23dd8eb0a87.jpg",
-    "source": "Royal Arena"
-  },
-  {
     "id": "direct-k-b--hallen-2027-03-06-20-00-katinka",
     "artist": "Katinka",
     "date": "2027-03-06",
@@ -687,6 +674,19 @@
     "url": "https://kbhallen.dk/event/katinka_2027-03-06/",
     "image": "https://kbhallen.dk/site/assets/files/4912/katinka_kbhallen01_danielbuchwald.1920x1080.jpg",
     "source": "K.B. Hallen"
+  },
+  {
+    "id": "direct-royal-arena-2027-03-06--emma-sehested-h-eg",
+    "artist": "Emma Sehested Høeg",
+    "date": "2027-03-06",
+    "time": "",
+    "venue": "Royal Arena",
+    "room": "Royal Arena",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://www.royalarena.dk/all-events/emma-sehested-h%C3%B8eg-tickets-ae1524379",
+    "image": "https://dynamicmedia.livenationinternational.com/y/c/i/3b088466-e800-4fa0-8c56-a23dd8eb0a87.jpg",
+    "source": "Royal Arena"
   },
   {
     "id": "direct-royal-arena-2027-03-07--teddy-swims",
