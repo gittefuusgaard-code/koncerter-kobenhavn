@@ -182,19 +182,6 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-store-vega-2026-11-25-chelsea-wolfe",
-    "artist": "Chelsea Wolfe",
-    "date": "2026-11-25",
-    "time": "20:00",
-    "venue": "Store VEGA",
-    "room": "Store VEGA",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://vega.dk/event/chelsea-wolfe-2026-11-25",
-    "image": "https://payload.vega.dk/media/VEGA_Kalender_ChelseaWolfe_2026-1200x630.jpg",
-    "source": "VEGA"
-  },
-  {
     "id": "vega-lille-vega-2026-11-25-dahlin",
     "artist": "Dahlin",
     "date": "2026-11-25",
@@ -205,6 +192,19 @@
     "status": "Billetter",
     "url": "https://vega.dk/event/dahlin-2026-11-25",
     "image": "https://payload.vega.dk/media/2026_Kalender-Dahlin-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-store-vega-2026-11-25-chelsea-wolfe",
+    "artist": "Chelsea Wolfe",
+    "date": "2026-11-25",
+    "time": "20:00",
+    "venue": "Store VEGA",
+    "room": "Store VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/chelsea-wolfe-2026-11-25",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_ChelseaWolfe_2026-1200x630.jpg",
     "source": "VEGA"
   },
   {
@@ -1791,6 +1791,19 @@
     "status": "Billetter",
     "url": "https://vega.dk/event/love-shop-2027-05-28",
     "image": "https://payload.vega.dk/media/LoveShop_Hjemmeside_Kalender_2026-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-lille-vega-2027-06-01-steppeulvene-60ars-hyldestkoncert",
+    "artist": "Steppeulvene 60ars Hyldestkoncert",
+    "date": "2027-06-01",
+    "time": "20:00",
+    "venue": "Lille VEGA",
+    "room": "Lille VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/steppeulvene-60ars-hyldestkoncert-2027-06-01",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_Steppeulvene_2027-1200x630.jpg",
     "source": "VEGA"
   },
   {
