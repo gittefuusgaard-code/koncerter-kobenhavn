@@ -1,31 +1,5 @@
 [
   {
-    "id": "direct-k-b--hallen-2026-11-12-20-00-kneecap---support--fawzi-x-smokaholic",
-    "artist": "Kneecap - Support: FAWZI X SMOKAHOLIC",
-    "date": "2026-11-12",
-    "time": "20:00",
-    "venue": "K.B. Hallen",
-    "room": "K.B. Hallen",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://kbhallen.dk/event/kneecap_2026-11-12/",
-    "image": "https://kbhallen.dk/site/assets/files/4959/liars_tale_lead_press_shot-1.1920x1080.jpg",
-    "source": "K.B. Hallen"
-  },
-  {
-    "id": "direct-pumpehuset-2026-11-12--lamentari---albumrelease-i-pumpehuset",
-    "artist": "LAMENTARI - albumrelease i Pumpehuset",
-    "date": "2026-11-12",
-    "time": "",
-    "venue": "Pumpehuset",
-    "room": "Pumpehuset",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://pumpehuset.dk/koncerter/lamentari/",
-    "image": "https://pumpehuset.dk/wp-content/uploads/lamentari.jpg",
-    "source": "Pumpehuset"
-  },
-  {
     "id": "direct-pumpehuset-2026-11-13--oplev-icona-pop-live-i-pumpehuset",
     "artist": "Oplev Icona Pop live i Pumpehuset",
     "date": "2026-11-13",
@@ -126,7 +100,7 @@
     "genre": "Andet",
     "status": "Billetter",
     "url": "https://www.royalarena.dk/all-events/the-prodigy-tickets-ae8441",
-    "image": "https://dynamicmedia.livenationinternational.com/h/k/y/b7b43e21-2e90-40d8-9191-8b822d69f5b3.jpg",
+    "image": "https://dynamicmedia.livenationinternational.com/a/b/x/f97fd1d0-6be4-4b87-b091-c7a2951e31d9.jpg",
     "source": "Royal Arena"
   },
   {
@@ -257,6 +231,19 @@
     "status": "Billetter",
     "url": "https://pumpehuset.dk/koncerter/blackgold/",
     "image": "https://pumpehuset.dk/wp-content/uploads/Black-Gold-Promo-@abbidraperphoto-1280x854.jpg",
+    "source": "Pumpehuset"
+  },
+  {
+    "id": "direct-pumpehuset-2026-11-24--oplev-marrokanske-dizzy-dros-i-pumpehuset",
+    "artist": "Oplev marrokanske Dizzy DROS i Pumpehuset",
+    "date": "2026-11-24",
+    "time": "",
+    "venue": "Pumpehuset",
+    "room": "Pumpehuset",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://pumpehuset.dk/koncerter/dizzy-dros/",
+    "image": "https://pumpehuset.dk/wp-content/uploads/Dizzy-Dros.jpg",
     "source": "Pumpehuset"
   },
   {
