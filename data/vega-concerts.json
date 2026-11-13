@@ -117,6 +117,19 @@
     "source": "VEGA"
   },
   {
+    "id": "vega-lille-vega-2026-11-20-bar--funk",
+    "artist": "Bar' Funk",
+    "date": "2026-11-20",
+    "time": "22:00",
+    "venue": "Lille VEGA",
+    "room": "Lille VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/bar-funk-2026-11-20",
+    "image": "https://payload.vega.dk/media/LILLE VEGA (2)-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
     "id": "vega-store-vega-2026-11-21-notion",
     "artist": "NOTION",
     "date": "2026-11-21",
