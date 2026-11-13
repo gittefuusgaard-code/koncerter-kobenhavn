@@ -1,18 +1,5 @@
 [
   {
-    "id": "dr-milling---molbech-2026-11-12-20-00",
-    "artist": "Milling & Molbech",
-    "date": "2026-11-12",
-    "time": "20:00",
-    "venue": "DR Koncerthuset",
-    "room": "KONCERTSALEN",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://www.drkoncerthuset.dk/kalender/2026/milling-molbech/milling-molbech-bee-gees-saturday-night-fever/",
-    "image": "https://www.drkoncerthuset.dk/media/povnxykp/event_30039.jpg?width=1600&height=800&v=1dc2e0b73ba2810&quality=80",
-    "source": "DR Koncerthuset"
-  },
-  {
     "id": "dr-tigeroak-2026-11-13-20-00",
     "artist": "Tigeroak",
     "date": "2026-11-13",
@@ -33,7 +20,7 @@
     "venue": "DR Koncerthuset",
     "room": "STUDIE 2",
     "genre": "Andet",
-    "status": "Venteliste",
+    "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/nicko-mcbrain/nicko-mcbrain-an-evening-with-nicko-mcbrain/",
     "image": "https://www.drkoncerthuset.dk/media/druf3p3y/event_34763.jpg?mode=crop&width=1200&height=630&quality=80",
     "source": "DR Koncerthuset"
@@ -2948,6 +2935,32 @@
     "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2027/michael-falch/michael-falch-ind-i-moerket-igen-ekstrakoncert/",
     "image": "https://www.drkoncerthuset.dk/media/arblvnfy/event_35201.jpg?mode=crop&width=1200&height=630&quality=80",
+    "source": "DR Koncerthuset"
+  },
+  {
+    "id": "dr-ballroom-dreams-2027-10-01-19-30",
+    "artist": "Ballroom Dreams",
+    "date": "2027-10-01",
+    "time": "19:30",
+    "venue": "DR Koncerthuset",
+    "room": "STUDIE 1",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://www.drkoncerthuset.dk/kalender/2027/ballroom-dreams/ballroom-dreams-music-dancing/",
+    "image": "https://www.drkoncerthuset.dk/media/aghjqjnd/event_35724.jpg?mode=crop&width=1200&height=630&quality=80",
+    "source": "DR Koncerthuset"
+  },
+  {
+    "id": "dr-ballroom-dreams-2027-10-02-19-30",
+    "artist": "Ballroom Dreams",
+    "date": "2027-10-02",
+    "time": "19:30",
+    "venue": "DR Koncerthuset",
+    "room": "STUDIE 1",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://www.drkoncerthuset.dk/kalender/2027/ballroom-dreams/ballroom-dreams-music-dancing-1/",
+    "image": "https://www.drkoncerthuset.dk/media/aghjqjnd/event_35724.jpg?mode=crop&width=1200&height=630&quality=80",
     "source": "DR Koncerthuset"
   },
   {
