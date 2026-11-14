@@ -1,18 +1,5 @@
 [
   {
-    "id": "vega-store-vega-2026-11-13-mikael-simpson",
-    "artist": "Mikael Simpson",
-    "date": "2026-11-13",
-    "time": "20:00",
-    "venue": "Store VEGA",
-    "room": "Store VEGA",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://vega.dk/event/mikael-simpson-2026-11-13",
-    "image": "https://payload.vega.dk/media/VEGA_Kalender_MikaelSimpson_2026-1200x630.jpg",
-    "source": "VEGA"
-  },
-  {
     "id": "vega-store-vega-2026-11-14-mikael-simpson---ekstrakoncert",
     "artist": "Mikael Simpson - Ekstrakoncert",
     "date": "2026-11-14",
