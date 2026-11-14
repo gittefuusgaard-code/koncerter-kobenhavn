@@ -1,18 +1,5 @@
 [
   {
-    "id": "direct-pumpehuset-2026-11-13--oplev-icona-pop-live-i-pumpehuset",
-    "artist": "Oplev Icona Pop live i Pumpehuset",
-    "date": "2026-11-13",
-    "time": "",
-    "venue": "Pumpehuset",
-    "room": "Pumpehuset",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://pumpehuset.dk/koncerter/icona-pop/",
-    "image": "https://pumpehuset.dk/wp-content/uploads/icona-po-p-e1779257970784.jpg",
-    "source": "Pumpehuset"
-  },
-  {
     "id": "direct-bremen-teater-2026-11-14-18-30-bodil-j-rgensen---lisbeth-wulff",
     "artist": "Bodil Jørgensen & Lisbeth Wulff",
     "date": "2026-11-14",
@@ -244,6 +231,19 @@
     "status": "Billetter",
     "url": "https://pumpehuset.dk/koncerter/dizzy-dros/",
     "image": "https://pumpehuset.dk/wp-content/uploads/Dizzy-Dros.jpg",
+    "source": "Pumpehuset"
+  },
+  {
+    "id": "direct-pumpehuset-2026-11-25--morbidfest-indtager-pumpehuset-25--november",
+    "artist": "Morbidfest indtager Pumpehuset 25. november",
+    "date": "2026-11-25",
+    "time": "",
+    "venue": "Pumpehuset",
+    "room": "Pumpehuset",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://pumpehuset.dk/koncerter/tre-legendariske-navne-fra-den-klassiske-death-metal-scene-samles-til-morbidfest-i-pumpehuset-25-november/",
+    "image": "https://pumpehuset.dk/wp-content/uploads/I-AM-MORBID_band-photo_photo-by-Felix-Boy-1.jpg",
     "source": "Pumpehuset"
   },
   {
