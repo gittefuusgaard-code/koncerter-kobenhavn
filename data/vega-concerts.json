@@ -1651,19 +1651,6 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-store-vega-2027-04-29-s-n",
-    "artist": "Søn",
-    "date": "2027-04-29",
-    "time": "20:00",
-    "venue": "Store VEGA",
-    "room": "Store VEGA",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://vega.dk/event/son-2027-04-29",
-    "image": "https://payload.vega.dk/media/VEGA_Kalender_SÃ¸n_2027-1200x630.jpg",
-    "source": "VEGA"
-  },
-  {
     "id": "vega-lille-vega-2027-04-29-papa-e",
     "artist": "Papa E",
     "date": "2027-04-29",
@@ -1674,6 +1661,19 @@
     "status": "Billetter",
     "url": "https://vega.dk/event/papa-e-2027-04-29",
     "image": "https://payload.vega.dk/media/VEGA_Kalender_2027_PapaE-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-store-vega-2027-04-29-s-n",
+    "artist": "Søn",
+    "date": "2027-04-29",
+    "time": "20:00",
+    "venue": "Store VEGA",
+    "room": "Store VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/son-2027-04-29",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_SÃ¸n_2027-1200x630.jpg",
     "source": "VEGA"
   },
   {
@@ -1843,6 +1843,19 @@
     "status": "Billetter",
     "url": "https://vega.dk/event/john-vincent-iii-2027-06-05",
     "image": "https://payload.vega.dk/media/VEGA_Kalender_JohnVincentIII_2026-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-store-vega-2027-06-08-noga-erez",
+    "artist": "Noga Erez",
+    "date": "2027-06-08",
+    "time": "20:00",
+    "venue": "Store VEGA",
+    "room": "Store VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/noga-erez-2027-06-08",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_NogaErez_2027-1200x630.jpg",
     "source": "VEGA"
   },
   {
