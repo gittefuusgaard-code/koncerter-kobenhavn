@@ -1,44 +1,5 @@
 [
   {
-    "id": "dr-tigeroak-2026-11-13-20-00",
-    "artist": "Tigeroak",
-    "date": "2026-11-13",
-    "time": "20:00",
-    "venue": "DR Koncerthuset",
-    "room": "KONCERTSALEN",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://www.drkoncerthuset.dk/kalender/2026/tigeroak/tigeroak/",
-    "image": "https://www.drkoncerthuset.dk/media/shnly3sg/261113-tigeroak_2550x1275_02.jpg?width=1600&height=800&v=1dc5d19b3fa6790&quality=80",
-    "source": "DR Koncerthuset"
-  },
-  {
-    "id": "dr-nicko-mcbrain-2026-11-13-20-30",
-    "artist": "Nicko McBrain",
-    "date": "2026-11-13",
-    "time": "20:30",
-    "venue": "DR Koncerthuset",
-    "room": "STUDIE 2",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://www.drkoncerthuset.dk/kalender/2026/nicko-mcbrain/nicko-mcbrain-an-evening-with-nicko-mcbrain/",
-    "image": "https://www.drkoncerthuset.dk/media/druf3p3y/event_34763.jpg?mode=crop&width=1200&height=630&quality=80",
-    "source": "DR Koncerthuset"
-  },
-  {
-    "id": "dr-b-rstes-store-julefest-2026-11-14-09-30",
-    "artist": "Børstes store julefest",
-    "date": "2026-11-14",
-    "time": "09:30",
-    "venue": "DR Koncerthuset",
-    "room": "STUDIE 1",
-    "genre": "Andet",
-    "status": "Venteliste",
-    "url": "https://www.drkoncerthuset.dk/kalender/2026/boerstes-store-julefest/boerstes-store-julefest/",
-    "image": "https://www.drkoncerthuset.dk/media/hxxbcay5/event_34884.jpg?mode=crop&width=1200&height=630&quality=80",
-    "source": "DR Koncerthuset"
-  },
-  {
     "id": "dr-b-rstes-store-julefest-2026-11-14-11-45",
     "artist": "Børstes store julefest",
     "date": "2026-11-14",
@@ -48,7 +9,7 @@
     "genre": "Andet",
     "status": "Venteliste",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/boerstes-store-julefest/boerstes-store-julefest-1/",
-    "image": "https://www.drkoncerthuset.dk/media/hxxbcay5/event_34884.jpg?mode=crop&width=1200&height=630&quality=80",
+    "image": "https://www.drkoncerthuset.dk/media/b5wno1b3/boerste-store-julefest-2.jpg?rxy=0.6301854225723879,0.39498995378860524&width=1600&height=800&v=1dd0d1acec15370&quality=80",
     "source": "DR Koncerthuset"
   },
   {
@@ -61,7 +22,7 @@
     "genre": "Andet",
     "status": "Venteliste",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/boerstes-store-julefest/boerstes-store-julefest-2/",
-    "image": "https://www.drkoncerthuset.dk/media/hxxbcay5/event_34884.jpg?mode=crop&width=1200&height=630&quality=80",
+    "image": "https://www.drkoncerthuset.dk/media/b5wno1b3/boerste-store-julefest-2.jpg?rxy=0.6301854225723879,0.39498995378860524&width=1600&height=800&v=1dd0d1acec15370&quality=80",
     "source": "DR Koncerthuset"
   },
   {
@@ -74,7 +35,7 @@
     "genre": "Andet",
     "status": "Venteliste",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/guldimund/guldimund/",
-    "image": "https://www.drkoncerthuset.dk/media/tgwc3wpz/event_30122.jpg?mode=crop&width=1200&height=630&quality=80",
+    "image": "https://www.drkoncerthuset.dk/media/tgwc3wpz/event_30122.jpg?width=1600&height=800&v=1dc369f775f3360&quality=80",
     "source": "DR Koncerthuset"
   },
   {
@@ -87,7 +48,7 @@
     "genre": "Andet",
     "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/milo/milo/",
-    "image": "https://www.drkoncerthuset.dk/media/21ejr5zo/event_32939.jpg?mode=crop&width=1200&height=630&quality=80",
+    "image": "https://www.drkoncerthuset.dk/media/21ejr5zo/event_32939.jpg?width=1600&height=800&v=1dcb131f652af00&quality=80",
     "source": "DR Koncerthuset"
   },
   {
@@ -100,7 +61,7 @@
     "genre": "Andet",
     "status": "Venteliste",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/boerstes-store-julefest/boerstes-store-julefest-3/",
-    "image": "https://www.drkoncerthuset.dk/media/hxxbcay5/event_34884.jpg?mode=crop&width=1200&height=630&quality=80",
+    "image": "https://www.drkoncerthuset.dk/media/b5wno1b3/boerste-store-julefest-2.jpg?rxy=0.6301854225723879,0.39498995378860524&width=1600&height=800&v=1dd0d1acec15370&quality=80",
     "source": "DR Koncerthuset"
   },
   {
@@ -113,7 +74,7 @@
     "genre": "Andet",
     "status": "Venteliste",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/boerstes-store-julefest/boerstes-store-julefest-4/",
-    "image": "https://www.drkoncerthuset.dk/media/hxxbcay5/event_34884.jpg?mode=crop&width=1200&height=630&quality=80",
+    "image": "https://www.drkoncerthuset.dk/media/b5wno1b3/boerste-store-julefest-2.jpg?rxy=0.6301854225723879,0.39498995378860524&width=1600&height=800&v=1dd0d1acec15370&quality=80",
     "source": "DR Koncerthuset"
   },
   {
