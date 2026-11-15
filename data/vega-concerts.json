@@ -1,31 +1,5 @@
 [
   {
-    "id": "vega-store-vega-2026-11-14-mikael-simpson---ekstrakoncert",
-    "artist": "Mikael Simpson - Ekstrakoncert",
-    "date": "2026-11-14",
-    "time": "20:00",
-    "venue": "Store VEGA",
-    "room": "Store VEGA",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://vega.dk/event/mikael-simpson-ekstrakoncert-2026-11-14",
-    "image": "https://payload.vega.dk/media/VEGA_Kalender_MikaelSimpson_2026-1200x630.jpg",
-    "source": "VEGA"
-  },
-  {
-    "id": "vega-lille-vega-2026-11-14-100-wet",
-    "artist": "100%WET",
-    "date": "2026-11-14",
-    "time": "21:00",
-    "venue": "Lille VEGA",
-    "room": "Lille VEGA",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://vega.dk/event/100percentwet-2026-11-14",
-    "image": "https://payload.vega.dk/media/2026_Kalender_100WET-1200x630.jpg",
-    "source": "VEGA"
-  },
-  {
     "id": "vega-lille-vega-2026-11-17-archspire",
     "artist": "Archspire",
     "date": "2026-11-17",
