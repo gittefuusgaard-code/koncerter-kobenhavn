@@ -1,44 +1,5 @@
 [
   {
-    "id": "direct-bremen-teater-2026-11-14-18-30-bodil-j-rgensen---lisbeth-wulff",
-    "artist": "Bodil Jørgensen & Lisbeth Wulff",
-    "date": "2026-11-14",
-    "time": "18:30",
-    "venue": "Bremen Teater",
-    "room": "Bremen Teater",
-    "genre": "Andet",
-    "status": "Udsolgt",
-    "url": "https://www.brementeater.dk/arrangementer/bodil-jorgensen-lisbeth-wulff",
-    "image": "",
-    "source": "Bremen Teater"
-  },
-  {
-    "id": "direct-bremen-teater-2026-11-14-15-00-bodil-j-rgensen---lisbeth-wulff",
-    "artist": "Bodil Jørgensen & Lisbeth Wulff",
-    "date": "2026-11-14",
-    "time": "15:00",
-    "venue": "Bremen Teater",
-    "room": "Bremen Teater",
-    "genre": "Andet",
-    "status": "Udsolgt",
-    "url": "https://www.brementeater.dk/arrangementer/bodil-jorgensen-lisbeth-wulff",
-    "image": "",
-    "source": "Bremen Teater"
-  },
-  {
-    "id": "direct-royal-arena-2026-11-14--queen-machine",
-    "artist": "Queen Machine",
-    "date": "2026-11-14",
-    "time": "",
-    "venue": "Royal Arena",
-    "room": "Royal Arena",
-    "genre": "Andet",
-    "status": "Udsolgt",
-    "url": "https://www.royalarena.dk/all-events/queen-machine-tickets-ae1259871",
-    "image": "https://networksites.livenationinternational.com/networksites/jg3hdv5e/queenmachine_royalarena1920x1080text_0.jpg",
-    "source": "Royal Arena"
-  },
-  {
     "id": "direct-k-b--hallen-2026-11-15-20-00-the-kid-laroi---support--nate-sib---opener--wizthemc",
     "artist": "the Kid LAROI - Support: Nate Sib + Opener: WizTheMc",
     "date": "2026-11-15",
