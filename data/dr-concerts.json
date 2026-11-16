@@ -1,44 +1,5 @@
 [
   {
-    "id": "dr-b-rstes-store-julefest-2026-11-15-14-00",
-    "artist": "Børstes store julefest",
-    "date": "2026-11-15",
-    "time": "14:00",
-    "venue": "DR Koncerthuset",
-    "room": "STUDIE 1",
-    "genre": "Andet",
-    "status": "Venteliste",
-    "url": "https://www.drkoncerthuset.dk/kalender/2026/boerstes-store-julefest/boerstes-store-julefest-5/",
-    "image": "https://www.drkoncerthuset.dk/media/b5wno1b3/boerste-store-julefest-2.jpg?rxy=0.6301854225723879,0.39498995378860524&width=1600&height=800&v=1dd0d1acec15370&quality=80",
-    "source": "DR Koncerthuset"
-  },
-  {
-    "id": "dr-genevieve-stokes-2026-11-15-19-30",
-    "artist": "Genevieve Stokes",
-    "date": "2026-11-15",
-    "time": "19:30",
-    "venue": "DR Koncerthuset",
-    "room": "STUDIE 3",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://www.drkoncerthuset.dk/kalender/2026/genevieve-stokes/genevieve-stokes/",
-    "image": "https://www.drkoncerthuset.dk/media/1djfnkxq/event_34196.jpg?width=1600&height=800&v=1dcf7f361deb090&quality=80",
-    "source": "DR Koncerthuset"
-  },
-  {
-    "id": "dr-guldimund-2026-11-15-20-00",
-    "artist": "Guldimund",
-    "date": "2026-11-15",
-    "time": "20:00",
-    "venue": "DR Koncerthuset",
-    "room": "KONCERTSALEN",
-    "genre": "Andet",
-    "status": "Venteliste",
-    "url": "https://www.drkoncerthuset.dk/kalender/2026/guldimund/guldimund-ekstrakoncert/",
-    "image": "https://www.drkoncerthuset.dk/media/tgwc3wpz/event_30122.jpg?mode=crop&width=1200&height=630&quality=80",
-    "source": "DR Koncerthuset"
-  },
-  {
     "id": "dr-joan-as-police-woman-2026-11-16-19-30",
     "artist": "Joan As Police Woman",
     "date": "2026-11-16",
@@ -48,7 +9,7 @@
     "genre": "Andet",
     "status": "Venteliste",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/joan-as-police-woman/joan-as-police-woman-20-years-of-real-life/",
-    "image": "https://www.drkoncerthuset.dk/media/ewdlinrs/event_30700.jpg?mode=crop&width=1200&height=630&quality=80",
+    "image": "https://www.drkoncerthuset.dk/media/ewdlinrs/event_30700.jpg?width=1600&height=800&v=1dc684b784b9f10&quality=80",
     "source": "DR Koncerthuset"
   },
   {
@@ -61,7 +22,7 @@
     "genre": "Andet",
     "status": "Venteliste",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/guldimund/guldimund-2-ekstrakoncert/",
-    "image": "https://www.drkoncerthuset.dk/media/tgwc3wpz/event_30122.jpg?mode=crop&width=1200&height=630&quality=80",
+    "image": "https://www.drkoncerthuset.dk/media/tgwc3wpz/event_30122.jpg?width=1600&height=800&v=1dc369f775f3360&quality=80",
     "source": "DR Koncerthuset"
   },
   {
@@ -293,7 +254,7 @@
     "venue": "DR Koncerthuset",
     "room": "KONCERTSALEN",
     "genre": "Andet",
-    "status": "Billetter",
+    "status": "Venteliste",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/its-actually-christmas/its-actually-christmas-at-the-symphony/",
     "image": "https://www.drkoncerthuset.dk/media/uman5tbr/event_32652.jpg?mode=crop&width=1200&height=630&quality=80",
     "source": "DR Koncerthuset"
@@ -306,7 +267,7 @@
     "venue": "DR Koncerthuset",
     "room": "KONCERTSALEN",
     "genre": "Andet",
-    "status": "Billetter",
+    "status": "Venteliste",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/its-actually-christmas/its-actually-christmas-at-the-symphony-1/",
     "image": "https://www.drkoncerthuset.dk/media/uman5tbr/event_32652.jpg?mode=crop&width=1200&height=630&quality=80",
     "source": "DR Koncerthuset"
@@ -332,7 +293,7 @@
     "venue": "DR Koncerthuset",
     "room": "KONCERTSALEN",
     "genre": "Andet",
-    "status": "Billetter",
+    "status": "Venteliste",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/its-actually-christmas/its-actually-christmas-at-the-symphony-2/",
     "image": "https://www.drkoncerthuset.dk/media/uman5tbr/event_32652.jpg?mode=crop&width=1200&height=630&quality=80",
     "source": "DR Koncerthuset"
@@ -1710,7 +1671,7 @@
     "venue": "DR Koncerthuset",
     "room": "STUDIE 2",
     "genre": "Andet",
-    "status": "Billetter",
+    "status": "Venteliste",
     "url": "https://www.drkoncerthuset.dk/kalender/2027/blanco-white/blanco-white/",
     "image": "https://www.drkoncerthuset.dk/media/jz0pczij/event_33836.jpg?mode=crop&width=1200&height=630&quality=80",
     "source": "DR Koncerthuset"
@@ -2158,6 +2119,19 @@
     "source": "DR Koncerthuset"
   },
   {
+    "id": "dr-brimheim-2027-04-03-21-00",
+    "artist": "Brimheim",
+    "date": "2027-04-03",
+    "time": "21:00",
+    "venue": "DR Koncerthuset",
+    "room": "STUDIE 2",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://www.drkoncerthuset.dk/kalender/2027/brimheim/brimheim/",
+    "image": "https://www.drkoncerthuset.dk/media/f2alegjw/event_35728.jpg?mode=crop&width=1200&height=630&quality=80",
+    "source": "DR Koncerthuset"
+  },
+  {
     "id": "dr-saraste---brahms-2027-04-08-19-30",
     "artist": "Saraste & Brahms",
     "date": "2027-04-08",
@@ -2441,6 +2415,19 @@
     "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2027/bianca-del-rio/bianca-del-rio-bianca-del-rio-it-gets-bitter/",
     "image": "https://www.drkoncerthuset.dk/media/ftvpzlwb/event_35132.jpg?mode=crop&width=1200&height=630&quality=80",
+    "source": "DR Koncerthuset"
+  },
+  {
+    "id": "dr-aland-z-2027-05-04-20-30",
+    "artist": "Aland Z",
+    "date": "2027-05-04",
+    "time": "20:30",
+    "venue": "DR Koncerthuset",
+    "room": "STUDIE 3",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://www.drkoncerthuset.dk/kalender/2027/aland-z/aland-z/",
+    "image": "https://www.drkoncerthuset.dk/media/23ibbcgn/event_35729.jpg?mode=crop&width=1200&height=630&quality=80",
     "source": "DR Koncerthuset"
   },
   {
