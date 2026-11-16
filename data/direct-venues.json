@@ -728,6 +728,19 @@
     "source": "Bremen Teater"
   },
   {
+    "id": "direct-k-b--hallen-2027-04-08-20-00-the-flaming-lips",
+    "artist": "The Flaming Lips",
+    "date": "2027-04-08",
+    "time": "20:00",
+    "venue": "K.B. Hallen",
+    "room": "K.B. Hallen",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://kbhallen.dk/event/the-flaming-lips_2027-04-08/",
+    "image": "https://kbhallen.dk/site/assets/files/5052/20261007_bandphoto_pinkcoat.1920x1080.jpg",
+    "source": "K.B. Hallen"
+  },
+  {
     "id": "direct-k-b--hallen-2027-04-09-20-00-michael--starring-ben---direct-from-the-west-end",
     "artist": "Michael® Starring Ben - Direct From The West End",
     "date": "2027-04-09",
@@ -985,6 +998,19 @@
     "status": "Billetter",
     "url": "https://kbhallen.dk/event/the-dead-south_2027-11-21/",
     "image": "https://kbhallen.dk/site/assets/files/5068/the_dead_south_-_20260314.1920x1080.jpg",
+    "source": "K.B. Hallen"
+  },
+  {
+    "id": "direct-k-b--hallen-2027-11-27-20-00-the-human-league",
+    "artist": "The Human League",
+    "date": "2027-11-27",
+    "time": "20:00",
+    "venue": "K.B. Hallen",
+    "room": "K.B. Hallen",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://kbhallen.dk/event/the-human-league_2027-11-27/",
+    "image": "https://kbhallen.dk/site/assets/files/5083/press_photo.1920x1080.jpg",
     "source": "K.B. Hallen"
   }
 ]
