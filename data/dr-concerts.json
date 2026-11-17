@@ -1,31 +1,5 @@
 [
   {
-    "id": "dr-joan-as-police-woman-2026-11-16-19-30",
-    "artist": "Joan As Police Woman",
-    "date": "2026-11-16",
-    "time": "19:30",
-    "venue": "DR Koncerthuset",
-    "room": "STUDIE 2",
-    "genre": "Andet",
-    "status": "Venteliste",
-    "url": "https://www.drkoncerthuset.dk/kalender/2026/joan-as-police-woman/joan-as-police-woman-20-years-of-real-life/",
-    "image": "https://www.drkoncerthuset.dk/media/ewdlinrs/event_30700.jpg?width=1600&height=800&v=1dc684b784b9f10&quality=80",
-    "source": "DR Koncerthuset"
-  },
-  {
-    "id": "dr-guldimund-2026-11-16-20-00",
-    "artist": "Guldimund",
-    "date": "2026-11-16",
-    "time": "20:00",
-    "venue": "DR Koncerthuset",
-    "room": "KONCERTSALEN",
-    "genre": "Andet",
-    "status": "Venteliste",
-    "url": "https://www.drkoncerthuset.dk/kalender/2026/guldimund/guldimund-2-ekstrakoncert/",
-    "image": "https://www.drkoncerthuset.dk/media/tgwc3wpz/event_30122.jpg?width=1600&height=800&v=1dc369f775f3360&quality=80",
-    "source": "DR Koncerthuset"
-  },
-  {
     "id": "dr-10cc-2026-11-17-20-00",
     "artist": "10cc",
     "date": "2026-11-17",
@@ -33,9 +7,9 @@
     "venue": "DR Koncerthuset",
     "room": "KONCERTSALEN",
     "genre": "Andet",
-    "status": "Venteliste",
+    "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/10cc/10cc/",
-    "image": "https://www.drkoncerthuset.dk/media/yj5lw5s4/event_30631.jpg?mode=crop&width=1200&height=630&quality=80",
+    "image": "https://www.drkoncerthuset.dk/media/yj5lw5s4/event_30631.jpg?width=1600&height=800&v=1dc60416e77fbd0&quality=80",
     "source": "DR Koncerthuset"
   },
   {
@@ -48,7 +22,7 @@
     "genre": "Andet",
     "status": "Venteliste",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/frida-saiya/frida-saiya/",
-    "image": "https://www.drkoncerthuset.dk/media/c2cos1af/event_33312.jpg?mode=crop&width=1200&height=630&quality=80",
+    "image": "https://www.drkoncerthuset.dk/media/c2cos1af/event_33312.jpg?width=1600&height=800&v=1dccb2e36ccd540&quality=80",
     "source": "DR Koncerthuset"
   },
   {
@@ -61,7 +35,7 @@
     "genre": "Andet",
     "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/jacob-aksglaede/jacob-aksglaede/",
-    "image": "https://www.drkoncerthuset.dk/media/c5te4fco/event_30577.jpg?mode=crop&width=1200&height=630&quality=80",
+    "image": "https://www.drkoncerthuset.dk/media/c5te4fco/event_30577.jpg?width=1600&height=800&v=1dc5ac6ca6b5b10&quality=80",
     "source": "DR Koncerthuset"
   },
   {
@@ -74,7 +48,7 @@
     "genre": "Andet",
     "status": "Venteliste",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/when-saints-go-machine/when-saints-go-machine/",
-    "image": "https://www.drkoncerthuset.dk/media/ay4hcbkx/event_31049.jpg?mode=crop&width=1200&height=630&quality=80",
+    "image": "https://www.drkoncerthuset.dk/media/ay4hcbkx/event_31049.jpg?width=1600&height=800&v=1dc8c5bb19be9d0&quality=80",
     "source": "DR Koncerthuset"
   },
   {
@@ -87,7 +61,7 @@
     "genre": "Andet",
     "status": "Venteliste",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/boerstes-store-julefest/boerstes-store-julefest-6/",
-    "image": "https://www.drkoncerthuset.dk/media/hxxbcay5/event_34884.jpg?mode=crop&width=1200&height=630&quality=80",
+    "image": "https://www.drkoncerthuset.dk/media/b5wno1b3/boerste-store-julefest-2.jpg?rxy=0.6301854225723879,0.39498995378860524&width=1600&height=800&v=1dd0d1acec15370&quality=80",
     "source": "DR Koncerthuset"
   },
   {
@@ -100,7 +74,7 @@
     "genre": "Andet",
     "status": "Venteliste",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/boerstes-store-julefest/boerstes-store-julefest-7/",
-    "image": "https://www.drkoncerthuset.dk/media/hxxbcay5/event_34884.jpg?mode=crop&width=1200&height=630&quality=80",
+    "image": "https://www.drkoncerthuset.dk/media/b5wno1b3/boerste-store-julefest-2.jpg?rxy=0.6301854225723879,0.39498995378860524&width=1600&height=800&v=1dd0d1acec15370&quality=80",
     "source": "DR Koncerthuset"
   },
   {
@@ -384,7 +358,7 @@
     "venue": "DR Koncerthuset",
     "room": "KONCERTSALEN",
     "genre": "Andet",
-    "status": "Venteliste",
+    "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/drs-store-juleshow/drs-store-juleshow/",
     "image": "https://www.drkoncerthuset.dk/media/uzca5plo/event_35197.jpg?mode=crop&width=1200&height=630&quality=80",
     "source": "DR Koncerthuset"
@@ -410,7 +384,7 @@
     "venue": "DR Koncerthuset",
     "room": "KONCERTSALEN",
     "genre": "Andet",
-    "status": "Venteliste",
+    "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/drs-store-juleshow/drs-store-juleshow-1/",
     "image": "https://www.drkoncerthuset.dk/media/uzca5plo/event_35197.jpg?mode=crop&width=1200&height=630&quality=80",
     "source": "DR Koncerthuset"
@@ -2402,6 +2376,19 @@
     "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2027/drew-sycamore/drew-sycamore/",
     "image": "https://www.drkoncerthuset.dk/media/qzzgy2dj/event_33308.jpg?mode=crop&width=1200&height=630&quality=80",
+    "source": "DR Koncerthuset"
+  },
+  {
+    "id": "dr-astrid-engberg-2027-04-30-20-30",
+    "artist": "Astrid Engberg",
+    "date": "2027-04-30",
+    "time": "20:30",
+    "venue": "DR Koncerthuset",
+    "room": "STUDIE 2",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://www.drkoncerthuset.dk/kalender/2027/astrid-engberg/astrid-engberg/",
+    "image": "https://www.drkoncerthuset.dk/media/oyrjn2dw/event_35499.jpg?mode=crop&width=1200&height=630&quality=80",
     "source": "DR Koncerthuset"
   },
   {
