@@ -208,19 +208,6 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-store-vega-2026-11-28-carpark-north",
-    "artist": "Carpark North",
-    "date": "2026-11-28",
-    "time": "20:00",
-    "venue": "Store VEGA",
-    "room": "Store VEGA",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://vega.dk/event/carpark-north-2026-11-28",
-    "image": "https://payload.vega.dk/media/Vega-Kalender-CarparkNorth-1200x630.jpg",
-    "source": "VEGA"
-  },
-  {
     "id": "vega-lille-vega-2026-11-28-downtown-july",
     "artist": "Downtown July",
     "date": "2026-11-28",
@@ -231,6 +218,19 @@
     "status": "Billetter",
     "url": "https://vega.dk/event/downtown-july-2026-11-28",
     "image": "https://payload.vega.dk/media/VEGA_Kalender_DowntownJuly_2026-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-store-vega-2026-11-28-carpark-north",
+    "artist": "Carpark North",
+    "date": "2026-11-28",
+    "time": "20:00",
+    "venue": "Store VEGA",
+    "room": "Store VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/carpark-north-2026-11-28",
+    "image": "https://payload.vega.dk/media/Vega-Kalender-CarparkNorth-1200x630.jpg",
     "source": "VEGA"
   },
   {
