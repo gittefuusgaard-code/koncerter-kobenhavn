@@ -52,19 +52,6 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-store-vega-2026-11-19-michael-williams",
-    "artist": "Michael Williams",
-    "date": "2026-11-19",
-    "time": "20:00",
-    "venue": "Store VEGA",
-    "room": "Store VEGA",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://vega.dk/event/michael-williams-2026-11-19",
-    "image": "https://payload.vega.dk/media/MichaelWilliams-1200x630.jpg",
-    "source": "VEGA"
-  },
-  {
     "id": "vega-lille-vega-2026-11-19-the-browning",
     "artist": "The Browning",
     "date": "2026-11-19",
@@ -75,6 +62,19 @@
     "status": "Billetter",
     "url": "https://vega.dk/event/the-browning-2026-11-19",
     "image": "https://payload.vega.dk/media/2026_Kalender_TheBrowning-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-store-vega-2026-11-19-michael-williams",
+    "artist": "Michael Williams",
+    "date": "2026-11-19",
+    "time": "20:00",
+    "venue": "Store VEGA",
+    "room": "Store VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/michael-williams-2026-11-19",
+    "image": "https://payload.vega.dk/media/MichaelWilliams-1200x630.jpg",
     "source": "VEGA"
   },
   {
@@ -91,19 +91,6 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-store-vega-2026-11-21-notion",
-    "artist": "NOTION",
-    "date": "2026-11-21",
-    "time": "22:00",
-    "venue": "Store VEGA",
-    "room": "Store VEGA",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://vega.dk/event/notion-2026-11-21",
-    "image": "https://payload.vega.dk/media/VEGA_Kalender_NOTION_2026-1200x630.jpg",
-    "source": "VEGA"
-  },
-  {
     "id": "vega-lille-vega-2026-11-21-junkyard-drive-den-21--november",
     "artist": "Junkyard Drive den 21. november",
     "date": "2026-11-21",
@@ -114,6 +101,19 @@
     "status": "Billetter",
     "url": "https://vega.dk/event/junkyard-drive-2026-11-21",
     "image": "https://payload.vega.dk/media/VEGA_Kalender_JunkyardDrive_2026-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-store-vega-2026-11-21-notion",
+    "artist": "NOTION",
+    "date": "2026-11-21",
+    "time": "22:00",
+    "venue": "Store VEGA",
+    "room": "Store VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/notion-2026-11-21",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_NOTION_2026-1200x630.jpg",
     "source": "VEGA"
   },
   {
@@ -299,19 +299,6 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-store-vega-2026-12-05-roya",
-    "artist": "ROYA",
-    "date": "2026-12-05",
-    "time": "20:00",
-    "venue": "Store VEGA",
-    "room": "Store VEGA",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://vega.dk/event/roya-2026-12-05",
-    "image": "https://payload.vega.dk/media/VEGA_Kalender_ROYA_2026-1200x630.jpg",
-    "source": "VEGA"
-  },
-  {
     "id": "vega-lille-vega-2026-12-05-guzo",
     "artist": "GUZO",
     "date": "2026-12-05",
@@ -322,6 +309,19 @@
     "status": "Billetter",
     "url": "https://vega.dk/event/guzo-2026-12-05",
     "image": "https://payload.vega.dk/media/2026_Kalender_GUZO-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-store-vega-2026-12-05-roya",
+    "artist": "ROYA",
+    "date": "2026-12-05",
+    "time": "20:00",
+    "venue": "Store VEGA",
+    "room": "Store VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/roya-2026-12-05",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_ROYA_2026-1200x630.jpg",
     "source": "VEGA"
   },
   {
@@ -1482,19 +1482,6 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-store-vega-2027-04-14-natkat",
-    "artist": "NATKAT",
-    "date": "2027-04-14",
-    "time": "20:00",
-    "venue": "Store VEGA",
-    "room": "Store VEGA",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://vega.dk/event/natkat-2027-04-14",
-    "image": "https://payload.vega.dk/media/VEGA_Kalender_NATKAT_2027-1200x630.jpg",
-    "source": "VEGA"
-  },
-  {
     "id": "vega-lille-vega-2027-04-14-revocation",
     "artist": "Revocation",
     "date": "2027-04-14",
@@ -1505,6 +1492,19 @@
     "status": "Billetter",
     "url": "https://vega.dk/event/revocation-2027-04-14",
     "image": "https://payload.vega.dk/media/VEGA_Kalender_Revocation_2027-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-store-vega-2027-04-14-natkat",
+    "artist": "NATKAT",
+    "date": "2027-04-14",
+    "time": "20:00",
+    "venue": "Store VEGA",
+    "room": "Store VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/natkat-2027-04-14",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_NATKAT_2027-1200x630.jpg",
     "source": "VEGA"
   },
   {
@@ -1986,6 +1986,19 @@
     "status": "Billetter",
     "url": "https://vega.dk/event/kanonenfieber-2027-11-27",
     "image": "https://payload.vega.dk/media/Kanonenfieber - pressebillede - VEGA - 271126-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-store-vega-2027-12-04-turboweekend",
+    "artist": "Turboweekend",
+    "date": "2027-12-04",
+    "time": "20:00",
+    "venue": "Store VEGA",
+    "room": "Store VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/turboweekend-2027-12-04",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_Turboweekend_2027-1200x630.jpg",
     "source": "VEGA"
   }
 ]
