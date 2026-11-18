@@ -1,44 +1,5 @@
 [
   {
-    "id": "direct-k-b--hallen-2026-11-17-17-30--rets-tr-2026",
-    "artist": "Årets TR 2026",
-    "date": "2026-11-17",
-    "time": "17:30",
-    "venue": "K.B. Hallen",
-    "room": "K.B. Hallen",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://kbhallen.dk/event/arets-tr-2026_2026-11-17/",
-    "image": "https://kbhallen.dk/site/assets/files/5003/atr_vertikal_baggrund.1920x1080.png",
-    "source": "K.B. Hallen"
-  },
-  {
-    "id": "direct-pumpehuset-2026-11-17--tinie-tempah-er-tilbage-med-koncert-i-danmark-til-efter-ret",
-    "artist": "Tinie Tempah er tilbage med koncert i Danmark til efteråret",
-    "date": "2026-11-17",
-    "time": "",
-    "venue": "Pumpehuset",
-    "room": "Pumpehuset",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://pumpehuset.dk/koncerter/tinie-tempah/",
-    "image": "https://pumpehuset.dk/wp-content/uploads/Tinie-Tempah.jpg",
-    "source": "Pumpehuset"
-  },
-  {
-    "id": "direct-royal-arena-2026-11-17--the-prodigy",
-    "artist": "The Prodigy",
-    "date": "2026-11-17",
-    "time": "",
-    "venue": "Royal Arena",
-    "room": "Royal Arena",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://www.royalarena.dk/all-events/the-prodigy-tickets-ae8441",
-    "image": "https://dynamicmedia.livenationinternational.com/a/b/x/f97fd1d0-6be4-4b87-b091-c7a2951e31d9.jpg",
-    "source": "Royal Arena"
-  },
-  {
     "id": "direct-k-b--hallen-2026-11-18-20-00-jessie-ware---with-very-special-guest--naomi-scott",
     "artist": "Jessie Ware - With very special guest: Naomi Scott",
     "date": "2026-11-18",
@@ -179,6 +140,19 @@
     "status": "Billetter",
     "url": "https://pumpehuset.dk/koncerter/any-given-day/",
     "image": "https://pumpehuset.dk/wp-content/uploads/Any-Given-Day.jpg",
+    "source": "Pumpehuset"
+  },
+  {
+    "id": "direct-pumpehuset-2026-11-26--grime-time-2-i-pumpehuset",
+    "artist": "Grime Time 2 i Pumpehuset",
+    "date": "2026-11-26",
+    "time": "",
+    "venue": "Pumpehuset",
+    "room": "Pumpehuset",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://pumpehuset.dk/koncerter/grime-time-2/",
+    "image": "https://pumpehuset.dk/wp-content/uploads/GRIME-TIME-2-TEASER-POSTER.jpg",
     "source": "Pumpehuset"
   },
   {
