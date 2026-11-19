@@ -85,7 +85,7 @@
     "venue": "DR Koncerthuset",
     "room": "STUDIE 2",
     "genre": "Andet",
-    "status": "Venteliste",
+    "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/edis/edis/",
     "image": "https://www.drkoncerthuset.dk/media/jwrg52b4/event_33992.jpg?mode=crop&width=1200&height=630&quality=80",
     "source": "DR Koncerthuset"
@@ -215,7 +215,7 @@
     "venue": "DR Koncerthuset",
     "room": "KONCERTSALEN",
     "genre": "Andet",
-    "status": "Venteliste",
+    "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/its-actually-christmas/its-actually-christmas-at-the-symphony/",
     "image": "https://www.drkoncerthuset.dk/media/uman5tbr/event_32652.jpg?mode=crop&width=1200&height=630&quality=80",
     "source": "DR Koncerthuset"
@@ -228,7 +228,7 @@
     "venue": "DR Koncerthuset",
     "room": "KONCERTSALEN",
     "genre": "Andet",
-    "status": "Venteliste",
+    "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/its-actually-christmas/its-actually-christmas-at-the-symphony-1/",
     "image": "https://www.drkoncerthuset.dk/media/uman5tbr/event_32652.jpg?mode=crop&width=1200&height=630&quality=80",
     "source": "DR Koncerthuset"
@@ -254,7 +254,7 @@
     "venue": "DR Koncerthuset",
     "room": "KONCERTSALEN",
     "genre": "Andet",
-    "status": "Venteliste",
+    "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/its-actually-christmas/its-actually-christmas-at-the-symphony-2/",
     "image": "https://www.drkoncerthuset.dk/media/uman5tbr/event_32652.jpg?mode=crop&width=1200&height=630&quality=80",
     "source": "DR Koncerthuset"
@@ -1307,7 +1307,7 @@
     "venue": "DR Koncerthuset",
     "room": "STUDIE 2",
     "genre": "Andet",
-    "status": "Billetter",
+    "status": "Venteliste",
     "url": "https://www.drkoncerthuset.dk/kalender/2027/lambchop/an-evening-with-lambchop/",
     "image": "https://www.drkoncerthuset.dk/media/1vedepwj/event_32953.jpg?mode=crop&width=1200&height=630&quality=80",
     "source": "DR Koncerthuset"
@@ -1937,6 +1937,19 @@
     "source": "DR Koncerthuset"
   },
   {
+    "id": "dr-john-carroll-kirby-2027-03-18-20-30",
+    "artist": "John Carroll Kirby",
+    "date": "2027-03-18",
+    "time": "20:30",
+    "venue": "DR Koncerthuset",
+    "room": "STUDIE 3",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://www.drkoncerthuset.dk/kalender/2027/john-carroll-kirby/john-carroll-kirby-piano-works-europe-tour-2027/",
+    "image": "https://www.drkoncerthuset.dk/media/jxzds5lw/event_35881.jpg?mode=crop&width=1200&height=630&quality=80",
+    "source": "DR Koncerthuset"
+  },
+  {
     "id": "dr-hermanos-guti-rrez-2027-03-20-20-00",
     "artist": "Hermanos Gutiérrez",
     "date": "2027-03-20",
@@ -2038,6 +2051,19 @@
     "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2027/mor-ve-oetesi/mor-ve-oetesi-unplugged-europe-tour/",
     "image": "https://www.drkoncerthuset.dk/media/5g5lqjjn/event_34799.jpg?mode=crop&width=1200&height=630&quality=80",
+    "source": "DR Koncerthuset"
+  },
+  {
+    "id": "dr-matth-uspassionen-2027-03-28-19-00",
+    "artist": "Matthæuspassionen",
+    "date": "2027-03-28",
+    "time": "19:00",
+    "venue": "DR Koncerthuset",
+    "room": "KONCERTSALEN",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://www.drkoncerthuset.dk/kalender/2027/matthaeuspassionen/matthaeuspassionen-adam-fischer-bach-med-danmarks-underholdningsorkester-og-arnold-schoenberg-chor-fra-wien/",
+    "image": "https://www.drkoncerthuset.dk/media/x1glrfac/event_35886.jpg?mode=crop&width=1200&height=630&quality=80",
     "source": "DR Koncerthuset"
   },
   {
