@@ -1,31 +1,5 @@
 [
   {
-    "id": "vega-store-vega-2026-11-18-saint-levant",
-    "artist": "Saint Levant",
-    "date": "2026-11-18",
-    "time": "20:00",
-    "venue": "Store VEGA",
-    "room": "Store VEGA",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://vega.dk/event/saint-levant-2026-11-18",
-    "image": "https://payload.vega.dk/media/VEGA_Kalender_SaintLevant_2026-1200x630.jpg",
-    "source": "VEGA"
-  },
-  {
-    "id": "vega-lille-vega-2026-11-18-leenalchi",
-    "artist": "Leenalchi",
-    "date": "2026-11-18",
-    "time": "20:00",
-    "venue": "Lille VEGA",
-    "room": "Lille VEGA",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://vega.dk/event/leenalchi-2026-11-18",
-    "image": "https://payload.vega.dk/media/2619_big-1200x630.jpg",
-    "source": "VEGA"
-  },
-  {
     "id": "vega-lille-vega-2026-11-19-the-browning",
     "artist": "The Browning",
     "date": "2026-11-19",
@@ -205,6 +179,32 @@
     "status": "Billetter",
     "url": "https://vega.dk/event/carpark-north-2026-11-28",
     "image": "https://payload.vega.dk/media/Vega-Kalender-CarparkNorth-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-store-vega-2026-11-29-arlo-parks",
+    "artist": "Arlo Parks",
+    "date": "2026-11-29",
+    "time": "20:00",
+    "venue": "Store VEGA",
+    "room": "Store VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/arlo-parks-2026-11-29",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_ArloParks_2026-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-store-vega-2026-12-01-artemas",
+    "artist": "Artemas",
+    "date": "2026-12-01",
+    "time": "20:00",
+    "venue": "Store VEGA",
+    "room": "Store VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/artemas-2026-12-01",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_Artemas_2026-1200x630.jpg",
     "source": "VEGA"
   },
   {
