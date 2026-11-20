@@ -943,7 +943,7 @@
     "venue": "DR Koncerthuset",
     "room": "KONCERTSALEN",
     "genre": "Andet",
-    "status": "Venteliste",
+    "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2027/danmarks-underholdningsorkester-hylder-kim-larsen/danmarks-underholdningsorkester-hylder-kim-larsen-8-ekstrakoncert/",
     "image": "https://www.drkoncerthuset.dk/media/3e4c2m1w/event_31138.jpg?mode=crop&width=1200&height=630&quality=80",
     "source": "DR Koncerthuset"
@@ -969,7 +969,7 @@
     "venue": "DR Koncerthuset",
     "room": "KONCERTSALEN",
     "genre": "Andet",
-    "status": "Venteliste",
+    "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2027/danmarks-underholdningsorkester-hylder-kim-larsen/danmarks-underholdningsorkester-hylder-kim-larsen-7-ekstrakoncert/",
     "image": "https://www.drkoncerthuset.dk/media/3e4c2m1w/event_31138.jpg?mode=crop&width=1200&height=630&quality=80",
     "source": "DR Koncerthuset"
@@ -995,7 +995,7 @@
     "venue": "DR Koncerthuset",
     "room": "KONCERTSALEN",
     "genre": "Andet",
-    "status": "Venteliste",
+    "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2027/danmarks-underholdningsorkester-hylder-kim-larsen/danmarks-underholdningsorkester-hylder-kim-larsen/",
     "image": "https://www.drkoncerthuset.dk/media/3e4c2m1w/event_31138.jpg?mode=crop&width=1200&height=630&quality=80",
     "source": "DR Koncerthuset"
@@ -1034,7 +1034,7 @@
     "venue": "DR Koncerthuset",
     "room": "KONCERTSALEN",
     "genre": "Andet",
-    "status": "Venteliste",
+    "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2027/danmarks-underholdningsorkester-hylder-kim-larsen/danmarks-underholdningsorkester-hylder-kim-larsen-5-ekstrakoncert/",
     "image": "https://www.drkoncerthuset.dk/media/3e4c2m1w/event_31138.jpg?mode=crop&width=1200&height=630&quality=80",
     "source": "DR Koncerthuset"
@@ -1047,7 +1047,7 @@
     "venue": "DR Koncerthuset",
     "room": "KONCERTSALEN",
     "genre": "Andet",
-    "status": "Venteliste",
+    "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2027/danmarks-underholdningsorkester-hylder-kim-larsen/danmarks-underholdningsorkester-hylder-kim-larsen-4-ekstrakoncert/",
     "image": "https://www.drkoncerthuset.dk/media/3e4c2m1w/event_31138.jpg?mode=crop&width=1200&height=630&quality=80",
     "source": "DR Koncerthuset"
@@ -1359,7 +1359,7 @@
     "venue": "DR Koncerthuset",
     "room": "KONCERTSALEN",
     "genre": "Andet",
-    "status": "Venteliste",
+    "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2027/danmarks-underholdningsorkester-hylder-kim-larsen/danmarks-underholdningsorkester-hylder-kim-larsen-9-ekstrakoncert/",
     "image": "https://www.drkoncerthuset.dk/media/3e4c2m1w/event_31138.jpg?mode=crop&width=1200&height=630&quality=80",
     "source": "DR Koncerthuset"
@@ -1372,7 +1372,7 @@
     "venue": "DR Koncerthuset",
     "room": "KONCERTSALEN",
     "genre": "Andet",
-    "status": "Venteliste",
+    "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2027/danmarks-underholdningsorkester-hylder-kim-larsen/danmarks-underholdningsorkester-hylder-kim-larsen-ekstrakoncert/",
     "image": "https://www.drkoncerthuset.dk/media/3e4c2m1w/event_31138.jpg?mode=crop&width=1200&height=630&quality=80",
     "source": "DR Koncerthuset"
@@ -1385,7 +1385,7 @@
     "venue": "DR Koncerthuset",
     "room": "KONCERTSALEN",
     "genre": "Andet",
-    "status": "Venteliste",
+    "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2027/danmarks-underholdningsorkester-hylder-kim-larsen/danmarks-underholdningsorkester-hylder-kim-larsen-10-ekstrakoncert/",
     "image": "https://www.drkoncerthuset.dk/media/3e4c2m1w/event_31138.jpg?mode=crop&width=1200&height=630&quality=80",
     "source": "DR Koncerthuset"
@@ -1398,7 +1398,7 @@
     "venue": "DR Koncerthuset",
     "room": "KONCERTSALEN",
     "genre": "Andet",
-    "status": "Venteliste",
+    "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2027/danmarks-underholdningsorkester-hylder-kim-larsen/danmarks-underholdningsorkester-hylder-kim-larsen-2-ekstrakoncert/",
     "image": "https://www.drkoncerthuset.dk/media/3e4c2m1w/event_31138.jpg?mode=crop&width=1200&height=630&quality=80",
     "source": "DR Koncerthuset"
@@ -1424,8 +1424,21 @@
     "venue": "DR Koncerthuset",
     "room": "KONCERTSALEN",
     "genre": "Andet",
-    "status": "Venteliste",
+    "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2027/danmarks-underholdningsorkester-hylder-kim-larsen/danmarks-underholdningsorkester-hylder-kim-larsen-3-ekstrakoncert/",
+    "image": "https://www.drkoncerthuset.dk/media/3e4c2m1w/event_31138.jpg?mode=crop&width=1200&height=630&quality=80",
+    "source": "DR Koncerthuset"
+  },
+  {
+    "id": "dr-danmarks-underholdningsorkester-hylder-kim-larsen-2027-02-16-16-30",
+    "artist": "Danmarks Underholdningsorkester hylder Kim Larsen",
+    "date": "2027-02-16",
+    "time": "16:30",
+    "venue": "DR Koncerthuset",
+    "room": "KONCERTSALEN",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://www.drkoncerthuset.dk/kalender/2027/danmarks-underholdningsorkester-hylder-kim-larsen/danmarks-underholdningsorkester-hylder-kim-larsen-12-ekstrakoncert/",
     "image": "https://www.drkoncerthuset.dk/media/3e4c2m1w/event_31138.jpg?mode=crop&width=1200&height=630&quality=80",
     "source": "DR Koncerthuset"
   },
@@ -1437,7 +1450,7 @@
     "venue": "DR Koncerthuset",
     "room": "KONCERTSALEN",
     "genre": "Andet",
-    "status": "Venteliste",
+    "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2027/danmarks-underholdningsorkester-hylder-kim-larsen/danmarks-underholdningsorkester-hylder-kim-larsen-6-ekstrakoncert/",
     "image": "https://www.drkoncerthuset.dk/media/3e4c2m1w/event_31138.jpg?mode=crop&width=1200&height=630&quality=80",
     "source": "DR Koncerthuset"
