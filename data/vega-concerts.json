@@ -910,6 +910,19 @@
     "source": "VEGA"
   },
   {
+    "id": "vega-lille-vega-2027-02-25-keisha",
+    "artist": "Keisha",
+    "date": "2027-02-25",
+    "time": "20:00",
+    "venue": "Lille VEGA",
+    "room": "Lille VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/keisha-2027-02-25",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_Keisha_2027-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
     "id": "vega-store-vega-2027-02-26-hugorm",
     "artist": "Hugorm",
     "date": "2027-02-26",
