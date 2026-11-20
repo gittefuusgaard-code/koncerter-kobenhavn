@@ -1,31 +1,5 @@
 [
   {
-    "id": "vega-lille-vega-2026-11-19-the-browning",
-    "artist": "The Browning",
-    "date": "2026-11-19",
-    "time": "20:00",
-    "venue": "Lille VEGA",
-    "room": "Lille VEGA",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://vega.dk/event/the-browning-2026-11-19",
-    "image": "https://payload.vega.dk/media/2026_Kalender_TheBrowning-1200x630.jpg",
-    "source": "VEGA"
-  },
-  {
-    "id": "vega-store-vega-2026-11-19-michael-williams",
-    "artist": "Michael Williams",
-    "date": "2026-11-19",
-    "time": "20:00",
-    "venue": "Store VEGA",
-    "room": "Store VEGA",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://vega.dk/event/michael-williams-2026-11-19",
-    "image": "https://payload.vega.dk/media/MichaelWilliams-1200x630.jpg",
-    "source": "VEGA"
-  },
-  {
     "id": "vega-lille-vega-2026-11-20-bar--funk",
     "artist": "Bar' Funk",
     "date": "2026-11-20",
