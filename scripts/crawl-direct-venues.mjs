@@ -36,6 +36,12 @@ const toISO=(raw)=>{
 };
 const unique=new Map();
 for(const config of configs){
+ // Royal Arena blocks automated browsers. JamBase is the active discovery source;
+ // retain the historical direct snapshot until each event date passes.
+ if(config.venue==='Royal Arena'){
+  console.log('Royal Arena: direct crawling disabled (anti-bot block); using JamBase and retained snapshot');
+  continue;
+ }
  const urls=new Set(config.start);
  const calendarUrls=new Set();
  const sitemapQueue=[new URL('/sitemap.xml',config.base).href,new URL('/wp-sitemap.xml',config.base).href];
@@ -203,6 +209,12 @@ const health={checkedAt:new Date().toISOString(),venues:[],warnings:[]};
 const protectedVenues=new Set();
 for(const config of configs){
  const before=counts(previous,config.venue),after=counts(found,config.venue);
+ if(config.venue==='Royal Arena'){
+  protectedVenues.add(config.venue);
+  health.venues.push({venue:config.venue,previousFuture:before,scrapedFuture:0,status:'external-source'});
+  health.warnings.push('Royal Arena: direct crawler disabled due to anti-bot protection; verify JamBase coverage separately');
+  continue;
+ }
  const severeDrop=before>=5 && after<Math.ceil(before*0.5);
  const emptyDrop=before>0 && after===0;
  const protectedResult=severeDrop||emptyDrop;
