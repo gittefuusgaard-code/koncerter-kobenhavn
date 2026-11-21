@@ -1,11 +1,11 @@
 {
-  "checkedAt": "2026-11-21T19:15:22.472Z",
+  "checkedAt": "2026-11-21T19:27:32.238Z",
   "venues": [
     {
       "venue": "Royal Arena",
       "previousFuture": 12,
       "scrapedFuture": 0,
-      "status": "protected"
+      "status": "external-source"
     },
     {
       "venue": "K.B. Hallen",
@@ -33,6 +33,6 @@
     }
   ],
   "warnings": [
-    "Royal Arena: scraped 0 of 12 previously stored future events; keeping previous snapshot"
+    "Royal Arena: direct crawler disabled due to anti-bot protection; verify JamBase coverage separately"
   ]
 }
