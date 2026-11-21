@@ -147,13 +147,14 @@ function toConcert(event:any):Concert|null{
 
 export async function GET(){
  const key=process.env.JAMBASE_API_KEY;
- if(!key) return NextResponse.json({concerts:[],error:'JAMBASE_API_KEY mangler',updatedAt:new Date().toISOString()},{status:500});
+ // Stored venue data must remain available even if the JamBase key is absent.
 
  try{
   const allEvents:any[]=[];
   const perPage=100;
   const maxPages=6;
 
+  if(key) try {
   for(let page=1;page<=maxPages;page++){
    const params=new URLSearchParams({
     venueName:JAMBASE_VENUES.join('|'),
@@ -167,12 +168,14 @@ export async function GET(){
     next:{revalidate:21600}
    });
    const data=await response.json();
-   if(!response.ok) return NextResponse.json({concerts:[],error:'JamBase request fejlede',details:data,updatedAt:new Date().toISOString()},{status:response.status});
+   if(!response.ok) throw new Error('JamBase HTTP '+response.status);
 
    const events=Array.isArray(data.events)?data.events:[];
    allEvents.push(...events);
    if(events.length<perPage) break;
   }
+
+  } catch(error) { console.error('JamBase unavailable; serving stored concerts:',error); }
 
   const mapped=allEvents.map(toConcert).filter(Boolean) as Concert[];
   const dr=(drStored as Concert[]).filter(c=>c.date>=new Date().toISOString().slice(0,10));
