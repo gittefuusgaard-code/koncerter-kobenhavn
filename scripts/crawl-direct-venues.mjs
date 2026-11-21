@@ -60,6 +60,18 @@ for(const config of configs){
    if(config.venue==='Royal Arena'){
     for(let i=0;i<6;i++){await page.evaluate(()=>window.scrollTo(0,document.body.scrollHeight));await page.waitForTimeout(650)}
    }
+   if(config.venue==='Royal Arena'){
+    const diagnostic=await page.evaluate(()=>({
+     title:document.title,
+     url:location.href,
+     anchors:document.querySelectorAll('a[href]').length,
+     sampleLinks:[...document.querySelectorAll('a[href]')].map(a=>a.href).filter(h=>/show|event|concert|program|kalender|ticket/i.test(h)).slice(0,12),
+     dateElements:document.querySelectorAll('time[datetime]').length,
+     jsonLd:document.querySelectorAll('script[type="application/ld+json"]').length,
+     bodySample:document.body.innerText.slice(0,450).replace(/\\s+/g,' ')
+    }));
+    console.log('ROYAL_ARENA_DIAGNOSTIC',JSON.stringify(diagnostic));
+   }
    const links=await page.locator('a[href]').evaluateAll(nodes=>nodes.map(a=>a.href));
    for(const link of links){const safe=validUrl(link,config);if(safe&&config.patterns.some(p=>p.test(new URL(safe).pathname))){urls.add(safe);calendarUrls.add(safe)}}
   }catch(e){console.log('Calendar failed',config.venue,String(e).slice(0,120))}
@@ -70,6 +82,7 @@ for(const config of configs){
  for(const url of candidates.slice(0,config.venue==='Pumpehuset'?240:350)){
   try{
    const response=await page.goto(url,{waitUntil:'domcontentloaded',timeout:15000});if(!response?.ok())continue;
+   if(config.venue==='Royal Arena' && count===0)console.log('ROYAL_ARENA_CANDIDATE',url,'structured:',(await getJSON()).length);
    const structured=await getJSON();
    const meta=await page.evaluate(()=>({
     title:document.querySelector('h1')?.textContent||document.querySelector('meta[property="og:title"]')?.content||'',
