@@ -1,70 +1,5 @@
 [
   {
-    "id": "dr-fri-a-saiya-2026-11-20-20-00",
-    "artist": "Friða Saiya",
-    "date": "2026-11-20",
-    "time": "20:00",
-    "venue": "DR Koncerthuset",
-    "room": "STUDIE 3",
-    "genre": "Andet",
-    "status": "Venteliste",
-    "url": "https://www.drkoncerthuset.dk/kalender/2026/frida-saiya/frida-saiya/",
-    "image": "https://www.drkoncerthuset.dk/media/c2cos1af/event_33312.jpg?width=1600&height=800&v=1dccb2e36ccd540&quality=80",
-    "source": "DR Koncerthuset"
-  },
-  {
-    "id": "dr-jacob-aksgl-de-2026-11-20-20-30",
-    "artist": "Jacob Aksglæde",
-    "date": "2026-11-20",
-    "time": "20:30",
-    "venue": "DR Koncerthuset",
-    "room": "STUDIE 2",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://www.drkoncerthuset.dk/kalender/2026/jacob-aksglaede/jacob-aksglaede/",
-    "image": "https://www.drkoncerthuset.dk/media/c5te4fco/event_30577.jpg?width=1600&height=800&v=1dc5ac6ca6b5b10&quality=80",
-    "source": "DR Koncerthuset"
-  },
-  {
-    "id": "dr-when-saints-go-machine-2026-11-20-21-00",
-    "artist": "When Saints Go Machine",
-    "date": "2026-11-20",
-    "time": "21:00",
-    "venue": "DR Koncerthuset",
-    "room": "KONCERTSALEN",
-    "genre": "Andet",
-    "status": "Venteliste",
-    "url": "https://www.drkoncerthuset.dk/kalender/2026/when-saints-go-machine/when-saints-go-machine/",
-    "image": "https://www.drkoncerthuset.dk/media/ay4hcbkx/event_31049.jpg?mode=crop&width=1200&height=630&quality=80",
-    "source": "DR Koncerthuset"
-  },
-  {
-    "id": "dr-b-rstes-store-julefest-2026-11-21-09-30",
-    "artist": "Børstes store julefest",
-    "date": "2026-11-21",
-    "time": "09:30",
-    "venue": "DR Koncerthuset",
-    "room": "STUDIE 1",
-    "genre": "Andet",
-    "status": "Venteliste",
-    "url": "https://www.drkoncerthuset.dk/kalender/2026/boerstes-store-julefest/boerstes-store-julefest-6/",
-    "image": "https://www.drkoncerthuset.dk/media/hxxbcay5/event_34884.jpg?mode=crop&width=1200&height=630&quality=80",
-    "source": "DR Koncerthuset"
-  },
-  {
-    "id": "dr-b-rstes-store-julefest-2026-11-21-11-45",
-    "artist": "Børstes store julefest",
-    "date": "2026-11-21",
-    "time": "11:45",
-    "venue": "DR Koncerthuset",
-    "room": "STUDIE 1",
-    "genre": "Andet",
-    "status": "Venteliste",
-    "url": "https://www.drkoncerthuset.dk/kalender/2026/boerstes-store-julefest/boerstes-store-julefest-7/",
-    "image": "https://www.drkoncerthuset.dk/media/hxxbcay5/event_34884.jpg?mode=crop&width=1200&height=630&quality=80",
-    "source": "DR Koncerthuset"
-  },
-  {
     "id": "dr-b-rstes-store-julefest-2026-11-21-14-00",
     "artist": "Børstes store julefest",
     "date": "2026-11-21",
@@ -74,7 +9,7 @@
     "genre": "Andet",
     "status": "Venteliste",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/boerstes-store-julefest/boerstes-store-julefest-8/",
-    "image": "https://www.drkoncerthuset.dk/media/hxxbcay5/event_34884.jpg?mode=crop&width=1200&height=630&quality=80",
+    "image": "https://www.drkoncerthuset.dk/media/b5wno1b3/boerste-store-julefest-2.jpg?rxy=0.6301854225723879,0.39498995378860524&width=1600&height=800&v=1dd0d1acec15370&quality=80",
     "source": "DR Koncerthuset"
   },
   {
@@ -87,7 +22,7 @@
     "genre": "Andet",
     "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/edis/edis/",
-    "image": "https://www.drkoncerthuset.dk/media/jwrg52b4/event_33992.jpg?mode=crop&width=1200&height=630&quality=80",
+    "image": "https://www.drkoncerthuset.dk/media/jwrg52b4/event_33992.jpg?width=1600&height=800&v=1dce12e2fab4150&quality=80",
     "source": "DR Koncerthuset"
   },
   {
@@ -2821,6 +2756,19 @@
     "source": "DR Koncerthuset"
   },
   {
+    "id": "dr-oh-land---dr-symfoniorkestret-2027-09-30-19-30",
+    "artist": "Oh Land & DR Symfoniorkestret",
+    "date": "2027-09-30",
+    "time": "19:30",
+    "venue": "DR Koncerthuset",
+    "room": "KONCERTSALEN",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://www.drkoncerthuset.dk/kalender/2027/oh-land-dr-symfoniorkestret/oh-land-dr-symfoniorkestret-aarstiderne-som-aldrig-foer/",
+    "image": "https://www.drkoncerthuset.dk/media/1vihftwq/event_35911.jpg?mode=crop&width=1200&height=630&quality=80",
+    "source": "DR Koncerthuset"
+  },
+  {
     "id": "dr-ballroom-dreams-2027-10-01-19-30",
     "artist": "Ballroom Dreams",
     "date": "2027-10-01",
@@ -2831,6 +2779,19 @@
     "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2027/ballroom-dreams/ballroom-dreams-music-dancing/",
     "image": "https://www.drkoncerthuset.dk/media/aghjqjnd/event_35724.jpg?mode=crop&width=1200&height=630&quality=80",
+    "source": "DR Koncerthuset"
+  },
+  {
+    "id": "dr-oh-land---dr-symfoniorkestret-2027-10-02-14-00",
+    "artist": "Oh Land & DR Symfoniorkestret",
+    "date": "2027-10-02",
+    "time": "14:00",
+    "venue": "DR Koncerthuset",
+    "room": "KONCERTSALEN",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://www.drkoncerthuset.dk/kalender/2027/oh-land-dr-symfoniorkestret/oh-land-dr-symfoniorkestret-aarstiderne-som-aldrig-foer-1/",
+    "image": "https://www.drkoncerthuset.dk/media/1vihftwq/event_35911.jpg?mode=crop&width=1200&height=630&quality=80",
     "source": "DR Koncerthuset"
   },
   {
