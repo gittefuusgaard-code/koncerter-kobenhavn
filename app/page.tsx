@@ -11,9 +11,9 @@ const formatDate=(d:string)=>new Intl.DateTimeFormat('da-DK',{weekday:'short',da
 export default function Home(){
  const [newPeriod,setNewPeriod]=useState<'today'|'week'>('week'),[showAllNew,setShowAllNew]=useState(false);
  const [concerts,setConcerts]=useState<Concert[]>([]),[q,setQ]=useState(''),[venue,setVenue]=useState('Alle steder'),[genre,setGenre]=useState('Alle'),[view,setView]=useState<ViewMode>('grid'),[showSoldOut,setShowSoldOut]=useState(true),[loading,setLoading]=useState(true);
- useEffect(()=>{fetch('/api/concerts').then(r=>r.json()).then(d=>setConcerts(d.concerts||[])).finally(()=>setLoading(false))},[]);
+ useEffect(()=>{fetch('/api/concerts').then(r=>{if(!r.ok)throw new Error('Concert API '+r.status);return r.json()}).then(d=>setConcerts(Array.isArray(d.concerts)?d.concerts:[])).catch(error=>console.error('Unable to load concerts:',error)).finally(()=>setLoading(false))},[]);
  const shown=useMemo(()=>concerts.filter(c=>(venue==='Alle steder'||c.venue===venue)&&(genre==='Alle'||c.genre===genre)&&(showSoldOut||c.status!=='Udsolgt')&&(!q||c.artist.toLowerCase().includes(q.toLowerCase())||c.venue.toLowerCase().includes(q.toLowerCase()))),[concerts,q,venue,genre,showSoldOut]);
- const newConcerts=useMemo(()=>concerts.filter(c=>{if(!c.firstSeen)return false;const age=Date.now()-new Date(c.firstSeen).getTime();return age>=0&&age<(newPeriod==='today'?86400000:7*86400000)}).sort((a,b)=>String(b.firstSeen).localeCompare(String(a.firstSeen))),[concerts,newPeriod]);
+ const newConcerts=useMemo(()=>concerts.filter(c=>{if(!c.firstSeen)return false;const age=Date.now()-Date.parse(c.firstSeen);return Number.isFinite(age)&&age>=0&&age<(newPeriod==='today'?86400000:7*86400000)}).sort((a,b)=>String(b.firstSeen).localeCompare(String(a.firstSeen))),[concerts,newPeriod]);
  return <div className="site">
   <header className="topbar"><div className="identity"><b>KBH<span>LIVE</span></b><em>BYENS KONCERTER, SAMLET</em></div><div className="count"><span className="liveDot">●</span> Opdateret løbende <span className="countDivider">{loading?'Henter…':concerts.length+' kommende koncerter'}</span></div></header>
   <main className="main">
