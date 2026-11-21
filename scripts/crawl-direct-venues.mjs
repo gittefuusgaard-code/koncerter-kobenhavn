@@ -165,13 +165,36 @@ for(const config of configs){
  console.log(config.venue,'discovered:',urls.size,'parsed:',count);
 }
 await browser.close();
+// Protect each venue independently against a sudden partial scrape.
+// The guard is deliberately conservative: it does not prove old events still exist.
+// Flag protected venues for manual review instead of silently deleting their data.
+const file='data/direct-venues.json';
+let old=[];try{old=JSON.parse(await readFile(file,'utf8'))}catch{}
+const previous=old.filter(c=>c.date>=today);
+const found=[...unique.values()];
+const counts=(events,venue)=>events.filter(c=>c.venue===venue).length;
+const health={checkedAt:new Date().toISOString(),venues:[],warnings:[]};
+const protectedVenues=new Set();
+for(const config of configs){
+ const before=counts(previous,config.venue),after=counts(found,config.venue);
+ const severeDrop=before>=5 && after<Math.ceil(before*0.5);
+ const emptyDrop=before>0 && after===0;
+ const protectedResult=severeDrop||emptyDrop;
+ if(protectedResult)protectedVenues.add(config.venue);
+ const status=protectedResult?'protected':after===0?'empty':'ok';
+ health.venues.push({venue:config.venue,previousFuture:before,scrapedFuture:after,status});
+ if(protectedResult){
+  const warning=config.venue+': scraped '+after+' of '+before+' previously stored future events; keeping previous snapshot';
+  health.warnings.push(warning);console.warn('DATA COVERAGE WARNING:',warning);
+ }
+}
+const retained=previous.filter(c=>protectedVenues.has(c.venue)||!configs.some(config=>config.venue===c.venue&&counts(found,config.venue)>0));
+const selected=found.filter(c=>!protectedVenues.has(c.venue));
+const result=[...selected,...retained].sort((a,b)=>a.date.localeCompare(b.date));
+await writeFile('data/direct-venues-health.json',JSON.stringify(health,null,2)+'\\n');
+console.log('Venue health:',JSON.stringify(health));
 if(!unique.size){console.error('No verified events from any venue; preserving previous data');process.exitCode=1}
 else{
- const file='data/direct-venues.json';
- let old=[];try{old=JSON.parse(await readFile(file,'utf8'))}catch{}
- const updatedVenues=new Set([...unique.values()].map(c=>c.venue));
- const retained=old.filter(c=>!updatedVenues.has(c.venue)&&c.date>=today&&c.url!==new URL('/',configs.find(x=>x.venue===c.venue)?.base||'https://pumpehuset.dk').href);
- const result=[...unique.values(),...retained].sort((a,b)=>a.date.localeCompare(b.date));
  await writeFile(file,JSON.stringify(result,null,2)+'\n');
- console.log('Saved:',result.length,'previous venues retained:',retained.length);
+ console.log('Saved:',result.length,'previous venues retained:',retained.length,'protected venues:',[...protectedVenues].join(',')||'none');
 }
