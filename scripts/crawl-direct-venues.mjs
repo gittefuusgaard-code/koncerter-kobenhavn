@@ -2,7 +2,7 @@ import {chromium} from 'playwright';
 import {readFile,writeFile} from 'node:fs/promises';
 
 const configs=[
- {venue:'Royal Arena',base:'https://www.royalarena.dk',start:['https://www.royalarena.dk/shows','https://www.royalarena.dk/en/shows'],patterns:[/\/shows?\//i,/\/events?\//i,/\/all-events\//i]},
+ {venue:'Royal Arena',base:'https://www.royalarena.dk',start:['https://www.royalarena.dk/','https://www.royalarena.dk/shows','https://www.royalarena.dk/en/shows'],patterns:[/\/shows?\//i,/\/events?\//i,/\/all-events\//i]},
  {venue:'K.B. Hallen',base:'https://kbhallen.dk',start:['https://kbhallen.dk/kalender/'],patterns:[/\/event\//i,/\/koncert\//i]},
  {venue:'Amager Bio',base:'https://amagerbio.dk',start:['https://amagerbio.dk/','https://amagerbio.dk/program/'],patterns:[/\/event\//i,/\/koncert\//i,/\/events\//i]},
  {venue:'Bremen Teater',base:'https://www.brementeater.dk',start:['https://www.brementeater.dk/'],patterns:[/\/arrangementer\//i,/\/datoer\//i]},
@@ -56,6 +56,10 @@ for(const config of configs){
   try{
    await page.goto(start,{waitUntil:'domcontentloaded',timeout:22000});
    await page.waitForTimeout(2500);
+   // Royal Arena renders the shows calendar client-side; scrolling reveals lazy-loaded cards.
+   if(config.venue==='Royal Arena'){
+    for(let i=0;i<6;i++){await page.evaluate(()=>window.scrollTo(0,document.body.scrollHeight));await page.waitForTimeout(650)}
+   }
    const links=await page.locator('a[href]').evaluateAll(nodes=>nodes.map(a=>a.href));
    for(const link of links){const safe=validUrl(link,config);if(safe&&config.patterns.some(p=>p.test(new URL(safe).pathname))){urls.add(safe);calendarUrls.add(safe)}}
   }catch(e){console.log('Calendar failed',config.venue,String(e).slice(0,120))}
