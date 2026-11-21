@@ -71,6 +71,15 @@ for(const config of configs){
      bodySample:document.body.innerText.slice(0,450).replace(/\\s+/g,' ')
     }));
     console.log('ROYAL_ARENA_DIAGNOSTIC',JSON.stringify(diagnostic));
+    // Diagnose whether the empty DOM is a blocked response, an iframe, or a JS hydration failure.
+    const responseInfo=await page.evaluate(()=>({
+     readyState:document.readyState,
+     htmlLength:document.documentElement?.outerHTML.length||0,
+     frameCount:document.querySelectorAll('iframe').length,
+     scripts:[...document.scripts].map(x=>x.src).filter(Boolean).slice(0,8),
+     bodyHTML:document.body?.innerHTML.slice(0,300)||''
+    }));
+    console.log('ROYAL_ARENA_PAGE_STATE',JSON.stringify(responseInfo));
    }
    const links=await page.locator('a[href]').evaluateAll(nodes=>nodes.map(a=>a.href));
    for(const link of links){const safe=validUrl(link,config);if(safe&&config.patterns.some(p=>p.test(new URL(safe).pathname))){urls.add(safe);calendarUrls.add(safe)}}
