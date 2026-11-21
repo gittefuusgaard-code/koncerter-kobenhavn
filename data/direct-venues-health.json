@@ -1,0 +1,38 @@
+{
+  "checkedAt": "2026-11-21T18:14:51.986Z",
+  "venues": [
+    {
+      "venue": "Royal Arena",
+      "previousFuture": 12,
+      "scrapedFuture": 0,
+      "status": "protected"
+    },
+    {
+      "venue": "K.B. Hallen",
+      "previousFuture": 32,
+      "scrapedFuture": 32,
+      "status": "ok"
+    },
+    {
+      "venue": "Amager Bio",
+      "previousFuture": 0,
+      "scrapedFuture": 0,
+      "status": "empty"
+    },
+    {
+      "venue": "Bremen Teater",
+      "previousFuture": 16,
+      "scrapedFuture": 16,
+      "status": "ok"
+    },
+    {
+      "venue": "Pumpehuset",
+      "previousFuture": 13,
+      "scrapedFuture": 13,
+      "status": "ok"
+    }
+  ],
+  "warnings": [
+    "Royal Arena: scraped 0 of 12 previously stored future events; keeping previous snapshot"
+  ]
+}
