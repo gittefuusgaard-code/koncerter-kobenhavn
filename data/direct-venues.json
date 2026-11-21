@@ -1,18 +1,5 @@
 [
   {
-    "id": "direct-royal-arena-2026-11-20--bryson-tiller",
-    "artist": "Bryson Tiller",
-    "date": "2026-11-20",
-    "time": "",
-    "venue": "Royal Arena",
-    "room": "Royal Arena",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://www.royalarena.dk/all-events/bryson-tiller-tickets-ae800043",
-    "image": "https://dynamicmedia.livenationinternational.com/t/u/n/522748fd-b422-4a0b-bcad-c7ef8f3988f0.jpg",
-    "source": "Royal Arena"
-  },
-  {
     "id": "direct-pumpehuset-2026-11-21--oplev-trinix-i-pumpehuset",
     "artist": "Oplev Trinix i Pumpehuset",
     "date": "2026-11-21",
@@ -180,6 +167,19 @@
     "url": "https://www.brementeater.dk/arrangementer/eva-jin",
     "image": "",
     "source": "Bremen Teater"
+  },
+  {
+    "id": "direct-pumpehuset-2026-11-28--endnu-en-vild-argentinsk-klubaften-med-la-malafamera",
+    "artist": "Endnu en vild argentinsk klubaften med LA MALAFAMERA",
+    "date": "2026-11-28",
+    "time": "",
+    "venue": "Pumpehuset",
+    "room": "Pumpehuset",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://pumpehuset.dk/koncerter/la-malafamera-25/",
+    "image": "https://pumpehuset.dk/wp-content/uploads/la-mala-fluo.jpg",
+    "source": "Pumpehuset"
   },
   {
     "id": "direct-royal-arena-2026-11-28--noah-kahan",
