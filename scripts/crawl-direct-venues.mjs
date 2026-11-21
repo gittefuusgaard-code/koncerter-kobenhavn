@@ -2,7 +2,7 @@ import {chromium} from 'playwright';
 import {readFile,writeFile} from 'node:fs/promises';
 
 const configs=[
- {venue:'Royal Arena',base:'https://www.royalarena.dk',start:['https://www.royalarena.dk/shows','https://www.royalarena.dk/en/shows'],patterns:[/\/shows?\//i,/\/events?\//i,/\/all-events\//i]},
+ {venue:'Royal Arena',base:'https://www.royalarena.dk',start:['https://www.royalarena.dk/','https://www.royalarena.dk/shows','https://www.royalarena.dk/en/shows'],patterns:[/\/shows?\//i,/\/events?\//i,/\/all-events\//i]},
  {venue:'K.B. Hallen',base:'https://kbhallen.dk',start:['https://kbhallen.dk/kalender/'],patterns:[/\/event\//i,/\/koncert\//i]},
  {venue:'Amager Bio',base:'https://amagerbio.dk',start:['https://amagerbio.dk/','https://amagerbio.dk/program/'],patterns:[/\/event\//i,/\/koncert\//i,/\/events\//i]},
  {venue:'Bremen Teater',base:'https://www.brementeater.dk',start:['https://www.brementeater.dk/'],patterns:[/\/arrangementer\//i,/\/datoer\//i]},
@@ -36,6 +36,12 @@ const toISO=(raw)=>{
 };
 const unique=new Map();
 for(const config of configs){
+ // Royal Arena blocks automated browsers. JamBase is the active discovery source;
+ // retain the historical direct snapshot until each event date passes.
+ if(config.venue==='Royal Arena'){
+  console.log('Royal Arena: direct crawling disabled (anti-bot block); using JamBase and retained snapshot');
+  continue;
+ }
  const urls=new Set(config.start);
  const calendarUrls=new Set();
  const sitemapQueue=[new URL('/sitemap.xml',config.base).href,new URL('/wp-sitemap.xml',config.base).href];
@@ -56,6 +62,31 @@ for(const config of configs){
   try{
    await page.goto(start,{waitUntil:'domcontentloaded',timeout:22000});
    await page.waitForTimeout(2500);
+   // Royal Arena renders the shows calendar client-side; scrolling reveals lazy-loaded cards.
+   if(config.venue==='Royal Arena'){
+    for(let i=0;i<6;i++){await page.evaluate(()=>window.scrollTo(0,document.body.scrollHeight));await page.waitForTimeout(650)}
+   }
+   if(config.venue==='Royal Arena'){
+    const diagnostic=await page.evaluate(()=>({
+     title:document.title,
+     url:location.href,
+     anchors:document.querySelectorAll('a[href]').length,
+     sampleLinks:[...document.querySelectorAll('a[href]')].map(a=>a.href).filter(h=>/show|event|concert|program|kalender|ticket/i.test(h)).slice(0,12),
+     dateElements:document.querySelectorAll('time[datetime]').length,
+     jsonLd:document.querySelectorAll('script[type="application/ld+json"]').length,
+     bodySample:document.body.innerText.slice(0,450).replace(/\\s+/g,' ')
+    }));
+    console.log('ROYAL_ARENA_DIAGNOSTIC',JSON.stringify(diagnostic));
+    // Diagnose whether the empty DOM is a blocked response, an iframe, or a JS hydration failure.
+    const responseInfo=await page.evaluate(()=>({
+     readyState:document.readyState,
+     htmlLength:document.documentElement?.outerHTML.length||0,
+     frameCount:document.querySelectorAll('iframe').length,
+     scripts:[...document.scripts].map(x=>x.src).filter(Boolean).slice(0,8),
+     bodyHTML:document.body?.innerHTML.slice(0,300)||''
+    }));
+    console.log('ROYAL_ARENA_PAGE_STATE',JSON.stringify(responseInfo));
+   }
    const links=await page.locator('a[href]').evaluateAll(nodes=>nodes.map(a=>a.href));
    for(const link of links){const safe=validUrl(link,config);if(safe&&config.patterns.some(p=>p.test(new URL(safe).pathname))){urls.add(safe);calendarUrls.add(safe)}}
   }catch(e){console.log('Calendar failed',config.venue,String(e).slice(0,120))}
@@ -66,6 +97,7 @@ for(const config of configs){
  for(const url of candidates.slice(0,config.venue==='Pumpehuset'?240:350)){
   try{
    const response=await page.goto(url,{waitUntil:'domcontentloaded',timeout:15000});if(!response?.ok())continue;
+   if(config.venue==='Royal Arena' && count===0)console.log('ROYAL_ARENA_CANDIDATE',url,'structured:',(await getJSON()).length);
    const structured=await getJSON();
    const meta=await page.evaluate(()=>({
     title:document.querySelector('h1')?.textContent||document.querySelector('meta[property="og:title"]')?.content||'',
@@ -177,6 +209,12 @@ const health={checkedAt:new Date().toISOString(),venues:[],warnings:[]};
 const protectedVenues=new Set();
 for(const config of configs){
  const before=counts(previous,config.venue),after=counts(found,config.venue);
+ if(config.venue==='Royal Arena'){
+  protectedVenues.add(config.venue);
+  health.venues.push({venue:config.venue,previousFuture:before,scrapedFuture:0,status:'external-source'});
+  health.warnings.push('Royal Arena: direct crawler disabled due to anti-bot protection; verify JamBase coverage separately');
+  continue;
+ }
  const severeDrop=before>=5 && after<Math.ceil(before*0.5);
  const emptyDrop=before>0 && after===0;
  const protectedResult=severeDrop||emptyDrop;

@@ -205,6 +205,14 @@ export async function GET(){
   return NextResponse.json({
    concerts,
    counts:{total:concerts.length,received:allEvents.length,dr:dr.length,vega:vega.length,direct:direct.length},
+   // Counts are intentionally separate: a stored snapshot is not proof of fresh JamBase coverage.
+   royalArenaDiagnostics:{
+    jambaseConfigured:Boolean(key),
+    jambaseEvents:mapped.filter(c=>c.source==='JamBase'&&c.venue==='Royal Arena').length,
+    storedDirectEvents:direct.filter(c=>c.venue==='Royal Arena').length,
+    displayedEvents:concerts.filter(c=>c.venue==='Royal Arena').length,
+    note:'Counts show observed API coverage, not completeness against the official venue calendar.'
+   },
    drDiagnostics:drResult.diagnostics,
    source:'JamBase',
    attribution:'Powered by JamBase',
