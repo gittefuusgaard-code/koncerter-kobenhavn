@@ -1,74 +1,28 @@
 'use client';
 import {useEffect,useMemo,useState} from 'react';
-
-type Concert={id:string;artist:string;date:string;time?:string;venue:string;room?:string;genre:string;status:string;url?:string;image?:string;firstSeen?:string|null};
-type ViewMode='grid'|'list'|'calendar';
-const venues=['Alle steder','Royal Arena','K.B. Hallen','Store VEGA','Lille VEGA','Falkonersalen','Forum Copenhagen','DR Koncerthuset','Amager Bio','Pumpehuset','Bremen Teater','Poolen' ];
-const genres=['Alle','Pop','Rock/Indie','Hip-hop/Rap','R&B/Soul','Electronic','Jazz/Blues','Metal','Folk/Country','Classical','Andet'];
-const genreClass=(g:string)=>'g-'+g.toLowerCase().replace(/[^a-z]+/g,'-').replace(/^-|-$/g,'');
-const formatDate=(d:string)=>new Intl.DateTimeFormat('da-DK',{weekday:'short',day:'numeric',month:'short'}).format(new Date(d+'T12:00:00'));
-
+type Concert={id:string;artist:string;date:string;time?:string;venue:string;genre:string;status:string;url?:string;image?:string;firstSeen?:string|null};
+type View='grid'|'list'|'calendar';
+const genres=['Alle','Jazz','Rock','Elektronisk','Klassisk','Pop','Metal','Hip-hop'];
+const genreMatch=(g:string,c:string)=>g==='Alle'||({Jazz:'jazz|blues',Rock:'rock|indie|punk',Elektronisk:'electronic|elektronisk|techno|dance',Klassisk:'classical|klassisk',Pop:'pop',Metal:'metal','Hip-hop':'hip-hop|rap'}[g]||g).split('|').some(s=>c.toLowerCase().includes(s));
+const fmt=(s:string,opts:Intl.DateTimeFormatOptions)=>new Intl.DateTimeFormat('da-DK',opts).format(new Date(s+'T12:00:00'));
+const shortDate=(s:string)=>fmt(s,{day:'numeric',month:'short'});
+const destination=(c:Concert)=>c.url||undefined;
 export default function Home(){
- const [newPeriod,setNewPeriod]=useState<'today'|'week'>('week'),[showAllNew,setShowAllNew]=useState(false);
- const [concerts,setConcerts]=useState<Concert[]>([]),[q,setQ]=useState(''),[venue,setVenue]=useState('Alle steder'),[genre,setGenre]=useState('Alle'),[view,setView]=useState<ViewMode>('grid'),[showSoldOut,setShowSoldOut]=useState(true),[loading,setLoading]=useState(true);
- useEffect(()=>{fetch('/api/concerts').then(r=>{if(!r.ok)throw new Error('Concert API '+r.status);return r.json()}).then(d=>setConcerts(Array.isArray(d.concerts)?d.concerts:[])).catch(error=>console.error('Unable to load concerts:',error)).finally(()=>setLoading(false))},[]);
- const shown=useMemo(()=>concerts.filter(c=>(venue==='Alle steder'||c.venue===venue)&&(genre==='Alle'||c.genre===genre)&&(showSoldOut||c.status!=='Udsolgt')&&(!q||c.artist.toLowerCase().includes(q.toLowerCase())||c.venue.toLowerCase().includes(q.toLowerCase()))),[concerts,q,venue,genre,showSoldOut]);
- const newConcerts=useMemo(()=>concerts.filter(c=>{if(!c.firstSeen)return false;const age=Date.now()-Date.parse(c.firstSeen);return Number.isFinite(age)&&age>=0&&age<(newPeriod==='today'?86400000:7*86400000)}).sort((a,b)=>String(b.firstSeen).localeCompare(String(a.firstSeen))),[concerts,newPeriod]);
- return <div className="site">
-  <header className="topbar"><div className="identity"><b>KBH<span>LIVE</span></b><em>BYENS KONCERTER, SAMLET</em></div><div className="count"><span className="liveDot">●</span> Opdateret løbende <span className="countDivider">{loading?'Henter…':concerts.length+' kommende koncerter'}</span></div></header>
-  <main className="main">
-   <section id="new-concerts" className="discoveryBanner discoveryEditorial" aria-label="Netop annoncerede koncerter">
-    <div className="editorialLeft">
-     <span className="editorialEyebrow"><span className="editorialPulse"/> NYT PÅ KBH LIVE</span>
-     <h2>Netop<br/>annoncerede<br/>koncerter</h2>
-     <p>De nyeste koncerter fra spillestederne i København, samlet ét sted.</p>
-     <a className="editorialLink" href="#concert-programme">SE HELE PROGRAMMET <span aria-hidden="true">↘</span></a>
-    </div>
-    <div className="editorialRight">
-     <div className="editorialToolbar">
-      <div className="editorialTabs" role="group" aria-label="Vælg periode">
-       <button className={newPeriod==='today'?'active':''} onClick={()=>{setNewPeriod('today');setShowAllNew(false)}}>I dag</button>
-       <button className={newPeriod==='week'?'active':''} onClick={()=>{setNewPeriod('week');setShowAllNew(false)}}>Denne uge {newPeriod==='week'&&newConcerts.length>0&&<span className="editorialCount">{newConcerts.length}</span>}</button>
-      </div>
-      <span className="editorialUpdated">Opdateres løbende</span>
-     </div>
-     <div className="editorialList">
-      {loading?<p className="editorialEmpty">Henter nye koncerter…</p>:newConcerts.length===0?<p className="editorialEmpty">Ingen nye koncerter registreret {newPeriod==='today'?'de seneste 24 timer':'de seneste 7 dage'} endnu.</p>:(showAllNew?newConcerts:newConcerts.slice(0,3)).map(c=>{
-       const parts=new Date(c.date+'T12:00:00');
-       const day=new Intl.DateTimeFormat('da-DK',{day:'numeric'}).format(parts);
-       const month=new Intl.DateTimeFormat('da-DK',{month:'short'}).format(parts).replace('.','').toUpperCase();
-       return <a className="editorialEvent" key={c.id} href={c.url||undefined} target={c.url?'_blank':undefined} rel="noreferrer">
-        <span className="editorialDate"><strong>{day}</strong><small>{month}</small></span>
-        <span className="editorialDetails"><small className="editorialGenre">{c.genre}</small><strong>{c.artist}</strong><span className="editorialVenue">● &nbsp; {c.venue.toUpperCase()}{c.time?' · '+c.time:''}</span></span>
-        <span className="editorialArrow" aria-hidden="true">↗</span>
-       </a>
-      })}
-     </div>
-     {newConcerts.length>3&&<button className="editorialMore" onClick={()=>setShowAllNew(v=>!v)}>{showAllNew?'VIS FÆRRE':'SE ALLE '+newConcerts.length+' NYE KONCERTER'} <span aria-hidden="true">↗</span></button>}
-    </div>
-   </section>
-   <div id="concert-programme" className="listingHeading"><div><span className="sectionKicker">PÅ PLAKATEN</span><h1>Kommende koncerter</h1></div><span>{shown.length} resultater</span></div>
-   <div className="controls">
-    <input value={q} onChange={e=>setQ(e.target.value)} placeholder="Søg artist eller venue…"/>
-    <select value={venue} onChange={e=>setVenue(e.target.value)}>{venues.map(v=><option key={v}>{v}</option>)}</select>
-    <label className="soldToggle"><input type="checkbox" checked={!showSoldOut} onChange={e=>setShowSoldOut(!e.target.checked)}/> SKJUL UDSOLGTE</label>
-    <div className="views">{([['grid','⊞'],['list','≡'],['calendar','▦']] as [ViewMode,string][]).map(([v,i])=><button key={v} className={view===v?'active':''} onClick={()=>setView(v)} title={v}>{i}</button>)}</div>
-   </div>
-   <div className="genreFilters">{genres.map(g=><button key={g} className={genre===g?'active':''} onClick={()=>setGenre(g)}>{g}</button>)}</div>
-   {!loading&&shown.length===0?<div className="empty">Ingen koncerter matcher dine filtre.</div>:view==='grid'?<Grid concerts={shown}/>:view==='list'?<List concerts={shown}/>:<Calendar concerts={shown}/>}
-  </main>
-  <footer>Powered by JamBase</footer>
- </div>
+ const [concerts,setConcerts]=useState<Concert[]>([]),[loading,setLoading]=useState(true),[error,setError]=useState(false);
+ const [period,setPeriod]=useState<'today'|'week'>('week'),[allNew,setAllNew]=useState(false),[q,setQ]=useState(''),[venue,setVenue]=useState('Alle spillesteder'),[genre,setGenre]=useState('Alle'),[hideSold,setHideSold]=useState(false),[view,setView]=useState<View>('grid');
+ useEffect(()=>{fetch('/api/concerts').then(r=>{if(!r.ok)throw Error('Concert API '+r.status);return r.json()}).then(d=>setConcerts(Array.isArray(d.concerts)?d.concerts:[])).catch(e=>{console.error(e);setError(true)}).finally(()=>setLoading(false))},[]);
+ const venues=useMemo(()=>['Alle spillesteder',...new Set(concerts.map(c=>c.venue))],[concerts]);
+ const shown=useMemo(()=>concerts.filter(c=>(venue==='Alle spillesteder'||c.venue===venue)&&genreMatch(genre,c.genre)&&(!hideSold||c.status!=='Udsolgt')&&(!q||[c.artist,c.venue].some(x=>x.toLowerCase().includes(q.toLowerCase())))),[concerts,venue,genre,hideSold,q]);
+ const newConcerts=useMemo(()=>concerts.filter(c=>{const age=Date.now()-Date.parse(c.firstSeen||'');return Number.isFinite(age)&&age>=0&&age<(period==='today'?86400000:604800000)}).sort((a,b)=>(b.firstSeen||'').localeCompare(a.firstSeen||'')),[concerts,period]);
+ const reset=()=>{setQ('');setVenue('Alle spillesteder');setGenre('Alle');setHideSold(false)};
+ return <div className="site"><header className="header"><a className="logo" href="#top">KBH<span>LIVE</span><i>✳</i></a><span className="tagline">BYENS KONCERTER, SAMLET</span><div className="header-right"><span><i className="status-dot"/> OPDATERET I DAG</span><span>{loading?'HENTER…':concerts.length+' KOMMENDE KONCERTER'}</span><a href="#koncerter">SE PROGRAM ↗</a></div></header><main id="top">
+ <section className="hero"><div className="hero-visual"><div className="hero-photo"/><div className="hero-copy"><div className="eyebrow">■ KØBENHAVN · LIVE LIGE NU</div><h1><span>NETOP</span><span>ANNONCERET.</span><span className="lime">SNART PÅ</span><span className="lime">SCENEN.</span></h1><p>De største aftener starter her. Nye navne, nye scener og alt det, du ikke vil gå glip af.</p><a className="hero-link" href="#koncerter">UDFORSK ALLE KONCERTER ↘</a></div><span className="coordinates">55° 40′ N / 12° 34′ E</span></div><div className="hero-new"><div className="eyebrow lime">01 / DET NYESTE</div><h2>FRISKE<br/>NAVNE<span className="lime">.</span></h2><div className="period-tabs"><button className={period==='today'?'selected':''} onClick={()=>{setPeriod('today');setAllNew(false)}}>I DAG</button><button className={period==='week'?'selected':''} onClick={()=>{setPeriod('week');setAllNew(false)}}>DENNE UGE</button><small>OPDATERES LØBENDE</small></div><div className="new-events">{loading?<p className="no-new">Henter nye koncerter…</p>:newConcerts.length?(allNew?newConcerts:newConcerts.slice(0,3)).map((c,i)=><a className="new-event" key={c.id} href={destination(c)} target={c.url?'_blank':undefined} rel="noreferrer"><span className="new-num">0{i+1}</span><span className="new-info"><small>{c.genre.toUpperCase()} / {shortDate(c.date).toUpperCase()}</small><strong>{c.artist}</strong><span>{c.venue} ✳ {c.time||'TID KOMMER'}</span></span><span className="arrow">↗</span></a>):<p className="no-new">Ingen nye koncerter registreret {period==='today'?'de seneste 24 timer':'de seneste 7 dage'}.</p>}</div><div className="hero-new-bottom"><span>{newConcerts.length} NYE KONCERTER</span>{newConcerts.length>3&&<button onClick={()=>setAllNew(!allNew)}>{allNew?'VIS FÆRRE':'SE ALLE'} ↗</button>}</div></div></section>
+ <div className="ticker" aria-hidden="true"><div className="ticker-track">{Array.from({length:4},(_,i)=><span key={i}>KONCERTER ✳ KLUBBER ✳ JAZZ ✳ LIVE ✳ KØBENHAVN ✳ </span>)}</div></div>
+ <section className="programme" id="koncerter"><div className="section-heading"><div><div className="eyebrow">■ 02 / PÅ PLAKATEN</div><h2>KOMMENDE<br/>KONCERTER<span className="lime">.</span></h2></div><div className="result-counter"><strong>{String(shown.length).padStart(2,'0')}</strong><span>RESULTATER</span></div></div>
+ <div className="filters"><label className="search"><span>⌕</span><input aria-label="Søg artist eller venue" placeholder="SØG ARTIST ELLER VENUE" value={q} onChange={e=>setQ(e.target.value)}/></label><select aria-label="Spillested" value={venue} onChange={e=>setVenue(e.target.value)}>{venues.map(v=><option key={v}>{v}</option>)}</select><label className="sold-filter"><input type="checkbox" checked={hideSold} onChange={e=>setHideSold(e.target.checked)}/> SKJUL UDSOLGTE</label><button onClick={reset}>↺ NULSTIL</button><div className="view-switch">{(['grid','list','calendar'] as View[]).map((v,i)=><button key={v} className={view===v?'active':''} aria-label={['Gridvisning','Listevisning','Kalendervisning'][i]} onClick={()=>setView(v)}>{['▦','☷','▤'][i]}</button>)}</div></div>
+ <div className="genres">{genres.map(g=><button key={g} className={genre===g?'active':''} onClick={()=>setGenre(g)}>{g.toUpperCase()}</button>)}</div>
+ {error&&<p className="notice">Koncertdata kunne ikke hentes lige nu. Prøv at genindlæse siden.</p>}
+ {!loading&&shown.length===0?<div className="empty">INGEN KONCERTER MATCHER DINE FILTRE.</div>:view==='grid'?<div className="concert-grid">{shown.map(c=><ConcertCard key={c.id} c={c}/>)}</div>:view==='list'?<div className="concert-list"><div className="list-row list-head"><span>ARTIST</span><span>SPILLESTED</span><span>DATO / TID</span><span>GENRE</span><span>BILLETTER</span></div>{shown.map(c=><a className="list-row" key={c.id} href={destination(c)} target={c.url?'_blank':undefined} rel="noreferrer"><strong>{c.artist}</strong><span>{c.venue}</span><span>{shortDate(c.date)} · {c.time||'—'}</span><span>{c.genre}</span><b>{c.status==='Udsolgt'?'UDSOLGT':'SE BILLETTER ↗'}</b></a>)}</div>:<Calendar concerts={shown}/>}</section></main><footer><strong>KBH<span>LIVE</span> ✳</strong><span>BYENS KONCERTER, SAMLET.</span><span>KONCERTER OPDATERES LØBENDE</span><a href="#top">TIL TOPPEN ↑</a></footer></div>
 }
-function Genre({name}:{name:string}){return <span className={'genre '+genreClass(name)}>{name}</span>}
-function Grid({concerts}:{concerts:Concert[]}){return <div className="concertGrid">{concerts.map(c=><a className="concertCard" key={c.id} href={c.url||undefined} target={c.url?'_blank':undefined} rel="noreferrer"><div className="image">{c.image?<img src={c.image} alt=""/>:<div className="fallback"/>}<Genre name={c.genre}/>{c.status==='Udsolgt'&&<span className="soldBadge">UDSOLGT</span>}</div><div className="cardBody"><h2>{c.artist}</h2><p className="venueHighlight"><span>●</span>{c.venue}</p><div className="meta"><div><strong>{formatDate(c.date)}</strong><span>{c.time||''}</span></div><b className={c.status==='Udsolgt'?'soldStatus':''}>{c.status==='Udsolgt'?'—':'BILLETTER ↗'}</b></div></div></a>)}</div>}
-function List({concerts}:{concerts:Concert[]}){return <div className="concertList"><div className="listHead"><span>Artist / Venue</span><span>Dato & tid</span><span>Genre</span><span>Billet</span></div>{concerts.map(c=><a className="listRow" key={c.id} href={c.url||undefined} target={c.url?'_blank':undefined} rel="noreferrer"><div><strong>{c.artist}</strong><small className="venueHighlight"><span>●</span>{c.venue}</small></div><div><strong>{formatDate(c.date)}</strong><small>{c.time||''}</small></div><Genre name={c.genre}/><b>{c.status}</b></a>)}</div>}
-function Calendar({concerts}:{concerts:Concert[]}){
- const first=concerts[0]?.date||new Date().toISOString().slice(0,10); const init=new Date(first+'T12:00:00');
- const [cursor,setCursor]=useState({y:init.getFullYear(),m:init.getMonth()});
- const firstDay=new Date(cursor.y,cursor.m,1), days=new Date(cursor.y,cursor.m+1,0).getDate(), offset=(firstDay.getDay()+6)%7;
- const cells:Array<number|null>=[...Array(offset).fill(null),...Array.from({length:days},(_,i)=>i+1)]; while(cells.length%7)cells.push(null);
- const byDay=new Map<number,Concert[]>(); concerts.forEach(c=>{const d=new Date(c.date+'T12:00:00');if(d.getFullYear()===cursor.y&&d.getMonth()===cursor.m){const a=byDay.get(d.getDate())||[];a.push(c);byDay.set(d.getDate(),a)}});
- const move=(n:number)=>{const d=new Date(cursor.y,cursor.m+n,1);setCursor({y:d.getFullYear(),m:d.getMonth()})};
- return <div className="calendar"><div className="calNav"><button onClick={()=>move(-1)}>‹</button><h2>{new Intl.DateTimeFormat('da-DK',{month:'long',year:'numeric'}).format(new Date(cursor.y,cursor.m,1))}</h2><button onClick={()=>move(1)}>›</button></div><div className="week">{['Man','Tir','Ons','Tor','Fre','Lør','Søn'].map(x=><b key={x}>{x}</b>)}</div><div className="days">{cells.map((day,i)=><div className="day" key={i}>{day&&<><span>{day}</span>{(byDay.get(day)||[]).slice(0,3).map(c=><a key={c.id} href={c.url||undefined} target={c.url?'_blank':undefined} rel="noreferrer">{c.artist}</a>)}</>}</div>)}</div></div>
-}
+function ConcertCard({c}:{c:Concert}){return <a className="concert-card" href={destination(c)} target={c.url?'_blank':undefined} rel="noreferrer"><div className="poster">{c.image?<img src={c.image} alt="" loading="lazy"/>:<div className="poster-fallback">KBH LIVE ✳</div>}<div className="poster-top"><span className="genre-tag">{c.genre.toUpperCase()}</span>{c.status==='Udsolgt'&&<span className="sold-badge">UDSOLGT</span>}</div><span className="poster-arrow">↗</span></div><div className="card-info"><div className="card-heading"><h3>{c.artist}</h3><span>↗</span></div><p>{c.venue.toUpperCase()}</p><div className="card-bottom"><span><strong>{shortDate(c.date).toUpperCase()}</strong><small>{c.time||'—'}</small></span><b>{c.status==='Udsolgt'?'UDSOLGT':'SE BILLETTER ↗'}</b></div></div></a>}
+function Calendar({concerts}:{concerts:Concert[]}){const [cursor,setCursor]=useState(()=>{const d=new Date(concerts[0]?.date||new Date().toISOString().slice(0,10));return new Date(d.getFullYear(),d.getMonth(),1)}),[selected,setSelected]=useState<number|null>(null);const y=cursor.getFullYear(),m=cursor.getMonth(),n=new Date(y,m+1,0).getDate(),offset=(new Date(y,m,1).getDay()+6)%7;const cells:(number|null)[]=[...Array(offset).fill(null),...Array.from({length:n},(_,i)=>i+1)];while(cells.length%7)cells.push(null);const events=(day:number)=>concerts.filter(c=>c.date===y+'-'+String(m+1).padStart(2,'0')+'-'+String(day).padStart(2,'0'));const move=(n:number)=>{setCursor(new Date(y,m+n,1));setSelected(null)};return <div className="calendar-layout"><div className="calendar-main"><div className="calendar-nav"><h3>{new Intl.DateTimeFormat('da-DK',{month:'long',year:'numeric'}).format(cursor).toUpperCase()}</h3><div><button onClick={()=>move(-1)} aria-label="Forrige måned">←</button><button onClick={()=>move(1)} aria-label="Næste måned">→</button></div></div><div className="calendar-grid">{['MAN','TIR','ONS','TOR','FRE','LØR','SØN'].map(d=><b key={d}>{d}</b>)}{cells.map((d,i)=><button key={i} disabled={!d} className={selected===d?'chosen':''} onClick={()=>setSelected(d)}><span>{d}</span>{d&&events(d).length>0&&<small>{events(d).length} LIVE ●</small>}</button>)}</div></div><aside className="calendar-detail"><div className="eyebrow">DAGENS PROGRAM</div><h3>{selected?selected+'. '+new Intl.DateTimeFormat('da-DK',{month:'long'}).format(cursor):'VÆLG EN DATO'}</h3>{selected?events(selected).length?events(selected).map(c=><a href={destination(c)} key={c.id}><strong>{c.artist}</strong><span>{c.time} · {c.venue} ↗</span></a>):<p>Ingen koncerter denne dag.</p>:<p>Vælg en dato i kalenderen.</p>}</aside></div>}
