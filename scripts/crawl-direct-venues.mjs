@@ -191,7 +191,7 @@ for(const config of configs){
 const retained=previous.filter(c=>protectedVenues.has(c.venue)||!configs.some(config=>config.venue===c.venue&&counts(found,config.venue)>0));
 const selected=found.filter(c=>!protectedVenues.has(c.venue));
 const result=[...selected,...retained].sort((a,b)=>a.date.localeCompare(b.date));
-await writeFile('data/direct-venues-health.json',JSON.stringify(health,null,2)+'\\n');
+await writeFile('data/direct-venues-health.json',JSON.stringify(health,null,2)+'\n');
 console.log('Venue health:',JSON.stringify(health));
 if(!unique.size){console.error('No verified events from any venue; preserving previous data');process.exitCode=1}
 else{
