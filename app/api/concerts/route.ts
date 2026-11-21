@@ -151,6 +151,7 @@ export async function GET(){
 
  try{
   const allEvents:any[]=[];
+  const jambaseDiagnostics:{configured:boolean;httpStatus:number|null;responseKeys:string[];eventsReturned:number;error:string}={configured:Boolean(key),httpStatus:null,responseKeys:[],eventsReturned:0,error:''};
   const perPage=100;
   const maxPages=6;
 
@@ -167,15 +168,18 @@ export async function GET(){
     headers:{Authorization:'Bearer '+key,Accept:'application/json','User-Agent':'Koncerter-Kobenhavn/1.0'},
     next:{revalidate:21600}
    });
+   jambaseDiagnostics.httpStatus=response.status;
    const data=await response.json();
+   jambaseDiagnostics.responseKeys=data&&typeof data==='object'?Object.keys(data).slice(0,12):[];
    if(!response.ok) throw new Error('JamBase HTTP '+response.status);
 
    const events=Array.isArray(data.events)?data.events:[];
    allEvents.push(...events);
+   jambaseDiagnostics.eventsReturned+=events.length;
    if(events.length<perPage) break;
   }
 
-  } catch(error) { console.error('JamBase unavailable; serving stored concerts:',error); }
+  } catch(error) { jambaseDiagnostics.error=error instanceof Error?error.message:String(error); console.error('JamBase unavailable; serving stored concerts:',error); }
 
   const mapped=allEvents.map(toConcert).filter(Boolean) as Concert[];
   const dr=(drStored as Concert[]).filter(c=>c.date>=new Date().toISOString().slice(0,10));
@@ -206,6 +210,7 @@ export async function GET(){
    concerts,
    counts:{total:concerts.length,received:allEvents.length,dr:dr.length,vega:vega.length,direct:direct.length},
    // Counts are intentionally separate: a stored snapshot is not proof of fresh JamBase coverage.
+   jambaseDiagnostics,
    royalArenaDiagnostics:{
     jambaseConfigured:Boolean(key),
     jambaseEvents:mapped.filter(c=>c.source==='JamBase'&&c.venue==='Royal Arena').length,
