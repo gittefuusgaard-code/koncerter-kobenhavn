@@ -1,18 +1,5 @@
 [
   {
-    "id": "direct-pumpehuset-2026-11-21--oplev-trinix-i-pumpehuset",
-    "artist": "Oplev Trinix i Pumpehuset",
-    "date": "2026-11-21",
-    "time": "",
-    "venue": "Pumpehuset",
-    "room": "Pumpehuset",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://pumpehuset.dk/koncerter/trinix/",
-    "image": "https://pumpehuset.dk/wp-content/uploads/trinix-scaled-e1770811665272.jpg",
-    "source": "Pumpehuset"
-  },
-  {
     "id": "direct-pumpehuset-2026-11-22--master-boot-record-og-fulci-i-pumpehuset",
     "artist": "MASTER BOOT RECORD og Fulci i Pumpehuset",
     "date": "2026-11-22",
@@ -193,6 +180,19 @@
     "url": "https://www.royalarena.dk/all-events/noah-kahan-tickets-ae1095445",
     "image": "https://dynamicmedia.livenationinternational.com/z/t/w/f8cc4719-3146-4ff4-954a-b538df901b07.jpg",
     "source": "Royal Arena"
+  },
+  {
+    "id": "direct-pumpehuset-2026-11-29--oplev-the-last-internationale-i-pumpehuset",
+    "artist": "Oplev The Last Internationale i Pumpehuset",
+    "date": "2026-11-29",
+    "time": "",
+    "venue": "Pumpehuset",
+    "room": "Pumpehuset",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://pumpehuset.dk/koncerter/the-last-internationale/",
+    "image": "https://pumpehuset.dk/wp-content/uploads/the-last-internationale.jpg",
+    "source": "Pumpehuset"
   },
   {
     "id": "direct-bremen-teater-2026-12-05-20-00-adnan",
