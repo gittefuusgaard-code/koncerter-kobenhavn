@@ -1,70 +1,5 @@
 [
   {
-    "id": "dr-b-rstes-store-julefest-2026-11-21-14-00",
-    "artist": "Børstes store julefest",
-    "date": "2026-11-21",
-    "time": "14:00",
-    "venue": "DR Koncerthuset",
-    "room": "STUDIE 1",
-    "genre": "Andet",
-    "status": "Venteliste",
-    "url": "https://www.drkoncerthuset.dk/kalender/2026/boerstes-store-julefest/boerstes-store-julefest-8/",
-    "image": "https://www.drkoncerthuset.dk/media/b5wno1b3/boerste-store-julefest-2.jpg?rxy=0.6301854225723879,0.39498995378860524&width=1600&height=800&v=1dd0d1acec15370&quality=80",
-    "source": "DR Koncerthuset"
-  },
-  {
-    "id": "dr-edis-2026-11-21-20-00",
-    "artist": "EDIS",
-    "date": "2026-11-21",
-    "time": "20:00",
-    "venue": "DR Koncerthuset",
-    "room": "STUDIE 2",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://www.drkoncerthuset.dk/kalender/2026/edis/edis/",
-    "image": "https://www.drkoncerthuset.dk/media/jwrg52b4/event_33992.jpg?width=1600&height=800&v=1dce12e2fab4150&quality=80",
-    "source": "DR Koncerthuset"
-  },
-  {
-    "id": "dr-when-saints-go-machine-2026-11-21-21-00",
-    "artist": "When Saints Go Machine",
-    "date": "2026-11-21",
-    "time": "21:00",
-    "venue": "DR Koncerthuset",
-    "room": "KONCERTSALEN",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://www.drkoncerthuset.dk/kalender/2026/when-saints-go-machine/when-saints-go-machine-ekstrakoncert/",
-    "image": "https://www.drkoncerthuset.dk/media/ay4hcbkx/event_31049.jpg?mode=crop&width=1200&height=630&quality=80",
-    "source": "DR Koncerthuset"
-  },
-  {
-    "id": "dr-b-rstes-store-julefest-2026-11-22-09-30",
-    "artist": "Børstes store julefest",
-    "date": "2026-11-22",
-    "time": "09:30",
-    "venue": "DR Koncerthuset",
-    "room": "STUDIE 1",
-    "genre": "Andet",
-    "status": "Venteliste",
-    "url": "https://www.drkoncerthuset.dk/kalender/2026/boerstes-store-julefest/boerstes-store-julefest-9/",
-    "image": "https://www.drkoncerthuset.dk/media/hxxbcay5/event_34884.jpg?mode=crop&width=1200&height=630&quality=80",
-    "source": "DR Koncerthuset"
-  },
-  {
-    "id": "dr-b-rstes-store-julefest-2026-11-22-11-45",
-    "artist": "Børstes store julefest",
-    "date": "2026-11-22",
-    "time": "11:45",
-    "venue": "DR Koncerthuset",
-    "room": "STUDIE 1",
-    "genre": "Andet",
-    "status": "Venteliste",
-    "url": "https://www.drkoncerthuset.dk/kalender/2026/boerstes-store-julefest/boerstes-store-julefest-10/",
-    "image": "https://www.drkoncerthuset.dk/media/hxxbcay5/event_34884.jpg?mode=crop&width=1200&height=630&quality=80",
-    "source": "DR Koncerthuset"
-  },
-  {
     "id": "dr-b-rstes-store-julefest-2026-11-22-14-00",
     "artist": "Børstes store julefest",
     "date": "2026-11-22",
@@ -74,7 +9,7 @@
     "genre": "Andet",
     "status": "Venteliste",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/boerstes-store-julefest/boerstes-store-julefest-11/",
-    "image": "https://www.drkoncerthuset.dk/media/hxxbcay5/event_34884.jpg?mode=crop&width=1200&height=630&quality=80",
+    "image": "https://www.drkoncerthuset.dk/media/b5wno1b3/boerste-store-julefest-2.jpg?rxy=0.6301854225723879,0.39498995378860524&width=1600&height=800&v=1dd0d1acec15370&quality=80",
     "source": "DR Koncerthuset"
   },
   {
@@ -87,7 +22,7 @@
     "genre": "Andet",
     "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/sam-gendel-sam-wilkes/sam-gendel-sam-wilkes/",
-    "image": "https://www.drkoncerthuset.dk/media/rwtboeqa/event_33721.jpg?mode=crop&width=1200&height=630&quality=80",
+    "image": "https://www.drkoncerthuset.dk/media/rwtboeqa/event_33721.jpg?width=1600&height=800&v=1dcce55d77df350&quality=80",
     "source": "DR Koncerthuset"
   },
   {
@@ -100,7 +35,7 @@
     "genre": "Andet",
     "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/zoltan-despond-vesselin-stanev/zoltan-despond-vesselin-stanev/",
-    "image": "https://www.drkoncerthuset.dk/media/j5jdukk1/event_34818.jpg?mode=crop&width=1200&height=630&quality=80",
+    "image": "https://www.drkoncerthuset.dk/media/j5jdukk1/event_34818.jpg?width=1600&height=800&v=1dcfe42ce756910&quality=80",
     "source": "DR Koncerthuset"
   },
   {
@@ -113,7 +48,7 @@
     "genre": "Andet",
     "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/its-actually-christmas/its-actually-christmas-at-the-symphony-3/",
-    "image": "https://www.drkoncerthuset.dk/media/uman5tbr/event_32652.jpg?mode=crop&width=1200&height=630&quality=80",
+    "image": "https://www.drkoncerthuset.dk/media/lfibjq15/its-actually-christmas-2550x1275.jpg?width=1600&height=800&v=1dd402b41f30580&quality=80",
     "source": "DR Koncerthuset"
   },
   {
@@ -126,7 +61,7 @@
     "genre": "Andet",
     "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/eva-dahlgren/eva-dahlgren/",
-    "image": "https://www.drkoncerthuset.dk/media/isnj1i0l/event_33715.jpg?mode=crop&width=1200&height=630&quality=80",
+    "image": "https://www.drkoncerthuset.dk/media/isnj1i0l/event_33715.jpg?width=1600&height=800&v=1dcd22236654600&quality=80",
     "source": "DR Koncerthuset"
   },
   {
@@ -139,7 +74,7 @@
     "genre": "Andet",
     "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/20_14-assembly/20_14-assembly-clarissa-connelly-mija-milovic-henriette-motzfeldt-caecilie-trier-og-rune-kielsgaard-en-aften-med-fri-improvisation/",
-    "image": "https://www.drkoncerthuset.dk/media/zc5mndwx/event_35415.jpg?mode=crop&width=1200&height=630&quality=80",
+    "image": "https://www.drkoncerthuset.dk/media/zc5mndwx/event_35415.jpg?width=1600&height=800&v=1dd558edca1ef60&quality=80",
     "source": "DR Koncerthuset"
   },
   {
