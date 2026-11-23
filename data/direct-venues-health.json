@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-22T20:04:58.565Z",
+  "checkedAt": "2026-11-23T02:05:49.745Z",
   "venues": [
     {
       "venue": "Royal Arena",
@@ -27,7 +27,7 @@
     },
     {
       "venue": "Pumpehuset",
-      "previousFuture": 13,
+      "previousFuture": 12,
       "scrapedFuture": 13,
       "status": "ok"
     }

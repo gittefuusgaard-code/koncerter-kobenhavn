@@ -1,18 +1,5 @@
 [
   {
-    "id": "direct-pumpehuset-2026-11-22--master-boot-record-og-fulci-i-pumpehuset",
-    "artist": "MASTER BOOT RECORD og Fulci i Pumpehuset",
-    "date": "2026-11-22",
-    "time": "",
-    "venue": "Pumpehuset",
-    "room": "Pumpehuset",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://pumpehuset.dk/koncerter/master-boot-record-fulci/",
-    "image": "https://pumpehuset.dk/wp-content/uploads/master-boot-record-horizon.jpg",
-    "source": "Pumpehuset"
-  },
-  {
     "id": "direct-k-b--hallen-2026-11-23-19-30-beabadoobee---support--sofia-and-the-antoinettes",
     "artist": "Beabadoobee - Support: Sofia and the Antoinettes",
     "date": "2026-11-23",
@@ -192,6 +179,19 @@
     "status": "Billetter",
     "url": "https://pumpehuset.dk/koncerter/the-last-internationale/",
     "image": "https://pumpehuset.dk/wp-content/uploads/the-last-internationale.jpg",
+    "source": "Pumpehuset"
+  },
+  {
+    "id": "direct-pumpehuset-2026-12-01--oplev-allt-live-i-pumpehuset",
+    "artist": "Oplev Allt live i Pumpehuset",
+    "date": "2026-12-01",
+    "time": "",
+    "venue": "Pumpehuset",
+    "room": "Pumpehuset",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://pumpehuset.dk/koncerter/allt/",
+    "image": "https://pumpehuset.dk/wp-content/uploads/ALLT-Promo1-SQ-WEB-e1771582322241.jpg",
     "source": "Pumpehuset"
   },
   {
