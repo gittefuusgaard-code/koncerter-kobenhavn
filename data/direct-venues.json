@@ -1,31 +1,5 @@
 [
   {
-    "id": "direct-k-b--hallen-2026-11-23-19-30-beabadoobee---support--sofia-and-the-antoinettes",
-    "artist": "Beabadoobee - Support: Sofia and the Antoinettes",
-    "date": "2026-11-23",
-    "time": "19:30",
-    "venue": "K.B. Hallen",
-    "room": "K.B. Hallen",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://kbhallen.dk/event/beabadoobee_2026-11-23/",
-    "image": "https://kbhallen.dk/site/assets/files/4951/beabadoobee_press_shot_2026.1920x1080.jpeg",
-    "source": "K.B. Hallen"
-  },
-  {
-    "id": "direct-pumpehuset-2026-11-23--blackgold",
-    "artist": "BLACKGOLD",
-    "date": "2026-11-23",
-    "time": "",
-    "venue": "Pumpehuset",
-    "room": "Pumpehuset",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://pumpehuset.dk/koncerter/blackgold/",
-    "image": "https://pumpehuset.dk/wp-content/uploads/Black-Gold-Promo-@abbidraperphoto-1280x854.jpg",
-    "source": "Pumpehuset"
-  },
-  {
     "id": "direct-pumpehuset-2026-11-24--oplev-marrokanske-dizzy-dros-i-pumpehuset",
     "artist": "Oplev marrokanske Dizzy DROS i Pumpehuset",
     "date": "2026-11-24",
@@ -192,6 +166,19 @@
     "status": "Billetter",
     "url": "https://pumpehuset.dk/koncerter/allt/",
     "image": "https://pumpehuset.dk/wp-content/uploads/ALLT-Promo1-SQ-WEB-e1771582322241.jpg",
+    "source": "Pumpehuset"
+  },
+  {
+    "id": "direct-pumpehuset-2026-12-02--hitmageren--mnek--kommer-til-pumphuset-til-vinter",
+    "artist": "Hitmageren, MNEK, kommer til Pumphuset til vinter",
+    "date": "2026-12-02",
+    "time": "",
+    "venue": "Pumpehuset",
+    "room": "Pumpehuset",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://pumpehuset.dk/koncerter/mnek/",
+    "image": "https://pumpehuset.dk/wp-content/uploads/MNEK.jpg",
     "source": "Pumpehuset"
   },
   {
