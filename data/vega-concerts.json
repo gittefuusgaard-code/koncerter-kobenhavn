@@ -13,19 +13,6 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-lille-vega-2026-11-25-dahlin",
-    "artist": "Dahlin",
-    "date": "2026-11-25",
-    "time": "20:00",
-    "venue": "Lille VEGA",
-    "room": "Lille VEGA",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://vega.dk/event/dahlin-2026-11-25",
-    "image": "https://payload.vega.dk/media/2026_Kalender-Dahlin-1200x630.jpg",
-    "source": "VEGA"
-  },
-  {
     "id": "vega-store-vega-2026-11-25-chelsea-wolfe",
     "artist": "Chelsea Wolfe",
     "date": "2026-11-25",
@@ -36,6 +23,19 @@
     "status": "Billetter",
     "url": "https://vega.dk/event/chelsea-wolfe-2026-11-25",
     "image": "https://payload.vega.dk/media/VEGA_Kalender_ChelseaWolfe_2026-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-lille-vega-2026-11-25-dahlin",
+    "artist": "Dahlin",
+    "date": "2026-11-25",
+    "time": "20:00",
+    "venue": "Lille VEGA",
+    "room": "Lille VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/dahlin-2026-11-25",
+    "image": "https://payload.vega.dk/media/2026_Kalender-Dahlin-1200x630.jpg",
     "source": "VEGA"
   },
   {
@@ -403,6 +403,19 @@
     "source": "VEGA"
   },
   {
+    "id": "vega-store-vega-2026-12-28-sort-sol",
+    "artist": "Sort Sol",
+    "date": "2026-12-28",
+    "time": "20:00",
+    "venue": "Store VEGA",
+    "room": "Store VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/sort-sol-ekstrakoncert-2026-12-28",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_SortSol_2026-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
     "id": "vega-store-vega-2026-12-29-outlandish",
     "artist": "Outlandish",
     "date": "2026-12-29",
@@ -598,6 +611,19 @@
     "source": "VEGA"
   },
   {
+    "id": "vega-store-vega-2027-02-04-eee-gee",
+    "artist": "eee gee",
+    "date": "2027-02-04",
+    "time": "20:00",
+    "venue": "Store VEGA",
+    "room": "Store VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/eee-gee-2027-02-04",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_EeeGee_2027-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
     "id": "vega-lille-vega-2027-02-04-sch-fer",
     "artist": "Schæfer",
     "date": "2027-02-04",
@@ -611,15 +637,15 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-store-vega-2027-02-04-eee-gee",
+    "id": "vega-store-vega-2027-02-05-eee-gee",
     "artist": "eee gee",
-    "date": "2027-02-04",
+    "date": "2027-02-05",
     "time": "20:00",
     "venue": "Store VEGA",
     "room": "Store VEGA",
     "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://vega.dk/event/eee-gee-2027-02-04",
+    "status": "Udsolgt",
+    "url": "https://vega.dk/event/eee-gee-2027-02-05",
     "image": "https://payload.vega.dk/media/VEGA_Kalender_EeeGee_2027-1200x630.jpg",
     "source": "VEGA"
   },
@@ -634,19 +660,6 @@
     "status": "Billetter",
     "url": "https://vega.dk/event/madra-salach-2027-02-05",
     "image": "https://payload.vega.dk/media/VEGA_Kalender_MadraSalach_2027-1200x630.jpg",
-    "source": "VEGA"
-  },
-  {
-    "id": "vega-store-vega-2027-02-05-eee-gee",
-    "artist": "eee gee",
-    "date": "2027-02-05",
-    "time": "20:00",
-    "venue": "Store VEGA",
-    "room": "Store VEGA",
-    "genre": "Andet",
-    "status": "Udsolgt",
-    "url": "https://vega.dk/event/eee-gee-2027-02-05",
-    "image": "https://payload.vega.dk/media/VEGA_Kalender_EeeGee_2027-1200x630.jpg",
     "source": "VEGA"
   },
   {
