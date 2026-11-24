@@ -1,18 +1,5 @@
 [
   {
-    "id": "vega-lille-vega-2026-11-23-only-the-poets",
-    "artist": "Only The Poets",
-    "date": "2026-11-23",
-    "time": "20:00",
-    "venue": "Lille VEGA",
-    "room": "Lille VEGA",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://vega.dk/event/only-the-poets-2026-11-23",
-    "image": "https://payload.vega.dk/media/VEGA_Kalender_OnlyThePoets_2026-1200x630.jpg",
-    "source": "VEGA"
-  },
-  {
     "id": "vega-store-vega-2026-11-24-amistat",
     "artist": "Amistat",
     "date": "2026-11-24",
@@ -845,19 +832,6 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-store-vega-2027-02-25-hugorm",
-    "artist": "Hugorm",
-    "date": "2027-02-25",
-    "time": "20:00",
-    "venue": "Store VEGA",
-    "room": "Store VEGA",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://vega.dk/event/hugorm-2027-02-25",
-    "image": "https://payload.vega.dk/media/VEGA_kalender_HUGORM_2026-1200x630.jpg",
-    "source": "VEGA"
-  },
-  {
     "id": "vega-lille-vega-2027-02-25-keisha",
     "artist": "Keisha",
     "date": "2027-02-25",
@@ -868,6 +842,19 @@
     "status": "Billetter",
     "url": "https://vega.dk/event/keisha-2027-02-25",
     "image": "https://payload.vega.dk/media/VEGA_Kalender_Keisha_2027-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-store-vega-2027-02-25-hugorm",
+    "artist": "Hugorm",
+    "date": "2027-02-25",
+    "time": "20:00",
+    "venue": "Store VEGA",
+    "room": "Store VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/hugorm-2027-02-25",
+    "image": "https://payload.vega.dk/media/VEGA_kalender_HUGORM_2026-1200x630.jpg",
     "source": "VEGA"
   },
   {
