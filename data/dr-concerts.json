@@ -35,7 +35,7 @@
     "genre": "Andet",
     "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/eva-dahlgren/eva-dahlgren/",
-    "image": "https://www.drkoncerthuset.dk/media/isnj1i0l/event_33715.jpg?mode=crop&width=1200&height=630&quality=80",
+    "image": "https://www.drkoncerthuset.dk/media/isnj1i0l/event_33715.jpg?width=1600&height=800&v=1dcd22236654600&quality=80",
     "source": "DR Koncerthuset"
   },
   {
@@ -48,7 +48,7 @@
     "genre": "Andet",
     "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/20_14-assembly/20_14-assembly-clarissa-connelly-mija-milovic-henriette-motzfeldt-caecilie-trier-og-rune-kielsgaard-en-aften-med-fri-improvisation/",
-    "image": "https://www.drkoncerthuset.dk/media/zc5mndwx/event_35415.jpg?mode=crop&width=1200&height=630&quality=80",
+    "image": "https://www.drkoncerthuset.dk/media/zc5mndwx/event_35415.jpg?width=1600&height=800&v=1dd558edca1ef60&quality=80",
     "source": "DR Koncerthuset"
   },
   {
@@ -61,7 +61,7 @@
     "genre": "Andet",
     "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/its-actually-christmas/its-actually-christmas-at-the-symphony/",
-    "image": "https://www.drkoncerthuset.dk/media/uman5tbr/event_32652.jpg?mode=crop&width=1200&height=630&quality=80",
+    "image": "https://www.drkoncerthuset.dk/media/lfibjq15/its-actually-christmas-2550x1275.jpg?width=1600&height=800&v=1dd402b41f30580&quality=80",
     "source": "DR Koncerthuset"
   },
   {
@@ -74,7 +74,7 @@
     "genre": "Andet",
     "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/its-actually-christmas/its-actually-christmas-at-the-symphony-1/",
-    "image": "https://www.drkoncerthuset.dk/media/uman5tbr/event_32652.jpg?mode=crop&width=1200&height=630&quality=80",
+    "image": "https://www.drkoncerthuset.dk/media/lfibjq15/its-actually-christmas-2550x1275.jpg?width=1600&height=800&v=1dd402b41f30580&quality=80",
     "source": "DR Koncerthuset"
   },
   {
@@ -1739,6 +1739,19 @@
     "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2027/tjeknavorian-symphonie-fantastique/tjeknavorian-symphonie-fantastique-1/",
     "image": "https://www.drkoncerthuset.dk/media/2vbmrcvu/event_30981.jpg?mode=crop&width=1200&height=630&quality=80",
+    "source": "DR Koncerthuset"
+  },
+  {
+    "id": "dr-isak-danielson-2027-03-13-20-00",
+    "artist": "Isak Danielson",
+    "date": "2027-03-13",
+    "time": "20:00",
+    "venue": "DR Koncerthuset",
+    "room": "STUDIE 2",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://www.drkoncerthuset.dk/kalender/2027/isak-danielson/isak-danielson/",
+    "image": "https://www.drkoncerthuset.dk/media/c2gpgxje/event_35882.jpg?mode=crop&width=1200&height=630&quality=80",
     "source": "DR Koncerthuset"
   },
   {
