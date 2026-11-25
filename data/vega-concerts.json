@@ -1,15 +1,15 @@
 [
   {
-    "id": "vega-store-vega-2026-11-24-amistat",
-    "artist": "Amistat",
-    "date": "2026-11-24",
+    "id": "vega-lille-vega-2026-11-25-dahlin",
+    "artist": "Dahlin",
+    "date": "2026-11-25",
     "time": "20:00",
-    "venue": "Store VEGA",
-    "room": "Store VEGA",
+    "venue": "Lille VEGA",
+    "room": "Lille VEGA",
     "genre": "Andet",
     "status": "Billetter",
-    "url": "https://vega.dk/event/amistat-2026-11-24",
-    "image": "https://payload.vega.dk/media/VEGA_Kalender_Amistat_2026-1200x630.jpg",
+    "url": "https://vega.dk/event/dahlin-2026-11-25",
+    "image": "https://payload.vega.dk/media/2026_Kalender-Dahlin-1200x630.jpg",
     "source": "VEGA"
   },
   {
@@ -23,19 +23,6 @@
     "status": "Billetter",
     "url": "https://vega.dk/event/chelsea-wolfe-2026-11-25",
     "image": "https://payload.vega.dk/media/VEGA_Kalender_ChelseaWolfe_2026-1200x630.jpg",
-    "source": "VEGA"
-  },
-  {
-    "id": "vega-lille-vega-2026-11-25-dahlin",
-    "artist": "Dahlin",
-    "date": "2026-11-25",
-    "time": "20:00",
-    "venue": "Lille VEGA",
-    "room": "Lille VEGA",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://vega.dk/event/dahlin-2026-11-25",
-    "image": "https://payload.vega.dk/media/2026_Kalender-Dahlin-1200x630.jpg",
     "source": "VEGA"
   },
   {
@@ -221,19 +208,6 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-lille-vega-2026-12-10-holdo",
-    "artist": "Holdo",
-    "date": "2026-12-10",
-    "time": "20:00",
-    "venue": "Lille VEGA",
-    "room": "Lille VEGA",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://vega.dk/event/holdo-2026-12-10",
-    "image": "https://payload.vega.dk/media/2026-VEGA-Kalender-Holdo-1-1200x630.jpg",
-    "source": "VEGA"
-  },
-  {
     "id": "vega-store-vega-2026-12-10-ashes-of-billy",
     "artist": "Ashes of Billy",
     "date": "2026-12-10",
@@ -244,6 +218,19 @@
     "status": "Billetter",
     "url": "https://vega.dk/event/ashes-of-billy-2026-12-10",
     "image": "https://payload.vega.dk/media/VEGA_Kalender_AshesofBilly_2026-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-lille-vega-2026-12-10-holdo",
+    "artist": "Holdo",
+    "date": "2026-12-10",
+    "time": "20:00",
+    "venue": "Lille VEGA",
+    "room": "Lille VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/holdo-2026-12-10",
+    "image": "https://payload.vega.dk/media/2026-VEGA-Kalender-Holdo-1-1200x630.jpg",
     "source": "VEGA"
   },
   {
@@ -1469,6 +1456,19 @@
     "source": "VEGA"
   },
   {
+    "id": "vega-store-vega-2027-04-22-mastodon",
+    "artist": "Mastodon",
+    "date": "2027-04-22",
+    "time": "20:00",
+    "venue": "Store VEGA",
+    "room": "Store VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/mastodon-2027-04-22",
+    "image": "https://payload.vega.dk/media/Mastodon Â©William Lacalmontie_3558-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
     "id": "vega-store-vega-2027-04-23-barselona---ekstrakoncert",
     "artist": "Barselona - Ekstrakoncert",
     "date": "2027-04-23",
@@ -1921,6 +1921,19 @@
     "status": "Billetter",
     "url": "https://vega.dk/event/turboweekend-2027-12-04",
     "image": "https://payload.vega.dk/media/VEGA_Kalender_Turboweekend_2027-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-store-vega-2028-01-15-soleima",
+    "artist": "Soleima",
+    "date": "2028-01-15",
+    "time": "20:00",
+    "venue": "Store VEGA",
+    "room": "Store VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/soleima-2028-01-15",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_Soleima_2028-1200x630.jpg",
     "source": "VEGA"
   }
 ]
