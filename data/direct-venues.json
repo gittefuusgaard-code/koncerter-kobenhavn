@@ -1,18 +1,5 @@
 [
   {
-    "id": "direct-pumpehuset-2026-11-24--oplev-marrokanske-dizzy-dros-i-pumpehuset",
-    "artist": "Oplev marrokanske Dizzy DROS i Pumpehuset",
-    "date": "2026-11-24",
-    "time": "",
-    "venue": "Pumpehuset",
-    "room": "Pumpehuset",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://pumpehuset.dk/koncerter/dizzy-dros/",
-    "image": "https://pumpehuset.dk/wp-content/uploads/Dizzy-Dros.jpg",
-    "source": "Pumpehuset"
-  },
-  {
     "id": "direct-pumpehuset-2026-11-25--morbidfest-indtager-pumpehuset-25--november",
     "artist": "Morbidfest indtager Pumpehuset 25. november",
     "date": "2026-11-25",
@@ -182,6 +169,19 @@
     "source": "Pumpehuset"
   },
   {
+    "id": "direct-pumpehuset-2026-12-03--roben---knud-vender-tilbage-til-pumpehuset-i-december-2026",
+    "artist": "Roben & Knud vender tilbage til Pumpehuset i december 2026",
+    "date": "2026-12-03",
+    "time": "",
+    "venue": "Pumpehuset",
+    "room": "Pumpehuset",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://pumpehuset.dk/koncerter/roben-knud-12/",
+    "image": "https://pumpehuset.dk/wp-content/uploads/robenknud-10-1-e1768903617203.jpg",
+    "source": "Pumpehuset"
+  },
+  {
     "id": "direct-bremen-teater-2026-12-05-20-00-adnan",
     "artist": "Adnan",
     "date": "2026-12-05",
@@ -345,7 +345,7 @@
     "venue": "Bremen Teater",
     "room": "Bremen Teater",
     "genre": "Andet",
-    "status": "Billetter",
+    "status": "Udsolgt",
     "url": "https://www.brementeater.dk/arrangementer/christian-fuhlendorff",
     "image": "",
     "source": "Bremen Teater"
@@ -358,7 +358,7 @@
     "venue": "Bremen Teater",
     "room": "Bremen Teater",
     "genre": "Andet",
-    "status": "Billetter",
+    "status": "Udsolgt",
     "url": "https://www.brementeater.dk/arrangementer/christian-fuhlendorff",
     "image": "",
     "source": "Bremen Teater"
@@ -700,6 +700,32 @@
     "url": "https://kbhallen.dk/event/bill-bailey_2027-04-29/",
     "image": "https://kbhallen.dk/site/assets/files/4947/bill_bailey_landscape_clean.1920x1080.jpg",
     "source": "K.B. Hallen"
+  },
+  {
+    "id": "direct-bremen-teater-2027-05-22-18-00-frank-hvam",
+    "artist": "Frank Hvam",
+    "date": "2027-05-22",
+    "time": "18:00",
+    "venue": "Bremen Teater",
+    "room": "Bremen Teater",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://www.brementeater.dk/arrangementer/frank-hvam",
+    "image": "",
+    "source": "Bremen Teater"
+  },
+  {
+    "id": "direct-bremen-teater-2027-05-22-20-00-frank-hvam",
+    "artist": "Frank Hvam",
+    "date": "2027-05-22",
+    "time": "20:00",
+    "venue": "Bremen Teater",
+    "room": "Bremen Teater",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://www.brementeater.dk/arrangementer/frank-hvam",
+    "image": "",
+    "source": "Bremen Teater"
   },
   {
     "id": "direct-bremen-teater-2027-06-03-18-00-casper-christensen",
