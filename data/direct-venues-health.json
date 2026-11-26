@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-26T03:54:24.467Z",
+  "checkedAt": "2026-11-26T17:27:44.218Z",
   "venues": [
     {
       "venue": "Royal Arena",
@@ -10,7 +10,7 @@
     {
       "venue": "K.B. Hallen",
       "previousFuture": 31,
-      "scrapedFuture": 31,
+      "scrapedFuture": 32,
       "status": "ok"
     },
     {
