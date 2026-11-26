@@ -113,20 +113,7 @@
     "genre": "Andet",
     "status": "Billetter",
     "url": "https://vega.dk/event/nordic-plus-2026-12-03",
-    "image": "https://payload.vega.dk/media/VEGA_Nordic+_Kalender_2026-1200x630.jpg",
-    "source": "VEGA"
-  },
-  {
-    "id": "vega-store-vega-2026-12-05-roya",
-    "artist": "ROYA",
-    "date": "2026-12-05",
-    "time": "20:00",
-    "venue": "Store VEGA",
-    "room": "Store VEGA",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://vega.dk/event/roya-2026-12-05",
-    "image": "https://payload.vega.dk/media/VEGA_Kalender_ROYA_2026-1200x630.jpg",
+    "image": "https://payload.vega.dk/media/VEGA-Liveurope-Festival-vegadk-1200x630.jpg",
     "source": "VEGA"
   },
   {
@@ -140,6 +127,19 @@
     "status": "Billetter",
     "url": "https://vega.dk/event/guzo-2026-12-05",
     "image": "https://payload.vega.dk/media/2026_Kalender_GUZO-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-store-vega-2026-12-05-roya",
+    "artist": "ROYA",
+    "date": "2026-12-05",
+    "time": "20:00",
+    "venue": "Store VEGA",
+    "room": "Store VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/roya-2026-12-05",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_ROYA_2026-1200x630.jpg",
     "source": "VEGA"
   },
   {
@@ -572,19 +572,6 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-store-vega-2027-02-04-eee-gee",
-    "artist": "eee gee",
-    "date": "2027-02-04",
-    "time": "20:00",
-    "venue": "Store VEGA",
-    "room": "Store VEGA",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://vega.dk/event/eee-gee-2027-02-04",
-    "image": "https://payload.vega.dk/media/VEGA_Kalender_EeeGee_2027-1200x630.jpg",
-    "source": "VEGA"
-  },
-  {
     "id": "vega-lille-vega-2027-02-04-sch-fer",
     "artist": "Schæfer",
     "date": "2027-02-04",
@@ -598,15 +585,15 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-store-vega-2027-02-05-eee-gee",
+    "id": "vega-store-vega-2027-02-04-eee-gee",
     "artist": "eee gee",
-    "date": "2027-02-05",
+    "date": "2027-02-04",
     "time": "20:00",
     "venue": "Store VEGA",
     "room": "Store VEGA",
     "genre": "Andet",
-    "status": "Udsolgt",
-    "url": "https://vega.dk/event/eee-gee-2027-02-05",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/eee-gee-2027-02-04",
     "image": "https://payload.vega.dk/media/VEGA_Kalender_EeeGee_2027-1200x630.jpg",
     "source": "VEGA"
   },
@@ -621,6 +608,19 @@
     "status": "Billetter",
     "url": "https://vega.dk/event/madra-salach-2027-02-05",
     "image": "https://payload.vega.dk/media/VEGA_Kalender_MadraSalach_2027-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-store-vega-2027-02-05-eee-gee",
+    "artist": "eee gee",
+    "date": "2027-02-05",
+    "time": "20:00",
+    "venue": "Store VEGA",
+    "room": "Store VEGA",
+    "genre": "Andet",
+    "status": "Udsolgt",
+    "url": "https://vega.dk/event/eee-gee-2027-02-05",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_EeeGee_2027-1200x630.jpg",
     "source": "VEGA"
   },
   {
@@ -806,19 +806,6 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-lille-vega-2027-02-25-keisha",
-    "artist": "Keisha",
-    "date": "2027-02-25",
-    "time": "20:00",
-    "venue": "Lille VEGA",
-    "room": "Lille VEGA",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://vega.dk/event/keisha-2027-02-25",
-    "image": "https://payload.vega.dk/media/VEGA_Kalender_Keisha_2027-1200x630.jpg",
-    "source": "VEGA"
-  },
-  {
     "id": "vega-store-vega-2027-02-25-hugorm",
     "artist": "Hugorm",
     "date": "2027-02-25",
@@ -829,6 +816,19 @@
     "status": "Billetter",
     "url": "https://vega.dk/event/hugorm-2027-02-25",
     "image": "https://payload.vega.dk/media/VEGA_kalender_HUGORM_2026-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-lille-vega-2027-02-25-keisha",
+    "artist": "Keisha",
+    "date": "2027-02-25",
+    "time": "20:00",
+    "venue": "Lille VEGA",
+    "room": "Lille VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/keisha-2027-02-25",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_Keisha_2027-1200x630.jpg",
     "source": "VEGA"
   },
   {
@@ -1476,7 +1476,7 @@
     "venue": "Store VEGA",
     "room": "Store VEGA",
     "genre": "Andet",
-    "status": "Billetter",
+    "status": "Udsolgt",
     "url": "https://vega.dk/event/morcheeba-2027-04-26",
     "image": "https://payload.vega.dk/media/VEGA_Kalender_Morcheeba_2027-1200x630.jpg",
     "source": "VEGA"
