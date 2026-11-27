@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-27T13:16:28.419Z",
+  "checkedAt": "2026-11-27T23:52:17.944Z",
   "venues": [
     {
       "venue": "Royal Arena",
@@ -10,8 +10,8 @@
     {
       "venue": "K.B. Hallen",
       "previousFuture": 32,
-      "scrapedFuture": 0,
-      "status": "protected"
+      "scrapedFuture": 33,
+      "status": "ok"
     },
     {
       "venue": "Amager Bio",
@@ -33,7 +33,6 @@
     }
   ],
   "warnings": [
-    "Royal Arena: scraped 0 of 12 previously stored future events; keeping previous snapshot",
-    "K.B. Hallen: scraped 0 of 32 previously stored future events; keeping previous snapshot"
+    "Royal Arena: scraped 0 of 12 previously stored future events; keeping previous snapshot"
   ]
 }
