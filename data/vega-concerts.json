@@ -1,31 +1,5 @@
 [
   {
-    "id": "vega-store-vega-2026-11-26-allan-olsen---det-sidste-sl-ng",
-    "artist": "Allan Olsen & Det Sidste Slæng",
-    "date": "2026-11-26",
-    "time": "20:00",
-    "venue": "Store VEGA",
-    "room": "Store VEGA",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://vega.dk/event/allan-olsen-and-det-sidste-slaeng-2026-11-26",
-    "image": "https://payload.vega.dk/media/VEGA_Kalender_2026_AllanOlsen&detsidsteslÃ¦ng-1200x630.jpg",
-    "source": "VEGA"
-  },
-  {
-    "id": "vega-lille-vega-2026-11-26-np-york",
-    "artist": "NP York",
-    "date": "2026-11-26",
-    "time": "21:00",
-    "venue": "Lille VEGA",
-    "room": "Lille VEGA",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://vega.dk/event/np-york-2026-11-26",
-    "image": "https://payload.vega.dk/media/VEGA_Kalender_NPYork-ny_2026-1200x630.jpg",
-    "source": "VEGA"
-  },
-  {
     "id": "vega-lille-vega-2026-11-28-downtown-july",
     "artist": "Downtown July",
     "date": "2026-11-28",
@@ -208,19 +182,6 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-lille-vega-2026-12-12-users",
-    "artist": "Users",
-    "date": "2026-12-12",
-    "time": "21:00",
-    "venue": "Lille VEGA",
-    "room": "Lille VEGA",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://vega.dk/event/users-2026-12-12",
-    "image": "https://payload.vega.dk/media/USERS-pressebillede-1200x630.jpg",
-    "source": "VEGA"
-  },
-  {
     "id": "vega-store-vega-2026-12-12-malk-de-koijn---ekstrakoncert",
     "artist": "Malk De Koijn - Ekstrakoncert",
     "date": "2026-12-12",
@@ -231,6 +192,19 @@
     "status": "Billetter",
     "url": "https://vega.dk/event/malk-de-koijn-ekstrakoncert-2026-12-12",
     "image": "https://payload.vega.dk/media/VEGA_Kalender_Malk_De_Koijn_2026-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-lille-vega-2026-12-12-users",
+    "artist": "Users",
+    "date": "2026-12-12",
+    "time": "21:00",
+    "venue": "Lille VEGA",
+    "room": "Lille VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/users-2026-12-12",
+    "image": "https://payload.vega.dk/media/USERS-pressebillede-1200x630.jpg",
     "source": "VEGA"
   },
   {
