@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-26T17:27:44.218Z",
+  "checkedAt": "2026-11-27T02:03:45.740Z",
   "venues": [
     {
       "venue": "Royal Arena",
@@ -9,9 +9,9 @@
     },
     {
       "venue": "K.B. Hallen",
-      "previousFuture": 31,
-      "scrapedFuture": 32,
-      "status": "ok"
+      "previousFuture": 32,
+      "scrapedFuture": 0,
+      "status": "protected"
     },
     {
       "venue": "Amager Bio",
@@ -27,12 +27,13 @@
     },
     {
       "venue": "Pumpehuset",
-      "previousFuture": 12,
-      "scrapedFuture": 12,
+      "previousFuture": 10,
+      "scrapedFuture": 11,
       "status": "ok"
     }
   ],
   "warnings": [
-    "Royal Arena: scraped 0 of 12 previously stored future events; keeping previous snapshot"
+    "Royal Arena: scraped 0 of 12 previously stored future events; keeping previous snapshot",
+    "K.B. Hallen: scraped 0 of 32 previously stored future events; keeping previous snapshot"
   ]
 }
