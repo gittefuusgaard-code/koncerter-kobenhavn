@@ -91,19 +91,6 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-lille-vega-2026-12-05-guzo",
-    "artist": "GUZO",
-    "date": "2026-12-05",
-    "time": "20:00",
-    "venue": "Lille VEGA",
-    "room": "Lille VEGA",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://vega.dk/event/guzo-2026-12-05",
-    "image": "https://payload.vega.dk/media/2026_Kalender_GUZO-1200x630.jpg",
-    "source": "VEGA"
-  },
-  {
     "id": "vega-store-vega-2026-12-05-roya",
     "artist": "ROYA",
     "date": "2026-12-05",
@@ -114,6 +101,19 @@
     "status": "Billetter",
     "url": "https://vega.dk/event/roya-2026-12-05",
     "image": "https://payload.vega.dk/media/VEGA_Kalender_ROYA_2026-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-lille-vega-2026-12-05-guzo",
+    "artist": "GUZO",
+    "date": "2026-12-05",
+    "time": "20:00",
+    "venue": "Lille VEGA",
+    "room": "Lille VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/guzo-2026-12-05",
+    "image": "https://payload.vega.dk/media/2026_Kalender_GUZO-1200x630.jpg",
     "source": "VEGA"
   },
   {
@@ -533,6 +533,19 @@
     "source": "VEGA"
   },
   {
+    "id": "vega-store-vega-2027-01-30-when-copenhell-freezes-over-2027",
+    "artist": "When Copenhell Freezes Over 2027",
+    "date": "2027-01-30",
+    "time": "19:00",
+    "venue": "Store VEGA",
+    "room": "Store VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/when-copenhell-freezes-over-2027-2027-01-30",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_WhenCopenhellFreezesOver_2027-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
     "id": "vega-store-vega-2027-02-03-the-mary-wallopers",
     "artist": "The Mary Wallopers",
     "date": "2027-02-03",
@@ -543,19 +556,6 @@
     "status": "Billetter",
     "url": "https://vega.dk/event/the-mary-wallopers-2027-02-03",
     "image": "https://payload.vega.dk/media/VEGA_Kalender_TheMaryWallopers_2027-1200x630.jpg",
-    "source": "VEGA"
-  },
-  {
-    "id": "vega-lille-vega-2027-02-04-sch-fer",
-    "artist": "Schæfer",
-    "date": "2027-02-04",
-    "time": "20:00",
-    "venue": "Lille VEGA",
-    "room": "Lille VEGA",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://vega.dk/event/schaefer-2027-02-04",
-    "image": "https://payload.vega.dk/media/VEGA_Kalender_SchÃ¦fer_2027-1200x630.jpg",
     "source": "VEGA"
   },
   {
@@ -572,16 +572,16 @@
     "source": "VEGA"
   },
   {
-    "id": "vega-lille-vega-2027-02-05-madra-salach",
-    "artist": "Madra Salach",
-    "date": "2027-02-05",
-    "time": "21:00",
+    "id": "vega-lille-vega-2027-02-04-sch-fer",
+    "artist": "Schæfer",
+    "date": "2027-02-04",
+    "time": "20:00",
     "venue": "Lille VEGA",
     "room": "Lille VEGA",
     "genre": "Andet",
     "status": "Billetter",
-    "url": "https://vega.dk/event/madra-salach-2027-02-05",
-    "image": "https://payload.vega.dk/media/VEGA_Kalender_MadraSalach_2027-1200x630.jpg",
+    "url": "https://vega.dk/event/schaefer-2027-02-04",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_SchÃ¦fer_2027-1200x630.jpg",
     "source": "VEGA"
   },
   {
@@ -595,6 +595,19 @@
     "status": "Udsolgt",
     "url": "https://vega.dk/event/eee-gee-2027-02-05",
     "image": "https://payload.vega.dk/media/VEGA_Kalender_EeeGee_2027-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-lille-vega-2027-02-05-madra-salach",
+    "artist": "Madra Salach",
+    "date": "2027-02-05",
+    "time": "21:00",
+    "venue": "Lille VEGA",
+    "room": "Lille VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/madra-salach-2027-02-05",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_MadraSalach_2027-1200x630.jpg",
     "source": "VEGA"
   },
   {
@@ -1609,6 +1622,19 @@
     "status": "Billetter",
     "url": "https://vega.dk/event/tomas-hoffding-2027-05-27",
     "image": "https://payload.vega.dk/media/VEGA_Kalender_TomasHÃ¸ffding_2027-1200x630.jpg",
+    "source": "VEGA"
+  },
+  {
+    "id": "vega-lille-vega-2027-05-27-creekbed-carter-hogan",
+    "artist": "Creekbed Carter Hogan",
+    "date": "2027-05-27",
+    "time": "21:00",
+    "venue": "Lille VEGA",
+    "room": "Lille VEGA",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://vega.dk/event/creekbed-carter-hogan-2027-05-27",
+    "image": "https://payload.vega.dk/media/VEGA_Kalender_Creaked Carter Hogan_2027-1200x630.jpg",
     "source": "VEGA"
   },
   {
