@@ -1,18 +1,5 @@
 [
   {
-    "id": "dr-it-s-actually-christmas-2026-11-26-19-30",
-    "artist": "It's Actually Christmas",
-    "date": "2026-11-26",
-    "time": "19:30",
-    "venue": "DR Koncerthuset",
-    "room": "KONCERTSALEN",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://www.drkoncerthuset.dk/kalender/2026/its-actually-christmas/its-actually-christmas-at-the-symphony/",
-    "image": "https://www.drkoncerthuset.dk/media/lfibjq15/its-actually-christmas-2550x1275.jpg?width=1600&height=800&v=1dd402b41f30580&quality=80",
-    "source": "DR Koncerthuset"
-  },
-  {
     "id": "dr-it-s-actually-christmas-2026-11-27-19-30",
     "artist": "It's Actually Christmas",
     "date": "2026-11-27",
@@ -35,7 +22,7 @@
     "genre": "Andet",
     "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/bifald/bifald/",
-    "image": "https://www.drkoncerthuset.dk/media/vjgdmknf/event_33189.jpg?width=1600&height=800&v=1dcbdb82d692590&quality=80",
+    "image": "https://www.drkoncerthuset.dk/media/vjgdmknf/event_33189.jpg?mode=crop&width=1200&height=630&quality=80",
     "source": "DR Koncerthuset"
   },
   {
@@ -48,7 +35,7 @@
     "genre": "Andet",
     "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/its-actually-christmas/its-actually-christmas-at-the-symphony-2/",
-    "image": "https://www.drkoncerthuset.dk/media/lfibjq15/its-actually-christmas-2550x1275.jpg?width=1600&height=800&v=1dd402b41f30580&quality=80",
+    "image": "https://www.drkoncerthuset.dk/media/uman5tbr/event_32652.jpg?mode=crop&width=1200&height=630&quality=80",
     "source": "DR Koncerthuset"
   },
   {
@@ -59,9 +46,9 @@
     "venue": "DR Koncerthuset",
     "room": "STUDIE 2",
     "genre": "Andet",
-    "status": "Billetter",
+    "status": "Venteliste",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/tori-kelly/tori-kelly-god-must-really-love-me-europe-tour/",
-    "image": "https://www.drkoncerthuset.dk/media/azffv23j/event_33991.jpg?width=1600&height=800&v=1dcdec328df15d0&quality=80",
+    "image": "https://www.drkoncerthuset.dk/media/azffv23j/event_33991.jpg?mode=crop&width=1200&height=630&quality=80",
     "source": "DR Koncerthuset"
   },
   {
@@ -124,7 +111,7 @@
     "venue": "DR Koncerthuset",
     "room": "STUDIE 3",
     "genre": "Andet",
-    "status": "Billetter",
+    "status": "Venteliste",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/finn-askew/finn-askew/",
     "image": "https://www.drkoncerthuset.dk/media/2udbkwxo/event_35431.jpg?mode=crop&width=1200&height=630&quality=80",
     "source": "DR Koncerthuset"
@@ -2730,6 +2717,19 @@
     "source": "DR Koncerthuset"
   },
   {
+    "id": "dr-milling---molbech---madonna-2027-10-23-16-00",
+    "artist": "Milling & Molbech - Madonna",
+    "date": "2027-10-23",
+    "time": "16:00",
+    "venue": "DR Koncerthuset",
+    "room": "KONCERTSALEN",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://www.drkoncerthuset.dk/kalender/2027/milling-molbech-madonna/milling-molbech-madonna-historien-bag-musikken-du-elsker-ekstrakoncert/",
+    "image": "https://www.drkoncerthuset.dk/media/50uavfvw/event_35523.jpg?mode=crop&width=1200&height=630&quality=80",
+    "source": "DR Koncerthuset"
+  },
+  {
     "id": "dr-milling---molbech---madonna-2027-10-23-20-00",
     "artist": "Milling & Molbech - Madonna",
     "date": "2027-10-23",
@@ -2792,6 +2792,19 @@
     "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2027/lucky-lo/lucky-lo/",
     "image": "https://www.drkoncerthuset.dk/media/vbqghv0t/event_35732.jpg?mode=crop&width=1200&height=630&quality=80",
+    "source": "DR Koncerthuset"
+  },
+  {
+    "id": "dr-requiem-2027-11-14-16-00",
+    "artist": "Requiem",
+    "date": "2027-11-14",
+    "time": "16:00",
+    "venue": "DR Koncerthuset",
+    "room": "KONCERTSALEN",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://www.drkoncerthuset.dk/kalender/2027/requiem/requiem-mozarts-mytiske-doedsmesse-og-kunzens-hyldest-til-livet/",
+    "image": "https://www.drkoncerthuset.dk/media/yk4nr1tc/event_35970.jpg?mode=crop&width=1200&height=630&quality=80",
     "source": "DR Koncerthuset"
   },
   {
