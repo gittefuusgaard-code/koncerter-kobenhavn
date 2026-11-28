@@ -1,31 +1,5 @@
 [
   {
-    "id": "dr-it-s-actually-christmas-2026-11-27-19-30",
-    "artist": "It's Actually Christmas",
-    "date": "2026-11-27",
-    "time": "19:30",
-    "venue": "DR Koncerthuset",
-    "room": "KONCERTSALEN",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://www.drkoncerthuset.dk/kalender/2026/its-actually-christmas/its-actually-christmas-at-the-symphony-1/",
-    "image": "https://www.drkoncerthuset.dk/media/lfibjq15/its-actually-christmas-2550x1275.jpg?width=1600&height=800&v=1dd402b41f30580&quality=80",
-    "source": "DR Koncerthuset"
-  },
-  {
-    "id": "dr-bifald-2026-11-27-20-00",
-    "artist": "Bifald",
-    "date": "2026-11-27",
-    "time": "20:00",
-    "venue": "DR Koncerthuset",
-    "room": "STUDIE 3",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://www.drkoncerthuset.dk/kalender/2026/bifald/bifald/",
-    "image": "https://www.drkoncerthuset.dk/media/vjgdmknf/event_33189.jpg?mode=crop&width=1200&height=630&quality=80",
-    "source": "DR Koncerthuset"
-  },
-  {
     "id": "dr-it-s-actually-christmas-2026-11-28-15-00",
     "artist": "It's Actually Christmas",
     "date": "2026-11-28",
@@ -35,7 +9,7 @@
     "genre": "Andet",
     "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/its-actually-christmas/its-actually-christmas-at-the-symphony-2/",
-    "image": "https://www.drkoncerthuset.dk/media/uman5tbr/event_32652.jpg?mode=crop&width=1200&height=630&quality=80",
+    "image": "https://www.drkoncerthuset.dk/media/lfibjq15/its-actually-christmas-2550x1275.jpg?width=1600&height=800&v=1dd402b41f30580&quality=80",
     "source": "DR Koncerthuset"
   },
   {
@@ -48,7 +22,7 @@
     "genre": "Andet",
     "status": "Venteliste",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/tori-kelly/tori-kelly-god-must-really-love-me-europe-tour/",
-    "image": "https://www.drkoncerthuset.dk/media/azffv23j/event_33991.jpg?mode=crop&width=1200&height=630&quality=80",
+    "image": "https://www.drkoncerthuset.dk/media/azffv23j/event_33991.jpg?width=1600&height=800&v=1dcdec328df15d0&quality=80",
     "source": "DR Koncerthuset"
   },
   {
@@ -61,7 +35,7 @@
     "genre": "Andet",
     "status": "Venteliste",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/boerstes-store-julefest/boerstes-store-julefest-12/",
-    "image": "https://www.drkoncerthuset.dk/media/hxxbcay5/event_34884.jpg?mode=crop&width=1200&height=630&quality=80",
+    "image": "https://www.drkoncerthuset.dk/media/b5wno1b3/boerste-store-julefest-2.jpg?rxy=0.6301854225723879,0.39498995378860524&width=1600&height=800&v=1dd0d1acec15370&quality=80",
     "source": "DR Koncerthuset"
   },
   {
@@ -74,7 +48,7 @@
     "genre": "Andet",
     "status": "Venteliste",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/boerstes-store-julefest/boerstes-store-julefest-13/",
-    "image": "https://www.drkoncerthuset.dk/media/hxxbcay5/event_34884.jpg?mode=crop&width=1200&height=630&quality=80",
+    "image": "https://www.drkoncerthuset.dk/media/b5wno1b3/boerste-store-julefest-2.jpg?rxy=0.6301854225723879,0.39498995378860524&width=1600&height=800&v=1dd0d1acec15370&quality=80",
     "source": "DR Koncerthuset"
   },
   {
@@ -87,7 +61,7 @@
     "genre": "Andet",
     "status": "Venteliste",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/boerstes-store-julefest/boerstes-store-julefest-14/",
-    "image": "https://www.drkoncerthuset.dk/media/hxxbcay5/event_34884.jpg?mode=crop&width=1200&height=630&quality=80",
+    "image": "https://www.drkoncerthuset.dk/media/b5wno1b3/boerste-store-julefest-2.jpg?rxy=0.6301854225723879,0.39498995378860524&width=1600&height=800&v=1dd0d1acec15370&quality=80",
     "source": "DR Koncerthuset"
   },
   {
@@ -100,7 +74,7 @@
     "genre": "Andet",
     "status": "Billetter",
     "url": "https://www.drkoncerthuset.dk/kalender/2026/when-saints-go-machine/when-saints-go-machine-2-ekstrakoncert/",
-    "image": "https://www.drkoncerthuset.dk/media/ay4hcbkx/event_31049.jpg?mode=crop&width=1200&height=630&quality=80",
+    "image": "https://www.drkoncerthuset.dk/media/ay4hcbkx/event_31049.jpg?width=1600&height=800&v=1dc8c5bb19be9d0&quality=80",
     "source": "DR Koncerthuset"
   },
   {
