@@ -1,31 +1,5 @@
 [
   {
-    "id": "direct-pumpehuset-2026-11-27--a-proper-house-party-w--gaskin---la-la---mat-eclair-i-pumpehuset",
-    "artist": "A PROPER HOUSE PARTY w/ Gaskin × La La × Mat Eclair i Pumpehuset",
-    "date": "2026-11-27",
-    "time": "",
-    "venue": "Pumpehuset",
-    "room": "Pumpehuset",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://pumpehuset.dk/koncerter/a-proper-house-party-w-gaskin-x-la-la-x-mat-eclair/",
-    "image": "https://pumpehuset.dk/wp-content/uploads/GASKIN-festival-16x9-1.jpg",
-    "source": "Pumpehuset"
-  },
-  {
-    "id": "direct-royal-arena-2026-11-27--blaue-blume",
-    "artist": "Blaue Blume",
-    "date": "2026-11-27",
-    "time": "",
-    "venue": "Royal Arena",
-    "room": "Royal Arena",
-    "genre": "Andet",
-    "status": "Billetter",
-    "url": "https://www.royalarena.dk/all-events/blaue-blume-tickets-ae577394",
-    "image": "https://networksites.livenationinternational.com/networksites/ypvpadzg/blaue-blume1920x1080_4.png",
-    "source": "Royal Arena"
-  },
-  {
     "id": "direct-k-b--hallen-2026-11-28-20-00-august-h-yen---support--alicia-panambi",
     "artist": "August Høyen - Support: Alicia Panambi",
     "date": "2026-11-28",
@@ -206,6 +180,19 @@
     "url": "https://www.royalarena.dk/all-events/phoebe-bridgers-tickets-ae1052566",
     "image": "https://networksites.livenationinternational.com/networksites/xqshduvj/phoebebridgers_ra2026_royalarena_1920-x-1080.jpg",
     "source": "Royal Arena"
+  },
+  {
+    "id": "direct-pumpehuset-2026-12-12--lil-hawaii-indtager-pumpehuset",
+    "artist": "Lil Hawaii indtager Pumpehuset",
+    "date": "2026-12-12",
+    "time": "",
+    "venue": "Pumpehuset",
+    "room": "Pumpehuset",
+    "genre": "Andet",
+    "status": "Billetter",
+    "url": "https://pumpehuset.dk/koncerter/lil-hawaii/",
+    "image": "https://pumpehuset.dk/wp-content/uploads/Lil-Hawaii.jpg",
+    "source": "Pumpehuset"
   },
   {
     "id": "direct-royal-arena-2026-12-18--gilli",

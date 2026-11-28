@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-11-27T23:52:17.944Z",
+  "checkedAt": "2026-11-28T08:35:42.943Z",
   "venues": [
     {
       "venue": "Royal Arena",
-      "previousFuture": 12,
+      "previousFuture": 11,
       "scrapedFuture": 0,
       "status": "protected"
     },
     {
       "venue": "K.B. Hallen",
-      "previousFuture": 32,
+      "previousFuture": 33,
       "scrapedFuture": 33,
       "status": "ok"
     },
@@ -27,12 +27,12 @@
     },
     {
       "venue": "Pumpehuset",
-      "previousFuture": 11,
+      "previousFuture": 10,
       "scrapedFuture": 11,
       "status": "ok"
     }
   ],
   "warnings": [
-    "Royal Arena: scraped 0 of 12 previously stored future events; keeping previous snapshot"
+    "Royal Arena: scraped 0 of 11 previously stored future events; keeping previous snapshot"
   ]
 }
